@@ -5,8 +5,7 @@ Memorial University's Student Design Hub
    :maxdepth: 2
    :caption: Contents:
 
-   test1
-   test2
+   3D Printing Design Guide
 
 
 Indices and tables
