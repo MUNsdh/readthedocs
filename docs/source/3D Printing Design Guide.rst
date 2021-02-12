@@ -1,9 +1,9 @@
 3D Printing Design Guide
 ========================
 
-.. figure:: ../_static/images/3DPDG1.png
+.. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/3DPDG1.png
+    :target: ../_static/images/3DPDG1.PNG
 
 Introduction
 ^^^^^^^^^^^^
@@ -37,9 +37,9 @@ These high end machines have an enclosed chamber that allow for even cooling of 
 printed, minimizing the issues of warping and delamination.
 Keep in mind these **technical specifications** when creating a 3D model to be printed with the uPrint SE:
 
-.. figure:: ../_static/images/3DPDG2.png
+.. figure:: ../_static/images/3DPDG2.PNG
     :figwidth: 700px
-    :target: ../_static/images/3DPDG2.png
+    :target: ../_static/images/3DPDG2.PNG
 
 Modelling
 ^^^^^^^^^
@@ -54,13 +54,13 @@ Resolution is divided into XY-resolution, dependent on the nozzle diameter and t
 stepper motor on the printer can achieve and the Z-resolution is dependent on the layer height.
 The uPrint SE at the DDLP can achieve a layer of 0.254 mm (.010 in.).
 
-.. figure:: ../_static/images/3DPDG3.png
+.. figure:: ../_static/images/3DPDG3.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG3.png
+    :target: ../_static/images/3DPDG3.PNG
 
-.. figure:: ../_static/images/3DPDG4.png
+.. figure:: ../_static/images/3DPDG4.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG4.png
+    :target: ../_static/images/3DPDG4.PNG
 
 **Orientation:** Printing orientation of the 3D model can greatly
 improve the surface quality of the print. The figure displays the same
@@ -71,9 +71,9 @@ Conversely, when printing parts that would undergo a mechanical
 load, the former would support more force applied to it at the peak of
 the semi-dome than the latter.
 
-.. figure:: ../_static/images/3DPDG5.png
+.. figure:: ../_static/images/3DPDG5.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG5.png
+    :target: ../_static/images/3DPDG5.PNG
 
 **Size:** If you are making a display model, then this is less critical as you can scale your design before printing to be
 within the boundaries of the printing volume. This is determined by the building platform’s area and the height of the
@@ -91,9 +91,9 @@ prints will undergo. This deviation of the print from the model’s
 nominal size is also known as dimensional accuracy and is
 generally around 0.1% or ±0.2mm.
 
-.. figure:: ../_static/images/3DPDG6.png
+.. figure:: ../_static/images/3DPDG6.PNG
     :figwidth: 800px
-    :target: ../_static/images/3DPDG6.png
+    :target: ../_static/images/3DPDG6.PNG
 
 **Embossed and Engraved Details:** Engraving refers to details added into the print (inwards), a minimum line
 thickness of 1 mm and a depth of 0.3 mm is recommended. By contrast, embossing are
@@ -101,9 +101,9 @@ details that protrude from the printed model, a line thickness of at minimum 2.5
 depth of at least 0.5 mm is advice. Engravings are usually preferred as they
 require much lower tolerances than embossing details.
 
-.. figure:: ../_static/images/3DPDG7.png
+.. figure:: ../_static/images/3DPDG7.PNG
     :figwidth: 800px
-    :target: ../_static/images/3DPDG7.png
+    :target: ../_static/images/3DPDG7.PNG
 
 **Support Material:** To be able to achieve intricate designs most 3D printers employ support material. 
 The most popular ones being soluble and breakaway ones. Both types of supports have their cons and pros, soluble 
@@ -114,21 +114,21 @@ tend to leave residue behind and/or are difficult to completely remove without d
 possess deep channels or crevices in the inside faces of the model, especially if no exit hole is built into the design. 
 This is very import to keep in mind when modeling your 3D design.
 
-.. figure:: ../_static/images/3DPDG8.png
+.. figure:: ../_static/images/3DPDG8.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG8.png
+    :target: ../_static/images/3DPDG8.PNG
 
-.. figure:: ../_static/images/3DPDG9.png
+.. figure:: ../_static/images/3DPDG9.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG9.png
+    :target: ../_static/images/3DPDG9.PNG
 
 **Moving Parts:** Support material allows for the printing of preassembled models with moving parts, for these to print
 successfully a minimum clearance of 0.4mm is advised, the greater the space that can be afford, the better chance
 the model has to print properly.
 
-.. figure:: ../_static/images/3DPDG10.png
+.. figure:: ../_static/images/3DPDG10.PNG
     :figwidth: 700px
-    :target: ../_static/images/3DPDG10.png
+    :target: ../_static/images/3DPDG10.PNG
 
 STL Format
 ^^^^^^^^^^
@@ -138,17 +138,17 @@ After you have finished your design, save the SolidWorks model in the native for
 model in STL format go to File>>Save as, and change the file format from SolidWorks Part (.prt;.sldprt)
 to STL (.stl) in the prompted window, as shown in the image below:
 
-.. figure:: ../_static/images/3DPDG11.png
+.. figure:: ../_static/images/3DPDG11.PNG
     :figwidth: 600px
-    :target: ../_static/images/3DPDG11.png
+    :target: ../_static/images/3DPDG11.PNG
 
 The SLDPRT file stores the part as a solid model, keeping the specified details of material, color, and
 texture. On the other hand, an STL file stores only the information of the 3D model surface, it represents
 this surface as small adjacent triangles.
 
-.. figure:: ../_static/images/3DPDG12.png
+.. figure:: ../_static/images/3DPDG12.PNG
     :figwidth: 700px
-    :target: ../_static/images/3DPDG12.png
+    :target: ../_static/images/3DPDG12.PNG
 
 Printing
 ^^^^^^^^
@@ -157,9 +157,9 @@ The .STL file will be imported into a slicer, a software that produces a path fo
 be able to print the model. This set of commands or language is known as G-code, and it tells the printer
 what movements to make from begging to end of the print.
 
-.. figure:: ../_static/images/3DPDG13.png
+.. figure:: ../_static/images/3DPDG13.PNG
     :figwidth: 700px
-    :target: ../_static/images/3DPDG13.png
+    :target: ../_static/images/3DPDG13.PNG
 
 Cost
 ^^^^
@@ -172,9 +172,9 @@ A final cost will be provided after the STL file of the model and the uPrint Con
 quick estimate, use the cost per inch and the volume of your model. This can be found in SolidWorks
 under Evaluate >> Mass Properties >> Volume.
 
-.. figure:: ../_static/images/3DPDG14.png
+.. figure:: ../_static/images/3DPDG14.PNG
     :figwidth: 800px
-    :target: ../_static/images/3DPDG14.png
+    :target: ../_static/images/3DPDG14.PNG
 
 Reference List
 ^^^^^^^^^^^^^^
