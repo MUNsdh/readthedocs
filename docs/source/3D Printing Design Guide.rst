@@ -3,7 +3,7 @@
 
 .. figure:: /_static/images/3DPDG1.png
     :figwidth: 700px
-    :target: /_static/images/3DPDG1.png
+    :target: build/html/_static/images/3DPDG1.png
 
 Introduction
 ^^^^^^^^^^^^
@@ -39,7 +39,7 @@ Keep in mind these **technical specifications** when creating a 3D model to be p
 
 .. figure:: /_static/images/3DPDG2.png
     :figwidth: 700px
-    :target: /_static/images/3DPDG2.png
+    :target: build/html/_static/images/3DPDG2.png
 
 Modelling
 ^^^^^^^^^
@@ -56,11 +56,11 @@ The uPrint SE at the DDLP can achieve a layer of 0.254 mm (.010 in.).
 
 .. figure:: /_static/images/3DPDG3.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG3.png
+    :target: build/html/_static/images/3DPDG3.png
 
 .. figure:: /_static/images/3DPDG4.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG4.png
+    :target: build/html/_static/images/3DPDG4.png
 
 **Orientation:** Printing orientation of the 3D model can greatly
 improve the surface quality of the print. The figure displays the same
@@ -73,7 +73,7 @@ the semi-dome than the latter.
 
 .. figure:: /_static/images/3DPDG5.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG5.png
+    :target: build/html/_static/images/3DPDG5.png
 
 **Size:** If you are making a display model, then this is less critical as you can scale your design before printing to be
 within the boundaries of the printing volume. This is determined by the building platform’s area and the height of the
@@ -93,7 +93,7 @@ generally around 0.1% or ±0.2mm.
 
 .. figure:: /_static/images/3DPDG6.png
     :figwidth: 800px
-    :target: /_static/images/3DPDG6.png
+    :target: build/html/_static/images/3DPDG6.png
 
 **Embossed and Engraved Details:** Engraving refers to details added into the print (inwards), a minimum line
 thickness of 1 mm and a depth of 0.3 mm is recommended. By contrast, embossing are
@@ -103,7 +103,7 @@ require much lower tolerances than embossing details.
 
 .. figure:: /_static/images/3DPDG7.png
     :figwidth: 800px
-    :target: /_static/images/3DPDG7.png
+    :target: build/html/_static/images/3DPDG7.png
 
 **Support Material:** To be able to achieve intricate designs most 3D printers employ support material. 
 The most popular ones being soluble and breakaway ones. Both types of supports have their cons and pros, soluble 
@@ -116,11 +116,11 @@ This is very import to keep in mind when modeling your 3D design.
 
 .. figure:: /_static/images/3DPDG8.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG8.png
+    :target: build/html/_static/images/3DPDG8.png
 
 .. figure:: /_static/images/3DPDG9.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG9.png
+    :target: build/html/_static/images/3DPDG9.png
 
 **Moving Parts:** Support material allows for the printing of preassembled models with moving parts, for these to print
 successfully a minimum clearance of 0.4mm is advised, the greater the space that can be afford, the better chance
@@ -128,7 +128,7 @@ the model has to print properly.
 
 .. figure:: /_static/images/3DPDG10.png
     :figwidth: 700px
-    :target: /_static/images/3DPDG10.png
+    :target: build/html/_static/images/3DPDG10.png
 
 STL Format
 ^^^^^^^^^^
@@ -140,7 +140,7 @@ to STL (.stl) in the prompted window, as shown in the image below:
 
 .. figure:: /_static/images/3DPDG11.png
     :figwidth: 600px
-    :target: /_static/images/3DPDG11.png
+    :target: build/html/_static/images/3DPDG11.png
 
 The SLDPRT file stores the part as a solid model, keeping the specified details of material, color, and
 texture. On the other hand, an STL file stores only the information of the 3D model surface, it represents
@@ -148,7 +148,7 @@ this surface as small adjacent triangles.
 
 .. figure:: /_static/images/3DPDG12.png
     :figwidth: 700px
-    :target: /_static/images/3DPDG12.png
+    :target: build/html/_static/images/3DPDG12.png
 
 Printing
 ^^^^^^^^
@@ -159,7 +159,7 @@ what movements to make from begging to end of the print.
 
 .. figure:: /_static/images/3DPDG13.png
     :figwidth: 700px
-    :target: /_static/images/3DPDG13.png
+    :target: build/html/_static/images/3DPDG13.png
 
 Cost
 ^^^^
@@ -174,7 +174,7 @@ under Evaluate >> Mass Properties >> Volume.
 
 .. figure:: /_static/images/3DPDG14.png
     :figwidth: 800px
-    :target: /_static/images/3DPDG14.png
+    :target: build/html/_static/images/3DPDG14.png
 
 Reference List
 ^^^^^^^^^^^^^^
