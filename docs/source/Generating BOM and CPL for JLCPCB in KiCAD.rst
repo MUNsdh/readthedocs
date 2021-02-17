@@ -66,7 +66,7 @@ Then, in the command line change the "%O" to **"%O.csv"** and click generate. Th
     :target: ../_static/images/BOM7.PNG
 
 
-Generating CPL file
+Generating CPL File
 ^^^^^^^^^^^^^^^^^^^
 
 In the PCB editor, click on file -> Fabrication output -> Footprint position (.pos).
