@@ -1,4 +1,4 @@
-How to generate gerber Files in KiCAD
+How To Generate gerber Files in KiCAD
 =====================================
 
 In the PCB view, select **File** then **Plot** from the menu to open the gerber generation tool.
@@ -8,6 +8,7 @@ In the PCB view, select **File** then **Plot** from the menu to open the gerber 
     :target: ../_static/images/GERBER1.PNG
 
 In general, there are 8 layers that are required to have a PCB fabricated:
+
 * Top Copper (F.Cu) + Soldermask (F.Mask) + Silkscreen (F.SilkS)
 * Bottom Copper (B.Cu) + Soldermask (B.Mask) + Silkscreen (B.SilkS)
 * Board Outline (Edge.Cuts)
@@ -42,4 +43,4 @@ before sending it to the manufacturer.
     :figwidth: 500px
     :target: ../_static/images/GERBER5.PNG
 
-For a more detailed tutoiral, please see `this video <https://www.youtube.com/watch?v=4PnY2IUQ2Tg>`_.
+For a more detailed tutoral, please see `this video <https://www.youtube.com/watch?v=4PnY2IUQ2Tg>`_.
