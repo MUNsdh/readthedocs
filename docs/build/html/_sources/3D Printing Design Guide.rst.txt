@@ -173,7 +173,7 @@ quick estimate, use the cost per inch and the volume of your model. This can be 
 under Evaluate >> Mass Properties >> Volume.
 
 .. figure:: ../_static/images/3DPDG14.PNG
-    :figwidth: 799px
+    :figwidth: 800px
     :target: ../_static/images/3DPDG14.PNG
 
 Reference List

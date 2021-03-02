@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>How To Generate gerber Files in KiCAD &mdash; MUN SDH 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Generating BOM and CPL for JLCPCB SMT assembly in KiCAD" href="Generating%20BOM%20and%20CPL%20for%20JLCPCB%20in%20KiCAD.html" />
+    <link rel="prev" title="3D Printing Design Guide" href="3D%20Printing%20Design%20Guide.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MUN SDH
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="3D%20Printing%20Design%20Guide.html">3D Printing Design Guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How To Generate gerber Files in KiCAD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Generating%20BOM%20and%20CPL%20for%20JLCPCB%20in%20KiCAD.html">Generating BOM and CPL for JLCPCB SMT assembly in KiCAD</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MUN SDH</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>How To Generate gerber Files in KiCAD</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Gerber Files.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="how-to-generate-gerber-files-in-kicad">
+<h1>How To Generate gerber Files in KiCAD<a class="headerlink" href="#how-to-generate-gerber-files-in-kicad" title="Permalink to this headline">¶</a></h1>
+<p>In the PCB view, select <strong>File</strong> then <strong>Plot</strong> from the menu to open the gerber generation tool.</p>
+<div class="figure align-default" style="width: 275px">
+<a class="reference external image-reference" href="../_static/images/GERBER1.PNG"><img alt="_images/GERBER1.PNG" src="_images/GERBER1.PNG" /></a>
+</div>
+<p>In general, there are 8 layers that are required to have a PCB fabricated:</p>
+<ul class="simple">
+<li><p>Top Copper (F.Cu) + Soldermask (F.Mask) + Silkscreen (F.SilkS)</p></li>
+<li><p>Bottom Copper (B.Cu) + Soldermask (B.Mask) + Silkscreen (B.SilkS)</p></li>
+<li><p>Board Outline (Edge.Cuts)</p></li>
+<li><p>Drill File</p></li>
+</ul>
+<p>In the plot window with the plot format set to Gerber, make sure these layers are selected:</p>
+<div class="figure align-default" style="width: 200px">
+<a class="reference external image-reference" href="../_static/images/GERBER2.PNG"><img alt="_images/GERBER2.PNG" src="_images/GERBER2.PNG" /></a>
+</div>
+<p>If you are unsure which layers to select for your specific project and you plan on ordering from JLCPCB, then you can select all layers
+and JLCPCB will use the correct layers.</p>
+<p>Now, click <strong>Plot</strong> to generate the gerber files for the layers and also click <strong>Generate Drill File</strong>.</p>
+<div class="figure align-default" style="width: 540px">
+<a class="reference external image-reference" href="../_static/images/GERBER3.PNG"><img alt="_images/GERBER3.PNG" src="_images/GERBER3.PNG" /></a>
+</div>
+<p>When in the Drill Files Generation window, check <strong>Merge PTH and NPTH holes into one file</strong>. Then click <strong>Drill File</strong> to generate the drill file.
+Ensure the gerber files and the drill file are saved in the same location.</p>
+<div class="figure align-default" style="width: 540px">
+<a class="reference external image-reference" href="../_static/images/GERBER4.PNG"><img alt="_images/GERBER4.PNG" src="_images/GERBER4.PNG" /></a>
+</div>
+<p>If you would like to check the gerber files, you can use KiCAD’s gerber viewer called “GerbView”. You can open GerbView and see what your board looks like
+before sending it to the manufacturer.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/GERBER5.PNG"><img alt="_images/GERBER5.PNG" src="_images/GERBER5.PNG" /></a>
+</div>
+<p>For a more detailed tutoral, please see <a class="reference external" href="https://www.youtube.com/watch?v=4PnY2IUQ2Tg">this video</a>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Generating%20BOM%20and%20CPL%20for%20JLCPCB%20in%20KiCAD.html" class="btn btn-neutral float-right" title="Generating BOM and CPL for JLCPCB SMT assembly in KiCAD" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="3D%20Printing%20Design%20Guide.html" class="btn btn-neutral float-left" title="3D Printing Design Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, MUNSDH.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
