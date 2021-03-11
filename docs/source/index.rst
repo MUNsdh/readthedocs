@@ -6,6 +6,7 @@ Memorial University's Student Design Hub
    :caption: Contents:
 
    3D Printing Design Guide
+   3D Printing
    Gerber Files
    Generating BOM and CPL for JLCPCB in KiCAD
    Test 3D print
