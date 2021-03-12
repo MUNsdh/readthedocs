@@ -1,12 +1,19 @@
-3D Printing Design Guide
-========================
+3D Printing in the Student Design Hub
+=====================================
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
     :target: ../_static/images/3DPDG1.PNG
 
+Welcome
+-------
+
+Welcome to Memorial University's Student Design Hub! Here you have access to multiple 3D printers where can 
+bring your digital designs to life! 
+
+
 Introduction
-^^^^^^^^^^^^
+------------
 
 3D printing or additive manufacturing is a process in which solid objects are made from a digital file. The 
 most widely used technique is Fused Deposition Modeling (FDM) in which material is layered to create 
@@ -166,6 +173,22 @@ tells the printer what movements to make from begging to end of the print.
 .. figure:: ../_static/images/3DPDG13.PNG
     :figwidth: 700px
     :target: ../_static/images/3DPDG13.PNG
+
+uPrint SE
+---------
+
+To be updated.
+
+Eryone ER-20
+------------
+
+To be updated.
+
+Raise3D E2
+----------
+
+To be updated. 
+
 
 
 
