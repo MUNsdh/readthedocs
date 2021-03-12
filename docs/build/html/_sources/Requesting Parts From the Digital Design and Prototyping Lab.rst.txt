@@ -154,7 +154,7 @@ this surface as small adjacent triangles.
     :target: ../_static/images/3DPDG12.PNG
 
 Printing
-^^cd build/html^^^^^^
+^^^^^^^^
 
 The .STL file will be imported into a slicer, a software that produces a path for the 3D printer to follow to
 be able to print the model. This set of commands or language is known as G-code, and it tells the printer
