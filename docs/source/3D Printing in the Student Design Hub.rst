@@ -213,6 +213,10 @@ guide for more complex parts and different materials.
  
 Open up Simplify3D by double clicking the icon. 
 
+.. figure:: ../_static/images/Eryone2.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone2.PNG
+
 .. figure:: ../_static/images/ER20-1.PNG
     :figwidth: 400px
     :target: ../_static/images/ER20-1.PNG
