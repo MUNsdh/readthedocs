@@ -182,6 +182,10 @@ To be updated.
 Eryone ER-20
 ------------
 
+.. figure:: ../_static/images/Eryone1.PNG
+    :figwidth: 350px
+    :target: ../_static/images/Eryone1.PNG
+
 **How to Use the Eryone ER-20 Printer:**
 
 There are a few steps involved before printing with the Eryone ER-20 printer. The first is to 
@@ -189,16 +193,16 @@ make sure your 3D model has been saved in STL format. Please review :ref:`STL Fo
 
 The next step is selecting a material to use in this print. The Eryone ER-20 supports 3 different materials:
  
-**Poly Latic Acid (PLA):** PLA filament is a biodegradable material that is easy to print due to its low heating requirements, 
-however it does not possess a very high resilience to UV rays, its more suitable for parts used indoors and at around 
-room temperature.
+* **Poly Latic Acid (PLA):** PLA filament is a biodegradable material that is easy to print due to its low heating requirements, 
+  however it does not possess a very high resilience to UV rays, its more suitable for parts used indoors and at around 
+  room temperature.
 
-**Polyethylene Terephthalate Glycol (PETG):** PETG is a more durable filament then PLA. It has good chemical resistance, 
-flexibility, and impact resistance. As well as being good for clear prints, however this also means “post processing” such 
-as sanding or removing supports can be much more difficult. 
+* **Polyethylene Terephthalate Glycol (PETG):** PETG is a more durable filament then PLA. It has good chemical resistance, 
+  flexibility, and impact resistance. As well as being good for clear prints, however this also means “post processing” such 
+  as sanding or removing supports can be much more difficult. 
 
-**Thermoplastic Polyurethane (TPU):** TPU is a rubber like filament offering it flexibility and versatility, however it 
-can be more of a challenge to print. 
+* **Thermoplastic Polyurethane (TPU):** TPU is a rubber like filament offering it flexibility and versatility, however it 
+  can be more of a challenge to print. 
 
 More information on each filament can be found `here <https://3dinsider.com/pros-and-cons-3d-printing-filaments/>`_
 
