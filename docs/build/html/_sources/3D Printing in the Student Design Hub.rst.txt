@@ -183,7 +183,7 @@ Eryone ER-20
 ------------
 
 .. figure:: ../_static/images/Eryone1.PNG
-    :figwidth: 400px
+    :figwidth: 350px
     :target: ../_static/images/Eryone1.PNG
 
 **How to Use the Eryone ER-20 Printer:**
