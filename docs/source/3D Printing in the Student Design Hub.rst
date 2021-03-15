@@ -177,7 +177,11 @@ tells the printer what movements to make from begging to end of the print.
 uPrint SE
 ---------
 
-To be updated.
+.. figure:: ../_static/images/3DPDG2.PNG
+    :figwidth: 700px
+    :target: ../_static/images/3DPDG2.PNG
+
+To have parts printed with the uPrint SE 3D Printer, please visit  :ref:`Requesting Parts From the Digital Design and Prototyping Lab`.
 
 Eryone ER-20
 ------------
@@ -307,9 +311,9 @@ buttons to navigate the boxes.
     :figwidth: 700px
     :target: ../_static/images/Eryone12.PNG
 
-The nothing should be selected in the support tab.
+Nothing should be selected in the support tab.
 
-*Temperature tab not updated*
+*Temperature tab to be updated*
 
 Nothing should ever be touched in the G-Code tab, but just to be sure, check these settings:
 
@@ -342,7 +346,7 @@ The Other tab. Filament Properties and Tool Change Retraction does not affect th
 
 *Bridging is subject to change*
 
-And finally, the Advanved tab.
+And finally, the Advanced tab.
 
 .. figure:: ../_static/images/Eryone18.PNG
     :figwidth: 700px
