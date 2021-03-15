@@ -217,38 +217,34 @@ Open up Simplify3D by double clicking the icon.
     :figwidth: 400px
     :target: ../_static/images/Eryone2.PNG
 
-.. figure:: ../_static/images/ER20-1.PNG
-    :figwidth: 400px
-    :target: ../_static/images/ER20-1.PNG
-
 You should be brought to this page.
 
-.. figure:: ../_static/images/ER20-2.PNG
+.. figure:: ../_static/images/Eryone3.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-2.PNG
+    :target: ../_static/images/Eryone3.PNG
 
 
 If there is already an item(s) on the screen, please select the “Remove” button. Then click “Import”, this should bring you 
 to file explorer where you will open up your STL.
 
-.. figure:: ../_static/images/ER20-3.GIF
+.. figure:: ../_static/images/Eryone4.GIF
     :figwidth: 700px
-    :target: ../_static/images/ER20-3.GIF
+    :target: ../_static/images/Eryone4.GIF
 
 Here is where you can view your model from different angles. By left clicking and dragging you can rotate around the model, by 
 right clicking and dragging you can change the point of rotation. The command bar on the right side of your screen is 
 also available for quick changes to different viewing planes, similar to *SOLIDWORKS*.
 
-.. figure:: ../_static/images/ER20-4.PNG
+.. figure:: ../_static/images/Eryone5.PNG
     :figwidth: 500px
-    :target: ../_static/images/ER20-4.PNG
+    :target: ../_static/images/Eryone5.PNG
 
 This command bar also lets the user position, scale or rotate their model. You can also double click your model for 
 precise numerical changes and the ability to reset any changes.
 
-.. figure:: ../_static/images/ER20-5.GIF
+.. figure:: ../_static/images/Eryone6.GIF
     :figwidth: 700px
-    :target: ../_static/images/ER20-5.GIF
+    :target: ../_static/images/Eryone6.GIF
 
 The center and arrange button will automatically fix the orientation of your part(s) and make them fit on the bed. 
 
@@ -256,9 +252,9 @@ When arranging your part on the bed there is a few things to take into considera
 layering melted thermoplastic on top of itself, building from the ground up. You can not print something in thin 
 air, there needs to be something to support it. Take a look at this bracket:
 
-.. figure:: ../_static/images/ER20-6.PNG
+.. figure:: ../_static/images/Eryone7.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-6.PNG
+    :target: ../_static/images/Eryone7.PNG
 
 The first arrangement does not work because it requires plastic to be laid down in thin air. The second arrangement will 
 print however, you should also look at the largest **FLAT** surface of your model and print from there. This will 
@@ -267,9 +263,9 @@ print from and no overhang is the best option for this model.
 
 Once your part(s) are arranged on the bed, click “Edit Process Settings”. This window should appear:
 
-.. figure:: ../_static/images/ER20-7.PNG
+.. figure:: ../_static/images/Eryone8.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-7.PNG
+    :target: ../_static/images/Eryone8.PNG
 
 This is the command center of Simplify3D, everything happens in here. In this quick guide we will not be going through all 
 the settings but instead checking a few things to make sure everything is right before you print. If your model consists of 
@@ -288,28 +284,28 @@ If your part is simple and does not fall under any of the above categories, then
 Once you select edit process settings this page should appear. Make sure everything is in the green boxes matches your 
 screen. “Coast at End” and “Wipe Nozzle” should not be checked.
 
-.. figure:: ../_static/images/ER20-8.PNG
+.. figure:: ../_static/images/Eryone9.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-8.PNG
+    :target: ../_static/images/Eryone9.PNG
 
 Now click the layer tab and check these settings:
 
-.. figure:: ../_static/images/ER20-9.PNG
+.. figure:: ../_static/images/Eryone10.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-9.PNG
+    :target: ../_static/images/Eryone10.PNG
 
 Next the Additions Tab, only skirt/brim should be checked. Uncheck any other boxes if they are on. 
 
-.. figure:: ../_static/images/ER20-10.PNG
+.. figure:: ../_static/images/Eryone11.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-10.PNG
+    :target: ../_static/images/Eryone11.PNG
 
 Next is the infill tab. The offset boxes should rarely be touched but if it is not the same, use the add and remove angle 
 buttons to navigate the boxes. 
 
-.. figure:: ../_static/images/ER20-11.PNG
+.. figure:: ../_static/images/Eryone12.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-11.PNG
+    :target: ../_static/images/Eryone12.PNG
 
 The nothing should be selected in the support tab.
 
@@ -317,53 +313,53 @@ The nothing should be selected in the support tab.
 
 Nothing should ever be touched in the G-Code tab, but just to be sure, check these settings:
 
-.. figure:: ../_static/images/ER20-12.PNG
+.. figure:: ../_static/images/Eryone13.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-12.PNG
+    :target: ../_static/images/Eryone13.PNG
 
 In the Scripts tab there are a few different windows. Layer Change, Retraction and Tool Change Scripts should all 
 be blank. The Starting and Ending Scripts should look like this.
 
-.. figure:: ../_static/images/ER20-13.PNG
+.. figure:: ../_static/images/Eryone14.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-13.PNG
+    :target: ../_static/images/Eryone14.PNG
 
-.. figure:: ../_static/images/ER20-14.PNG
+.. figure:: ../_static/images/Eryone15.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-14.PNG
+    :target: ../_static/images/Eryone15.PNG
 
 Next is the Speeds tab.
 
-.. figure:: ../_static/images/ER20-15.PNG
+.. figure:: ../_static/images/Eryone16.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-15.PNG
+    :target: ../_static/images/Eryone16.PNG
 
 The Other tab. Filament Properties and Tool Change Retraction does not affect the print.
 
-.. figure:: ../_static/images/ER20-16.PNG
+.. figure:: ../_static/images/Eryone17.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-16.PNG
+    :target: ../_static/images/Eryone17.PNG
 
 *Bridging is subject to change*
 
 And finally, the Advanved tab.
 
-.. figure:: ../_static/images/ER20-17.PNG
+.. figure:: ../_static/images/Eryone18.PNG
     :figwidth: 700px
-    :target: ../_static/images/ER20-17.PNG
+    :target: ../_static/images/Eryone18.PNG
 
 These should all be the default settings under the “Eryone ER-20” profile however it is always good practice to check and make sure.
 
-.. figure:: ../_static/images/ER20-18.PNG
+.. figure:: ../_static/images/Eryone19.PNG
     :figwidth: 600px
-    :target: ../_static/images/ER20-18.PNG
+    :target: ../_static/images/Eryone19.PNG
 
 Select the “OK” button, the window should close. Now click “Prepare to Print!”. You should be brought to this screen where 
 you can how the model will be printed layer by layer. 
 
-.. figure:: ../_static/images/ER20-19.GIF
+.. figure:: ../_static/images/Eryone20.GIF
     :figwidth: 700px
-    :target: ../_static/images/ER20-19.GIF
+    :target: ../_static/images/Eryone20.GIF
  
 
 
