@@ -364,6 +364,23 @@ you can how the model will be printed layer by layer.
 .. figure:: ../_static/images/Eryone20.GIF
     :figwidth: 700px
     :target: ../_static/images/Eryone20.GIF
+
+If all the settings have been correct up to this point, you now should transfer this G-code to the Mirco SD card
+associated with your Eryone ER-20. Select "Save Toolpaths to Disk" and save it to the card.
+
+Eject the Micro SD card from the computer and place it inside the printer, **Note the orienatation in the picture**. 
+
+*Picture to be added*
+
+Make sure the printer is on by using the power switch located on the back.
+
+Please visit "Bed Adhesion" for the following steps, but once everything is complete a part being printed will look like this:
+
+.. figure:: ../_static/images/Eryone21.GIF
+    :figwidth: 300px
+    :target: ../_static/images/Eryone21.GIF
+
+
  
 
 
