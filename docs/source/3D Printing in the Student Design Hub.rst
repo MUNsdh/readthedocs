@@ -283,6 +283,11 @@ any of the following features, then you may want to consider the “Advanced Gui
 * Needs to be Especially Dense or Strong
 * Multiple Colours or Materials
 
+See here an example sheet.
+:download:`pdf <Advanced Guide pdf.pdf>`
+
+*Subject to change*
+
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
 Once you select edit process settings this page should appear. Make sure everything is in the green boxes matches your 

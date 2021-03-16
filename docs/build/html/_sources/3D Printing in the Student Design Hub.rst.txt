@@ -283,6 +283,9 @@ any of the following features, then you may want to consider the “Advanced Gui
 * Needs to be Especially Dense or Strong
 * Multiple Colours or Materials
 
+See here an example sheet.
+:download:`pdf <Advanced Guide pdf.pdf>`
+
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
 Once you select edit process settings this page should appear. Make sure everything is in the green boxes matches your 
@@ -368,7 +371,7 @@ you can how the model will be printed layer by layer.
 If all the settings have been correct up to this point, you now should transfer this G-code to the Mirco SD card
 associated with your Eryone ER-20. Select "Save Toolpaths to Disk" and save it to the card.
 
-Eject the Micro SD card from the computer and place it inside the printer **Note the orienatation in the photo**. 
+Eject the Micro SD card from the computer and place it inside the printer, **Note the orienatation in the picture**. 
 
 *Picture to be added*
 
