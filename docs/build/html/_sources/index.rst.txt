@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+Memorial University's Student Design Hub
+========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   3D Printing Design Guide
+   Gerber Files
+   Generating BOM and CPL for JLCPCB in KiCAD
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+=======
 Memorial University's Student Design Hub
 ========================================
 
@@ -17,3 +37,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+>>>>>>> c51b3ce46a279a7ab250f584039eb5661860edc3
