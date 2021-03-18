@@ -286,6 +286,8 @@ any of the following features, then you may want to consider the “Advanced Gui
 See here an example sheet.
 :download:`pdf <Advanced Guide pdf.pdf>`
 
+*Subject to change*
+
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
 Once you select edit process settings this page should appear. Make sure everything is in the green boxes matches your 
@@ -374,6 +376,8 @@ associated with your Eryone ER-20. Select "Save Toolpaths to Disk" and save it t
 Eject the Micro SD card from the computer and place it inside the printer, **Note the orienatation in the picture**. 
 
 *Picture to be added*
+
+*TEsting*
 
 Make sure the printer is on by using the power switch located on the back.
 

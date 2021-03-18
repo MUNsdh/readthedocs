@@ -377,6 +377,8 @@ Eject the Micro SD card from the computer and place it inside the printer, **Not
 
 *Picture to be added*
 
+*TEsting*
+
 Make sure the printer is on by using the power switch located on the back.
 
 Please visit "Bed Adhesion" for the following steps, but once everything is complete a part being printed will look like this:
