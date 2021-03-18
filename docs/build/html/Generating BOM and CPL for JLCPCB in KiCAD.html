@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -281,4 +282,290 @@ Then, in the command line change the “%O” to <strong>“%O.csv”</strong> a
    
 
 </body>
+=======
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generating BOM and CPL for JLCPCB SMT assembly in KiCAD &mdash; MUN SDH 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="How To Generate gerber Files in KiCAD" href="Gerber%20Files.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MUN SDH
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="3D%20Printing%20in%20the%20Student%20Design%20Hub.html">3D Printing in the Student Design Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Requesting%20Parts%20From%20the%20Digital%20Design%20and%20Prototyping%20Lab.html">Requesting Parts From The Digital Design and Prototyping Lab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Gerber%20Files.html">How To Generate gerber Files in KiCAD</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Generating BOM and CPL for JLCPCB SMT assembly in KiCAD</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#adding-lcsc-to-symbol-properties">Adding LCSC to Symbol Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exporting-bill-of-materials-in-jlcpcb-format">Exporting Bill of Materials in JLCPCB Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#generating-cpl-file">Generating CPL File</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MUN SDH</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Generating BOM and CPL for JLCPCB SMT assembly in KiCAD</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Generating BOM and CPL for JLCPCB in KiCAD.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generating-bom-and-cpl-for-jlcpcb-smt-assembly-in-kicad">
+<h1>Generating BOM and CPL for JLCPCB SMT assembly in KiCAD<a class="headerlink" href="#generating-bom-and-cpl-for-jlcpcb-smt-assembly-in-kicad" title="Permalink to this headline">¶</a></h1>
+<p>Here is a detailed video of how to place an order for SMT assembly with KiCAD.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VejO8rDdhzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Below you will find a summary of this video:</p>
+<div class="section" id="adding-lcsc-to-symbol-properties">
+<h2>Adding LCSC to Symbol Properties<a class="headerlink" href="#adding-lcsc-to-symbol-properties" title="Permalink to this headline">¶</a></h2>
+<p>First start by opening your KiCAD project to the schematic viewer. Click on a component that you would like to include
+in your BOM and you will see the follow:</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM1.PNG"><img alt="_images/BOM1.PNG" src="_images/BOM1.PNG" /></a>
+</div>
+<p>Next, we need to add the <strong>LCSC</strong> number to the symbol properties. To find this, go to <a class="reference external" href="https://jlcpcb.com/parts">JLCPCB parts library</a>
+and search for your component. Here we are looking for a 10k resistor with the footprint propertie 0603:</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/BOM2.PNG"><img alt="_images/BOM2.PNG" src="_images/BOM2.PNG" /></a>
+</div>
+<p>Ensure that the component is in stock and select the one that fits what you are looking for. When you click on the component, you will
+see some information regarding the component. You will need the <strong>LCSC Part #</strong>.</p>
+<div class="figure align-default" style="width: 700px">
+<a class="reference external image-reference" href="../_static/images/BOM3.png"><img alt="_images/BOM3.png" src="_images/BOM3.png" /></a>
+</div>
+<p>Now add a row titled “LCSC” and add the part #.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM4.png"><img alt="_images/BOM4.png" src="_images/BOM4.png" /></a>
+</div>
+<p>Repeat these steps for all the parts that you would like to have assembled.</p>
+</div>
+<div class="section" id="exporting-bill-of-materials-in-jlcpcb-format">
+<h2>Exporting Bill of Materials in JLCPCB Format<a class="headerlink" href="#exporting-bill-of-materials-in-jlcpcb-format" title="Permalink to this headline">¶</a></h2>
+<p>Once you have the LCSC # added to every component go to this <a class="reference external" href="https://gist.github.com/arturo182/a8c4a4b96907cfccf616a1edb59d0389">this link</a> to
+download it and then unpack it.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM5.PNG"><img alt="_images/BOM5.PNG" src="_images/BOM5.PNG" /></a>
+</div>
+<p>Next click on “Generate bill of materials” and add the BOM script to KiCAD. Click on “Add Plugin” and select the folder from the zip file that you just unpacked.
+Then, in the command line change the “%O” to <strong>“%O.csv”</strong> and click generate. This will generate the BOM in the correct format for JLCPCB.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM6.png"><img alt="_images/BOM6.png" src="_images/BOM6.png" /></a>
+</div>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM7.PNG"><img alt="_images/BOM7.PNG" src="_images/BOM7.PNG" /></a>
+</div>
+</div>
+<div class="section" id="generating-cpl-file">
+<h2>Generating CPL File<a class="headerlink" href="#generating-cpl-file" title="Permalink to this headline">¶</a></h2>
+<p>In the PCB editor, click on file -&gt; Fabrication output -&gt; Footprint position (.pos).</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM8.PNG"><img alt="_images/BOM8.PNG" src="_images/BOM8.PNG" /></a>
+</div>
+<p>Export the file with the following settings.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM9.PNG"><img alt="_images/BOM9.PNG" src="_images/BOM9.PNG" /></a>
+</div>
+<p>Now, you must make the following changes to the file to be compliant with JLCPCB.</p>
+<p>You must change the following cells:</p>
+<ul class="simple">
+<li><p>Ref to Designator</p></li>
+<li><p>PosX to Mid X</p></li>
+<li><p>PosY to Mid Y</p></li>
+<li><p>Rot to Rotation</p></li>
+<li><p>Side to Layer</p></li>
+</ul>
+<p>This is what the file will look like when exported from KiCAD:</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM10.PNG"><img alt="_images/BOM10.PNG" src="_images/BOM10.PNG" /></a>
+</div>
+<p>After modifying the cells:</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/BOM11.PNG"><img alt="_images/BOM11.PNG" src="_images/BOM11.PNG" /></a>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Gerber%20Files.html" class="btn btn-neutral float-left" title="How To Generate gerber Files in KiCAD" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, MUNSDH.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+>>>>>>> c51b3ce46a279a7ab250f584039eb5661860edc3
 </html>
