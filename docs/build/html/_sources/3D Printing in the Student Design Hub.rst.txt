@@ -190,7 +190,8 @@ Eryone ER-20
     :figwidth: 350px
     :target: ../_static/images/Eryone1.PNG
 
-**How to Use the Eryone ER-20 Printer:**
+How to Use the Eryone ER-20 Printer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are a few steps involved before printing with the Eryone ER-20 printer. The first is to 
 make sure your 3D model has been saved in STL format. Please review :ref:`STL Format` to learn how. 
@@ -370,23 +371,219 @@ you can how the model will be printed layer by layer.
     :figwidth: 700px
     :target: ../_static/images/Eryone20.GIF
 
-If all the settings have been correct up to this point, you now should transfer this G-code to the Mirco SD card
-associated with your Eryone ER-20. Select "Save Toolpaths to Disk" and save it to the card.
+You can also view the different features that that the print has. 
 
-Eject the Micro SD card from the computer and place it inside the printer, **Note the orienatation in the picture**. 
+For a simple print there is nothing needed to do here. In the top left corner Simplify3D estimates the build time 
+however, it is rarely accurate. A good practice is to add about 20% more time, but it may be more or less.
+ 
+You now want to acquire the Micro SD card and plug it into the computer using the USB A adapter. Now click “Save 
+Toolpaths to Disk” and transfer the SD card to the printer (Via Left side hole).
 
-*Picture to be added*
+Make sure the printer is turned on. There is a power switch in the back. As well make sure PLA filament is inserted into 
+the hot end with sufficient filament still left on the spool. To learn how to insert filament click “here”.
 
-*TEsting*
+When the printer is on, this should be the home page. Click the wheel and scroll to the bottom where it says, “Print 
+from media”. Select the file you saved to the SD card and select print.
 
-Make sure the printer is on by using the power switch located on the back.
+.. figure:: ../_static/images/Eryone27.GIF
+    :figwidth: 300px
+    :target: ../_static/images/Eryone27.GIF
 
-Please visit "Bed Adhesion" for the following steps, but once everything is complete a part being printed will look like this:
+If everything is okay, your model should print. It is a good idea to check on your print periodically to make sure nothing is 
+going wrong. If you need to stop the print for whatever reason, click the button and scroll to “Stop Print”. A Successful print 
+looks like this. 
 
 .. figure:: ../_static/images/Eryone21.GIF
     :figwidth: 300px
     :target: ../_static/images/Eryone21.GIF
 
+Once the print is complete, let the bed cool down a little bit then peal your part off the bed. 
+
+Congratulations! Your model should now be printed. 
+
+.. figure:: ../_static/images/Eryone26.PNG
+    :figwidth: 350px
+    :target: ../_static/images/Eryone26.PNG
+
+Advanced Workflow
+^^^^^^^^^^^^^^^^^
+
+Welcome to the Advanced Workflow! Please expand the Eryone ER-20 tree on the left side of your screen to view all sections.
+
+Changing and Inserting Material
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Changing the material with the Eryone printer is a very simple process. The first thing you want to do is find your selected
+material and bring it to the printer. 
+
+Now, you want to grab the wire cutters and the end of the filament, being very careful not to let go of the filament so it does 
+not flick back to the spool and get tangled up. Cut the end of the filament at a 45° angle and keep hold of the end or place 
+it back in the side spool hole.
+
+.. figure:: ../_static/images/Eryone37.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Eryone37.PNG
+
+If there is no filament in the printer already,
+*to be updated*
+
+Large Overhang/ Support Material
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Supports are needed for 3D models that have large overhangs and unsupported areas. When 3D printing with the Eryone ER-20, it is 
+best to avoid supports whenever possible. Printers with only 1 extruder are limited to just break-away supports which can lead to 
+poor finishes and more post processing. Supports also increase printing time. Sometimes you can reorient your part or even edit 
+the design to make it more 3D printing friendly.
+
+.. figure:: ../_static/images/Eryone38.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone38.PNG
+
+Take this H as an example. If the H were to be printed vertical, supports would be needed to print the middle section. By rotating 
+the part on to its back, supports are no longer needed and there is also a larger flat surface to print from which is 
+good for bed adhesion. 
+
+That being said, sometimes avoiding supports is not an option and they must be used. Look at these pictures of a bracket. No matter 
+what way it is oriented, supports will be needed for a successful print.
+
+.. figure:: ../_static/images/Eryone39.PNG
+    :figwidth: 700px
+    :target: ../_static/images/Eryone39.PNG
+
+Fortunately, Simplify3D has an automatic support structure system. With a few clicks you can generate automatic supports and even 
+customize them to fit your part’s structural needs. 
+
+Arranging your part with supports follows the same rules as normal. Try and find the largest flat surface of your part to print 
+from. You also want to orient your part so that little support is needed. The best option for the bracket would be the second 
+orientation, a large flat surface to print from and little support.
+
+.. figure:: ../_static/images/Eryone35.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone35.PNG
+
+Once your part is arranged on the print bed, click the “Customize Support Structures” icon on the command bar to the right.
+
+.. figure:: ../_static/images/Eryone46.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone46.PNG
+
+This window should appear.
+
+.. figure:: ../_static/images/Eryone41.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone41.PNG
+
+Select “Generate Automatic Supports”, then select “Done” and view the automatic supports created for your part. 
+
+.. figure:: ../_static/images/Eryone42.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Eryone42.PNG
+
+Simplify3D generally has pretty good support generation, however some adjustments may need to be made depending on your 
+part. In our bracket example there are several holes. Vertical circular holes are usually not an issue for 3D printers, with 
+each layer being so small, the printer can just slowly close the gap without supports. However, as you can see above, a support 
+has been made for one of the holes.  This is where customizing your supports can come into play. 
+
+Go back to the Customize Support tab and click “Remove existing supports”. Now click the individual red pillars that you 
+would like to remove, in our case it is just the support in one of the holes.
+
+.. figure:: ../_static/images/Eryone43.GIF
+    :figwidth: 700px
+    :target: ../_static/images/Eryone43.GIF
+
+If you want to add support structures, select “Add new support structure” and place as desired. 
+
+.. figure:: ../_static/images/Eryone45.GIF
+    :figwidth: 700px
+    :target: ../_static/images/Eryone45.GIF
+
+When adding or removing support structures it is important to keep in mind one thing; are the supports necessary? You do no want 
+to have excess supports, this will lead to a poorer finish and more post processing. So, when adding supports be careful, Simplify3D’s 
+automatic supports should usually be enough. When removing, be careful as well and only remove unnecessary structures 
+like the supports in this bracket’s vertical holes. 
+
+Once you are happy with your supports, select “Done” and go to “Edit Process Settings”, then go to the “Support” tab. There 
+are 5 boxes we need to go over. 
+
+**Support Material Generation**
+
+If you want to include your supports make sure the “Generate Support Material” box is checked. The “Support Extruder” should always 
+be “Extruder 1” because the Eryone ER-20 only has a single extruder. “Support Infill Percentage” should be at 30% and is generally 
+a good number unless you are dealing with fine details or small spaces that require support. You can increase this percentage 
+but remember the more you increase the percentage the longer your print will take. Next is “Extra Inflation Distance”, this 
+will make the supports “wider” depending on how big you set the number. It should be set to 0 however, may be useful if your 
+support-needed area is really small and you need some extra space to build your part off of. “Support Base Layers” are a tool 
+used to help create a better adhesion to the bed surface. If you are finding that your supports are coming loose from the bed, 
+this tool will make the first X number of layers denser without making the entire support that dense to save 
+time. *“Combining Support Layers” to be edited.*
+
+**Dense Support**
+
+Extruder 1 should always be selected. “Dense Support Layers” will add X number of layers in between the top of the support 
+structure and the bottom of the actual print. This could be a useful tool if you want a larger surface area for the actual print 
+to begin while saving time by not having the entire structure that dense. “Dense Infill Percentage” will determine how dense 
+those top layers will be. 
+
+**Automatic Placement**
+
+This box only affects the automatic support generation feature and since we have already manually adjusted our supports usually 
+do not need to touch anything here. However, it can be useful.
+
+“Support Type” can be Normal or From Build Platform Only. Build platform will insure that supports only start from the bed 
+surface and will not be added into things like our bracket’s vertical holes. This can be a quick tool to get rid of any 
+unnecessary supports however since we already manually deleted the hole’s support, it does not need to be changed. As well 
+sometimes you may need supports that start from a piec of your part.
+
+.. figure:: ../_static/images/Eryone47.PNG
+    :figwidth: 450px
+    :target: ../_static/images/Eryone47.PNG
+
+*This would not be the recommended orientation for this part but just used as an example.*
+
+“Support Pillar Resolution” is how large the red pillars are. This can be increased to save time adding supports to large areas 
+or decreased to add supports in smaller places.  “Max Overhang Angle” should be set at 45°. Changing this will determine where 
+automatic support structures will be placed based on the angle of the print. 45° is the general rule of thumb for support 
+structures but can be altered if you are having trouble with a smaller angle or do not need supports until a certain angle.
+ 
+To reapply these settings to your automatic support generation feature. Go back to the customize support window, select 
+“Clear All Supports” and then “Generate Automatic Supports”.
+
+**Separation From Part**
+
+“Horizontal Offset From Part” should be set at 0.30 mm. This is used to create some distance between the support and a 
+vertical wall of your part. You may want to increase this if you find the support structures are interfering with vertical 
+walls. 0.30 mm is usually fine. Upper and Lower Vertical Separation layers should be set at 1 and will create a distance between 
+the support structure and your part. This makes the support structure easier to remove. If you are having trouble removing 
+supports you can increase this number but be careful, increasing this too much may render the supports useless.
+ 
+**Support Infill Angles**
+
+This box will usually just say 0. Adding an angle of 30° (for example) will make the support structure switch back and 
+forth between a straight line and a line at 30° for each layer. This tool can be used to create the look of a denser support 
+structure, however, is not commonly used.
+
+.. figure:: ../_static/images/Eryone48.PNG
+    :figwidth: 450px
+    :target: ../_static/images/Eryone48.PNG
+
+To view any of your changes to these settings you can exit the process settings and select “Prepare to print”. This will 
+show how your support structures will be printed and you can judge your changes from this section. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
@@ -397,57 +594,18 @@ Please visit "Bed Adhesion" for the following steps, but once everything is comp
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
  
+
+
+
+
+
+
 
 
 Raise3D E2
 ----------
 
 To be updated. 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
 
