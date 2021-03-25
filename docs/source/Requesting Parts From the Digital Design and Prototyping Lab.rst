@@ -201,9 +201,9 @@ What is an STL file? (n.d.). (Sculpteo) Retrieved November 1, 2020, from
 How to Request 3D Print
 -----------------------
 
-.. figure:: ../_static/images/3DPR1.PNG
+.. figure:: ../_static/images/3DPR1.png
     :figwidth: 700px
-    :target: ../_static/images/3DPR1.PNG
+    :target: ../_static/images/3DPR1.png
 
 1. Create your design in any computer-aided design (CAD) software and save it as an STL file. 
 
