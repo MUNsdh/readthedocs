@@ -2,7 +2,7 @@ Memorial University's Student Design Hub
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
    3D Printing in the Student Design Hub
