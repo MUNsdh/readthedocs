@@ -424,8 +424,46 @@ it back in the side spool hole.
     :figwidth: 500px
     :target: ../_static/images/Eryone37.PNG
 
-If there is no filament in the printer already,
-*to be updated*
+*Please read all instructions as you will need to do this even when replacing or changing filament that is already in the printer.*
+
+If there is no filament in the printer already, place the spool onto the spool holder. Grab the end of the filament that you 
+have cut and insert it into the orange tube. Keep pushing the filament in until it reaches the golden wheel. Now you want to pinch 
+the back of the orange clamp that encases the golden wheel and push the filament through, so that it goes past the wheel and into
+the next hole. If the filament goes into the next hole, continue to pinch the clamps, and push the filament all the way until it 
+stops (hitting the start of the extruder).
+
+.. figure:: ../_static/images/Filamentchange2.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Filamentchange2.PNG
+
+If the filament is not going into the next hole and is instead going upwards toward the top of the clamp, there is a simple 
+fix. Pull the filament back so that it is before the hole. Grab a friend or some assistance and a thin tool, such as a 
+knife (BE CAREFUL). You will want to pinch the orange clamp and push the filament down with the knife. At this time have your 
+friend push the filament while you push the filament down so that it goes through the hole.
+ 
+.. figure:: ../_static/images/Filamentchange3.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Filamentchange3.PNG
+
+*If you are changing the filament you can skip this next step because the printer should do this by itself when changing filament.*
+
+Once you have the filament pushed all the way until it hits the start of the hot end, you are going to want to heat up the hot end. 
+Make sure the printer is turned on (via power switch on back), then click the scroll wheel. Navigate to Temperature-> Nozzle -> and 
+then scroll up to 215 for PLA (245 for PETG and 215 for TPU) and click the wheel. Go back to the Info Screen and wait for the nozzle 
+to reach the desired temperature. Once the nozzle is heated, click the scroll wheel again and navigate to Motion-> 
+Move Axis-> Extruder-> Move 10 mm. Then scroll the wheel to 10 mm and watch filament exit through the hot end. If no filament 
+comes out, then scroll another 10 mm until it does. 
+
+Next grab the wire cutters and clean up the extruded filament by pulling the filament away. Be careful the nozzle is over 
+200° right now. Once you have cleaned the nozzle, go back to the temperature setting and turn the nozzle back to 0.
+
+Congratulations! Your filament is all set up. 
+
+If the printer already has filament in it, changing/ replacing is even easier. The Eryone ER-20 has built in instructions, so all 
+you need to do is get your new filament, cut the end at 45° and hold onto it. Then go to the printer, click the scroll wheel, 
+and navigate to Change Filament. If you are changing PLA, click preheat PLA, if you are changing PETG or TPU, click preheat 
+custom and set the temperature to 245 and 215, respectively.  Then follow the instructions on the Eryone’s screen. If you have 
+trouble inserting the new filament go back and check the figures above. 
 
 Large Overhang/ Support Material
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -568,6 +606,224 @@ structure, however, is not commonly used.
 
 To view any of your changes to these settings you can exit the process settings and select “Prepare to print”. This will 
 show how your support structures will be printed and you can judge your changes from this section. 
+
+Infill Percentage%
+^^^^^^^^^^^^^^^^^^
+
+3D Printing gives you the option of customizing the infill of your parts. Whether you want to make your part hollow, solid, or 
+somewhere in between, Simplify3D has the tools to do it. 
+
+The default infill percentage and pattern is 20% Rectilinear. 
+
+.. figure:: ../_static/images/Infill1.PNG
+    :figwidth: 450px
+    :target: ../_static/images/Infill1.PNG
+
+This combination offers good printing speed without compromising strength. A 20% rectilinear infill pattern is going to be perfect 
+for most basic prints made with this printer. However, changing the pattern or percentage is very easy using Simplify3D.
+ 
+The first step is to go to “Edit Process Settings”. You will notice in the “General Settings” box towards the top of the 
+window, there is a bar that offers quick changes to the infill percentage. While this is a good tool, the “Infill” tab offers 
+more detailed options.  
+
+We will start in the “General” box under the infill tab. “Infill Extruder” should always be set to Extruder 1. There are 6 options 
+for “Internal Fill Pattern”:
+
+.. figure:: ../_static/images/Infill2.PNG
+    :figwidth: 700px
+    :target: ../_static/images/Infill2.PNG
+
+`<https://the3dbros.com/3d-print-infill-patterns-explained/>`_
+
+**Rectilinear:** Offers a good balance between speed and strength. This is the typical pattern you should use.
+
+**Grid:** Offers a stronger structure, however, will increase print time and material use. Not necessary for normal parts.
+ 
+**Triangular:** Offers even more strength but increases print time and material use further. Only for specific needs.
+
+**Wiggle:** Is more used for aesthetic purposes. May increase print times and lower the strength of the over all part. Not recommended 
+for general practical use. 
+
+**Fast Honeycomb:** Is the same as Wiggle. Aesthetic purposes and lower strength.
+
+**Full Honeycomb:** Offers a middle ground between Fast Honeycomb and Rectilinear. Better strength then fast while still having 
+aesthetic applications. 
+
+The next option is “External Fill Pattern” which is how the bottom and top layers will be laid out. The two options are Rectilinear 
+and Concentric. Concentric is purely for Aesthetics and has no structural impact. Since it is only the top and bottom layers 
+there will be no substantial change to print speed or material use.
+
+.. figure:: ../_static/images/Infill3.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Infill3.PNG
+
+Next is “Interior Infill Percentage”. The typical range for this is 20%-50%, anything past 50% is more wasting time and material 
+then providing structural advantages. That being said sometimes a solid print is needed. Going lower then 20% is also an option 
+if you want to save time and are in a position where strength may not be compromised or necessarily needed. 
+
+“Outline Overlap” is the amount the infill layer overlaps with the outline layer. This should be set at 15% and is a good 
+starting point. If you find that there are gaps between your infill and outline you may want to increase this number.
+
+.. figure:: ../_static/images/Infill4.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Infill4.PNG
+
+`<https://www.simplify3d.com/support/print-quality-troubleshooting/gaps-between-infill-and-outline/>`_
+
+The next setting is “Infill Extrusion Width”, this tool can be used to increase the width on the individual lines of your 
+infill. You may want to do this if you find that the infill is stringy, or you want to increase the strength of your part. Increasing 
+the extrusion width does not increase the amount of material being used, it will just space out the infill more to keep the 
+same amount of material, so increasing infill percentage at the same time is a good practice. 
+
+“Minimum Infill Length” should be set at 5 mm and means any spaces under 5 mm will not have infill placed because it is so 
+small, and infill would not have an affect.
+ 
+“Combine Infill Every X layers”, if you are printing at a layer height of 0.2 mm and change this setting to “2 layers” then the 
+printer will lay down two outlines of 0.2mm and then one infill of 0.4mm. This is a setting that can be used to save 
+time where infill and strength is not the main priority. If you have a long print and can afford some decline in strength, then 
+this might be a useful setting. 
+
+The including solid diaphragm box should not be checked. This will print a solid layer every x number of layers you set it at. This 
+setting can add some strength and if you have no top layers to your part this can prevent there being an opening all the way to the 
+bottom of your part. Unless you need this setting for a specific need, it is not a recommended setting.
+ 
+Next is the internal and external offset angles. Internal offset angles should be set to 45 and -45, if you click prepare to print 
+you will notice how the infill gets laid out (at 45° angles). If your part is going to be used to withstand stress and you know 
+exactly what direction it is coming from, you can manipulate this setting and the geometry of the infill so that your part will 
+be more structurally sound if stress is applied on a certain side. External offset angles do the same as internal, however 
+since its on the outside will more be for aesthetic purposes.
+ 
+Please visit `<https://www.e-ci.com/3d-scoop/2020/6/18/infill-settings-in-simplify3d>`_ for more information on Simplify3D’s 
+infill settings. 
+
+Multi-Colour/Material Prints
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Eryone ER-20 only has one extruder, so the user is limited to printing with only one material at a time. Fortunately, with the 
+use of our slicer Simply3D, we have the ability to stop the print at a certain time, change the filament and resume the print 
+with no issues.
+ 
+Before we do that we first need to think about our part. As mentioned before 3D printing is done by laying down melted plastic 
+layer by layer, this offers certain geometrical limitations in where you can have different colours or materials. For example, you 
+would not be able to print this Benchy in these colours simply by switching out the material sometime during the print.
+
+.. figure:: ../_static/images/Multi1.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Multi1.PNG
+
+`<https://www.thingiverse.com/thing:763622>`_
+
+As you can see, the colours switch back from red and green on different layers and are sometimes even on the same layer. Printing 
+a part like is still possible with the Eryone ER-20, but it just involves some creativity.
+ 
+If you need multiple materials or colours in your part, you can simply print out the different pieces individually and combine 
+all together when you are done.
+
+.. figure:: ../_static/images/Multi2.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Multi2.PNG
+
+`<https://www.thingiverse.com/thing:763622>`_
+
+In our Benchy example, all the red parts are printed out and then all the green parts are printed out. This is a good way to add more 
+colour or materials to your designs without needed a larger printer with two extruders. So, if you need a part printed out like 
+this, design your part in such a way that will allow different pieces to go together at the end. You can clip in the part, glue 
+it together or add some fasteners like screws (For tips on threaded holes, visit “Electronic Enclosure”).
+ 
+While you can print out different colours of your part separately, if your colour/material change only happens at a certain 
+layer there is an easier way then having to assemble your part at the end.
+
+Let us take this address plaque for an example.
+
+.. figure:: ../_static/images/Multi3.PNG
+    :figwidth: 700px
+    :target: ../_static/images/Multi3.PNG
+
+Let us say that you want to print the base white and the numbers black so that they are more visible. This is possible without having 
+to print the numbers separate because the change happens at one layer. The first step is to make sure all your print settings 
+are in check, we will need a layer number so having all the other settings complete is essential. Once you are happy with your 
+settings, click prepare to print.
+ 
+You now want to click through individual layer numbers and find the layer that you want to make the change. In our case it is 
+layer 51.
+
+.. figure:: ../_static/images/Multi4.GIF
+    :figwidth: 700px
+    :target: ../_static/images/Multi4.GIF
+
+It is very important you select the correct layer. In our case if layer 50 was chosen instead of layer 51 then the whole top 
+layer of our plaque base would be black too.
+
+.. figure:: ../_static/images/Multi5.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Multi5.PNG
+
+Layer 50 is the top layer for the plaque base while layer 51 is the first outline for the numbers.
+ 
+Once you have chosen your layer number, please visit the following website and follow the instructions. Your X and Y position does 
+not necessarily have to be 0 and 0 but as long as the print head moves out of the printing area for our part. 
+
+`Layer Change Website <https://budmen.com/support/user-guides/pause-print-at-layer/>`_
+
+
+.. figure:: ../_static/images/Multi6.GIF
+    :figwidth: 700px
+    :target: ../_static/images/Multi6.GIF
+
+*Please read all instructions on website and do not scroll through quick as shown in the GIF.*
+
+Once you have copied to information to your clipboard go back to Simplify3D and paste it under the “Additional terminal commands for 
+post processing” as shown in the GIF.
+ 
+This will now stop your print at layer 51 giving you the ability to change filament and then resuming the print with no issues.
+ 
+For filament changing tips please visit :ref: `Changing and Inserting Material`.
+ 
+If you have done everything correct, proceed as normal to print your part just be ready with the filament for when the printer 
+reaches the chosen layer.
+
+You can do this process multiple times in one print, just go back to the website, chose the layer and put the code in the 
+command box. 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

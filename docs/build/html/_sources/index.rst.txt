@@ -9,7 +9,7 @@ Memorial University's Student Design Hub
    Requesting Parts From the Digital Design and Prototyping Lab
    Gerber Files
    Generating BOM and CPL for JLCPCB in KiCAD
-
+   KiCAD PCB Design Guide
 
 Indices and tables
 ==================
