@@ -777,85 +777,13 @@ post processing” as shown in the GIF.
  
 This will now stop your print at layer 51 giving you the ability to change filament and then resuming the print with no issues.
  
-For filament changing tips please visit :ref: `Changing and Inserting Material`.
+For filament changing tips please visit :ref:`Changing and Inserting Material`.
  
 If you have done everything correct, proceed as normal to print your part just be ready with the filament for when the printer 
 reaches the chosen layer.
 
 You can do this process multiple times in one print, just go back to the website, chose the layer and put the code in the 
 command box. 
-
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
 
 
