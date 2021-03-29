@@ -274,7 +274,7 @@ Once your part(s) are arranged on the bed, click “Edit Process Settings”. Th
 
 This is the command center of Simplify3D, everything happens in here. In this quick guide we will not be going through all 
 the settings but instead checking a few things to make sure everything is right before you print. If your model consists of 
-any of the following features, then you may want to consider the “Advanced Guide”:
+any of the following features, then you may want to consider the :ref:`Advanced Workflow`.
 
 * Non-PLA Material
 * Large Overhang (Support structures needed)
