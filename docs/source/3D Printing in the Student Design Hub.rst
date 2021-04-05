@@ -379,31 +379,7 @@ however, it is rarely accurate. A good practice is to add about 20% more time, b
 You now want to acquire the Micro SD card and plug it into the computer using the USB A adapter. Now click “Save 
 Toolpaths to Disk” and transfer the SD card to the printer (Via Left side hole).
 
-Make sure the printer is turned on. There is a power switch in the back. As well make sure PLA filament is inserted into 
-the hot end with sufficient filament still left on the spool. To learn how to insert filament click “here”.
-
-When the printer is on, this should be the home page. Click the wheel and scroll to the bottom where it says, “Print 
-from media”. Select the file you saved to the SD card and select print.
-
-.. figure:: ../_static/images/Eryone27.GIF
-    :figwidth: 300px
-    :target: ../_static/images/Eryone27.GIF
-
-If everything is okay, your model should print. It is a good idea to check on your print periodically to make sure nothing is 
-going wrong. If you need to stop the print for whatever reason, click the button and scroll to “Stop Print”. A Successful print 
-looks like this. 
-
-.. figure:: ../_static/images/Eryone21.GIF
-    :figwidth: 300px
-    :target: ../_static/images/Eryone21.GIF
-
-Once the print is complete, let the bed cool down a little bit then peal your part off the bed. 
-
-Congratulations! Your model should now be printed. 
-
-.. figure:: ../_static/images/Eryone26.PNG
-    :figwidth: 350px
-    :target: ../_static/images/Eryone26.PNG
+To prepare your printer and begin printing click :ref:`Preparing Printer`
 
 Advanced Workflow
 ^^^^^^^^^^^^^^^^^
@@ -785,7 +761,10 @@ reaches the chosen layer.
 You can do this process multiple times in one print, just go back to the website, chose the layer and put the code in the 
 command box. 
 
+Preparing Printer
+^^^^^^^^^^^^^^^^^
 
+*To be updated*
 
 Raise3D E2
 ----------
