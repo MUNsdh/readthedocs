@@ -764,7 +764,7 @@ command box.
 Preparing Printer
 ^^^^^^^^^^^^^^^^^
 
-*To be updated*
+*To be updated* *Test*
 
 Raise3D E2
 ----------
