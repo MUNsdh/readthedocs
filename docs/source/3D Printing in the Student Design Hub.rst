@@ -319,7 +319,11 @@ buttons to navigate the boxes.
 
 Nothing should be selected in the support tab.
 
-*Temperature tab to be updated*
+For Overture PLA filament, these are the temperatures that should be used.
+
+*Picture to be added*
+
+For other PLA filament temperatures click :download:`pdf <PLA Temperature Brand Sheet.pdf>` 
 
 Nothing should ever be touched in the G-Code tab, but just to be sure, check these settings:
 
