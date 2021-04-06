@@ -795,7 +795,7 @@ Microfiber Cloths, and your printer’s scraper.
 
 Take the scraper and scrape the bed, try to get off any large pieces of plastic that are stuck on and any visible dirt. Next, grab 
 the Windex and spray the bed. It is important that the bed is off and away from the printer as Windex and Isopropyl Alcohol 
-are dangerous to the electronics.  Leave the Windex for about a minute and then grab one of the microfiber cloths and 
+are dangerous to the printer's electronics.  Leave the Windex for about a minute and then grab one of the microfiber cloths and 
 clean the bed. Here you are trying to get off any glue, hairspray, or other bed adhesion, if you are having trouble you can 
 unfold the cloth and use the scraper to get off the adhesion.
  
@@ -809,8 +809,8 @@ prints.
  
 *Applying Bed Adhesion to be updated*
 
-Once your bed is cleaned and your adhesion is applied it is time to start your print. Make sure the printer is turned on. There is a 
-power switch on the back. As well make sure sufficient filament is inserted into the hot end. To learn how to insert 
+Once your bed is cleaned and your adhesion is applied it is time to start your print. Make sure the printer is turned on, there is a 
+power switch on the back. As well, make sure sufficient filament is inserted into the hot end. To learn how to insert 
 filament click visit :ref:`Changing and Inserting Material`.
 
 When the printer is on you should be on the home page. Click the wheel and scroll to the bottom where it 
