@@ -800,10 +800,15 @@ Microfiber Cloths, and your printer’s scraper.
 Take the scraper and scrape the bed, try to get off any large pieces of plastic that are stuck on and any visible dirt. Next, grab 
 the Windex and spray the bed. It is important that the bed is off and away from the printer as Windex and Isopropyl Alcohol 
 are dangerous to the printer's electronics.  Leave the Windex for about a minute and then grab one of the microfiber cloths and 
-clean the bed. Here you are trying to get off any glue, hairspray, or other bed adhesion, if you are having trouble you can 
-unfold the cloth and use the scraper to get off the adhesion.
+clean the bed. Here you are trying to get off any glue, hairspray, or other bed adhesion. If you are having trouble with getting
+adhesive off you can unfold the cloth and use the scraper to clean. This will use the pressure of the scraper as well as the cleaning 
+power of the Windex
  
-*Picture to be added*
+.. figure:: ../_static/images/PreP4.PNG
+    :figwidth: 400px
+    :target: ../_static/images/PreP4.PNG
+
+*Make sure glass bed is removed from printer when cleaning*
 
 The bed should now be clean from any visible dirt, plastic, or adhesion. Now grab the Isopropyl Alcohol and spray it onto the 
 bed, again wait a minute and then grab the other cloth and begin to wipe. The Isopropyl alcohol should clean any nonvisible dirt 
