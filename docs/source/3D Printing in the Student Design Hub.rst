@@ -903,7 +903,10 @@ When 3D printing you may find that the bottom of your parts starts to warp mid-p
 print and can result in a failed print. Sometimes your print may finish anyway, but your end part will not be as you designed 
 it. If you notice your print start to warp, it is a good idea to stop the print and make some changes.
 
-PICTURE
+.. figure:: ../_static/images/Troubleshooting1.PNG
+    :figwidth: 650px
+    :target: ../_static/images/Troubleshooting1.PNG
+https://www.morgen-filament.de/category/3d-printing-warping/
  
 A few different things can cause a part to warp; dirty print surface, temperatures not being right, not enough adhesion, and 
 so on. The first thing you should check is the print surface, remove your current print **(Make sure the bed has cooled down)** and 
@@ -922,7 +925,9 @@ degrees can make a big difference.
   
 Finally, if the warping is happening in a skinnier section of your part. See example below.
 
-PICTURE
+.. figure:: ../_static/images/Flatsurface1.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Flatsurface1.PNG
  
 https://all3dp.com/2/3d-printing-raft-when-should-you-use-it/
 
@@ -930,7 +935,9 @@ Then a Raft or Brim can help hold your part down, visit :ref:`No Large Flat Surf
  
 **Blobs and Zits**
 
-PICTURE
+.. figure:: ../_static/images/Troubleshooting2.PNG
+    :figwidth: 650px
+    :target: ../_static/images/Troubleshooting2.PNG
 
 https://www.simplify3d.com/support/print-quality-troubleshooting/blobs-and-zits/
 
@@ -951,9 +958,9 @@ then you want to use 125mm as the x coordinate. The y coordinate then depends on
 the setting says “closet to specific location” which means you don’t have to find the exact number of where you want the l
 ayers to begin, just a number that is closest to where you want it to go.
 
-PICTURE
-
-
+.. figure:: ../_static/images/Troubleshooting3.PNG
+    :figwidth: 650px
+    :target: ../_static/images/Troubleshooting3.PNG
 
 
 Raise3D E2
