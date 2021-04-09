@@ -853,9 +853,9 @@ clean the bed. Here you are trying to get off any glue, hairspray, or other bed 
 adhesive off you can unfold the cloth and use the scraper to clean. This will use the pressure of the scraper as well as the cleaning 
 power of the Windex
  
-.. figure:: ../_static/images/PreP4.PNG
+.. figure:: ../_static/images/Prep4.PNG
     :figwidth: 400px
-    :target: ../_static/images/PreP4.PNG
+    :target: ../_static/images/Prep4.PNG
 
 *Make sure glass bed is removed from printer when cleaning*
 
@@ -935,9 +935,9 @@ Then a Raft or Brim can help hold your part down, visit :ref:`No Large Flat Surf
  
 **Blobs and Zits**
 
-.. figure:: ../_static/images/Troubleshooting2.PNG
+.. figure:: ../_static/images/troubleshooting2.PNG
     :figwidth: 650px
-    :target: ../_static/images/Troubleshooting2.PNG
+    :target: ../_static/images/troubleshooting2.PNG
 
 https://www.simplify3d.com/support/print-quality-troubleshooting/blobs-and-zits/
 
@@ -958,9 +958,9 @@ then you want to use 125mm as the x coordinate. The y coordinate then depends on
 the setting says “closet to specific location” which means you don’t have to find the exact number of where you want the l
 ayers to begin, just a number that is closest to where you want it to go.
 
-.. figure:: ../_static/images/Troubleshooting3.PNG
+.. figure:: ../_static/images/troubleshooting3.PNG
     :figwidth: 650px
-    :target: ../_static/images/Troubleshooting3.PNG
+    :target: ../_static/images/troubleshooting3.PNG
 
 
 Raise3D E2
