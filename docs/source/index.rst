@@ -10,6 +10,7 @@ Memorial University's Student Design Hub
    Gerber Files
    Generating BOM and CPL for JLCPCB in KiCAD
    KiCAD PCB Design Guide
+   RTD
 
 Indices and tables
 ==================

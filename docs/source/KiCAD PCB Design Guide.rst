@@ -107,7 +107,7 @@ Layout and Routing
 Now that you have the schematic made, you can begin the layout and routing of your PCB. To begin, I recommend watching this short video going over some basics layout and routing:
 
 
-..raw:: html
+.. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/pwZ3zbqxIo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
