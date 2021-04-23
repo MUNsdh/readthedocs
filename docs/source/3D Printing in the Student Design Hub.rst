@@ -321,11 +321,20 @@ buttons to navigate the boxes.
 
 Nothing should be selected in the support tab.
 
-For Overture PLA filament, these are the temperatures that should be used.
+For the Temperatures tab, each filament has it's own preferred settings. You will have to change the temperature of the extruder
+and bed based on what brand of PLA you are using. You can change the temperature by double clicking the number or by using the add and 
+remove button. 
 
-*Picture to be added*
+.. figure:: ../_static/images/Eryone49.PNG
+    :figwidth: 700px
+    :target: ../_static/images/Eryone49.PNG
 
-For other PLA filament temperatures click :download:`pdf <PLA Temperature Brand Sheet.pdf>` 
+
+.. figure:: ../_static/images/Eryone50.PNG
+    :figwidth: 700px
+    :target: ../_static/images/Eryone50.PNG
+
+For list of PLA temperatures please view sheet :download:`pdf <PLA Temp.pdf>` 
 
 Nothing should ever be touched in the G-Code tab, but just to be sure, check these settings:
 
@@ -936,7 +945,7 @@ Then a Raft or Brim can help hold your part down, visit :ref:`No Large Flat Surf
 **Blobs and Zits**
 
 .. figure:: ../_static/images/troubleshooting2.PNG
-    :figwidth: 650px
+    :figwidth: 400px
     :target: ../_static/images/troubleshooting2.PNG
 
 https://www.simplify3d.com/support/print-quality-troubleshooting/blobs-and-zits/
@@ -959,7 +968,7 @@ the setting says “closet to specific location” which means you don’t have 
 ayers to begin, just a number that is closest to where you want it to go.
 
 .. figure:: ../_static/images/troubleshooting3.PNG
-    :figwidth: 650px
+    :figwidth: 400px
     :target: ../_static/images/troubleshooting3.PNG
 
 
