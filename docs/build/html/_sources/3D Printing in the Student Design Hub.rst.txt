@@ -326,12 +326,12 @@ and bed based on what brand of PLA you are using. You can change the temperature
 remove button. 
 
 .. figure:: ../_static/images/Eryone49.PNG
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/Eryone49.PNG
 
 
 .. figure:: ../_static/images/Eryone50.PNG
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/Eryone50.PNG
 
 For list of PLA temperatures please view sheet :download:`pdf <PLA Temp.pdf>` 

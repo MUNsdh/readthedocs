@@ -6,6 +6,7 @@ Memorial University's Student Design Hub
    :caption: Contents:
 
    3D Printing in the Student Design Hub
+   Building the Supermarine Spitfire Mk IX
    Requesting Parts From the Digital Design and Prototyping Lab
    Gerber Files
    Generating BOM and CPL for JLCPCB in KiCAD
