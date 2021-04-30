@@ -109,7 +109,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#raise3d-e2">Raise3D E2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#raise3d-e2">Raise3D E2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#switching-extruders-mid-print-with-raise3d-e2-and-simplify3d">Switching Extruders Mid Print with Raise3D E2 and Simplify3D</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Building%20the%20Supermarine%20Spitfire%20Mk%20IX.html">Building the Supermarine Spitfire Mk IX Plane</a></li>
@@ -914,7 +917,82 @@ ayers to begin, just a number that is closest to where you want it to go.</p>
 </div>
 <div class="section" id="raise3d-e2">
 <h2>Raise3D E2<a class="headerlink" href="#raise3d-e2" title="Permalink to this headline">¶</a></h2>
-<p>To be updated.</p>
+<div class="section" id="switching-extruders-mid-print-with-raise3d-e2-and-simplify3d">
+<h3>Switching Extruders Mid Print with Raise3D E2 and Simplify3D<a class="headerlink" href="#switching-extruders-mid-print-with-raise3d-e2-and-simplify3d" title="Permalink to this headline">¶</a></h3>
+<p>Ideamaker is the Raise3D E2’s preferred slicer however with the limited time we had to work with, Simplify3D was chosen.</p>
+<p>The first step is to open up Simplify3D and import your model. Next, you want to add two processes that are both using the Raise3D
+E2 printer.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/Raise1.PNG"><img alt="_images/Raise1.PNG" src="_images/Raise1.PNG" /></a>
+</div>
+<p>Open up the first process and select “Left Extruder Only”, this will choose the left extruder (and left spool) as the first
+extruder used. If you wanted to switch this, you can do these steps in reverse.</p>
+<p>Once the left extruder has been selected, you can go throughout Simplify3D and change the necessary settings for your print and
+filament. Throughout these settings, there will be times where it selects an extruder. If you selected “Left Extruder Only” at the
+start then these settings should all be left. <strong>Nothing should say right extruder</strong>.</p>
+<div class="figure align-default" style="width: 500px">
+<a class="reference external image-reference" href="../_static/images/Raise2.PNG"><img alt="_images/Raise2.PNG" src="_images/Raise2.PNG" /></a>
+</div>
+<p>In the temperature tab, the extruder that is not in use should automatically be set to 0.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise3.PNG"><img alt="_images/Raise3.PNG" src="_images/Raise3.PNG" /></a>
+</div>
+<p>Under the additions tab, check the prime tower box.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise4.PNG"><img alt="_images/Raise4.PNG" src="_images/Raise4.PNG" /></a>
+</div>
+<p>This will ensure a smooth flow for the extruders when they switch. Location does not matter and the width should be at least
+10mm so it can stick to the bed. <strong>All Extruders must be selected</strong>.</p>
+<p>When all of your preferred settings have been arranged, exit out of the process settings and click Prepare to print. You will be
+prompted by this pop-up. Select only Process 1 for now.</p>
+<div class="figure align-default" style="width: 400px">
+<a class="reference external image-reference" href="../_static/images/Raise5.PNG"><img alt="_images/Raise5.PNG" src="_images/Raise5.PNG" /></a>
+</div>
+<p>Once you are in the preview screen, find the layer that you wish to switch extruders on similar to the Multi Colour section of the
+Eryone guide, except this time we will not need a custom code.</p>
+<p>Once you have found the layer, <strong>make sure it is the right one</strong>, exit out of the preview screen, and go back into edit process
+settings. Go to the advanced tab;</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise6.PNG"><img alt="_images/Raise6.PNG" src="_images/Raise6.PNG" /></a>
+</div>
+<p>Selected both boxes. The first box should say 0mm and the second box depends on what layer you want the first extruder to
+stop at. If you are using a 0.2mm layer height and want to stop at layer 35. Then you times the layer height by the layer
+number. For this example 35x0.2mm = 7mm. It is important to remember your layer number.</p>
+<p>Now go back to the cooling settings and turn off the fan at your final layer. This will keep that layer hot making it
+easier to adhere to the next one.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise7.PNG"><img alt="_images/Raise7.PNG" src="_images/Raise7.PNG" /></a>
+</div>
+<p>Navigate using the add and remove setpoint buttons.</p>
+<p>This process is now complete. Exit out and click on the next process. This time click “Right Extruder Only”.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise8.PNG"><img alt="_images/Raise8.PNG" src="_images/Raise8.PNG" /></a>
+</div>
+<p>This should automatically switch all the extruders in the process.</p>
+<p>Go through the same process again, changing all your settings so that they are the same as the first process, making sure
+that they say right extruder this time instead of left. The left extruder temperature should be 0 this time. <strong>Check
+prime pillar again</strong>, it should still say all extruders.</p>
+<p>When this is done, go to the advanced tab again and select start printing at height, whatever you left off on at the first process.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise9.PNG"><img alt="_images/Raise9.PNG" src="_images/Raise9.PNG" /></a>
+</div>
+<p>No need to select the stop height box. Now go back to the layer tab and change layer width to 150%. This will create a wider first
+layer for this process, helping with adhesion.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise10.PNG"><img alt="_images/Raise10.PNG" src="_images/Raise10.PNG" /></a>
+</div>
+<p>Next, go to the cooling settings and make sure the fan does not get turned on until at least the second layer. This will again help
+keep the layers hot, resulting in better adhesion.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise11.PNG"><img alt="_images/Raise11.PNG" src="_images/Raise11.PNG" /></a>
+</div>
+<p>Now that all of your settings are complete, exit out of the process and click prepare to print. This time select all of the processes.</p>
+<div class="figure align-default" style="width: 600px">
+<a class="reference external image-reference" href="../_static/images/Raise12.PNG"><img alt="_images/Raise12.PNG" src="_images/Raise12.PNG" /></a>
+</div>
+<p>Congratulations, your extruders will now switch at that height. Theoretically, you can do this as many times as you want as long as
+you keep creating processes and switching the extruders.</p>
+</div>
 </div>
 </div>
 

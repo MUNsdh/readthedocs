@@ -975,7 +975,138 @@ ayers to begin, just a number that is closest to where you want it to go.
 Raise3D E2
 ----------
 
-To be updated. 
+Switching Extruders Mid Print with Raise3D E2 and Simplify3D
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ideamaker is the Raise3D E2’s preferred slicer however with the limited time we had to work with, Simplify3D was chosen.
+
+The first step is to open up Simplify3D and import your model. Next, you want to add two processes that are both using the Raise3D 
+E2 printer.
+
+.. figure:: ../_static/images/Raise1.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Raise1.PNG
+
+Open up the first process and select “Left Extruder Only”, this will choose the left extruder (and left spool) as the first 
+extruder used. If you wanted to switch this, you can do these steps in reverse.
+ 
+Once the left extruder has been selected, you can go throughout Simplify3D and change the necessary settings for your print and 
+filament. Throughout these settings, there will be times where it selects an extruder. If you selected “Left Extruder Only” at the 
+start then these settings should all be left. **Nothing should say right extruder**.
+
+.. figure:: ../_static/images/Raise2.PNG
+    :figwidth: 500px
+    :target: ../_static/images/Raise2.PNG
+
+In the temperature tab, the extruder that is not in use should automatically be set to 0. 
+
+.. figure:: ../_static/images/Raise3.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise3.PNG
+
+Under the additions tab, check the prime tower box.
+
+.. figure:: ../_static/images/Raise4.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise4.PNG
+
+This will ensure a smooth flow for the extruders when they switch. Location does not matter and the width should be at least 
+10mm so it can stick to the bed. **All Extruders must be selected**.
+ 
+When all of your preferred settings have been arranged, exit out of the process settings and click Prepare to print. You will be 
+prompted by this pop-up. Select only Process 1 for now.
+ 
+.. figure:: ../_static/images/Raise5.PNG
+    :figwidth: 400px
+    :target: ../_static/images/Raise5.PNG
+
+Once you are in the preview screen, find the layer that you wish to switch extruders on similar to the Multi Colour section of the 
+Eryone guide, except this time we will not need a custom code.
+ 
+Once you have found the layer, **make sure it is the right one**, exit out of the preview screen, and go back into edit process 
+settings. Go to the advanced tab;
+
+.. figure:: ../_static/images/Raise6.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise6.PNG
+
+Selected both boxes. The first box should say 0mm and the second box depends on what layer you want the first extruder to 
+stop at. If you are using a 0.2mm layer height and want to stop at layer 35. Then you times the layer height by the layer 
+number. For this example 35x0.2mm = 7mm. It is important to remember your layer number.
+ 
+Now go back to the cooling settings and turn off the fan at your final layer. This will keep that layer hot making it 
+easier to adhere to the next one.
+
+.. figure:: ../_static/images/Raise7.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise7.PNG
+
+Navigate using the add and remove setpoint buttons.
+ 
+This process is now complete. Exit out and click on the next process. This time click “Right Extruder Only”.
+
+.. figure:: ../_static/images/Raise8.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise8.PNG
+
+This should automatically switch all the extruders in the process.
+ 
+Go through the same process again, changing all your settings so that they are the same as the first process, making sure 
+that they say right extruder this time instead of left. The left extruder temperature should be 0 this time. **Check 
+prime pillar again**, it should still say all extruders.
+ 
+When this is done, go to the advanced tab again and select start printing at height, whatever you left off on at the first process. 
+
+.. figure:: ../_static/images/Raise9.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise9.PNG
+
+No need to select the stop height box. Now go back to the layer tab and change layer width to 150%. This will create a wider first 
+layer for this process, helping with adhesion.
+
+.. figure:: ../_static/images/Raise10.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise10.PNG
+
+Next, go to the cooling settings and make sure the fan does not get turned on until at least the second layer. This will again help 
+keep the layers hot, resulting in better adhesion.
+
+.. figure:: ../_static/images/Raise11.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise11.PNG
+
+Now that all of your settings are complete, exit out of the process and click prepare to print. This time select all of the processes. 
+
+.. figure:: ../_static/images/Raise12.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Raise12.PNG
+
+Congratulations, your extruders will now switch at that height. Theoretically, you can do this as many times as you want as long as 
+you keep creating processes and switching the extruders.  
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+ 
 
 
 
