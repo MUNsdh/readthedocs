@@ -17,4 +17,5 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
 
    3D Printing
    PCB Design
+   Python
    Other
