@@ -62,6 +62,9 @@ You can check `this Wikipedia list <en.wikipedia.org/wiki/List_of_Python_softwar
 Python Versions
 ---------------
 
+.. role:: python(code)
+   :language: python
+
 There are two main versions of Python: Python 2 and Python 3. Python 2 was introduced in 2000, and the latest release is 2.7. However, support for Python 2.7 stopped in 2018. Python 3 was released in 2008, and its current most up-to-date version is Python 3.9. Since Python 2 is no longer maintained, most projects nowadays would use Python 3. Legacy software which cannot be upgraded to the newer version might still use Python 2.
 
 The main differences between the two versions are:
@@ -76,7 +79,7 @@ Example:
 
 *Python 2*
 
-.. code-block::python
+.. code-block:: python
 
   for n in xrange(1, 10):
     print n/2
@@ -98,7 +101,7 @@ Example:
 
 *Python 3*
 
-.. code-block::python
+.. code-block:: python
 
   for n in range(1, 10):
     print(n/2)
