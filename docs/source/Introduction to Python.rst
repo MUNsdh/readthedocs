@@ -140,8 +140,8 @@ Example:
    - A school registration system for saving and searching students’ data.
    - A sensor that logs the temperature every hour and notifies the user if it is too cold outside.
 
-#. What would be the output if the following code is executed in Python 2 and 3:
+#. What would be the output if the following code is executed in Python 2 and 3?
 
-   .. code-block::python
+   .. code-block:: python
 
     print 5/2
