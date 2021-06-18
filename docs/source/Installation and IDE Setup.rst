@@ -14,21 +14,33 @@ Installing Python
 
 Python is available for different environments, including Windows, Mac, and Linux. Python 3 distributions can be downloaded from the official Python website.
 
-*Windows*
+**Windows**
 
 #. Go to the `official Python website <https://www.python.org>`_
 
 #. From the Downloads menu, click Windows
 
+   .. figure:: ../_static/images/python_website.png
+    :align: center
+
 #. Under Stable Releases, click to download the Windows installer (32-bit or 64-bit depending on your system) for the Python release you want. Ideally, you would want to download the latest stable release
+
+   .. figure:: ../_static/images/download_windows.png
+    :align: center
 
 #. When downloading is done, double-click the file to run the installer
 
 #. Check the box that says “Add Python 3.x.x to PATH”. This allows Windows to find the Python interpreter when running Python code
 
+   .. figure:: ../_static/images/install_windows_1.png
+    :align: center
+
 #. Click Install Now
 
-*Mac*
+   .. figure:: ../_static/images/install_windows_2.png
+    :align: center
+
+**Mac**
 
 #. Go to the `official Python website <https://www.python.org>`_
 
@@ -42,15 +54,22 @@ Python is available for different environments, including Windows, Mac, and Linu
 
 #. Click Install
 
-*Ubuntu*
+**Ubuntu**
 
 #. Open a new terminal window
 
-#. Type the following command to install Python 3. Replace x with the desired Python release. You can find the latest release number on the `official Python website <https://www.python.org>`_
+#. Type the following command to install Python 3.
+   .. code-block:: bash
 
-sudo apt-get install python3.x
+    sudo apt-get install python3.x
 
-*Other Linux Systems*
+   Replace x with the desired Python release. You can find the latest release number on the `official Python website <https://www.python.org>`_
+
+   .. figure:: ../_static/images/install_ubuntu.png
+    :align: center
+
+
+**Other Linux Systems**
 
 Check `this <https://opensource.com/article/20/4/install-python-linux>`_ tutorial on how to configure and build Python from the source code
 
@@ -59,7 +78,7 @@ Setting Up Python
 
 Python should be set up and ready to use after installation. To make sure Python is set up correctly, try to check the installed Python version using a terminal window.
 
-*Windows*
+**Windows**
 
 #. Open the start menu
 
@@ -71,7 +90,10 @@ Python should be set up and ready to use after installation. To make sure Python
 
     python --version
 
-*Mac*
+.. figure:: ../_static/images/set_up_windows.png
+  :align: center
+
+**Mac**
 
 #. Click on the magnifying glass in the top bar to open the Spotlight finder
 
@@ -83,7 +105,7 @@ Python should be set up and ready to use after installation. To make sure Python
 
     python3 --version
 
-*Linux*
+**Linux**
 
 #. Depending on your system, search for Terminal in the applications menu. Common shortcuts include Ctrl+Alt+T or Alt+T
 
@@ -93,6 +115,9 @@ Python should be set up and ready to use after installation. To make sure Python
 
     python3 --version
 
+.. figure:: ../_static/images/set_up_ubuntu.png
+  :align: center
+
 The command should output “Python 3.x.x”, the version of Python you installed. If you get any errors, a probable cause is that Python is not added to the system’s PATH variable. Check `this <https://www.techwalla.com/articles/how-to-set-your-python-path>`_ tutorial on how to solve this issue on Windows, Mac, and Linux.
 
 Running Python Code
@@ -100,21 +125,33 @@ Running Python Code
 
 You can interact directly with the Python interpreter through a terminal. To do that, open a new terminal/cmd window, type the following command, and press enter.
 
-*Windows*
+**Windows**
 
 .. code-block:: python
 
   python
 
-*Mac/Linux*
+**Mac/Linux**
 
 .. code-block:: python
 
   python3
 
-You can then write code to be directly executed by the interpreter. Try entering :python:`print(5/2)` and check the output. This method is quick for testing commands, but we will be writing Python scripts in files as it is more organized.
+You can then write code to be directly executed by the interpreter. Try entering :python:`print(5/2)` and check the output.
 
-*Windows*
+**Windows**
+
+.. figure:: ../_static/images/run_windows_1.png
+  :align: center
+
+**Linux**
+
+.. figure:: ../_static/images/run_ubuntu_1.png
+  :align: center
+
+This method is quick for testing commands, but we will be writing Python scripts in files as it is more organized.
+
+**Windows**
 
 #. Open a new Notepad window
 
@@ -125,7 +162,10 @@ You can then write code to be directly executed by the interpreter. Try entering
     for n in range (1, 10):
       print (n)
 
-#. Save the file, and change the extension to .py
+#. Save the file, selecting “All Files” for file type and changing the extension to .py
+
+   .. figure:: ../_static/images/run_windows_3.png
+      :align: center
 
 #. Open the cmd, and enter the following command, replacing C:\\path with the path to your Python script
 
@@ -133,7 +173,10 @@ You can then write code to be directly executed by the interpreter. Try entering
 
     python C:\path
 
-*Mac/Linux*
+.. figure:: ../_static/images/run_windows_4.png
+   :align: center
+
+**Mac/Linux**
 
 #. Open a new Text Edit window
 
@@ -146,11 +189,17 @@ You can then write code to be directly executed by the interpreter. Try entering
 
 #. Save the file, and change the extension to .py
 
+   .. figure:: ../_static/images/run_ubuntu_2.png
+    :align: center
+
 #. Open the terminal, and enter the following command, replacing /path with the path to your Python script
 
    .. code-block:: python
 
     python3 /path
+
+.. figure:: ../_static/images/run_ubuntu_3.png
+   :align: center
 
 Python IDEs and Interfaces
 --------------------------
