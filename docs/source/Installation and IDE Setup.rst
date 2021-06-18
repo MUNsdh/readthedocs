@@ -201,31 +201,56 @@ This method is quick for testing commands, but we will be writing Python scripts
 .. figure:: ../_static/images/run_ubuntu_3.png
    :align: center
 
-Python IDEs and Interfaces
---------------------------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim magna, pellentesque vitae congue non, tincidunt sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin risus tortor, tempus et malesuada non, pretium quis tortor. Donec justo leo, egestas eget hendrerit vitae, auctor sit amet ipsum. Vestibulum sodales sed nisl quis volutpat. Integer sed odio tellus. Nam bibendum in elit ultricies pulvinar. Vivamus suscipit purus fringilla, hendrerit lectus at, dictum libero. Curabitur sed facilisis magna.
+Python IDEs and Code Editors
+----------------------------
+
+A code editor is a software application that allows programmers to write and edit code. The difference between a code editor and a regular text editor, like Notepad, is that code editors have built-in features that aid in writing code, like syntax highlighting, indentation, and brace matching. Some code editors can execute code and display preview windows, but most code editors are kept simple and lightweight.
+
+An integrated development environment (IDE) is a special program that bundles various programming tools to facilitate the software development process. These tools include a code editor (usually supports code autocomplete), compilers, debuggers, and build, deployment, and testing tools. Most IDEs support more than one programming language. Because of the many tools provided, IDEs are larger to download and take more space and memory than standalone code editors.
+
+Below are some of the most common Python IDEs and code editors.
 
 IDLE
 ^^^^
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim magna, pellentesque vitae congue non, tincidunt sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin risus tortor, tempus et malesuada non, pretium quis tortor. Donec justo leo, egestas eget hendrerit vitae, auctor sit amet ipsum. Vestibulum sodales sed nisl quis volutpat. Integer sed odio tellus. Nam bibendum in elit ultricies pulvinar. Vivamus suscipit purus fringilla, hendrerit lectus at, dictum libero. Curabitur sed facilisis magna.
+IDLE is a straightforward code editor for Python. It is added by default to the Python installer on the official python.org website, so it is already installed on your Windows/Mac machine (you can search your applications menu for IDLE).
+
+IDLE offers a clean editor window with syntax highlighting. This is the main window that appears when you start IDLE. There is also a Python shell included to run Python scripts directly from the code editor window. When you finish writing a script, click …. from the “Run” tab in the menu bar. A terminal window will open where the code is executed by the interpreter.
+
+The simple interface makes IDLE perfect for use by beginners and testing code snippets fast.
 
 PyCharm
 ^^^^^^^
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim magna, pellentesque vitae congue non, tincidunt sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin risus tortor, tempus et malesuada non, pretium quis tortor. Donec justo leo, egestas eget hendrerit vitae, auctor sit amet ipsum. Vestibulum sodales sed nisl quis volutpat. Integer sed odio tellus. Nam bibendum in elit ultricies pulvinar. Vivamus suscipit purus fringilla, hendrerit lectus at, dictum libero. Curabitur sed facilisis magna.
+PyCharm is a powerful IDE dedicated to Python development. It is created by JetBrains, a well-known software development company. PyCharm is available in a free community version and a paid version that offers more professional development tools. The IDE can be easily set up on Windows, Mac, and Linux using the `official installer <https://www.jetbrains.com/pycharm/download>`_. 
+
+Besides having a code editor, PyCharm provides advanced features that speed up software development like code completion, inspections, and error-highlighting and fixing. There are also debugging tools and a version control system for managing large projects.
+
+With all these features, PyCham is easily the favorite Python IDE for professional developers. However, it is a resource-intensive application, so it is not recommended for low-end machines.
 
 Atom
 ^^^^
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim magna, pellentesque vitae congue non, tincidunt sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin risus tortor, tempus et malesuada non, pretium quis tortor. Donec justo leo, egestas eget hendrerit vitae, auctor sit amet ipsum. Vestibulum sodales sed nisl quis volutpat. Integer sed odio tellus. Nam bibendum in elit ultricies pulvinar. Vivamus suscipit purus fringilla, hendrerit lectus at, dictum libero. Curabitur sed facilisis magna.
+Atom is a free, open-source code editor from Github. It is one of the best editors available on all platforms (Windows, Mac, Linux) and can be downloaded `here <https://atom.io>`_. The interface is elegant, and you can choose to change the theme between light and dark modes. There is also a directory tree viewer for managing multiple projects at the same time.
+
+Named the Hackable Editor for the 21st century, Atom is very customizable, which sets it apart from other code editors. Atom offers a package manager that allows users to install various packages to extend Atom’s functionalities. Thousands of packages are available to add features like syntax highlighting for many languages, autocomplete, real-time preview windows, custom terminals, and much more. Also, the built-in Github package allows developers to easily create branches, commit, and push their code to Github directly from the code editor.
+
+Adding packages to Atom is straightforward. From the Packages menu, select Settings view and click Manage packages. There you can search packages by name and install/remove packages. Some of the useful packages for Python development are:
+
+- **script** provides a terminal window to run Python code directly in Atom
+- **linter-python** a linter tool for flagging syntax errors and bugs in Python scripts, great for beginners
+- **atom-material-syntax** provides another syntax highlighting theme to better apprehend the code
+
+
+Atom provides a lot of the IDE features in a lightweight form. There is even an Atom IDE package that adds diagnostic features to show errors and warnings, as well as references and information for methods.
 
 Spyder
 ^^^^^^
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec enim magna, pellentesque vitae congue non, tincidunt sed tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin risus tortor, tempus et malesuada non, pretium quis tortor. Donec justo leo, egestas eget hendrerit vitae, auctor sit amet ipsum. Vestibulum sodales sed nisl quis volutpat. Integer sed odio tellus. Nam bibendum in elit ultricies pulvinar. Vivamus suscipit purus fringilla, hendrerit lectus at, dictum libero. Curabitur sed facilisis magna.
+`Spyder <https://www.spyder-ide.org>`_ is another well-known Python IDE that is often used for scientific purposes. Spyder provides tools that facilitate data analysis and visualization. These include a variable explorer for modifying variables in real-time, a plot that supports graphs and 3D models, and a console that interacts with the data plot.
 
+Spyder is mainly used by scientists and engineers for analyzing complex data and visualizing information for case studies and project reports.
 
 **Exercise**
 
