@@ -8,6 +8,9 @@ Installation and IDE Setup
 
 - Install Python and troubleshoot the Path variable issue
 - Use a terminal window to run Python code through the interpreter or from a script
+- Differentiate between a code editor and an IDE
+- Become aware of the different Python IDEs and code editors available
+- Briefly describe the differences between IDLE, PyCharm, Atom, and Spyder
 
 Installing Python
 -----------------
@@ -282,3 +285,7 @@ Spyder is mainly used by scientists and engineers for analyzing complex data and
       print(s)
 
    After that, type the script into a file and run it on your machine. Verify your prediction is correct.
+
+#. How is an IDE different from a code editor?
+
+#. Do more research on the uses and features of the four different Python IDEs and editors mentioned in this section. Which one would you prefer to use?
