@@ -69,7 +69,9 @@ The video below discusses Python variables with more examples.
 
 .. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=cQT33yu9pY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cQT33yu9pY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 Conditions
 ^^^^^^^^^^
@@ -93,7 +95,9 @@ Check this video for another example.
 
 .. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=42MBMSOZgD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/42MBMSOZgD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 Loops
 ^^^^^
@@ -123,7 +127,9 @@ This video covers loops in more depth.
 
 .. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6iF8Xb7Z3wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6iF8Xb7Z3wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+|
 
 Comments
 ^^^^^^^^
