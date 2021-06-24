@@ -23,14 +23,14 @@ Syntax
 
 The syntax is the rules that define how statements are created in a programming language. As stated before, Python syntax is usually straightforward and intuitive. Some statements in Python may look similar to those in other languages like Java and C; however, Python simplifies coding much more.
 
-For example, the following statements do the same function but in different languages. They all output “Hello World!” to the terminal if a variable (explained later) is equal to 1.
+For example, the following statements do the same function but in different languages. They all output "Hello World!" to the terminal if a variable (explained later) is equal to 1.
 
 **Java**
 
 .. code-block:: java
 
   if (x == 1){
-  	System.out.print(“Hello World!”);
+  	System.out.print("Hello World!");
   }
 
 **C**
@@ -38,7 +38,7 @@ For example, the following statements do the same function but in different lang
 .. code-block:: c
 
   if (x == 1){
-  	printf(“Hello World!”);
+  	printf("Hello World!");
   }
 
 **Python**
@@ -46,7 +46,7 @@ For example, the following statements do the same function but in different lang
 .. code-block:: python
 
   if x == 1:
-  	print(“Hello World!”)
+  	print("Hello World!")
 
 Notice how the print statement ends in a semicolon (;) in both Java and C. One of the main features of Python syntax that sets it apart is that it does not use a symbol to denote the termination of an instruction. Also, unlike most languages, where code blocks are wrapped in curly braces (notice the if statement syntax), Python relies on indentation to define which block a statement belongs to. Indentation, which is always encouraged to use in other languages, is required in Python and contributes to the readability of Python scripts.
 
@@ -63,7 +63,7 @@ In this example, variable a is an integer, b is a floating value, and c is a str
 
   a = 2021
   b = 3.14
-  c = “Hello World!”
+  c = "Hello World!"
 
 The video below discusses Python variables with more examples.
 
@@ -74,20 +74,20 @@ The video below discusses Python variables with more examples.
 Conditions
 ^^^^^^^^^^
 
-Conditions are statements that allow the programmer to decide which commands to run based on certain criteria. Conditions in Python are defined using the “if” statement, which can be used standalone to make a decision. “else” and “elif” keywords can be used to extend an “if” statement.
+Conditions are statements that allow the programmer to decide which commands to run based on certain criteria. Conditions in Python are defined using the *if* statement, which can be used standalone to make a decision. *elif* and *else* keywords can be used to extend an *if* statement.
 
 .. code-block:: python
 
   grade = 78
 
   if grade > 90:
-  	print(“Excellent”)
+  	print("Excellent")
   elif grade < 90 and grade > 50:
-  	print(“Passed”)
+  	print("Passed")
   else:
-  	print(“Failed”)
+  	print("Failed")
 
-Elif can be used as many times as required to define multiple cases and what to do in each. The testing criteria is called an expression. An expression can have one ( grade > 90) or more conditional statements (grade < 90 and grade > 50). All conditional statements must be met for an expression to be evaluated as TRUE and for the following command to run. If none of the expressions are TRUE, then Else defines what code to run.
+*elif* can be used as many times as required to define multiple cases and what to do in each. The testing criteria is called an expression. An expression can have one (grade > 90) or more conditional statements (grade < 90 and grade > 50). All conditional statements must be met for an expression to be evaluated as TRUE and for the following command to run. If none of the expressions are TRUE, then *else* defines what code to run.
 
 Check this video for another example.
 
@@ -98,16 +98,16 @@ Check this video for another example.
 Loops
 ^^^^^
 
-Commands are typically run once when defined, but loops allow the programmer to run a block of code more than one time. There are two types of loops in Python: a “for” loop, and a “while” loop. The “for” loop is used to iterate over a set of items or run a code for a specified number of times. The “while” loop, however, continues running until a certain condition is no longer met.
+Commands are typically run once when defined, but loops allow the programmer to run a block of code more than one time. There are two types of loops in Python: a *for* loop, and a *while* loop. The *for* loop is used to iterate over a set of items or run a code for a specified number of times. The *while* loop, however, continues running until a certain condition is no longer met.
 
 .. code-block:: python
 
-  letters = [“a”, “b”, “c”, “d”]
+  letters = ["a", "b", "c", "d"]
   for x in letters:
   	print(x)
-  print(“Done!”)
+  print("Done!")
 
-In this example, “x” is called the iterating variable, and “letters” is the sequence. “x” is assigned every value in letters one at a time, and the code inside the loop is executed each time. When the list ends, the code after the loop runs in the regular sequence.
+In this example, *x* is called the iterating variable, and *letters* is the sequence. *x* is assigned every value in letters one at a time, and the code inside the loop is executed each time. When the list ends, the code after the loop runs in the regular sequence.
 
 .. code-block:: python
 
@@ -115,9 +115,9 @@ In this example, “x” is called the iterating variable, and “letters” is 
   while n < 50:
   	print(n)
   	n = (n – 2) * 2
-  print(“Done!”)
+  print("Done!")
 
-Similar to an “if” condition, a while loop also uses an expression (n < 50) that defines when the loop should continue running. If the condition is no longer met, the loop breaks, and the code after the loop executes in the regular sequence.
+Similar to an *if* condition, a *while* loop also uses an expression (n < 50) that defines when the loop should continue running. If the condition is no longer met, the loop breaks, and the code after the loop executes in the regular sequence.
 
 This video covers loops in more depth.
 
@@ -132,8 +132,8 @@ Comments help annotate code or add other information in natural language. Commen
 
 .. code-block:: python
 
-  # This code prints “Hello World!”
-  print(“Hello World!”)
+  # This code prints "Hello World!"
+  print("Hello World!")
 
 Best Practices
 --------------
