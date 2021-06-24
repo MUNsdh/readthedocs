@@ -214,9 +214,12 @@ Below are some of the most common Python IDEs and code editors.
 IDLE
 ^^^^
 
-IDLE is a straightforward code editor for Python. It is added by default to the Python installer on the official python.org website, so it is already installed on your Windows/Mac machine (you can search your applications menu for IDLE).
+IDLE is a straightforward code editor for Python. It is added by default to the Python installer on the official python.org website, so it is already installed on your Windows/Mac machine (you can search your applications menu for IDLE). If you installed Python on Linux using the method described in this tutorial, you have to :python:`sudo apt-get install idle3` to install IDLE.
 
-IDLE offers a clean editor window with syntax highlighting. This is the main window that appears when you start IDLE. There is also a Python shell included to run Python scripts directly from the code editor window. When you finish writing a script, click …. from the “Run” tab in the menu bar. A terminal window will open where the code is executed by the interpreter.
+When you run IDLE, the first screen is a Python terminal where you can interact directly with the interpreter to run simple commands. IDLE also offers a simple and clean editor window with syntax highlighting. This window is accessed when creating a new file from the File menu in the menu bar. After finishing a script and saving it, click Run module from the Run menu and your code will be executed in the Python terminal.
+
+.. figure:: ../_static/images/idle.png
+   :align: center
 
 The simple interface makes IDLE perfect for use by beginners and testing code snippets fast.
 
@@ -227,6 +230,11 @@ PyCharm is a powerful IDE dedicated to Python development. It is created by JetB
 
 Besides having a code editor, PyCharm provides advanced features that speed up software development like code completion, inspections, and error-highlighting and fixing. There are also debugging tools and a version control system for managing large projects.
 
+.. figure:: ../_static/images/pycharm.jpg
+  :align: center
+
+  *src: https://www.jetbrains.com/pycharm*
+
 With all these features, PyCham is easily the favorite Python IDE for professional developers. However, it is a resource-intensive application, so it is not recommended for low-end machines.
 
 Atom
@@ -235,6 +243,9 @@ Atom
 Atom is a free, open-source code editor from Github. It is one of the best editors available on all platforms (Windows, Mac, Linux) and can be downloaded `here <https://atom.io>`_. The interface is elegant, and you can choose to change the theme between light and dark modes. There is also a directory tree viewer for managing multiple projects at the same time.
 
 Named the Hackable Editor for the 21st century, Atom is very customizable, which sets it apart from other code editors. Atom offers a package manager that allows users to install various packages to extend Atom’s functionalities. Thousands of packages are available to add features like syntax highlighting for many languages, autocomplete, real-time preview windows, custom terminals, and much more. Also, the built-in Github package allows developers to easily create branches, commit, and push their code to Github directly from the code editor.
+
+.. figure:: ../_static/images/atom.png
+   :align: center
 
 Adding packages to Atom is straightforward. From the Packages menu, select Settings view and click Manage packages. There you can search packages by name and install/remove packages. Some of the useful packages for Python development are:
 
@@ -249,6 +260,11 @@ Spyder
 ^^^^^^
 
 `Spyder <https://www.spyder-ide.org>`_ is another well-known Python IDE that is often used for scientific purposes. Spyder provides tools that facilitate data analysis and visualization. These include a variable explorer for modifying variables in real-time, a plot that supports graphs and 3D models, and a console that interacts with the data plot.
+
+.. figure:: ../_static/images/spyder.png
+  :align: center
+
+  *src: https://docs.spyder-ide.org/5/index.html*
 
 Spyder is mainly used by scientists and engineers for analyzing complex data and visualizing information for case studies and project reports.
 
