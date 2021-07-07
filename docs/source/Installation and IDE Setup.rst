@@ -281,7 +281,7 @@ Spyder is mainly used by scientists and engineers for analyzing complex data and
 
     print("5 Times Table")
     for n in range (1, 10):
-      s = "5x" + str(n) + "=" + str(5*n)
+      s = "5x" + str(n) + "=" + str(5 * n)
       print(s)
 
    After that, type the script into a file and run it on your machine. Verify your prediction is correct.

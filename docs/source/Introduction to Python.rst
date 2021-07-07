@@ -82,7 +82,7 @@ Example:
 .. code-block:: python
 
   for n in xrange(1, 10):
-    print n/2
+    print n / 2
 
   '''
 
@@ -104,7 +104,7 @@ Example:
 .. code-block:: python
 
   for n in range(1, 10):
-    print(n/2)
+    print(n / 2)
 
   '''
 
@@ -144,4 +144,4 @@ Example:
 
    .. code-block:: python
 
-    print 5/2
+    print 5 / 2

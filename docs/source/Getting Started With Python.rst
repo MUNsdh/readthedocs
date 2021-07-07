@@ -29,7 +29,7 @@ For example, the following statements do the same function but in different lang
 
 .. code-block:: java
 
-  if (x == 1){
+  if(x == 1){
   	System.out.print("Hello World!");
   }
 
@@ -37,7 +37,7 @@ For example, the following statements do the same function but in different lang
 
 .. code-block:: c
 
-  if (x == 1){
+  if(x == 1){
   	printf("Hello World!");
   }
 
@@ -84,12 +84,12 @@ Conditions are statements that allow the programmer to decide which commands to 
 
   if grade > 90:
   	print("Excellent")
-  elif grade < 90 and grade > 50:
+  elif grade<90 and grade>50:
   	print("Passed")
   else:
   	print("Failed")
 
-*elif* can be used as many times as required to define multiple cases and what to do in each. The testing criteria is called an expression. An expression can have one (grade > 90) or more conditional statements (grade < 90 and grade > 50). All conditional statements must be met for an expression to be evaluated as TRUE and for the following command to run. If none of the expressions are TRUE, then *else* defines what code to run.
+*elif* can be used as many times as required to define multiple cases and what to do in each. The testing criteria is called an expression. An expression can have one :python:`grade > 90` or more conditional statements :python:`grade<90 and grade>50`. All conditional statements must be met for an expression to be evaluated as TRUE and for the following command to run. If none of the expressions are TRUE, then *else* defines what code to run.
 
 Check this video for another example.
 
@@ -118,10 +118,10 @@ In this example, *x* is called the iterating variable, and *letters* is the sequ
   n = 5
   while n < 50:
   	print(n)
-  	n = (n – 2) * 2
+  	n = (n–2) * 2
   print("Done!")
 
-Similar to an *if* condition, a *while* loop also uses an expression (n < 50) that defines when the loop should continue running. If the condition is no longer met, the loop breaks, and the code after the loop executes in the regular sequence.
+Similar to an *if* condition, a *while* loop also uses an expression :python:`n < 50` that defines when the loop should continue running. If the condition is no longer met, the loop breaks, and the code after the loop executes in the regular sequence.
 
 This video covers loops in more depth.
 
@@ -146,7 +146,7 @@ Best Practices
 --------------
 
 Every programming language has a set of recommended guidelines to improve the quality of codes. `Python Enhancement Protocol <https://www.python.org/dev/peps/pep-0008>`_, or PEP 8, is a document written by Guido van Rossum, the creator of Python, to provide guidelines on how to write proper Python code (recall that Python is focused on readability). Unlike syntax, these guidelines are not mandatory to follow; the code will still work without them. However, using the styling guidelines helps programmers write a cleaner, more efficient code that is easier to edit, maintain, and debug. This is especially important for team projects, where the code is being edited and developed by programmers of different perspectives; every line of code written by one person should clearly communicate its purpose to the rest of the team members.
-Below are some of the essential guidelines to follow for beginners. You can also check this article which goes into more guidelines and styling details.
+Below are some of the essential guidelines to follow for beginners. You can also check `this <https://realpython.com/python-pep8>`_ article which goes into more guidelines and styling details.
 
 Naming
 ^^^^^^
@@ -197,7 +197,7 @@ For example, these two code give different outputs:
 
   student_grade = 40
   if student_grade > 50:
-  	print ("Student Passed")
+  	print("Student Passed")
   	print("Done")
 
   # Outputs nothing
@@ -208,7 +208,7 @@ For example, these two code give different outputs:
 
   student_grade = 40
   if student_grade > 50:
-  	print ("Student Passed")
+  	print("Student Passed")
   print("Done")
 
   # Outputs Done
@@ -249,7 +249,7 @@ Whitespace and blank lines improve the visually appeal of your code. Whitespace 
 
 .. code-block:: python
 
-  distance_from_origin (10, 20)
+  distance_from_origin(10, 20)
 
 - Surrounding an operator (=, >, <, and, or, …)
 
@@ -262,7 +262,7 @@ If the equal sign is used to assign values to function arguments, then spaces sh
 
 .. code-block:: python
 
-  def find_by_price(price=25):
+  def filter_by_price(max_price=25):
     pass
 
 Also, when combining operators, spaces are used for the lower priority operator only.
@@ -277,10 +277,10 @@ A blank line is used to separate functions and methods. It can also be used by t
 
 .. code-block:: python
 
-  def distance_from_origin (x, y):
+  def distance_from_origin(x, y):
 	   return sqrt(x^2 + y^2)
 
-  def average_of (x, y):
+  def average_of(x, y):
 	   return (x+y) / 2
 
 Commenting
@@ -297,7 +297,7 @@ A comment starts with a hash and space "# " and should be indented in the same w
   # based on their grade in the final test
   if grade > 90:
   	print("Excellent")
-  elif grade < 90 and grade > 50:
+  elif grade<90 and grade>50:
   	print("Passed")
   else:
   	print("Failed")
@@ -312,7 +312,7 @@ For documenting a function or a class, the text should be enclosed in quotation 
   x: x-coordinate of the endpoint
   y: y-coordinate of the endpoint
   """
-  def distance_from_origin (x, y):
+  def distance_from_origin(x, y):
   	return sqrt(x^2 + y^2)
 
 
