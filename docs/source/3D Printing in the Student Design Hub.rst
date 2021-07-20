@@ -599,6 +599,18 @@ structure, however, is not commonly used.
 To view any of your changes to these settings you can exit the process settings and select “Prepare to print”. This will
 show how your support structures will be printed and you can judge your changes from this section.
 
+Bed Adhesion
+^^^^^^^^^^^^^^^^^
+
+Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. When the first layer does not stick, it creates all sorts of problems like dimensional inaccuracy and warping which can all lead to a failed print.
+
+3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion:
+
+#.**Cleaning the build plate:** good surface adhesion is increased by having a clean heatbed to stick to. Clean the heatbed with 99.9% isopropyl alcohol on a microfiber cloth or Windex glass cleaner for glass heatbeds. Ideally, isopropyl alcohol should be compatible for the majority of heatbeds.
+#.**Adjust nozzle and heatbed temperature:** different filaments have ideal temperature ranges that are appropriate for printing the filament. Ensure that you are using the right temperatures for your particular filament. When there is a huge temperature difference between the heatbed and the extruded filament, warping occurs thus not allowing the print to stick to the heatbed. Tweaking the heatbed and nozzle temperatures can be beneficial when increasing bed adhesion.
+#.**Using a raft:** rafts increase the surface area of the print. Larger surface areas mean increased bed adhesion as there is more holding force.
+#.**Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick or hairspray will help improve bed adhesion.
+
 No Large Flat Surface to Start Print From
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -828,6 +840,8 @@ Preparing Printer
 ^^^^^^^^^^^^^^^^^
 
 Once you have saved your G-code to the micro-SD card and inserted it into the printer, it is time to prepare your printer.
+
+Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Bed Adhesion` to learn more about bed adhesion and factors that can influence it. 
 
 Preparing the printer means, cleaning the bed and applying adhesion. If this is your first print of the day or you do not know
 when the last time the printer was used, it is a good idea to clean your print bed. The bed can become dirty by collecting things
