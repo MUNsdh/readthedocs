@@ -852,7 +852,7 @@ Preparing Printer
 
 Once you have saved your G-code to the micro-SD card and inserted it into the printer, it is time to prepare your printer.
 
-Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Changing and Inserting Material` to learn more about bed adhesion and factors that can influence it. 
+Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Bed Adhesion` to learn more about bed adhesion and factors that can influence it. 
 
 Preparing the printer means, cleaning the bed and applying adhesion. If this is your first print of the day or you do not know
 when the last time the printer was used, it is a good idea to clean your print bed. The bed can become dirty by collecting things
