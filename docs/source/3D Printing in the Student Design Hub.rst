@@ -604,12 +604,23 @@ Bed Adhesion
 
 Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. When the first layer does not stick, it creates all sorts of problems like dimensional inaccuracy and warping which can all lead to a failed print.
 
-3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion:
+.. figure:: ../_static/images/warping.png
+    :figwidth: 700px
+    :target: ../_static/images/warping.png
+Warping
+    
+3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion: 
 
 1. **Cleaning the build plate:** good surface adhesion is increased by having a clean heatbed to stick to. Clean the heatbed with 99.9% isopropyl alcohol on a microfiber cloth or Windex glass cleaner for glass heatbeds. Ideally, isopropyl alcohol should be compatible for the majority of heatbeds.
 #. **Adjust nozzle and heatbed temperature:** different filaments have ideal temperature ranges that are appropriate for printing the filament. Ensure that you are using the right temperatures for your particular filament. When there is a huge temperature difference between the heatbed and the extruded filament, warping occurs thus not allowing the print to stick to the heatbed. Tweaking the heatbed and nozzle temperatures can be beneficial when increasing bed adhesion.
 #. **Using a raft:** rafts increase the surface area of the print. Larger surface areas mean increased bed adhesion as there is more holding force.
-#. **Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick or hairspray will help improve bed adhesion.
+
+.. figure:: ../_static/images/raft.png
+    :figwidth: 600px
+    :target: ../_static/images/raft.png
+A Raft
+    
+4. **Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick or hairspray will help improve bed adhesion.
 
 No Large Flat Surface to Start Print From
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -841,7 +852,7 @@ Preparing Printer
 
 Once you have saved your G-code to the micro-SD card and inserted it into the printer, it is time to prepare your printer.
 
-Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Bed Adhesion` to learn more about bed adhesion and factors that can influence it. 
+Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Changing and Inserting Material` to learn more about bed adhesion and factors that can influence it. 
 
 Preparing the printer means, cleaning the bed and applying adhesion. If this is your first print of the day or you do not know
 when the last time the printer was used, it is a good idea to clean your print bed. The bed can become dirty by collecting things
@@ -868,7 +879,9 @@ Once the clamps are off and laid to the side take the glass plate off on the pri
 extra careful as the plate is glass and can break. Next, grab your cleaning supplies; you will need Windex, Isopropyl Alcohol, Two
 Microfiber Cloths, and your printer’s scraper.
 
-*Picture to be added*
+.. figure:: ../_static/images/cleaning.jpg
+    :figwidth: 600px
+    :target: ../_static/images/cleaning.jpg
 
 Take the scraper and scrape the bed, try to get off any large pieces of plastic that are stuck on and any visible dirt. Next, grab
 the Windex and spray the bed. It is important that the bed is off and away from the printer as Windex and Isopropyl Alcohol
@@ -888,8 +901,6 @@ bed, again wait a minute and then grab the other cloth and begin to wipe. The Is
 that is left on the bed. Once the bed is dry, place it back onto the printer and reattach the clamps. Dispose of the microfiber
 cloths and bring the cleaning products back to their original place. Your print bed should now be all clean and ready for perfect
 prints.
-
-*Applying Bed Adhesion to be updated*
 
 Once your bed is cleaned and your adhesion is applied it is time to start your print. Make sure the printer is turned on, there is a
 power switch on the back. As well, make sure sufficient filament is inserted into the hot end. To learn how to insert
@@ -971,6 +982,10 @@ up a layer to start the next layer of the print as fast as possible, this is wha
 you have around your print. If you notice that there seem to be blobs in the same spot for a few layers and then it moves on
 to somewhere else for a few layers, you can try changing the “Start Points” under the Layer tab to “Use random start points for
 all perimeters”. This will make each layer start in a random area and hopefully reduce any blobbing patterns.
+
+.. figure:: ../_static/images/blobs.png
+    :figwidth: 400px
+    :target: ../_static/images/blobs.png
 
 Another option is to “Choose Start Point closest to specific location” under the same section. This option will let you decide
 where you want each layer to begin, this is a useful feature if there is a certain section of the print where surface finish is
