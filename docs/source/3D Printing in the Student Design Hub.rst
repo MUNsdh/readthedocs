@@ -289,7 +289,8 @@ any of the following features, then you may want to consider the :ref:`Advanced 
 See here an example sheet.
 :download:`pdf <Advanced Guide pdf.pdf>`
 
-*Subject to change*
+Simple Parts Workflow
+^^^^^^^^^^^^^^^^^
 
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
