@@ -15,10 +15,7 @@ Depending on the complexity of the circuit, the amount of materials stacked toge
 
 The **substrate** is the solid core of the board, then other layers like the copper, soldermask, and silkscreen are glued to this substrate. 
 
-.. figure:: ../_static/images/pcb2.png
-    :figwidth: 700px
-    :target: ../_static/images/pcb2.png
-    Single layer vs double layer PCB
+
     
 The **copper layer/traces** electrically connect the components;
 The **solder mask** gives the PCB the green coating that is seen and insulates the copper coating; 
