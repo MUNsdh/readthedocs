@@ -9,13 +9,16 @@ The pads on the board, as seen below, are connected to the components and copper
 Depending on the complexity of the circuit, the amount of materials stacked together on the PCB can be increased. On single layer PCBs, there are electrical connections on only one side of the board, double layer PCBs have electrical connections on both top and bottom, and more than 2 layer PCBs have electrical connections on top, bottom, and internal layers within the board of the PCB.
 
 .. figure:: ../_static/images/pcb1.png
-    :figwidth: 600px
+    :figwidth: 700px
     :target: ../_static/images/pcb1.png
     A Simple PCB
 
 The **substrate** is the solid core of the board, then other layers like the copper, soldermask, and silkscreen are glued to this substrate. 
 
-
+.. figure:: ../_static/images/pcb2.png
+    :figwidth: 700px
+    :target: ../_static/images/pcb2.png
+    Single layer vs double layer PCB
     
 The **copper layer/traces** electrically connect the components;
 The **solder mask** gives the PCB the green coating that is seen and insulates the copper coating; 
