@@ -398,7 +398,7 @@ Toolpaths to Disk” and transfer the SD card to the printer (Via Left side hole
 To prepare your printer and begin printing click :ref:`Preparing Printer`
 
 Advanced Workflow
-^^^^^^^^^^^^^^^^^
+-----------------
 
 Welcome to the Advanced Workflow! Please expand the Eryone ER-20 tree on the left side of your screen to view all sections.
 
