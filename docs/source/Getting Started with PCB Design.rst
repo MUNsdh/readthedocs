@@ -33,7 +33,7 @@ PCB Layers
 In KiCAD, there are multiple layers for the PCB board.The most important layers are the **copper, silk screen, edge cuts, and fabrication layers**. For some layers, there exist a front and a back i.e. the front and back copper layers. These simply mean the corresponding layer can appear on both the top and bottom of the board, just like the copper layer in the Single layer vs double layer PCB figure.
 
 .. figure:: ../_static/images/pcb3.png
-    :figwidth: 700px
+    :figwidth: 900px
     :target: ../_static/images/pcb3.png
 PCB Layers
  
