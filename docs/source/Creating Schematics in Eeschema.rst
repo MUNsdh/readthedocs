@@ -1,4 +1,4 @@
-1 - Designing Schematics in Eeschema
+1 - Creating Schematics in Eeschema
 ================================
 
 .. |eeschema| image:: ../_static/images/eeschema.png
