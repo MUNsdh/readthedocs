@@ -6,7 +6,7 @@ PCB Design
 
    KiCAD PCB Design Guide
    Getting Started with PCB Design
-   Designing Schematics in Eeschema
+   Creating Schematics in Eeschema
    Assigning Footprints to Components
    Board Layout in PCBnew
    Copper Routing
