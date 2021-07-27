@@ -112,13 +112,13 @@ Don’t panic if you do not know what properties to look out for when looking at
     :figwidth: 700px
     :target: ../_static/images/footprint13.png
 
-2. **Filter by symbol and pin count** |filterbys||filterbyf| : It still needs to be narrowed down.
+2. **Filter by symbol and pin count** |filterbys| |filterbyf| : It still needs to be narrowed down.
 
 .. figure:: ../_static/images/footprint14.png
     :figwidth: 700px
     :target: ../_static/images/footprint14.png
 
-3. **Filter by symbol, pin, and library** |filterbys||filterbyf||filterbyl|: Since we are looking for a footprint for a connector, let's look at which of the multiple libraries for connectors to search in. Remember the **manufacturer of the connector is JST**. Footprint libraries are usually arranged by manufacturers since different manufacturers will produce different parts. Select the ‘connector_JST’ library. 
+3. **Filter by symbol, pin, and library** |filterbys| |filterbyf| |filterbyl|: Since we are looking for a footprint for a connector, let's look at which of the multiple libraries for connectors to search in. Remember the **manufacturer of the connector is JST**. Footprint libraries are usually arranged by manufacturers since different manufacturers will produce different parts. Select the ‘connector_JST’ library. 
 
 .. figure:: ../_static/images/footprint15.PNG
     :figwidth: 700px
@@ -142,6 +142,42 @@ The important part here is the MPM. As if the MPM is exactly as the one listed o
 
 Standard sized footprints: Selecting a footprint for a SMD resistor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Take Resistor `Rtop2 <https://www.digikey.ca/en/products/detail/te-connectivity-passive-product/4-2176094-8/4034258?s=N4IgTCBcDaIIIEYEAYDsBOZBhAKgWgDkAREAXQF8g>`_ as an example. Chip resistor boxed in yellow indicates that the resistor is surface mount (SMD) and the text entailed in the green boxes indicate that it is a standard body size of 2012 metric or 0805 imperial.
+
+.. figure:: ../_static/images/footprint18.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint18.png
+    
+.. figure:: ../_static/images/footprint19.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint19.png
+
+**Filter by symbol, pin, and library** |filterbys| |filterbyf| |filterbyl|: Following the filtering instructions used for the connector ends up using all 3 filters. 
+
+* The library choices are either resistor_SMD or Resistor_THT. We figured this resistor was an SMD so choose the SMD library.
+* We previously noted that the body dimensions of the resistor were a standard 2012 metric. So select the filtered footprints that are 2012 metric; there are two options - the hand solder one and the regular one. The hand solder one has additional allowance for easier hand soldering. We select the regular one. View *** for soldering methods.
+
+.. figure:: ../_static/images/footprint20.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint20.png
 
 Searching by manufacturer: Selecting a footprint for a SMD capacitor of odd shape
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Take this `capacitor <https://www.digikey.ca/en/products/detail/murata-electronics/1217AS-H-1R5N-P3/5271426?s=N4IgTCBcDaICwE4AMBaAjEg7ADgKzpQDkAREAXQF8g>`_ with a capacitance of 1.5uH. The yellow box indicates it is surface mount (SMD) and the green box indicates it is non standard size meaning a custom footprint must be created. See :ref:`Creating Custom Footprints in Footprint Editor`.
+
+.. figure:: ../_static/images/footprint21.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint21.png
+
+Footprints on Kicad are either saved as standard parts or under manufacturers, for non standard sizes. Since capacitor L1 is non standard, the footprint might not be on Kicad or might be saved under a manufacturer but it is most definitely not saved under a standard size.
+
+**Filter by symbol, pin, and library** |filterbys| |filterbyf| |filterbyl|: 
+
+* Two library options; Inductor_SMD or THT. We previously identified it is SMD. So select Inductor_SMD library.
+* We previously identified that the manufacturer is Murata electronics. Search for footprints with Murata in the name. There are 3 options; 66,67,68. 
+* We identified the MPM to be 1217AS … None of the options have that part number. As such the footprint does not exist in Kicad libraries. See :ref:`Creating Custom Footprints in Footprint Editor` to learn how to create custom footprints or do a google search for the footprint and follow the guidelines in :ref:`Importing footprints into KiCAD`.
+
+.. figure:: ../_static/images/footprint22.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint22.png
