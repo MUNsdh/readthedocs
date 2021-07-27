@@ -34,7 +34,7 @@ THT Capacitor being mounted on a board and the capacitor footprint on kiCad
 
 Surface mount devices (SMD)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The pads are the red sections i.e. copper layer. It is clear that the pads are not holes like THT but are simply on the copper layer of the circuit board. The grey outline is the component outline on the F.Fab layer, which is useful for board manufacturing houses like `JLCPCB <https://jlcpcb.com/VGR?gclid=CjwKCAjwuvmHBhAxEiwAWAYj-ITIlLQRA1Wo_996nJWkou_tb6e5x8ydLtVoxVGrIuntaySqb4OLfxoC6dwQAvD_BwE>.
+The pads are the red sections i.e. copper layer. It is clear that the pads are not holes like THT but are simply on the copper layer of the circuit board. The grey outline is the component outline on the F.Fab layer, which is useful for board manufacturing houses like `JLCPCB <https://jlcpcb.com/VGR?gclid=CjwKCAjwuvmHBhAxEiwAWAYj-ITIlLQRA1Wo_996nJWkou_tb6e5x8ydLtVoxVGrIuntaySqb4OLfxoC6dwQAvD_BwE>`_.
 
 .. figure:: ../_static/images/footprint2.PNG
     :figwidth: 700px
@@ -90,11 +90,58 @@ To view a footprint, select the footprint then click on the view footprint icon 
 It is best practice to start by filtering only by schematic symbol footprint filter |filterbys| and then adjust as needed.
 
 Examples: Footprint Selection
-----------------------
+-----------------------------
 
-Through hole components (THT)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Selecting a footprint for a connector
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Take the this `connector <https://www.digikey.ca/en/products/detail/jst-sales-america-inc/BM08B-SRSS-TBT-LF-SN/1640130?s=N4IgTCBcDaIEIFkAMAOOBaAygJU59AKnAQBQAyAYgJQmYByVIAugL5A>`_ as an example. The yellow box indicates it is surface mount and the green box indicates it is 8 position with 1 mm pitch. Pitch is the distance between pins. 
 
+Don’t panic if you do not know what properties to look out for when looking at components. Always remember that important information is placed in both the description and detailed description sections.
 
-Surface mount devices (SMD)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: ../_static/images/footprint11.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint11.png
+    
+.. figure:: ../_static/images/footprint12.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint12.png
+    
+1. **Filter by component symbol** |filterbys|: There’s still quite a bit of a selection. It needs to be narrowed down.
+
+.. figure:: ../_static/images/footprint13.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint13.png
+
+2. **Filter by symbol and pin count** |filterbys||filterbyf| : It still needs to be narrowed down.
+
+.. figure:: ../_static/images/footprint14.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint14.png
+
+3. **Filter by symbol, pin, and library** |filterbys||filterbyf||filterbyl|: Since we are looking for a footprint for a connector, let's look at which of the multiple libraries for connectors to search in. Remember the **manufacturer of the connector is JST**. Footprint libraries are usually arranged by manufacturers since different manufacturers will produce different parts. Select the ‘connector_JST’ library. 
+
+.. figure:: ../_static/images/footprint15.PNG
+    :figwidth: 700px
+    :target: ../_static/images/footprint15.PNG
+    
+In the third tab, the filtered footprints, the connectors are organized by the manufacturer’s part numbers (MPM) which we determined from the digikey product page as **BMO8B-SRSS-TBT(LF)(SN)**. It is clear that the part number is not listed with any of the footprints in the filtered footprints tab.
+
+This introduces that sometimes kiCAD glitches. To confirm if the footprint exists or not, filter by library only (connector_JST). Notice that there is a pattern in how the footprints are named.
+
+.. figure:: ../_static/images/footprint16.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint16.png
+
+Library name: Manufacturer_*MPM*_row x positions_pitch_component orientation on board
+
+The important part here is the MPM. As if the MPM is exactly as the one listed on our product page on digikey, the footprint should match. Search the footprints until you find one with the MPM, then double click on it to assign it to the connector. To view the footprint, select the footprint then click on the view footprint icon |vfootprint| on the top right corner.
+
+.. figure:: ../_static/images/footprint17.png
+    :figwidth: 700px
+    :target: ../_static/images/footprint17.png
+
+Standard sized footprints: Selecting a footprint for a SMD resistor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Searching by manufacturer: Selecting a footprint for a SMD capacitor of odd shape
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
