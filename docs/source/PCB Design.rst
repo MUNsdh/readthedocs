@@ -4,7 +4,7 @@ PCB Design
 .. toctree::
    :maxdepth: 10
 
-   Quick KiCAD PCB Design Overview
+   Quick KiCAD Overview
    Getting Started with PCB Design
    1 - Creating Schematics in Eeschema
    2 - Assigning Footprints to Components
