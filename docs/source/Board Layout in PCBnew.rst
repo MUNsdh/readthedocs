@@ -19,7 +19,7 @@
    :width: 3%
 
 PCBnew
-------
+-------
 After footprints have been assigned to all the components on the schematic, it's time to visualize how the board will look.
 
 .. figure:: ../_static/images/Board1.png
