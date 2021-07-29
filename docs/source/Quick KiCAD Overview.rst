@@ -1,5 +1,5 @@
-Quick KiCAD PCB Design Overview
-===============================
+Quick KiCAD Overview
+=====================
 
 In this guide, you will learn the basics of creating a printed circuit board (PCB) design in KiCAD. You will start by creating a schematic, 
 assigning and creating/editing footprints, and finally creating the layout of the PCB. Designing PCBs is something that you get better at over 
