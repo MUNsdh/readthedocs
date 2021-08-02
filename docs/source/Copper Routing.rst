@@ -59,8 +59,7 @@ This mistake can be avoided by visualizing the board before production using the
 * Minimum annular ring 1 oz-0.13mm, 2oz-0.2mm
 
 
-4. Determine the appropriate trace width: The copper traces need to have a width. The width of the traces are dependent on the current going through them. If the trace is too narrow, it will overheat and burn - then your circuit is ruined. To get the appropriate width, use a trace width calculator 
-
+4. Determine the appropriate trace width: The copper traces need to have a width. The width of the traces are dependent on the current going through them. If the trace is too narrow, it will overheat and burn - then your circuit is ruined. To get the appropriate width, use a `trace width calculator <https://www.4pcb.com/trace-width-calculator.html>`_.
 .. figure:: ../_static/images/routing6.png
     :figwidth: 700px
     :target: ../_static/images/routing6.png
@@ -85,7 +84,7 @@ Select the route tracks icon |route| on the right toolbar, then trace the ratsne
 
 Routing Order
 -------------
-Using the trace width calculator seen in 5.1 - Routing Checklist above at 2 oz copper for the respective currents, the trace width can be determined as seen in the table below. An important thing to note is in a circuit, different currents go through different sections. For example, the current at the power input will be higher than the current after passing through power dissipating components like resistors. Higher currents will have wider traces.
+Using the `trace width calculator <https://www.4pcb.com/trace-width-calculator.html>`_ seen in :ref:`Routing Checklist`. above at 2 oz copper for the respective currents, the trace width can be determined as seen in the table below. An important thing to note is in a circuit, different currents go through different sections. For example, the current at the power input will be higher than the current after passing through power dissipating components like resistors. Higher currents will have wider traces.
 
 ======================    ==================   ===========
 Trace                      Trace Width (mm)     Current (A)
