@@ -4,7 +4,7 @@
 .. |route| image:: ../_static/images/routing7.png
    :width: 3%
 
-.. |zone| image:: ../_static/images/routing12.png
+.. |zone| image:: ../_static/images/route12.png
    :width: 3%
    
 Copper routing is the process of placing copper traces to electrically connect all the components. 
@@ -97,21 +97,21 @@ Easy to connect Traces     0.532 (20.9 mils)     2.5A
 
 1. **Start with the power traces:** The power traces carry the most current with the thickest copper traces on the circuit board. The connections of the power outputs like terminal blocks, XT3O connector and the components directly connected to the power inputs are the power lines.
 
-.. figure:: ../_static/images/routing9.png
+.. figure:: ../_static/images/route9.png
     :figwidth: 700px
-    :target: ../_static/images/routing9.png
+    :target: ../_static/images/route9.png
     
 2. **Then the easy to connect traces:** these are traces that are simply straight lines like between the balancer port, battery port, and the terminal blocks.
 
-.. figure:: ../_static/images/routing10.png
+.. figure:: ../_static/images/route10.png
     :figwidth: 700px
-    :target: ../_static/images/routing10.png
+    :target: ../_static/images/route10.png
     
 3. **Integrated circuits (IC) traces:** ICs like the buck converter and the buck-boost converter have 10+ pins which makes them a tad bit complex to route. Routing these components requires forward thinking. 
 
-.. figure:: ../_static/images/routing11.png
+.. figure:: ../_static/images/route11.png
     :figwidth: 700px
-    :target: ../_static/images/routing11.png
+    :target: ../_static/images/route11.png
     
 4. **Finally the ground pins (ground plane):** with the multitude of ground pins in circuits, it is easier to have a ground plane than to connect all the ground pins to each other. Having a ground plane means the ground pin can just be connected to the ground plane that occupies the whole area of the board.
 
@@ -121,7 +121,7 @@ A. Select the add filled zone icon |zone| on the left toolbar.
 B. Outline the board with an additional 1 grid as the zone then left click to close the outline. The zone must be closed at the point where the zone was started to ensure the outline is complete.
 C. Select what layer you want the ground plane to be on. Ideally select only the bottom layer to prevent the concept called ground loop.
 
-.. figure:: ../_static/images/routing13.png
+.. figure:: ../_static/images/route13.png
     :figwidth: 700px
-    :target: ../_static/images/routing13.png
+    :target: ../_static/images/route13.png
 
