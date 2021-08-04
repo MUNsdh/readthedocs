@@ -124,10 +124,10 @@ Now you’re ready to cut! All you need to do is press play under the job previe
       :align: center
 
 .. |front| figure:: ../_static/images/laser_frame_front.png
-      :align: center
+    :align: center
 
 .. |back| figure:: ../_static/images/laser_frame_back.png
-      :align: center
+    :align: center
 
 |front| |back|
 
