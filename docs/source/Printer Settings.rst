@@ -21,9 +21,14 @@ Next, under Material Settings, you’ll have a variety of material options depen
 
 Notice that there are parameters under the black and red letters. These are the default parameters for this template. Remember!
 
-Black = Etch
+.. raw:: html
 
-Red = Cut
+    <font color="red" style="font-weight:bold">Red = Cut</font></br>
+
+.. raw:: html
+
+    <font color="black" style="font-weight:bold">Black = Etch</font>
+
 
 **NOTE:** Not all templates have been created to cut and etch. Select your profile based on the actions you want to complete. Some may set up to only etch, while others to only cut. If you only want to cut, Job Control will try to etch the image even if there are no black areas. This can add significant time to your job.
 
@@ -48,7 +53,7 @@ Job Control launches a layout that shows the bed of the Trotec laser cutter. You
   :align: center
 
 .. |autofocus| image:: ../_static/images/autofocus_icon.jpg
-  :width: 100%
+  :width: 4%
 
 Next, you want to ensure that the laser autofocuses before you connect to the cutter. To do so, toggle on Autofocus |autofocus| from the top toolbar.
 
@@ -118,10 +123,13 @@ Now you’re ready to cut! All you need to do is press play under the job previe
     .. figure:: ../_static/images/jobcontrol_new_settings.png
       :align: center
 
-    .. figure:: ../_static/images/laser_frame_front.png
+.. |front| figure:: ../_static/images/laser_frame_front.png
       :align: center
-    .. figure:: ../_static/images/laser_frame_back.png
+
+.. |back| figure:: ../_static/images/laser_frame_back.png
       :align: center
+
+|front| |back|
 
   - If you did your cut and you’re not happy with the results, you have two options:
 

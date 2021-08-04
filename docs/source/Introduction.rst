@@ -2,7 +2,6 @@ Introduction
 ============
 
 Required Software:
-
   - Inkscape
   - Trotec Job Control
 

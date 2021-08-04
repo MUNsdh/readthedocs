@@ -30,16 +30,24 @@ Another way you can determine the size of your image is by clicking on it. This 
 
 You can now set the image boundary. By locking the proportion, you won’t stretch your image. Set the size of the bounding box of your image to match the size that you would like to cut. The images below show two examples on the 8.5” x 11” template.
 
-.. figure:: ../_static/images/inkscape_logo_big.png
-  :align: center
-.. figure:: ../_static/images/inkscape_logo_small.png
-  :align: center
+.. |big| figure:: ../_static/images/inkscape_logo_big.png
+    :align: center
+
+.. |small| figure:: ../_static/images/inkscape_logo_small.png
+    :align: center
+
+|big||small|
 
 Now that you have your image imported in Inkscape, we need to transform the image such that it is detectable by the laser. The laser is set up to interpret only two colors, and it can only interpret RGB color pallets.
 
-Red = Cut
 
-Black = Etch
+.. raw:: html
+
+    <font color="red" style="font-weight:bold">Red = Cut</font></br>
+
+.. raw:: html
+
+    <font color="black" style="font-weight:bold">Black = Etch</font>
 
 Keep these colors in mind!
 
@@ -48,11 +56,13 @@ Processing Your Image
 
 Before we start tweaking colors, we need to break the file into process-able parts so that we can define which parts to etch and which ones to cut. Right-click the image and select “ungroup.” You’ll see that Inscape has identified different parts of your image and broken them into separate selectable items. In this example, the first ungrouping separated the word “University” and the flag. Pressing ungroup again separated “Memorial” from the flag. This operation can also be done with hotkey Control+U, just click the image you’d like to ungroup.
 
-.. figure:: ../_static/images/inkscape_logo_group.png
-  :align: center
-→
-.. figure:: ../_static/images/inkscape_logo_ungroup.png
-  :align: center
+.. |group| figure:: ../_static/images/inkscape_logo_group.png
+    :align: center
+
+.. |ungroup| figure:: ../_static/images/inkscape_logo_ungroup.png
+    :align: center
+
+|group| **→** |ungroup|
 
 Repeat this process until the image has no more groups that can be separated.
 

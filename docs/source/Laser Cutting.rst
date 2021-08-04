@@ -1,5 +1,5 @@
-Python
-======
+Laser Cutting
+=============
 
 .. toctree::
    :maxdepth: 3
