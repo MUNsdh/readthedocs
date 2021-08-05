@@ -6,6 +6,7 @@ PCB Design
 
    Quick KiCAD Overview
    Getting Started with PCB Design
+   Choosing PCB Design Components
    Creating Schematics in Eeschema
    Assigning Footprints to Components
    Board Layout in PCBnew
