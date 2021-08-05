@@ -9,9 +9,14 @@ and inductors are either through hole components (THT) or surface mount devices 
 are mounted on the circuit board. THT components require a hole in the board where the component’s leads are soldered as
 seen below. While SMD components are placed directly on the surface of the boards seen below.
 
-
+.. figure:: ../_static/images/components1.png
+    :figwidth: 700px
+    :target: ../_static/images/components1.png
 THT Capacitor being mounted on a board
 
+.. figure:: ../_static/images/components2.png
+    :figwidth: 700px
+    :target: ../_static/images/components2.png
 SMD integrated circuit being mounted on a circuit board
 
 Electronic components, such as resistors and switches, can be purchased from distributors such as Digikey, Mouser, and Newark that have a wide variety of stock and well organized inventories with accurate component datasheets - component datasheets are very important. 
@@ -27,16 +32,47 @@ The description and the detailed description sections highlight the most importa
 
 With understanding electrical components, the more you work with and read about them, the better you will understand them. An easy google search about a section you do not understand will provide you with a brief overview and a starting point to understanding the component. You can then look into the datasheet for a more technical perspective.
 
+.. figure:: ../_static/images/components3.png
+    :figwidth: 700px
+    :target: ../_static/images/components3.png
+    
+.. figure:: ../_static/images/components4.png
+    :figwidth: 700px
+    :target: ../_static/images/components4.png
+    
+.. figure:: ../_static/images/components5.png
+    :figwidth: 700px
+    :target: ../_static/images/components5.png
+    
+Review the table below for a better understanding of  how to read Digikey’s product pages:
+
+.. figure:: ../_static/images/components6.PNG
+    :figwidth: 700px
+    :target: ../_static/images/components6.PNG
+
 Searching Digikey’s Inventory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 On your first visit to the digikey site, you arrive at a homepage where you can search their inventory. As seen below, the component name can either be searched or selected.
 
+.. figure:: ../_static/images/components7.png
+    :figwidth: 700px
+    :target: ../_static/images/components7.png
 
 Searching for a capacitor yields the below information. Ceramic capacitors are the most common with over 600,000 items so we select that.
 
+.. figure:: ../_static/images/components8.PNG
+    :figwidth: 700px
+    :target: ../_static/images/components8.PNG
 
 It is not easy to go over 656,480 capacitors. Thus, we filter the selections using the important properties in the product description learnt in the previous section: 1.22 - Digikey.
 
+.. figure:: ../_static/images/components9.png
+    :figwidth: 700px
+    :target: ../_static/images/components9.png
+ 
+.. figure:: ../_static/images/components10.png
+    :figwidth: 700px
+    :target: ../_static/images/components10.png
 
 Components Selection
 --------------------
@@ -46,9 +82,9 @@ The power distribution board of the car is divided into three sections; the buck
 
 The thought process of designing this powerboard simply involved asking the question
 
- **“how do I distribute the power of a 11.1V 3S battery to a Jetson and a Lidar ?”**
+**“how do I distribute the power of a 11.1V 3S battery to a Jetson and a Lidar ?”**
 
- Note that the battery was chosen as the power source because a car is mobile and needs to move. It cannot be connected to a power socket on a wall. The answer to this question involves looking for the power requirements of these autonomy elements from their respective datasheets:
+Note that the battery was chosen as the power source because a car is mobile and needs to move. It cannot be connected to a power socket on a wall. The answer to this question involves looking for the power requirements of these autonomy elements from their respective datasheets:
 
 **Jetson NX:** has a maximum continuous current draw of 4.4A with a supply voltage between DC 10 - 30V 
 Hokuyo UST-20LX Lidar: has a maximum current draw of 450 mA  with supply voltage DC 9 - 20V
@@ -78,13 +114,26 @@ Based on the power requirements of the autonomy elements like the Jetson i.e. op
 
 **Buck boost converter:** select max voltage output as 12V and max current output as 5A based on the power requirements of the Jetson and Lidar previously established. You will notice that there are a ton of options to choose from, filter through all the selections and view their datasheets to finalize the decision. When looking at the datasheet, focus on the applications circuit section, description, and part features.
 
+.. figure:: ../_static/images/components11.png
+    :figwidth: 700px
+    :target: ../_static/images/components11.png
+    
 There is a ‘typical application circuit’ section that displays sample applications of this component. Ideally, you should find the circuit for your specific application like the one below to boost the output voltage. The subcomponents of the system like the capacitors, inductors, and resistors are simply components rated at either a power rating calculated using the power formula V^2/R for resistors, the voltage rating for capacitors, and the current rating for  inductors. 5A and 5V are the maximum operating current and voltage. All the resistors used are rated at 0.25W, the inductors are rated above 5A, and the capacitors are rated above 12V.
 
-
+.. figure:: ../_static/images/components12.png
+    :figwidth: 700px
+    :target: ../_static/images/components12.png
 Application of a buck boost converter
 
 **Buck converter:** similar to the buck boost, the power requirements are maximum 5V output voltage and 5A output current. The datasheet entails the circuit below which can be exactly copied and modified using the table from the datasheet to perform the function of stepping down the voltage to 5V.
 
+.. figure:: ../_static/images/components13.png
+    :figwidth: 700px
+    :target: ../_static/images/components13.png
+    
+.. figure:: ../_static/images/components14.png
+    :figwidth: 700px
+    :target: ../_static/images/components14.png
 
 
 
