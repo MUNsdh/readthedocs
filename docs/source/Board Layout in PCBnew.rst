@@ -1,32 +1,35 @@
 3 - Board Layout in PCBnew
 ======================
 .. |ecuts| image:: ../_static/images/Board8.png
-   :width: 3%
+   :width: 5%
    
 .. |glines| image:: ../_static/images/Board9.PNG
-   :width: 3%
+   :width: 5%
    
 .. |gcircle| image:: ../_static/images/board10.PNG
-   :width: 3%
+   :width: 5%
    
 .. |garc| image:: ../_static/images/board11.PNG
-   :width: 3%
+   :width: 5%
    
 .. |gpolygon| image:: ../_static/images/board12.PNG
-   :width: 3%
+   :width: 5%
    
 .. |grid| image:: ../_static/images/board13.png
-   :width: 3%
+   :width: 5%
+
+.. |pcbnew| image:: ../_static/images/Board2.png
+   :width: 5%
 
 PCBnew
 -------
-After footprints have been assigned to all the components on the schematic, it's time to visualize how the board will look.
+After footprints have been assigned to all the components on the schematic, it's time to visualize how the board will look in PCBnew.
 
 .. figure:: ../_static/images/Board1.png
     :figwidth: 700px
     :target: ../_static/images/Board1.png
 
-To get to PCBnew ; open the project tab and open the PCBnew icon PCBnew
+To get to PCBnew; open the project tab then select the PCBnew icon |pcbnew|.
 
 .. figure:: ../_static/images/Board4.png
     :figwidth: 700px
@@ -47,7 +50,7 @@ Board Layout
     :figwidth: 700px
     :target: ../_static/images/Board6.png
     
-2. **Define board layers and thickness:** This is where you define whether you want a 2,3,4 or 6 layer board and the board thickness. Navigate to file on the top left corner. Select board Setup >> layers and select what layer you want from the dropdown. It's important you remember what side (front or back or front and back) your parts will be on.
+2. **Define board layers and thickness:** This is where you define whether you want a 2,3,4 or 6 layer board and the board thickness. Navigate to file on the top left corner. Select board Setup >> layers and select what layer you want from the dropdown. It's important you remember what side (front, or back, or front and back) your parts will be on. Ideally, select front and back so parts can be placed on both the front and back of the board.
 
 .. figure:: ../_static/images/Board7.png
     :figwidth: 700px
@@ -58,8 +61,9 @@ Board Layout
    .. figure:: ../_static/images/board14.PNG
      :figwidth: 700px
      :target: ../_static/images/board14.PNG
+  The Board outline and its visualization in KiCAD's 3D viewer
       
 * To add drilled holes to the board, just treat the holes as circles and place the graphic circles where you want the holes to be at. 
 * Left click on the outline of the graphic to edit its properties such as length
-* Reduce the grid size at the middle of the top toolbar |grid| to ensure straighter lines
+* Reduce the grid size at the middle of the top toolbar |grid| to ensure more accurate, straighter lines
 
