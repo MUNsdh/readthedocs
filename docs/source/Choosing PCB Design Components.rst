@@ -81,8 +81,8 @@ F1TENTH Powerboard
 The power distribution board of the car is divided into three sections; the buck-boost converter, the boost converter, and the peripherals. The objective of the power distribution board is as the name implies, to distribute the battery power to other components of the car’s system. These other components are the autonomy elements like the VESC, Jetson computer, and the Lidar.
 
 The thought process of designing this powerboard simply involved asking the question
-
-**“how do I distribute the power of a 11.1V 3S battery to a Jetson and a Lidar ?”**
+::
+    “how do I distribute the power of a 11.1V 3S battery to a Jetson and a Lidar ?”
 
 Note that the battery was chosen as the power source because a car is mobile and needs to move. It cannot be connected to a power socket on a wall. The answer to this question involves looking for the power requirements of these autonomy elements from their respective datasheets:
 
