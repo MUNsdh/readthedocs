@@ -39,3 +39,7 @@ PCB Design in KiCAD
 -------------------
 Designing a PCB in Kicad involves transferring your abstract idea of a circuit into a schematic to define the connectivity of the circuit board. The board layout then defines the dimensions of the board and how the components will be mounted onto the board using footprints. The process is summarized as:
  
+.. figure:: ../_static/images/pcb4.png
+    :figwidth: 700px
+    :target: ../_static/images/pcb4.png
+KiCAD Design Workflow
