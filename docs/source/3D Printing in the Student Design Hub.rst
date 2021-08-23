@@ -290,7 +290,7 @@ See here an example sheet.
 :download:`pdf <Advanced Guide pdf.pdf>`
 
 Simple Parts Workflow
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
@@ -396,6 +396,182 @@ You now want to acquire the Micro SD card and plug it into the computer using th
 Toolpaths to Disk” and transfer the SD card to the printer (Via Left side hole).
 
 To prepare your printer and begin printing click :ref:`Preparing Printer`
+
+Prusa i3 MK3S+
+--------------
+
+Printing in Multiple Colors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The `Multi Material Upgrade 2S (MMU2S) <https://www.prusa3d.com/original-prusa-i3-multi-material-2-0>`_ is an add-on unit that allows the Prusa MK3S to print models with up to five different colors in the same print using only one extruder. The MMU2S sits between the extruder and the filament tube. It works by continuously unloading and loading filaments throughout the printing process whenever the model requires a color switch.
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/E1ZxTCApLrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+PrusaSlicer Setup
+^^^^^^^^^^^^^^^^^
+
+Printing using the MMU2S requires an updated version of PrusaSlicer, which is available for download on the `official Prusa website <https://www.prusa3d.com/prusaslicer>`_.
+
+The first step is to run the installer and follow the instructions mentioned. If you already have the PrusaSlicer installed, you can skip this step.
+
+After finishing the installation process, PrusaSlicer needs to be configured to use the Prusa i3 MK3S with the MMU2S unit:
+
+- From the side menu, click the settings button next to “Printer” drop-down menu.
+
+  .. figure:: ../_static/images/prusa_settings_button.png
+    :align: center
+
+|
+
+- Click “Add/Remove presets.” This will open a new window where all the Prusa 3D printer models are listed.
+
+- Scroll to the “MK3 Family” section.
+
+- Look for the “Original Prusa i3 MK3S & MK3S+ MMU2S” entry, and check the “0.4 mm nozzle” box under it.
+
+  .. figure:: ../_static/images/prusa_select_mmu.png
+    :align: center
+
+|
+
+- Click “Finish.”
+
+- Make sure to select “Original Prusa i3 MK3S & MK3S+ MMU2S” from the “Printer” drop-down on the side menu.
+
+Using the MMU2S requires multiple filament loading and unloading actions throughout a single print. Because of this, the filament ends can develop strings which may potentially clog the filament tube and cause the print to stop. To avoid that, certain settings need to be adjusted for unloading the filaments. This mainly has to do with:
+
+- **Number of cooling moves:** how many times the filament is moved through the cooling tube to cool down.
+
+- **Ramming parameters:** a speed curve setting that determines the nature of the moves and time taken to pull the filament tip out of the nozzle.
+
+- **Unloading speed at the start:** the speed at which filament is drawn out right after ramming.
+
+
+All these variables control the shape of the filament tip after it is unloaded. After multiple tests and experiments, the optimum values were recorded for the type of filament we use at the SDH. These settings are available as a configuration file to facilitate setting up PrusaSlicer. To use our settings:
+
+- Download the configuration file from :download:`here <../_static/config.ini>`.
+
+- From the File menu, select Import → Import Config...
+
+  .. figure:: ../_static/images/prusa_config.png
+    :align: center
+
+|
+
+- Select the configuration file you downloaded.
+
+
+The last step is to set the filament type and colors to better visualize your models. There are five drop-down lists on the right side menu under “Filament:” These lists set the filament setting for each of the five MMU2S filament channels.
+
+- For PETG, choose the “Generic PETG New Settings” option for all drop-down lists. This is the setting imported from our configuration file.
+
+- Click the small orange square next to each list to change the filament color.
+
+**Note that the filament colors should match the order of the spools loaded to the MMU2S.**
+
+Now the PrusaSlicer is ready for printing.
+
+Generating Gcode
+^^^^^^^^^^^^^^^^
+
+When exporting a multi-color CAD design to STL for printing, parts with different colors will be exported to separate STL files. These files should be imported together to PrusaSlicer for the print to align correctly. For example, the multi-color penguin model below consists of three STL files with different colors. To import that:
+
+- Click Add.. from the top toolbar.
+
+- Select all the STL files for the model together.
+
+  .. figure:: ../_static/images/prusa_add_stl.png
+    :align: center
+
+|
+
+- Click Ok.
+
+The PrusaSlicer will recognize multi-color prints and will prompt a message asking whether the files should be treated as one model or separate parts.
+
+- Select “Yes” to import the files as one model.
+
+  .. figure:: ../_static/images/prusa_add_mmu.png
+    :align: center
+
+The model will then appear in the side menu, where every part is listed as a separate object.
+
+- For each part, choose which filament you would like that part to be printed with. Double-click the colored rectangle under “Extruder” to select the filament number.
+
+  .. figure:: ../_static/images/prusa_set_color.png
+    :align: center
+
+After assigning colors for all parts, click “Slice now” to generate the Gcode file. Copy that to the Prusa’s SD card.
+
+You will notice that there is a non-removable rectangular block next to your model. This is called the “Wipe Tower.” Whenever the Prusa needs to switch from one filament to another, it extrudes some of the filament to the wipe tower to remove any remains of the last filament after loading a new color. This helps prime the filament before printing and cleans the nozzle to prevent colors from mixing.
+
+Loading the filament
+^^^^^^^^^^^^^^^^^^^^
+
+Before you begin printing, you need to load all the filament colors you need for the print. When a filament is loaded, it is not inserted all the way to the nozzle. “Loading” the filament means having it ready for the MMU2S to pull whenever it is needed. To load a filament:
+
+- Click the black knob on the Prusa.
+
+- Rotate the knob to reach the “Load Filament” option
+
+- Select the number of the filament to load. Filament channels are numbered from left (number 1) to right (number 5).
+
+  .. figure:: ../_static/images/prusa_channels.png
+    :align: center
+
+|
+
+- If it is the first time loading, the MMU2S will make calibration moves before loading the filament.
+
+- When calibration is done, the filament selector unit will move to the channel selected, and the red LED above that channel will start blinking.
+
+- Insert the filament into the tube until it reaches the MMU2S. You will see the filament end when looking closely at the top of the MMU2S.
+
+  .. figure:: ../_static/images/prusa_insert_filament.png
+    :align: center
+
+|
+
+- The MMU2S will pull the filament. A sensor inside the selector tells the MMU2S whether the filament has successfully reached the selector. If so, the filament will be pulled back and rest on the idler. Loading is successful in this case, and the LED will turn green.
+
+- Repeat the same procedure for all filaments.
+
+After all filaments are loaded, go back to the main menu, select “Print from SD Card," and choose your Gcode.
+
+**Now, you can start printing!**
+
+Troubleshooting
+^^^^^^^^^^^^^^^
+
+The MMU2S sometimes has issues with loading/unloading filament. Fortunately, the LEDs on the MMU2S help diagnose and solve most problems. Whenever there is an issue, the LEDs will blink, and a message will show on the Prusa’s LCD screen. Below is a table of the most common issues we faced and how to solve them. Check `this link <https://help.prusa3d.com/en/article/mmu-needs-user-attention_2139>`_ for a more detailed description of each problem.
+
+.. list-table::
+  :widths: 25 25 50
+  :header-rows: 1
+
+  * - Indicator
+    - Issue
+    - Solution
+  * - One of the MMU2S LEDs is blinking slowly in red
+    - Problem loading filament at that channel
+    - Make sure the filament is inserted all the way through the tube until it hits the idler pulley. You can see the filament end at the top of the MMU2S. After that, press the middle button on the MMU2S to re-load the filament. If loading is successful, the LED will blink red-green. Press the right button to resume printing.
+  * - One of the MMU2S LEDs is blinking fast in red
+    - Problem unloading filament at that channel
+    - Unscrew the selector filament tube blue Festo fitting and manually pull the filament out of the extruder. Cut around 10 cm of the filament, leaving part of the filament inside the selector. Screw the Festo fitting back. After that, press the middle button on the MMU2S to re-unload the filament. If unloading is successful, the LED will blink red-green. Press the right button to resume printing.
+  * - All MMU2S LEDs blinking
+    - Problem with the selector or the idler
+    - Make sure there is no filament inside the selector. Use an Allen key to push the reset button on the side of the MMU2S. After the MMU2S restarts, click the black knob to resume printing.
+  * - “MMU loading failed” message on the LCD while the Prusa pulls the filament to the extruder and pushes it back again multiple times.
+    - Problem with the extruder IR sensor not being calibrated
+    - On the Prusa screen, scroll to Support → Sensor Info. Unscrew the extruder filament tube blue Festo fitting, and insert a size-1.5 Allen key into the extruder’s filament tube opening. Unscrew the extruder’s chimney screws and move the chimney to the left until the Prusa’s LCD screen shows “1” next to “IR Sensor” reading, then tighten the chimney screws. Remove the Allen key and screw the Festo fitting back to place.
+
+      After that, press the middle button on the MMU2S to re-load the filament. If loading is successful, the LED will blink red-green. Press the right button to resume print.
+
+      For more information and illustrations, check this `link <https://help.prusa3d.com/en/article/ir-filament-sensor-calibration-mmu2s_2245>`_.
+
 
 Advanced Workflow
 -----------------
@@ -608,8 +784,8 @@ Bed adhesion is the ability of the first layer of a 3D print to stick to the hea
     :figwidth: 700px
     :target: ../_static/images/warping.png
 Warping
-    
-3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion: 
+
+3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion:
 
 1. **Cleaning the build plate:** good surface adhesion is increased by having a clean heatbed to stick to. Clean the heatbed with 99.9% isopropyl alcohol on a microfiber cloth or Windex glass cleaner for glass heatbeds. Ideally, isopropyl alcohol should be compatible for the majority of heatbeds.
 #. **Adjust nozzle and heatbed temperature:** different filaments have ideal temperature ranges that are appropriate for printing the filament. Ensure that you are using the right temperatures for your particular filament. When there is a huge temperature difference between the heatbed and the extruded filament, warping occurs thus not allowing the print to stick to the heatbed. Tweaking the heatbed and nozzle temperatures can be beneficial when increasing bed adhesion.
@@ -619,7 +795,7 @@ Warping
     :figwidth: 600px
     :target: ../_static/images/raft.png
 A Raft
-    
+
 4. **Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick or hairspray will help improve bed adhesion.
 
 No Large Flat Surface to Start Print From
@@ -852,7 +1028,7 @@ Preparing Printer
 
 Once you have saved your G-code to the micro-SD card and inserted it into the printer, it is time to prepare your printer.
 
-Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Bed Adhesion` to learn more about bed adhesion and factors that can influence it. 
+Bed adhesion is the ability of the first layer of a 3D print to stick to the heatbed. The first step to ensuring bed adhesion is to print on a clean heatbed. Click :ref:`Bed Adhesion` to learn more about bed adhesion and factors that can influence it.
 
 Preparing the printer means, cleaning the bed and applying adhesion. If this is your first print of the day or you do not know
 when the last time the printer was used, it is a good idea to clean your print bed. The bed can become dirty by collecting things
