@@ -537,7 +537,7 @@ Troubleshooting
 The MMU2S sometimes has issues with loading/unloading filament. Fortunately, the LEDs on the MMU2S help diagnose and solve most problems. Whenever there is an issue, the LEDs will blink, and a message will show on the Prusa’s LCD screen. Below is a table of the most common issues we faced and how to solve them. Check `this link <https://help.prusa3d.com/en/article/mmu-needs-user-attention_2139>`_ for a more detailed description of each problem.
 
 .. list-table::
-  :widths: 25 25 50
+  :widths: 20 20 60
   :header-rows: 1
 
   * - Indicator
