@@ -9,6 +9,5 @@ Getting Started with PCB Assembly
 
 **What makes soldering easier?**
 
-* When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This  
-can be determined by looking up the component’s package. See 
+* When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See 
 
