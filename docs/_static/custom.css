@@ -3,7 +3,8 @@
 
 }
 
-td>p, th>p {
+html.writer-html5 .rst-content table.docutils td>p,
+html.writer-html5 .rst-content table.docutils th>p {
 	line-height: 1.6;
 	margin-bottom: 4px;
 	font-size: .9rem;
