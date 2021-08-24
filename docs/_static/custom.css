@@ -1,4 +1,10 @@
 .wy-table-responsive table td {
 	white-space: normal;
+
+}
+
+td>p, th>p {
 	line-height: 1.6;
+	margin-bottom: 4px;
+	font-size: .9rem;
 }
