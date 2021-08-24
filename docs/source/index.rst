@@ -18,6 +18,6 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    3D Printing
    Laser Cutting
    PCB Design
-   PCB Assembly
+   PCB Assembly and Testing
    Python
    Other
