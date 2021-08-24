@@ -424,8 +424,6 @@ After finishing the installation process, PrusaSlicer needs to be configured to 
   .. figure:: ../_static/images/prusa_settings_button.png
     :align: center
 
-|
-
 - Click “Add/Remove presets.” This will open a new window where all the Prusa 3D printer models are listed.
 
 - Scroll to the “MK3 Family” section.
@@ -434,8 +432,6 @@ After finishing the installation process, PrusaSlicer needs to be configured to 
 
   .. figure:: ../_static/images/prusa_select_mmu.png
     :align: center
-
-|
 
 - Click “Finish.”
 
@@ -458,8 +454,6 @@ All these variables control the shape of the filament tip after it is unloaded. 
 
   .. figure:: ../_static/images/prusa_config.png
     :align: center
-
-|
 
 - Select the configuration file you downloaded.
 
@@ -485,8 +479,6 @@ When exporting a multi-color CAD design to STL for printing, parts with differen
 
   .. figure:: ../_static/images/prusa_add_stl.png
     :align: center
-
-|
 
 - Click Ok.
 
@@ -522,8 +514,6 @@ Before you begin printing, you need to load all the filament colors you need for
   .. figure:: ../_static/images/prusa_channels.png
     :align: center
 
-|
-
 - If it is the first time loading, the MMU2S will make calibration moves before loading the filament.
 
 - When calibration is done, the filament selector unit will move to the channel selected, and the red LED above that channel will start blinking.
@@ -532,8 +522,6 @@ Before you begin printing, you need to load all the filament colors you need for
 
   .. figure:: ../_static/images/prusa_insert_filament.png
     :align: center
-
-|
 
 - The MMU2S will pull the filament. A sensor inside the selector tells the MMU2S whether the filament has successfully reached the selector. If so, the filament will be pulled back and rest on the idler. Loading is successful in this case, and the LED will turn green.
 
@@ -548,8 +536,9 @@ Troubleshooting
 
 The MMU2S sometimes has issues with loading/unloading filament. Fortunately, the LEDs on the MMU2S help diagnose and solve most problems. Whenever there is an issue, the LEDs will blink, and a message will show on the Prusa’s LCD screen. Below is a table of the most common issues we faced and how to solve them. Check `this link <https://help.prusa3d.com/en/article/mmu-needs-user-attention_2139>`_ for a more detailed description of each problem.
 
-.. list-table::
+.. list-table:: Test
   :widths: 25 25 50
+  :width: 100%
   :header-rows: 1
 
   * - Indicator
