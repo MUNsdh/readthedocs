@@ -3,6 +3,9 @@ Soldering SMD Components
 
 Need: Solder paste, PCB stencil (optional), Tweezers/ Vacuum pen / pick and place machine
 
+.. |route| image:: ../_static/images/routing8.png
+   :width: 3%
+
 SMD components can be soldered in a variety of methods, from using pick and place machines, soldering pastes, to using soldering irons. The chosen method depends on the size/ package of your SMD component. 
 The preferred solder used when soldering SMD components is in the form of a paste, called solder paste. The solder paste can be spread on the board using a stencil that is custom made for your PCB or by directly placing the solder paste using a pick and place machine. 
 
@@ -15,6 +18,10 @@ A pick and place machine is a robotic SMT assembly machine used to place surface
 Using a pick and place
 ^^^^^^^^^^^^^^^^^^^^^^
 **Step one:** Turn on the pick and place using the red button next to the brand name and the computer system
+
+.. figure:: ../_static/images/routing1.png
+    :figwidth: 700px
+    :target: ../_static/images/routing1.png
 
 **Step two:** Select digital viewer to open the camera
 
