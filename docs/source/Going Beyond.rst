@@ -238,6 +238,22 @@ PCB design beginners usually make the following mistakes. Try to avoid them:
     :figwidth: 700px
     :target: ../_static/images/beyond32.png 
     
-5. **Add silk screen with logos and version number as finishing touches.** This was covered in :ref:`Adding a Logo onto the PCB`. Adding a version number helps to keep track of multiple design versions i.e. Power Distribution Board V9
+5. **Add a silk screen with logos and version number as finishing touches.** This was covered in :ref:`Adding a Logo onto the PCB`. Adding a version number helps to keep track of multiple design versions i.e. Power Distribution Board V9
 
+6. **Avoiding using many vias when routing Integrated circuits (IC).** IC traces should be mostly 90 degrees lines with minimal vias. Using non 90 degree lines could create a fault in the PCB. Take U1 in the figure below, there are too many vias used to route the IC. 
 
+.. figure:: ../_static/images/beyond32.png
+    :figwidth: 700px
+    :target: ../_static/images/beyond32.png 
+Avoid this
+    
+.. figure:: ../_static/images/beyond34.PNG
+    :figwidth: 700px
+    :target: ../_static/images/beyond34.PNG 
+Do this
+    
+7. Some datasheets have a recommended routing layout. Be on lookout for them.
+
+.. figure:: ../_static/images/beyond33.png
+    :figwidth: 700px
+    :target: ../_static/images/beyond33.png 
