@@ -18,6 +18,7 @@ Assembling PCBs might be daunting at first but always remember that the assembly
 
 **What makes soldering easier?**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*If you are stuck between two components, always choose the bigger component. The bigger the component, the easier it is to solder by hand.
 
 * When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See :ref:`Digikey` where a component's package was discussed.
 
