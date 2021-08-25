@@ -6,6 +6,6 @@ PCB Assembly and Testing
 
    Getting Started with PCB Assembly
    Soldering SMD Components
-   Soldering THT Components
    Desoldering SMD Components
-   Soldering Tips
+   Soldering THT Components
+   Testing Circuit Boards
