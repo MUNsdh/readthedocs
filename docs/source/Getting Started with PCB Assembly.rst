@@ -19,13 +19,13 @@ Assembling PCBs might be daunting at first but always remember that the assembly
 **What makes soldering easier?**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See 
+* When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See :ref:`Digikey` where a component's package was discussed.
 
 .. figure:: ../_static/images/assembly2.PNG
     :figwidth: 700px
     :target: ../_static/images/assembly2.PNG
     
- Do not use components like these when you have the intention of hand soldering them
+Do not use components like these when you have the intention of hand soldering them
     
 .. figure:: ../_static/images/assembly3.PNG
     :figwidth: 700px
