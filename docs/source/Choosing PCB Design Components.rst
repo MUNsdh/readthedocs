@@ -21,7 +21,7 @@ SMD integrated circuit being mounted on a circuit board
 
 Electronic components, such as resistors and switches, can be purchased from distributors such as Digikey, Mouser, and Newark that have a wide variety of stock and well organized inventories with accurate component datasheets - component datasheets are very important. 
 
-Component datasheets are manuals that explain what a component can do, how to use it, and contain every technical information related to the part. It contains the component’s dimensions, maximum input and output values, and sample circuits that can be built with it. Learn more `here<https://www.sparkfun.com/tutorials/223>`_.
+Component datasheets are manuals that explain what a component can do, how to use it, and contain every technical information related to the part. It contains the component’s dimensions, maximum input and output values, and sample circuits that can be built with it. Learn more `here <https://www.sparkfun.com/tutorials/223>`_.
 
 Digikey
 -------
@@ -98,11 +98,11 @@ Now that we know the conditions under which these autonomy elements will functio
 
 The Jetson NX and Hokuyo UST-20LX Lidar both need 12V  to function but the battery outputs 11.1V. We will need to step up the 11.1V output from the battery to a 12V output using a switching regulator i.e. a buck-boost converter. It is important to note that voltage can either be stepped up using a converter or transformer but the fundamental difference between the two is a transformer only works for AC voltage, while a converter works for DC voltage - which is being used. 
 
-#. **Buck converter**
+2. **Buck converter**
 
 This converter is arbitrary and designed as part of the board for flexibility. It steps down the 11.1V battery to a 5V output in the case of connecting components with an operating voltage of 5V.
 
-#. **Peripherals**
+3. **Peripherals**
 
 The peripherals section entails components that will interface all external hardware with the board (both the autonomy elements and the battery), components that optimize the board’s flexibility, and components that optimize the functionality of the board. See below the functions of these peripherals;
 
