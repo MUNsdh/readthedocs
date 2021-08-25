@@ -1,6 +1,8 @@
 Desoldering SMD Components
 ==========================
 
+Soldering SMD components, even with a reflow oven, can always be reversed. However, it is more tedious to desolder SMD components than THT components. See below for how to desolder SMD components:
+
 1. Use a heat gun to heat up the solder, then remove the component with a tweezer.
 
 .. figure:: ../_static/images/assembly25.PNG
