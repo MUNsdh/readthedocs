@@ -7,6 +7,6 @@ Soldering is the process of joining two metals together by heating up both metal
 
 Watch this `video <https://www.youtube.com/watch?v=AqvHogekDI4>`_ to learn more about soldering techniques.
 
-.. figure:: ../_static/images/assembly23.PNG
+.. figure:: ../_static/images/assembly24.PNG
     :figwidth: 600px
-    :target: ../_static/images/assembly23.PNG
+    :target: ../_static/images/assembly24.PNG
