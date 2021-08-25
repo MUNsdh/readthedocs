@@ -1,7 +1,10 @@
 Getting Started with PCB Assembly
 =================================
 
+Assembling PCBs might be daunting at first but always remember that the assembly is reversible, soldering is not permanent. Here are a few tips to help you!
+
 **What orientation should I place components in?**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Take note of components with polarities.** Resistors, capacitors, and inductors do not have polarities, while LEDs and ICs have polarities i.e. ensure that the positive pin of the LED is connected to the positive pin on the board and vice versa for the negative pin. Read more `here <https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity>`_
 
@@ -14,6 +17,7 @@ Getting Started with PCB Assembly
     :target: ../_static/images/assembly1.PNG
 
 **What makes soldering easier?**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See 
 
