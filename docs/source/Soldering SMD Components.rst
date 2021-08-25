@@ -37,7 +37,7 @@ SMD components can then be placed on the circuit board using two methods: using 
 
 Placement using a Pick and Place Machine (without a stencil)
 ------------------------------------------------------------
-A pick and place machine is a robotic SMT assembly machine used to place surface mount devices on circuit boards. The alternative to using a pick and place machine would be to use a tweezer to place the surface mount component onto the board. Both methods will be explored and compared in this tutorial.
+A pick and place machine is a robotic SMT assembly machine used to place surface mount devices on circuit boards. The alternative to using a pick and place machine would be to use a tweezer to place the surface mount component onto the board. Both methods will be explored and compared in this tutorial. It is always advised to use a stencil as it makes the PCB neater. Component placemnts can be more precise and consequently, there is a reduction in PCB faults like short circuits.
 
 Using a pick and place
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -75,8 +75,8 @@ Using a pick and place
 
 **Step seven:** Remove excess flux using isopropyl alcohol and cotton swabs or lint free wipes
 
-Using a Stencil with a P&P/Tweezer
-----------------------------------
+Using a Stencil with a Pick and Place / Tweezer
+-----------------------------------------------
 Step one: Apply Solder Paste
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Apply solder paste to the circuit board using a stencil. Alternatively, if a stencil is not being used, use the:ref:`Using a pick and place` tutorial. Place the stencil on the circuit board, secure it with tape, and spread the solder paste onto the stencil.
