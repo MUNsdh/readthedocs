@@ -3,7 +3,7 @@ Getting Started with PCB Assembly
 
 **What orientation should I place components in?**
 
-**Take note of components with polarities.** Resistors, capacitors, and inductors do not have polarities, while LEDs and ICs have polarities i.e. ensure that the positive pin of the LED is connected to the positive pin on the board and vice versa for the negative pin. 
+**Take note of components with polarities.** Resistors, capacitors, and inductors do not have polarities, while LEDs and ICs have polarities i.e. ensure that the positive pin of the LED is connected to the positive pin on the board and vice versa for the negative pin. Read more `here <https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity>`_
 
 * For ICs, there are usually indentations on the component, like a notch or arrow that indicate pin 1. Ensure the notch is aligned with the annotation on the component’s outline on the board. Resistors can usually be soldered on any side but the side of the component’s body with text should not be soldered onto the board.
 
