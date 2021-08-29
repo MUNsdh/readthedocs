@@ -156,7 +156,7 @@ Take Resistor `Rtop2 <https://www.digikey.ca/en/products/detail/te-connectivity-
 **Filter by symbol, pin, and library** |filterbys| |filterbyf| |filterbyl|: Following the filtering instructions used for the connector above, ends up with us using all 3 filters. 
 
 * The library choices are either resistor_SMD or Resistor_THT. We figured this resistor was SMD so choose the SMD library.
-* We previously noted that the body dimensions of the resistor were a standard 2012 metric. So select the filtered footprints that are 2012 metric; there are two options - the hand solder one and the regular one. The hand solder one has additional allowance for easier hand soldering. We select the regular one. View *** for soldering methods.
+* We previously noted that the body dimensions of the resistor were a standard 2012 metric. So select the filtered footprints that are 2012 metric; there are two options - the hand solder one and the regular one. The hand solder one has additional allowance for easier hand soldering. We select the regular one. View :ref:`Getting Started with PCB Assembly` for soldering tips. It is good to have a good overview of how the components will be soldered when choosing the footprints.
 
 .. figure:: ../_static/images/footprint20.png
     :figwidth: 700px
