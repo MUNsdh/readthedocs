@@ -20,4 +20,5 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    PCB Design
    PCB Assembly
    Python
+   Sleep Tracker
    Other
