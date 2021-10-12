@@ -6,7 +6,7 @@ Assembling PCBs might be daunting at first but always remember that the assembly
 **What orientation should I place components in?**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Take note of components with polarities.** Resistors, capacitors, and inductors do not have polarities, while LEDs and ICs have polarities i.e. ensure that the positive pin of the LED is connected to the positive pin on the board and vice versa for the negative pin. Read more `here <https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity>`_
+**Take note of components with polarities.** Resistors, ceramic capacitors (electrolytic capacitors do have a polarity) , and inductors do not have polarities, while LEDs and ICs have polarities i.e. ensure that the positive pin of the LED is connected to the positive pin on the board and vice versa for the negative pin. Read more `here <https://learn.sparkfun.com/tutorials/polarity/diode-and-led-polarity>`_
 
 * For ICs, there are usually indentations on the component, like a notch or arrow that indicate pin 1. Ensure the notch is aligned with the annotation on the component’s outline on the board. Resistors can usually be soldered on any side but the side of the component’s body with text should not be soldered onto the board.
 
@@ -18,7 +18,7 @@ Assembling PCBs might be daunting at first but always remember that the assembly
 
 **What makes soldering easier?**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-*If you are stuck between two components, always choose the bigger component. The bigger the component, the easier it is to solder by hand.
+*If you are new to soldering and are trying to select components, choose the bigger component that has pins. They are easier to solder by hand.
 
 * When planning to solder SMD IC components by hand, select components that can be seen without a microscope and their pins are extended from the component body. Instead of components that have their pins as pads under the component body.This can be determined by looking up the component’s package. See :ref:`Digikey` where a component's package was discussed.
 
@@ -32,4 +32,4 @@ Do not use components like these when you have the intention of hand soldering t
     :figwidth: 700px
     :target: ../_static/images/assembly3.PNG
     
-Use components like these when hand soldering
+Use components like these when hand soldering. For components like this you might need a microscope to solder them, the packages can be very small.
