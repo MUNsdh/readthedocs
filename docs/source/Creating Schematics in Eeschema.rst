@@ -48,7 +48,7 @@ Hierarchical sheets with global labels connecting the schematics
 
 Schematic Creation Process
 --------------------------
-At the end of this section, you should be able to recreate the schematic below. The buck converter schematic is not present on KiCAD so substitute that component with whatever you feel appropriate.
+At the end of this section, you should be able to recreate the schematic below. The buck converter schematic is not present on KiCAD so reference the Going Beyond setion to learn how to use the symbol editor.
 
 .. figure:: ../_static/images/schematic3.png
     :figwidth: 800px
@@ -74,11 +74,11 @@ Left toolbar
     :target: ../_static/images/schematic6.png
 Right toolbar
     
-3. **Place a symbol:** Place symbols using the symbol libraries icon |slibraries| on the right toolbar. Select the icon then click on the sheet, the symbol library should pop up. Type in the search bar the name of the component you are looking for, select it, click ok, then place it on the sheet. Common components like resistors and capacitors can easily be found by searching only the first letter of the component. Some components are referenced by other letters not found in the component name i.e. Inductors are referenced by ‘L’. Rotate components by selecting it and holding down the ‘R’ key.
+3. **Place a symbol:** Place symbols using the symbol libraries icon |slibraries| on the right toolbar (Or press 'A'). Select the icon then click on the sheet, the symbol library should pop up. Type in the search bar the name of the component you are looking for, select it, click ok, then place it on the sheet. Common components like resistors and capacitors can easily be found by searching only the first letter of the component. Some components are referenced by other letters not found in the component name i.e. Inductors are referenced by ‘L’. Rotate components by selecting it and holding down the ‘R’ key.
 
 Less common symbols like the buck converter are not part of the KiCAD symbol library. As such, the symbols have to be made by you or found on the internet. View :ref:`Custom Symbols in Symbol Editor` to learn more about this.
 
-4. **Electrical connections:** Electrically connect the components using the wire icon |wire|  on the right toolbar. Use the power port icon |powerport| to place global labels like grounds, potentials, and other power labels. Grounds, power, and potentials are referred to as global labels because they are always the same no matter where they are placed or connected to - they do not ever change, unlike resistors that the values can be adjusted.
+4. **Electrical connections:** Electrically connect the components using the wire icon |wire|  on the right toolbar (Or press 'W'). Use the power port icon |powerport| to place global labels like grounds, potentials, and other power labels. Grounds, power, and potentials are referred to as global labels because they are always the same no matter where they are placed or connected to - they do not ever change, unlike resistors that the values can be adjusted.
 
 
 5. **Edit symbol properties:** Access the properties by left clicking on the symbol then selecting properties. This becomes handy when you need to edit the value of a component or the name (also known as reference). Take the Cin_buck1 capacitor as an example.
@@ -102,7 +102,7 @@ Less common symbols like the buck converter are not part of the KiCAD symbol lib
 
 * The no-connect flag is placed at unconnected pins. You can place the no-connect flag by clicking on the icon |nconnection| on the right toolbar.
 
-* The power flag is placed at pins that are driven by an external power source. You can place the power flag by selecting the power port icon |powerport| and searching for it.
+* The power flag is placed at pins that are driven by an external power source. You can place the power flag by selecting the power port icon |powerport| (Or pressing 'P') and searching for it.
 
 .. figure:: ../_static/images/schematic10.PNG
     :figwidth: 800px

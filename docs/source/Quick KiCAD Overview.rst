@@ -13,8 +13,8 @@ all your files will be stored that are created for this project. Two files will 
 **.sch** file.
 
 From here, you will see the blank schematic page and to the right of the screen is the toolbar. To start placing symbols, click the "place symbol tool" 
-and then click anywhere on the schematic page to open the symbol library. You can then search and select for whatever component you are looking for and
-place it in the schematic.
+and then click anywhere on the schematic page to open the symbol library. Or press 'A' anywhere on the schematic for the symbols library. You can then 
+search and select for whatever component you are looking for and place it in the schematic.
 
 .. figure:: ../_static/images/KiCAD1.png
     :figwidth: 500px
@@ -24,7 +24,7 @@ place it in the schematic.
     :figwidth: 500px
     :target: ../_static/images/KiCAD2.PNG
 
-To place power and ground symbols, use the following tool and click anywhere on the schematic:
+To place power and ground symbols, use the following tool and click anywhere on the schematic. Or press 'P' anywhere on the schematic:
 
 .. figure:: ../_static/images/KiCAD3.png
     :figwidth: 500px

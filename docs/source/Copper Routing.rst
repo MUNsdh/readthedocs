@@ -55,7 +55,7 @@ This mistake can be avoided by visualizing the board before production using the
     :figwidth: 700px
     :target: ../_static/images/routing5.png
 
-3. **Understand manufacturing specifications:** Every PCB manufacturer has both maximum and minimum specifications for the boards they can produce. For JLCPCB specifications, see `here<https://jlcpcb.com/capabilities/Capabilities>`_. There are different specifications for 1 oz copper thickness and 2 oz copper thickness. JLCPCB’s specifications are:
+3. **Understand manufacturing specifications:** Every PCB manufacturer has both maximum and minimum specifications for the boards they can produce. For JLCPCB specifications, see `here <https://jlcpcb.com/capabilities/Capabilities>`_. There are different specifications for 1 oz copper thickness and 2 oz copper thickness. JLCPCB’s specifications are:
 
 * Minimum trace widths: 2oz - 8mil (0.2mm), 1oz with 1 or board 2 layers - 5mil (0.127mm), 1oz with 4 or 6 layers - 3.5mil (0.09mm)
 * Trace spacing 8mil (0.2mm), and
@@ -87,7 +87,7 @@ A key tip for routing is **traces go across components but traces do not cross o
 * SMD components must be routed on the same consistent layer for all pins while THT components can have one pin routed on the back and the other pin routed on the front of the board. The leads of THT components go through a hole, so the leads can connect the component to the other side of the board. Since SMD components are placed on the surface of the board, they cannot be connected to the other side of the board unless throgh vias.
 * Use vias. A via is a hole that connects two electrical connections on different layers. To prevent traces from crossing each other, a via can be used to create the trace on another layer. Press the ‘V’ key to place a via.
 
-Select the route tracks icon |route| on the right toolbar, then trace the ratsnest to route a component. 
+Select the route tracks icon |route| on the right toolbar (Or press 'X'), then trace the ratsnest to route a component. 
 
 Routing Order
 -------------
@@ -115,9 +115,9 @@ Easy to connect Traces     0.532 (20.9 mils)     2.5A
     
 3. **Integrated circuits (IC) traces:** ICs like the buck converter and the buck-boost converter have a lot of pins which make them a tad bit complex to route. Routing these components requires visualization to ensure all pins can be routed. A helpful tip is make sure to not wrap the traces around the IC. Use mostly 90 degree traces to route this component.
 
-.. figure:: ../_static/images/route11.png
+.. figure:: ../_static/images/route14.PNG
     :figwidth: 700px
-    :target: ../_static/images/route11.png
+    :target: ../_static/images/route14.PNG
     
 4. **Finally the ground pins (ground plane):** With the multitude of ground pins in circuits, it is easier to have a ground plane than to connect all the ground pins to each other. Having a ground plane means the ground pin can just be connected to a ground plane that will pccupy a specific area of the board.
 

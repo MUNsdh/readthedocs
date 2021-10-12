@@ -224,7 +224,7 @@ PCB design beginners usually make the following mistakes. Try to avoid them:
     :figwidth: 700px
     :target: ../_static/images/beyond30.png
     
-2. **Minimize ground loop effects.** Ground loop basically means that there are two or more different paths that the same signal can travel from point A to point B. Ground loops can be a cause of noise in the circuit. So wherever possible we should remove that. They are usually caused by having ground planes on both the top and bottom of the board. The effects can be minimized by using a single bottom ground plane and connecting components to ground mostly through vias to minimize the copper traces that are going to ground. Learn more `here <https://resources.pcb.cadence.com/blog/2019-what-is-a-ground-loop-and-how-to-minimize-its-harmful-consequences>`_.
+2. **Minimize ground loop effects.** Ground loop basically means that there are two or more different paths that the same signal can travel from point A to point B. Ground loops can be a cause of noise in the circuit. So wherever possible we should remove that. They are usually caused by having ground planes on both the top and bottom of the board. The effects can be minimized by using a single bottom ground plane and connecting components to ground mostly through vias to minimize the copper traces that are going to ground. If your design as more then one gournd plane use vias to connect the multiple ground layers, these are called stitching vias. Stitching vias ensure all the ground planes are connected and allows current to find the shortest path to ground.  Learn more `here <https://resources.pcb.cadence.com/blog/2019-what-is-a-ground-loop-and-how-to-minimize-its-harmful-consequences>`_.
 
 3. **Copper traces that are too close to the board edge.** Increasing the size of the board so there's more margin with the top edge will resolve this.
 
@@ -239,21 +239,9 @@ PCB design beginners usually make the following mistakes. Try to avoid them:
     :target: ../_static/images/beyond32.png 
     
 5. **Add a silk screen with logos and version number as finishing touches.** This was covered in :ref:`Adding a Logo onto the PCB`. Adding a version number helps to keep track of multiple design versions i.e. Power Distribution Board V9
-
-6. **Avoiding using many vias when routing Integrated circuits (IC).** IC traces should be mostly 90 degrees lines with minimal vias. Using non 90 degree lines could create a fault in the PCB. Take U1 in the figure below, there are too many vias used to route the IC. 
-
-.. figure:: ../_static/images/beyond32.png
-    :figwidth: 700px
-    :target: ../_static/images/beyond32.png 
-Avoid this
     
-.. figure:: ../_static/images/beyond34.PNG
-    :figwidth: 700px
-    :target: ../_static/images/beyond34.PNG 
-Do this
-    
-7. Some datasheets have a recommended routing layout. Be on lookout for them.
+6. Some datasheets have a recommended routing layout. Be on lookout for them.
 
 .. figure:: ../_static/images/beyond33.png
     :figwidth: 700px
-    :target: ../_static/images/beyond33.png 
+    :target: ../_static/images/beyond33.png

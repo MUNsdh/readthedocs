@@ -127,7 +127,7 @@ Don’t panic if you do not know what properties to look out for when looking at
     
 In the third tab, the filtered footprints, the connectors are organized by the manufacturer’s part numbers (MPM) which we determined from the digikey product page as **BMO8B-SRSS-TBT(LF)(SN)**. It is clear that the part number is not listed with any of the footprints in the filtered footprints tab.
 
-This introduces that sometimes KiCAD glitches. To confirm if the footprint exists or not, filter by library only (connector_JST). Notice that there is a pattern in how the footprints are named.
+To confirm if the footprint exists or not, filter by library only (connector_JST). Notice that there is a pattern in how the footprints are named.
 
 .. figure:: ../_static/images/footprint16.png
     :figwidth: 700px
