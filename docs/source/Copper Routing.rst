@@ -1,6 +1,7 @@
 4 - Copper Routing
 ==================
-**At the end of this section, view :ref:`Common Routing Mistakes` for improve your routing skills.**
+NOTE: Opon review, this section has several routing mistakes. Do not use this section as a guide for how to properly route a PCB. Use this section as a way
+to understand how to use the tools of KiCAD. The mistakes make in this design will be discussed in the Common Routing Mistakes section.
 
 .. |route| image:: ../_static/images/routing8.png
    :width: 3%

@@ -5,6 +5,9 @@ In this guide, you will learn the basics of creating a printed circuit board (PC
 assigning and creating/editing footprints, and finally creating the layout of the PCB. Designing PCBs is something that you get better at over 
 time, so the more you do the better you will be!
 
+This is not a tutorial for how to design a power distribution board. The final design of the PCB shown in this tutorial does not function as intended.
+This tutorial should be used as a guide on how to use the tools of KiCAD, not how to design a PCB layout.
+
 Creating a schematic
 --------------------
 
