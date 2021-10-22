@@ -237,7 +237,7 @@ Github repository
     :target: ../_static/images/beyond26.png
 
 Assigning Footprints to Components
-==================================
+----------------------------------
 .. |assignPCB| image:: ../_static/images/footprint4.png
    :width: 5%
    
@@ -257,7 +257,7 @@ Assigning Footprints to Components
    :width: 5%
 
 Understanding PCB Footprints
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A footprint is the arrangement of soldering pads for a component. They define the location of how and where the component will be soldered to the board. A component can either be surface mount or through hole as discussed in :ref:`PCB Ccomponents`.
 
 Through Hole Components (THT)
