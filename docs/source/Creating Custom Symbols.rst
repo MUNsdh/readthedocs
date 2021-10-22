@@ -78,3 +78,24 @@ The positions of the pins do not matter and can be different from what is specif
 Importing Symbols into KiCAD
 ----------------------------
 Most component symbols can easily be found online from sites like `mouser <https://www.mouser.ca/>`_, `component search engine <https://componentsearchengine.com/>`_, or `snapeda <https://www.snapeda.com/>`_. After downloading it off the site, import it into Kicad by opening the symbol editor >> file >> import symbol. If you did not initially create a library, one is needed to store the symbol. Follow step 1 of :ref:`Custom Symbols in Symbol Editor` to do this.
+
+Importing digikey libraries into KiCAD
+--------------------------------------
+Sometimes component symbols and footprints can be found in digikey libraries. To import the library into kiCAD; the digikey library must be downloaded onto your computer then imported into KiCAD. 
+
+1. **Get the digikey library from the github repository:** An easy google search for Digikey KiCAD library will yield the github repository. Download the zip file. It is important to note that the digikey Kicad library gets updated i.e. the library in 2019, may not be the same library in 2020.
+
+.. figure:: ../_static/images/beyond23.png
+    :figwidth: 700px
+    :target: ../_static/images/beyond23.png
+Github repository
+
+2. **Update both the symbol and footprint libraries:** Go to preferences at the top of the project page. Select manage symbol libraries / manage footprint libraries. Click the add existing library to table icon |adlibrary|  and open the downloaded digikey library >> digikey - symbols, then hold the ctrl and ‘a’ key to select all the files in it. Finish the process by clicking ok. The digikey library should now be added to your Kicad. Repeat the same process for adding the digikey footprint library.
+
+.. figure:: ../_static/images/beyond25.png
+    :figwidth: 700px
+    :target: ../_static/images/beyond25.png
+    
+.. figure:: ../_static/images/beyond26.png
+    :figwidth: 700px
+    :target: ../_static/images/beyond26.png
