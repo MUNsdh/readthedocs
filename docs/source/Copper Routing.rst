@@ -1,6 +1,6 @@
-4 - Copper Routing
+Copper Routing
 ==================
-NOTE: Upon review, this section has several routing mistakes. Do not use this section as a guide for how to properly route a PCB. Use this section as a way
+NOTE: Upon review, this section has several routing mistakes. Do not use this section as a guide for how to properly route a PCB, do not copy this design it will not work. Use this section as a way
 to understand how to use the tools of KiCAD. The mistakes make in this design will be discussed in the Common Routing Mistakes section.
 
 .. |route| image:: ../_static/images/routing8.png
@@ -116,9 +116,9 @@ Easy to connect Traces     0.532 (20.9 mils)     2.5A
     
 3. **Integrated circuits (IC) traces:** ICs like the buck converter and the buck-boost converter have a lot of pins which make them a tad bit complex to route. Routing these components requires visualization to ensure all pins can be routed. A helpful tip is make sure to not wrap the traces around the IC. Use mostly 90 degree traces to route this component.
 
-.. figure:: ../_static/images/route14.png
+.. figure:: ../_static/images/route11.png
     :figwidth: 700px
-    :target: ../_static/images/route14.png
+    :target: ../_static/images/route11.png
     
 4. **Finally the ground pins (ground plane):** With the multitude of ground pins in circuits, it is easier to have a ground plane than to connect all the ground pins to each other. Having a ground plane means the ground pin can just be connected to a ground plane that will pccupy a specific area of the board.
 

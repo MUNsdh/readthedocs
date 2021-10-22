@@ -1,4 +1,4 @@
-1 - Creating Schematics in Eeschema
+Creating Schematics in Eeschema
 ================================
 
 .. |wire| image:: ../_static/images/wire.png

@@ -1,4 +1,4 @@
-3 - Board Layout in PCBnew
+Board Layout in PCBnew
 ======================
 .. |ecuts| image:: ../_static/images/Board8.png
    :width: 5%

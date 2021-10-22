@@ -1,4 +1,4 @@
-2 - Assigning Footprints to Components
+Assigning Footprints to Components
 ==================================
 .. |assignPCB| image:: ../_static/images/footprint4.png
    :width: 5%

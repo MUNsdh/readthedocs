@@ -9,9 +9,9 @@ PCB Design
    Choosing PCB Design Components
    Creating Schematics in Eeschema
    Assigning Footprints to Components
+   Best Board Design Practices
    Board Layout in PCBnew
    Copper Routing
-   Best Board Design Practices
    Gerber Files
    Generating BOM and CPL for JLCPCB in KiCAD
    Going Beyond
