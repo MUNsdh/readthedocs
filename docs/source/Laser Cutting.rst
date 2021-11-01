@@ -9,3 +9,4 @@ Laser Cutting
    Printer Settings
    Material Cut Parameters
    Approved Materials
+   Materials you should not process with a laser
