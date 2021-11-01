@@ -21,4 +21,4 @@ Before we start, we need to turn on the laser cutter. There’s a switch on the 
 
 If you’d like to know more about the machine itself, the manual can be found `here <https://www.troteclaser.com/fileadmin/content/images/Contact_Support/Manuals/8020-Speedy-300-flexx-Manual-EN.pdf>`_.
 
-**A Quick Note on Safety:Please reference the Laser Cutter Safety Page before cutting any material. There are materials that can generate dangerous chemicals and gases when processed by laser cutter. The link to the safety details is HERE. (add link for page titled “Materials you should not process with a laser”)**
+**A Quick Note on Safety: Please reference the Approved Materials page before cutting any material. There are materials that can generate dangerous chemicals and gases when processed by laser. Do not process any material that is not on the approved list without first consulting the Engineer in Residence or a lab technician.

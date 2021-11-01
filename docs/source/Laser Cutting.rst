@@ -8,3 +8,4 @@ Laser Cutting
    Using Inkscape
    Printer Settings
    Material Cut Parameters
+   Approved Materials
