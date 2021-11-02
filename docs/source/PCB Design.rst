@@ -5,4 +5,4 @@ PCB Tutorial
    :maxdepth: 10
 
    Quick KiCAD Overview
-   Generating BOM and CPL for JLCPCB SMT assembly in KiCAD
+   Generating BOM and CPL for JLCPCB in KiCAD
