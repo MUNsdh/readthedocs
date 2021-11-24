@@ -2,7 +2,11 @@ PCB Tutorial
 ==========
 
 .. toctree::
-   :maxdepth: 10
+   :maxdepth: 5
 
-   Quick KiCAD Overview
+   Intoduction to PCBs
+   Creating a Schematic
+   PCB Layout Guidelines
+   Layout and Routing
+   Using Digikey
    Generating BOM and CPL for JLCPCB in KiCAD
