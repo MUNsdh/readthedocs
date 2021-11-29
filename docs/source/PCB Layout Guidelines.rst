@@ -7,24 +7,24 @@ This section will explain some common practice and guidelines you can use for mo
 	1. 
 	Always place your components before you start routing. When you place load your component footprints into PCBnew in KiCAD, they load in as a “rat’s nest”. 
 	
-.. figure:: ../_static/images/best_practice_1.PNG
-    :figwidth: 500px
-    :target: ../_static/images/best_practice_1.PNG
+	.. figure:: ../_static/images/best_practice_1.PNG
+		:figwidth: 500px
+		:target: ../_static/images/best_practice_1.PNG
 	
 	An example of the organized rat's nest:
 	
-.. figure:: ../_static/images/best_practice_2.PNG
-    :figwidth: 500px
-    :target: ../_static/images/best_practice_2.PNG
+	.. figure:: ../_static/images/best_practice_2.PNG
+		:figwidth: 500px
+		:target: ../_static/images/best_practice_2.PNG
 	
 	Here are some tips for component placement you should keep in mind. Place high pin count integrated circuits (IC’s) in central areas, 
 	this will make routing to these IC’s easier. Try to minimize net crossing, nets are shown in KiCAD by the white lines connecting component pads. 
 	Minimizing crossing nets will make routing easier and more direct. It will be impossible to completely stop nets from crossing in more complicated design, 
 	try and minimize it the best you can. The figure below shows nets before they are routed.
 	
-.. figure:: ../_static/images/best_practice_3.PNG
-    :figwidth: 500px
-    :target: ../_static/images/best_practice_3.PNG
+	.. figure:: ../_static/images/best_practice_3.PNG
+		:figwidth: 500px
+		:target: ../_static/images/best_practice_3.PNG
 	
 	When placing SMD components on the top and bottom layer of the PCB, keep in mind you could accidentally desolder components on the opposite side of the PCB. 
 	This could happen if the component you are solder will require a lot of heat to solder on. Situation when components could require more heat to solder is 
@@ -37,9 +37,9 @@ This section will explain some common practice and guidelines you can use for mo
 	When routing power and ground planes that carry high current remember to use planes for this. To make planes in KiCAD click on the “Add Fill Zone” on the 
 	right side tool bar.
 	
-.. figure:: ../_static/images/best_practice_4.PNG
-    :figwidth: 500px
-    :target: ../_static/images/best_practice_4.PNG
+	.. figure:: ../_static/images/best_practice_4.PNG
+		:figwidth: 500px
+		:target: ../_static/images/best_practice_4.PNG
 	
 	3.
 	When routing remember to keep trace length short and as direct as possible. The length of the traces will matter if you are routing and high speed or analog 
@@ -51,9 +51,9 @@ This section will explain some common practice and guidelines you can use for mo
 	While you are routing remember to use the Design rule check (DRC) button (the ladybug button on the top tool bar) often. This will help catch mistakes early, 
 	catching mistakes early makes them easier to fix.
 	
-.. figure:: ../_static/images/best_practice_5.PNG
-    :figwidth: 500px
-    :target: ../_static/images/best_practice_5.PNG
+	.. figure:: ../_static/images/best_practice_5.PNG
+		:figwidth: 500px
+		:target: ../_static/images/best_practice_5.PNG
 	
 	5. When you are placing IC’s that need decoupling capacitors remember to place them close to the pins that need them. An easy way to remember this is to 
 	have the your KiCAD schematic open in another tab, when you click on components in the schematic they will highlight in the layout tab. If you are placing 

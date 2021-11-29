@@ -110,3 +110,4 @@ Finally to prepare for the routing, click on "Generate netlist" and then "Genera
 .. figure:: ../_static/images/KiCAD13.png
     :figwidth: 500px
     :target: ../_static/images/KiCAD13.png
+	
