@@ -69,6 +69,7 @@ To learn how to make your own symbol and symbol libraries follow this video:
    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=LhFWFO8H0jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
 To learn how to import symbol libraries watch follow this video:
+
 .. raw:: html
 
    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=V8tcgFb2NUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -7,13 +7,13 @@ This section will explain some common practice and guidelines you can use for mo
 	1. 
 	Always place your components before you start routing. When you place load your component footprints into PCBnew in KiCAD, they load in as a “rat’s nest”. 
 	
-	.. figure:: ../_static/images/best_practice_1.PNG
+.. figure:: ../_static/images/best_practice_1.PNG
     :figwidth: 500px
     :target: ../_static/images/best_practice_1.PNG
 	
 	An example of the organized rat's nest:
 	
-	.. figure:: ../_static/images/best_practice_2.PNG
+.. figure:: ../_static/images/best_practice_2.PNG
     :figwidth: 500px
     :target: ../_static/images/best_practice_2.PNG
 	
@@ -22,7 +22,7 @@ This section will explain some common practice and guidelines you can use for mo
 	Minimizing crossing nets will make routing easier and more direct. It will be impossible to completely stop nets from crossing in more complicated design, 
 	try and minimize it the best you can. The figure below shows nets before they are routed.
 	
-	.. figure:: ../_static/images/best_practice_3.PNG
+.. figure:: ../_static/images/best_practice_3.PNG
     :figwidth: 500px
     :target: ../_static/images/best_practice_3.PNG
 	
@@ -37,7 +37,7 @@ This section will explain some common practice and guidelines you can use for mo
 	When routing power and ground planes that carry high current remember to use planes for this. To make planes in KiCAD click on the “Add Fill Zone” on the 
 	right side tool bar.
 	
-	.. figure:: ../_static/images/best_practice_4.PNG
+.. figure:: ../_static/images/best_practice_4.PNG
     :figwidth: 500px
     :target: ../_static/images/best_practice_4.PNG
 	
@@ -51,7 +51,7 @@ This section will explain some common practice and guidelines you can use for mo
 	While you are routing remember to use the Design rule check (DRC) button (the ladybug button on the top tool bar) often. This will help catch mistakes early, 
 	catching mistakes early makes them easier to fix.
 	
-	.. figure:: ../_static/images/best_practice_5.PNG
+.. figure:: ../_static/images/best_practice_5.PNG
     :figwidth: 500px
     :target: ../_static/images/best_practice_5.PNG
 	

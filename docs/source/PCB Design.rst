@@ -4,7 +4,7 @@ PCB Tutorial
 .. toctree::
    :maxdepth: 5
 
-   Intoduction to PCBs
+   Introduction to PCBs
    Creating a Schematic
    PCB Layout Guidelines
    Layout and Routing
