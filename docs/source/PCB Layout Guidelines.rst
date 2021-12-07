@@ -59,12 +59,12 @@ This section will explain some common practice and guidelines you can use for mo
 	have the your KiCAD schematic open in another tab, when you click on components in the schematic they will highlight in the layout tab. If you are placing 
 	your microcontroller and you need to place the decoupling caps near just click on the decoupling caps on your schematic and they will highlight in the layout tab. 
 	This is a good practice to start because if decoupling caps are far away from the IC’s that need them, the IC’s might not function as intended. If you do not know 
-	what a decoupling capacitor is see this `article <https://www.autodesk.com/products/eagle/blog/what-are-decoupling-capacitors>`_
+	what a decoupling capacitor is see this `article <https://www.autodesk.com/products/eagle/blog/what-are-decoupling-capacitors>`_.
 	
 	If you want to read more about PCB design guidelines read theses articles:
-	* https://resources.altium.com/p/top-5-pcb-design-guidelines-every-pcb-designer-needs-know
-	* https://www.edn.com/ten-best-practices-of-pcb-design/
-	* https://www.pannam.com/blog/pcb-design-guide/
+		* https://resources.altium.com/p/top-5-pcb-design-guidelines-every-pcb-designer-needs-know
+		* https://www.edn.com/ten-best-practices-of-pcb-design/
+		* https://www.pannam.com/blog/pcb-design-guide/
 
 
 
