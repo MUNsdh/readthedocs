@@ -13,5 +13,5 @@ For the purpose of demonstrating the main features of SOLIDWORKS Simulation, we 
 bracket, as shown below. This bracket will be subjected to a 200 lb force at the bolt hole, which simulates that same load 
 being actually applied to the bracket via an eye hook.
 
-.. figure:: ../_static/images/Bracket.png
-    :target: ../_static/images/Bracket.png
+.. figure:: ../_static/images/ABSbracket.png
+    :target: ../_static/images/ABSbracket.png
