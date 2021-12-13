@@ -10,9 +10,9 @@ values above the yield strength. This array of values above the yield strength s
 predicted to fail, with the bracket assumed to fail first along the joint for the arm and the mount, since von Mises stress 
 values are highest along that fillet.
 
-.. figure:: ../_static/images/Analyzing Results 1.PNG
+.. figure:: ../_static/images/Analyzing Results 1.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 1.PNG
+    :target: ../_static/images/Analyzing Results 1.png
 
 As seen in the plot, the bracket is subjected to a wide range of stress values greater than the given material yield stress, 
 partucularly along the top corner where the bracket arm meets the bracket face as seen in the figure above. This means 
@@ -31,9 +31,9 @@ but at an allowable stress instead that’s directly proportional to the assigne
 maximum operating values that manufacturers will recommend their products be used at (in the case for the elevator, the 
 maximum number of people/weight).
 
-.. figure:: ../_static/images/Analyzing Results 2.PNG
+.. figure:: ../_static/images/Analyzing Results 2.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 2.PNG
+    :target: ../_static/images/Analyzing Results 2.png
  
 Therefore, if the elevator were ever to be “at full capacity” there is virtually no risk of the cable failing while in 
 operation. If the cables were to have been designed so that the safety factor was 1-to-1, the risk of the cable failing when 
@@ -45,15 +45,15 @@ In the case of the bracket, we want to observe the factor of safety distribution
 allowable stress would be at specific sections, mainly our most concerning areas. To create an FoS plot, right click on the 
 Results tab in the Simulation designer tree and select “Define Factor of Safety Plot”.
 
-.. figure:: ../_static/images/Analyzing Results 3.PNG
+.. figure:: ../_static/images/Analyzing Results 3.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 3.PNG
+    :target: ../_static/images/Analyzing Results 3.png
  
 Selecting this option will open up the plot property menu:
 
-.. figure:: ../_static/images/Analyzing Results 4.PNG
+.. figure:: ../_static/images/Analyzing Results 4.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 4.PNG
+    :target: ../_static/images/Analyzing Results 4.png
  
 Since we are interested in the FoS plot related to the maximum von Mises stresses & maximum allowable stresses, the 
 criterion will be changed to “Max von Mises Stresses” in the “Criterion” section. As well, an upper limit for the FoS plot 
@@ -61,34 +61,34 @@ can be selected in the “Advanced Options”. This upper limit should be select
 & environment of the product. Since our environmental conditions are not severe and our part is to experience some non-severe 
 loading, we can leave our upper limit at 3 as it was at default (see the link `here <https://www.engineeringtoolbox.com/factors-safety-fos-d_1624.html>`_  for a general recommendation table).  
  
-.. figure:: ../_static/images/Analyzing Results 5.PNG
+.. figure:: ../_static/images/Analyzing Results 5.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 5.PNG
+    :target: ../_static/images/Analyzing Results 5.png
  
 Next, we want to select the right arrow at the top right of the box to move to the step 2 of plot creation:
 
-.. figure:: ../_static/images/Analyzing Results 6.PNG
+.. figure:: ../_static/images/Analyzing Results 6.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 6.PNG
+    :target: ../_static/images/Analyzing Results 6.png
  
-.. figure:: ../_static/images/Analyzing Results 7.PNG
+.. figure:: ../_static/images/Analyzing Results 7.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 7.PNG 
+    :target: ../_static/images/Analyzing Results 7.png 
 
 In this page, we can set our stress limit for the FoS plot. Since we are trying to observe the FoS plot to see how our 
 bracket will fail and its behavior, the stress limit should be set to “Tensile Stress”, which for our ABS material is 
 3.3 x 10^7 Pa (remember for the buckling analysis were using the flexural strength instead of the tensile strength). 
 
-.. figure:: ../_static/images/Analyzing Results 8.PNG
+.. figure:: ../_static/images/Analyzing Results 8.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 8.PNG 
+    :target: ../_static/images/Analyzing Results 8.png 
  
 After selecting OK, the bracket should now contain the FoS distribution plot for the bracket along with the plot legend to 
 dictate what colours correspond to their respective FoS values.
 
-.. figure:: ../_static/images/Analyzing Results 9.PNG
+.. figure:: ../_static/images/Analyzing Results 9.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 9.PNG 
+    :target: ../_static/images/Analyzing Results 9.png 
  
 As seen in the image above, a large portion of our bracket is highlighted orange/red, which indicates that these areas have 
 a FoS of less than 1. This indicates that the bracket will fail in these areas. Another important point in this plot is the 
@@ -104,16 +104,16 @@ This may be helpful when you;re trying to quickly interpret your results (when c
 the plot such as changing the plot legends values can be done by right-clicking the “Factor of Safety” option in the 
 simulation property window.
 
-.. figure:: ../_static/images/Analyzing Results 10.PNG
+.. figure:: ../_static/images/Analyzing Results 10.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 10.PNG 
+    :target: ../_static/images/Analyzing Results 10.png 
  
 Once in the options manager, the chart values can be changed under the Position/Format section in “Number Format” by 
 changing the format from “Scientific” to “Floating”.
 
-.. figure:: ../_static/images/Analyzing Results 11.PNG
+.. figure:: ../_static/images/Analyzing Results 11.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 11.PNG 
+    :target: ../_static/images/Analyzing Results 11.png 
  
 The Chart options also provide options to choose the maximum & minimum values of the plot legend, its size and if you wish 
 to include it in your model window or not. 
@@ -125,23 +125,23 @@ Using the additional steps in the FoS plot setup, the FoS bracket distribution p
 in what areas the bracket will fail. The FoS setup menu can be reopened by right clicking the Factor of Safety result plot 
 and selecting the “Edit Definition” option.
 
-.. figure:: ../_static/images/Analyzing Results 12.PNG
+.. figure:: ../_static/images/Analyzing Results 12.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 12.PNG 
+    :target: ../_static/images/Analyzing Results 12.png 
  
 Next, select the right arrows as we did before to select ultimate strength previously and choose the “Areas below factor of 
 safety” option.
 
-.. figure:: ../_static/images/Analyzing Results 13.PNG
+.. figure:: ../_static/images/Analyzing Results 13.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 13.PNG 
+    :target: ../_static/images/Analyzing Results 13.png 
  
 Make sure to re-select “Ultimate Strength” in step 2 like in the initial FoS plot, as the plot will default back to tensile 
 strength whenever editing the FoS plot. Clicking OK, the new plot should appear as follows:
 
-.. figure:: ../_static/images/Analyzing Results 14.PNG
+.. figure:: ../_static/images/Analyzing Results 14.png
     :figwidth: 600px
-    :target: ../_static/images/Analyzing Results 14.PNG 
+    :target: ../_static/images/Analyzing Results 14.png 
  
 As seen in the plot description in the top left corner of the plot image, the blue areas on the bracket dictate areas that 
 are above a FoS of 1, whereas the red areas show places where the bracket is below a FoS of 1, where the bracket is supposed 

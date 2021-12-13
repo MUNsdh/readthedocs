@@ -4,9 +4,9 @@ Creating the Buckling Study
 Similar to our previous static study, we can create a buckling study using “New Study” and selecting the “Buckling Study” 
 option in Advanced Simulation.
  
-.. figure:: ../_static/images/Creating the Buckling Study 1.PNG
+.. figure:: ../_static/images/Creating the Buckling Study 1.png
     :figwidth: 600px
-    :target: ../_static/images/Creating the Buckling Study 1.PNG 
+    :target: ../_static/images/Creating the Buckling Study 1.png 
  
 Next, re-apply all the previous fixtures and forces and creating/refining the mesh for the bracket as we did in the initial 
 study (Note that when you reapply the force the nut split sketch that was created earlier is now a clickable face to apply 
@@ -16,16 +16,16 @@ running the study will create an Amplitude plot in the results tab of the simula
 where the model is expected to buckle. Applying the 200 lb force at the hole as we did in the stress study, we obtain the 
 model plot shown below.
  
-.. figure:: ../_static/images/Creating the Buckling Study 2.PNG
+.. figure:: ../_static/images/Creating the Buckling Study 2.png
     :figwidth: 600px
-    :target: ../_static/images/Creating the Buckling Study 2.PNG 
+    :target: ../_static/images/Creating the Buckling Study 2.png 
  
 As seen in the image above, we can see the behavior of the bracket when exhibited the load of 200 lb. Additionally, we can 
 also see from the plot description that there is a given load factor for this simulation.
 
-.. figure:: ../_static/images/Creating the Buckling Study 3.PNG
+.. figure:: ../_static/images/Creating the Buckling Study 3.png
     :figwidth: 600px
-    :target: ../_static/images/Creating the Buckling Study 3PNG 
+    :target: ../_static/images/Creating the Buckling Study 3png 
  
 A load factor is a multiplier value that gets multiplied with the applied load value to give the load value that the bracket 
 would fail at. Since the bracket is under a 200 lb load and the load factor is 1.2625, the bracket will fail at 1.2638 times 

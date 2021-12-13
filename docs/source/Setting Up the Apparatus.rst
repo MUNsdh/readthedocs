@@ -91,54 +91,54 @@ be put under load using an eye hook that is mounted through the hole at the end 
 can simulate this by creating a profile in the shape of the nut at the bolt hole on the top face of the bracket arm. 
 Right-clicking the external loads option and selecting “Force” will open up the load property manager.
  
-.. figure:: ../_static/images/Setting Up the Apparatus 9.png
+.. figure:: ../_static/images/SettingUptheApparatus9.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 9.png 
+    :target: ../_static/images/SettingUptheApparatus9.png 
  
 To start, the nut profile that the load will be applied to will need to be sketched. This can be done from the force property 
 window by selecting “Split” and selecting the “Create Sketch” option.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 10.png
+.. figure:: ../_static/images/SettingUptheApparatus10.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 10.png
+    :target: ../_static/images/SettingUptheApparatus10.png
   
 The nut will be sketched by selecting the top face of the bracket arm and using the polygon tool. 
  
-.. figure:: ../_static/images/Setting Up the Apparatus 11.png
+.. figure:: ../_static/images/SettingUptheApparatus11.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 11.png
+    :target: ../_static/images/SettingUptheApparatus11.png
  
 Once the nut has been drawn, parameters for the sketch can be set in the property window to your liking. Once all parameters 
 have been set, hit the OK check mark in the top left and click “Exit Sketch” in the model window. The force property window 
 should now have the recently made sketch and top face of the backet arm entered in for the “Project Sketch” & “Other Faces 
 To Split” selections.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 12.png
+.. figure:: ../_static/images/SettingUptheApparatus12.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 12.png
+    :target: ../_static/images/SettingUptheApparatus12.png
 	
-.. figure:: ../_static/images/Setting Up the Apparatus 13.png
+.. figure:: ../_static/images/SettingUptheApparatus13.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 13.png
+    :target: ../_static/images/SettingUptheApparatus13.png
   
 Hit the green checkmark and select yes when asked if you wish to split the selected face. Once completed, the default type 
 menu will reopen with the sketched area now highlighted as the selection for the face of interest.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 14.png
+.. figure:: ../_static/images/SettingUptheApparatus14.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 14.png
+    :target: ../_static/images/SettingUptheApparatus14.png
  
 Next, set the load to be 200 lb:
 
-.. figure:: ../_static/images/Setting Up the Apparatus 15.png
+.. figure:: ../_static/images/SettingUptheApparatus15.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 15.png
+    :target: ../_static/images/SettingUptheApparatus15.png
  
 Hit OK to apply the load to the simulation.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 16.png
+.. figure:: ../_static/images/SettingUptheApparatus16.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 16.png
+    :target: ../_static/images/SettingUptheApparatus16.png
 	
 Creating the Bracket Mesh
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -146,15 +146,15 @@ Creating the Bracket Mesh
 Next, we will create the mesh to complete the analysis. To do so we will right-click the mesh feature and select “Create 
 Mesh”:
  
-.. figure:: ../_static/images/Setting Up the Apparatus 17.png
+.. figure:: ../_static/images/SettingUptheApparatus17.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 17.png
+    :target: ../_static/images/SettingUptheApparatus17.png
  
 Selecting “Create Mesh” will open up the property window along with all of the listed options. 
 
-.. figure:: ../_static/images/Setting Up the Apparatus 18.png
+.. figure:: ../_static/images/SettingUptheApparatus18.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 18.png
+    :target: ../_static/images/SettingUptheApparatus18.png
   
 You may choose to start with any mesh quality setting you wish, however, to start we will just simply go with what's listed 
 by default for meshing options, as later on we will look to refine the mesh in specific areas to attain more accurate 
@@ -169,17 +169,17 @@ buckling, which we will be discussing later when we move to the buckling study.
 Knowing all of this information and having prepped our bracket in the static study, we can now begin executing the 
 simulation by selecting “Run This Study” in the command toolbar and Solidworks will then begin to simulate the system:
 
-.. figure:: ../_static/images/Setting Up the Apparatus 19.png
+.. figure:: ../_static/images/SettingUptheApparatus19.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 19.png
+    :target: ../_static/images/SettingUptheApparatus19.png
 
 Depending on the complexity of the part, mesh, or even your computer graphical capabilities this process may take a longer. 
 If your material’s yield stress is known you can use it to determine what load your bracket can theoretically handle before 
 yielding which, if given for the material in Solidworks, will be displayed below the plot legend. 
  
-.. figure:: ../_static/images/Setting Up the Apparatus 20.png
+.. figure:: ../_static/images/SettingUptheApparatus20.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 20.png
+    :target: ../_static/images/SettingUptheApparatus20.png
 
 	
  
