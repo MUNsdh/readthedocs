@@ -5,9 +5,9 @@ With the study opened we now have to prepare the part for the simulation by recr
 case of the sample bracket, the bracket will be held to the wall using its 2 bolt holes and a load will be applied to an eye 
 hook that's mounted to the hole at the end.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 1.png
+.. figure:: ../_static/images/SettingUptheApparatus1.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 1.png
+    :target: ../_static/images/SettingUptheApparatus1.png
 	
 Creating the Virtual Wall
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -15,17 +15,17 @@ Creating the Virtual Wall
  I’ll begin by establishing a fixture to hold the back of the bracket against the wall by first creating a support wall that 
  the bracket will be held to. 
  
- .. figure:: ../_static/images/Setting Up the Apparatus 2.png
+ .. figure:: ../_static/images/SettingUptheApparatus2.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 2.png
+    :target: ../_static/images/SettingUptheApparatus2.png
 	 
 SOLIDWORKS allows us to create virtual walls to help simulate how the bracket will be held. This is done by right clicking 
 the connections option in the manager tree and selecting “contact set” to establish a connection between a part and a 
 virtual component unrelated to the part (wall, floor, etc.). 
 
-.. figure:: ../_static/images/Setting Up the Apparatus 3.png
+.. figure:: ../_static/images/SettingUptheApparatus3.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 3.png
+    :target: ../_static/images/SettingUptheApparatus3.png
 	
 A virtual wall is established to simulate the bracket being mounted to the wall. Without the inclusion of the virtual wall, 
 the bracket would have no surface to be bound to and would be allowed to move freely during the simulation with the load 
@@ -38,13 +38,13 @@ geometry will allow it to break freely. Once in the properties menu, select “v
 the back face for “set 1” (the contact area for the part) and the front plane for the target plane (contact plane of the 
 wall).
 
-.. figure:: ../_static/images/Setting Up the Apparatus 4.png
+.. figure:: ../_static/images/SettingUptheApparatus4.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 4.png
+    :target: ../_static/images/SettingUptheApparatus4.png
 
-.. figure:: ../_static/images/Setting Up the Apparatus 5.png
+.. figure:: ../_static/images/SettingUptheApparatus5.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 5.png
+    :target: ../_static/images/SettingUptheApparatus5.png
 	
 Applying Bolt Hole Fixtures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,18 +58,18 @@ holes holding the place.
 
 Fixed geometry can be accessed by right clicking the “Fixtures” property in the design tree and selecting fixed geometry.
 
-.. figure:: ../_static/images/Setting Up the Apparatus 6.png
+.. figure:: ../_static/images/SettingUptheApparatus6.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 6.png
+    :target: ../_static/images/SettingUptheApparatus6.png
  
 With the property window open, we can see an example of how a part will move with the selected fixture, along with some 
 other options for fixture type. For the bolt holes, we will stay with fixed geometry and in the “Faces, edges, vertices for 
 fixture” box select both bolt hole surfaces as shown below. Hit ok and the fixture should now be applied to the bracket, 
 verified by the green arrows. 
 
-.. figure:: ../_static/images/Setting Up the Apparatus 7.png
+.. figure:: ../_static/images/SettingUptheApparatus7.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 7.png
+    :target: ../_static/images/SettingUptheApparatus7.png
  
 While we have simulated the bolt being inserted in the bolt hole, the tension on the bolts have not been represented, which 
 is a common application that's done to bolts and is called “preloading bolts”. A preloaded bolt is a bolt that's been 
@@ -79,9 +79,9 @@ reduce the effects of fatigue. If you wish to more accurately simulate the bolts
 holes, you can choose to simulate the preloaded bolts on the bracket using the 'Bolt' setting under the “Connections” option 
 in the simulation task window.
  
-.. figure:: ../_static/images/Setting Up the Apparatus 8.png
+.. figure:: ../_static/images/SettingUptheApparatus8.png
     :figwidth: 600px
-    :target: ../_static/images/Setting Up the Apparatus 8.png
+    :target: ../_static/images/SettingUptheApparatus8.png
 	
 Adding External Force & Split Profile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

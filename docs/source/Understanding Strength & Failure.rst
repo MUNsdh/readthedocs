@@ -85,17 +85,17 @@ the critical load, at which point the beam will laterally deflect, similar to th
 shear, “buckled” structures can continue to support a load after having failed due to buckling but cannot sustain any 
 additional load.  
 
-.. figure:: ../_static/images/Beam Buckling.png
+.. figure:: ../_static/images/BeamBuckling.png
     :figwidth: 600px
-    :target: ../_static/images/Beam Buckling.png
+    :target: ../_static/images/BeamBuckling.png
 	
 Although in the case of our bracket there is no “direct” axial load as in the picture causing the bracket to compress, the 
 load acting at the hole from the eye hook is supplying both tension and compression to the top and bottom surfaces of the 
 bracket arm respectively like the upward bending of the table shown in the image below.
 
-.. figure:: ../_static/images/Table Buckling.png
+.. figure:: ../_static/images/TableBuckling.png
     :figwidth: 600px
-    :target: ../_static/images/Table Buckling.png
+    :target: ../_static/images/TableBuckling.png
 	
 Using SOLIDWORKS Simulation, we can observe the behavior of the beam under load and visually represent how the bracket will 
 fail under load, as well as the load that would cause the bracket to fail due to buckling.

@@ -11,9 +11,9 @@ Applying a Material
 Adding a material can be done by right clicking and selecting the “Edit Material” option on thematerial prompt in the 
 feature tree and choosing the desired material from the material library.
 
-.. figure:: ../_static/images/Feature Tree.PNG
+.. figure:: ../_static/images/Feature Tree.png
     :figwidth: 600px
-    :target: ../_static/images/Feature Tree.PNG
+    :target: ../_static/images/Feature Tree.png
 	
 Once opened, the material window will now be opened. This window contains a wide variety of materials that have been 
 pre-installed with SOLIDWORKS. Before a material is added, some research should be conducted to determine the optimal 
@@ -31,29 +31,29 @@ scroll down to the “Custom Materials” folder or any folder that you wish to 
 “New Category” option. This will create a new folder to organize the added material(s) to. To add a new material to this 
 category folder, right click the desired folder and select ‘New Material”.
 
-.. figure:: ../_static/images/Material Window 1.PNG
+.. figure:: ../_static/images/Material Window 1.png
     :figwidth: 600px
-    :target: ../_static/images/Material Window 1.PNG
+    :target: ../_static/images/Material Window 1.png
 	
-.. figure:: ../_static/images/Material Window 2.PNG
+.. figure:: ../_static/images/Material Window 2.png
     :figwidth: 600px
-    :target: ../_static/images/Material Window 2.PNG
+    :target: ../_static/images/Material Window 2.png
 	 
 If you wish to create a new folder to add multiple new materials or to organize your added materials, a new material folder 
 can also be created by right clicking anywhere in the folder pane and selecting “New Library”. This new folder will then be 
 saved in the custom materials folder in the SOLIDWORKS computer file and can have new folders added to it by selecting “New 
 Category” on the appropriate folder as well. 
 	
-.. figure:: ../_static/images/Material Window 3.PNG
+.. figure:: ../_static/images/Material Window 3.png
     :figwidth: 600px
-    :target: ../_static/images/Material Window 3.PNG
+    :target: ../_static/images/Material Window 3.png
 	
 For this tutorial the bracket will be made of ABS, so the 3D ABS material will be created in a new Main folder named “New 
 Custom Material” with a “3D Printed Material” category folder that the ABS material profile will go into.
 
-.. figure:: ../_static/images/Material Window 4.PNG
+.. figure:: ../_static/images/Material Window 4.png
     :figwidth: 600px
-    :target: ../_static/images/Material Window 4.PNG
+    :target: ../_static/images/Material Window 4.png
 	
 With the material added, the material property values can now be edited. Clicking on a material profile in the material list 
 will open the material profile information to the right of the material as shown in the image above. The profile will have 
@@ -63,6 +63,6 @@ analysis we was to keep linear, so we will keep the model type as “Linear Elas
 will be the stress values used to compare with our materials ultimate tensile & flexural strength, so our failure. All other 
 settings are optional and can remain blank. 
 
-.. figure:: ../_static/images/Material Window 5.PNG
+.. figure:: ../_static/images/Material Window 5.png
     :figwidth: 600px
-    :target: ../_static/images/Material Window 5.PNG
+    :target: ../_static/images/Material Window 5.png
