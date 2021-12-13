@@ -21,4 +21,5 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    PCB Assembly and Testing
    Python
    Sleep Tracker
+   SOLIDWORKS Simulation
    Other
