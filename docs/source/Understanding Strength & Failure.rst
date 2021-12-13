@@ -14,9 +14,9 @@ deformation can be represented using stress & strain. Strain is the internal cha
 area on an object, whereas stress is defined as the measure of internal resistance of a material from a force applied to it
 per cross sectional area.
 
-.. figure:: ../_static/images/Deformation Types.png
+.. figure:: ../_static/images/DeformationTypes.png
     :figwidth: 600px
-    :target: ../_static/images/Deformation Types.png
+    :target: ../_static/images/DeformationTypes.png
 	
 There are also two forms of deformation: Elastic & Plastic deformation. Elastic deformation or temporary deformation is when
 a material is compressed, stretched, or bent but can return to its original state before deformation occurs. Think of 
@@ -34,9 +34,9 @@ meaning that the mesh of the trampoline would experience some amount of sagging.
 This threshold or “yield point” of when an object transitions from elastic to plastic deformation can be represented by the 
 Stress-strain curve, as shown in the figure below.
 
-.. figure:: ../_static/images/Stress Strain Curve.png
+.. figure:: ../_static/images/StressStrainCurve.png
     :figwidth: 600px
-    :target: ../_static/images/Stress Strain Curve.png
+    :target: ../_static/images/StressStrainCurve.png
 	
 On the stress-strain curve we can see the initial section of the curve is a straight line up until it reaches a peak. This 
 region is called the elastic region and it's the region in which an object will experience elastic deformation & where the 
@@ -67,12 +67,9 @@ stress acts parallel to the body. From the normal & shear stress values that can
 on a model the Von Mises stress can be calculated, which is the value(s) responsible for determining whether the material 
 will fail or not. 
 
-.. figure:: ../_static/images/Shear Failure.png
+.. figure:: ../_static/images/ShearFailure.png
     :figwidth: 600px
-    :target: ../_static/images/Shear Failure.png
-	
-Understanding Strength & Failure
-================================
+    :target: ../_static/images/ShearFailure.png
 
 Buckling & Failure Due to Buckling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
