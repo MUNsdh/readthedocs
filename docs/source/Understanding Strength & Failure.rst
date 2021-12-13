@@ -14,9 +14,9 @@ deformation can be represented using stress & strain. Strain is the internal cha
 area on an object, whereas stress is defined as the measure of internal resistance of a material from a force applied to it
 per cross sectional area.
 
-.. figure:: ../_static/images/Deformation Types.PNG
+.. figure:: ../_static/images/Deformation Types.png
     :figwidth: 600px
-    :target: ../_static/images/Deformation Types.PNG
+    :target: ../_static/images/Deformation Types.png
 	
 There are also two forms of deformation: Elastic & Plastic deformation. Elastic deformation or temporary deformation is when
 a material is compressed, stretched, or bent but can return to its original state before deformation occurs. Think of 
@@ -34,9 +34,9 @@ meaning that the mesh of the trampoline would experience some amount of sagging.
 This threshold or “yield point” of when an object transitions from elastic to plastic deformation can be represented by the 
 Stress-strain curve, as shown in the figure below.
 
-.. figure:: ../_static/images/Stress Strain Curve.PNG
+.. figure:: ../_static/images/Stress Strain Curve.png
     :figwidth: 600px
-    :target: ../_static/images/Stress Strain Curve.PNG
+    :target: ../_static/images/Stress Strain Curve.png
 	
 On the stress-strain curve we can see the initial section of the curve is a straight line up until it reaches a peak. This 
 region is called the elastic region and it's the region in which an object will experience elastic deformation & where the 
@@ -67,10 +67,13 @@ stress acts parallel to the body. From the normal & shear stress values that can
 on a model the Von Mises stress can be calculated, which is the value(s) responsible for determining whether the material 
 will fail or not. 
 
-.. figure:: ../_static/images/Shear Failure.PNG
+.. figure:: ../_static/images/Shear Failure.png
     :figwidth: 600px
-    :target: ../_static/images/Shear Failure.PNG
+    :target: ../_static/images/Shear Failure.png
 	
+Understanding Strength & Failure
+================================
+
 Buckling & Failure Due to Buckling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,17 +85,17 @@ the critical load, at which point the beam will laterally deflect, similar to th
 shear, “buckled” structures can continue to support a load after having failed due to buckling but cannot sustain any 
 additional load.  
 
-.. figure:: ../_static/images/Beam Buckling.PNG
+.. figure:: ../_static/images/Beam Buckling.png
     :figwidth: 600px
-    :target: ../_static/images/Beam Buckling.PNG
+    :target: ../_static/images/Beam Buckling.png
 	
 Although in the case of our bracket there is no “direct” axial load as in the picture causing the bracket to compress, the 
 load acting at the hole from the eye hook is supplying both tension and compression to the top and bottom surfaces of the 
 bracket arm respectively like the upward bending of the table shown in the image below.
 
-.. figure:: ../_static/images/Table Buckling.PNG
+.. figure:: ../_static/images/Table Buckling.png
     :figwidth: 600px
-    :target: ../_static/images/Table Buckling.PNG
+    :target: ../_static/images/Table Buckling.png
 	
 Using SOLIDWORKS Simulation, we can observe the behavior of the beam under load and visually represent how the bracket will 
 fail under load, as well as the load that would cause the bracket to fail due to buckling.

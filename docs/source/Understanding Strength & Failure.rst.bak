@@ -55,3 +55,48 @@ One more important stress value that will be needed for this simulation is flexu
 material before it experiences any flexing. This flexing comes from a part being put in compression, which causes the part 
 to start deflecting. The use of flexural strength will be further explained in the material properties creation & bending 
 analysis section of the tutorial.
+
+Shear Stress & Failure Due to Sheer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When discussing loading failure, our interest is on how the model will fail as the load is applied to it and its behavior 
+when it does fail. In our case, we are simulating a 200 lb. applied to the model bracket and analyzing how our bracket will 
+behave with this applied load, which we will do by analyzing how stress is distributed in the model. There are two forms of 
+stress: normal stress and shear stress. Normal stress is stress that acts normal to the surface of a body whereas shear 
+stress acts parallel to the body. From the normal & shear stress values that can be calculated for an applied load acting 
+on a model the Von Mises stress can be calculated, which is the value(s) responsible for determining whether the material 
+will fail or not. 
+
+.. figure:: ../_static/images/Shear Failure.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Shear Failure.PNG
+	
+Understanding Strength & Failure
+================================
+
+Buckling & Failure Due to Buckling
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Another study we should also be concerned about is a buckling study since we may also want to observe the brackets buckling 
+behavior when put under load. Buckling is the deformation of a structure that occurs when for example a beam is placed under 
+a compressive load or a load that develops shear stress, causing the beam to “buckle”. For an ideal column under load 
+(typically a fixed-fixed long slender beam), buckling will not occur until the load has climbed to a specific value called 
+the critical load, at which point the beam will laterally deflect, similar to the image shown below. Unlike failure due to 
+shear, “buckled” structures can continue to support a load after having failed due to buckling but cannot sustain any 
+additional load.  
+
+.. figure:: ../_static/images/Beam Buckling.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Beam Buckling.PNG
+	
+Although in the case of our bracket there is no “direct” axial load as in the picture causing the bracket to compress, the 
+load acting at the hole from the eye hook is supplying both tension and compression to the top and bottom surfaces of the 
+bracket arm respectively like the upward bending of the table shown in the image below.
+
+.. figure:: ../_static/images/Table Buckling.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Table Buckling.PNG
+	
+Using SOLIDWORKS Simulation, we can observe the behavior of the beam under load and visually represent how the bracket will 
+fail under load, as well as the load that would cause the bracket to fail due to buckling.
+

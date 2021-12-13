@@ -28,8 +28,8 @@ also see from the plot description that there is a given load factor for this si
     :target: ../_static/images/Creating the Buckling Study 3PNG 
  
 A load factor is a multiplier value that gets multiplied with the applied load value to give the load value that the bracket 
-would fail at. Since the bracket is under a 200 lb load and the load factor is 1.2638, the bracket will fail at 1.2638 times 
-more than 200 lb meaning that the bracket will fail at 200 x 1.2638 lb, or 252.76 lb. 
+would fail at. Since the bracket is under a 200 lb load and the load factor is 1.2625, the bracket will fail at 1.2638 times 
+more than 200 lb meaning that the bracket will fail at 200 x 1.2638 lb, or 252.5 lb. 
 
 Interpreting Results
 ^^^^^^^^^^^^^^^^^^^^
@@ -39,6 +39,6 @@ is still a considerable amount of twisting occurring due to the applied load. Gi
 may experience more deflection or bending due to applied loads which can lead to that part failing due to buckling. It is 
 for this reason that compressive effects on a model be considered alongside tensile effects when determining the method of 
 failure in a model. In the case of our example, the load factor also serves as the Factor of Safety, meaning that since the
-buckling FoS is greater than the static FoS of 0.22, the bracket is predicted to fail due to shear. 
+buckling FoS of 1.2625 is greater than the static FoS of 0.22, the bracket is predicted to fail due to shear. 
  
  

@@ -38,7 +38,7 @@ category folder, right click the desired folder and select ‘New Material”.
 .. figure:: ../_static/images/Material Window 2.PNG
     :figwidth: 600px
     :target: ../_static/images/Material Window 2.PNG
-	
+	 
 If you wish to create a new folder to add multiple new materials or to organize your added materials, a new material folder 
 can also be created by right clicking anywhere in the folder pane and selecting “New Library”. This new folder will then be 
 saved in the custom materials folder in the SOLIDWORKS computer file and can have new folders added to it by selecting “New 

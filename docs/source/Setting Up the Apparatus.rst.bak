@@ -160,8 +160,26 @@ You may choose to start with any mesh quality setting you wish, however, to star
 by default for meshing options, as later on we will look to refine the mesh in specific areas to attain more accurate 
 results on the analysis. 
 
- 
+Running the Study
+^^^^^^^^^^^^^^^^^
+With the study prepared, we can now begin executing the simulation to see how our model will perform and fail. When looking 
+at failure for our bracket model the two modes of failure we will look at are failure due to shear and failure due to 
+buckling, which we will be discussing later when we move to the buckling study. 
 
+Knowing all of this information and having prepped our bracket in the static study, we can now begin executing the 
+simulation by selecting “Run This Study” in the command toolbar and Solidworks will then begin to simulate the system:
+
+.. figure:: ../_static/images/Setting Up the Apparatus 19.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Setting Up the Apparatus 19.PNG
+
+Depending on the complexity of the part, mesh, or even your computer graphical capabilities this process may take a longer. 
+If your material’s yield stress is known you can use it to determine what load your bracket can theoretically handle before 
+yielding which, if given for the material in Solidworks, will be displayed below the plot legend. 
+ 
+.. figure:: ../_static/images/Setting Up the Apparatus 20.PNG
+    :figwidth: 600px
+    :target: ../_static/images/Setting Up the Apparatus 20.PNG
 
 	
  
