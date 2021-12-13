@@ -15,5 +15,5 @@ SOLIDWORKS Simulation
    Analyzing Results
    Creating the Buckling Study
    Refining a Mesh
-   Optimizing The Design
+   Optimizing the Design
    SOLIDWORKS Modelling 3D Printed Materials
