@@ -1,4 +1,4 @@
-RefiningaMesh
+Refining a Mesh
 ===============
 
 Reasons to Refine

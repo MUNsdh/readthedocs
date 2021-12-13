@@ -1,4 +1,4 @@
-CreatingtheBucklingStudy
+Creating the Buckling Study
 ===========================
 
 Similar to our previous static study, we can create a buckling study using “New Study” and selecting the “Buckling Study” 

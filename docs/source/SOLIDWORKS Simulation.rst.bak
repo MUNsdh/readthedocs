@@ -2,7 +2,7 @@ SOLIDWORKS Simulation
 =====================
 
 .. toctree::
-   :maxdepth: 12
+   :maxdepth: 13
    
    Introduction - What is SOLIDWORKS Simulation
    Understanding Strength & Failure
@@ -15,4 +15,5 @@ SOLIDWORKS Simulation
    Analyzing Results
    Creating the Buckling Study
    Refining a Mesh
-   Optimizing the Design
+   Optimizing The Design
+   SOLIDWORKS Modelling 3D Printed Materials

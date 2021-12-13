@@ -1,4 +1,4 @@
-AnalyzingResults
+Analyzing Results
 =================
 
 The simulation should have some produced plots for stress, strain and displacement by default and have the option to add 

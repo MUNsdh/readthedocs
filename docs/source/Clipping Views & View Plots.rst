@@ -1,4 +1,4 @@
-ClippingViews&ViewPlots 
+Clipping Views & View Plots 
 ===========================
 
 Section Clipping
