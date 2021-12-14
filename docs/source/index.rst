@@ -23,4 +23,3 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    Sleep Tracker
    SOLIDWORKS Simulation
    Other
-   Test
