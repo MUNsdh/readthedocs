@@ -1,18 +1,20 @@
 Pushing to Readthedocs with Github Desktop
 ==========================================
-Download and install Github Desktop 
+The content below provides a brief overview of how you can quickly push updates to the Memorial Student Design Hub readthedocs page using Github desktop. This is an alternate workflow to the "Sphinx and Readthedocs Tutorial" page. This workflow focuses solely on pushing updates and does not describe syntax. It also does not utilize the command prompt. By following this workflow you will understand how to quickly create the file architecture for a new tutorial page. 
+
+Start by downloading and installing Github desktop 
 
 https://desktop.github.com/
 
-Launch GitHub desktop and clone the readthedocs repository. Ensure the path is somewhere intuitive to you (so you can find the path later)
+Launch GitHub desktop and login. This workflow assumes that you are already contributor on the readthedocs repository. Create a local clone the readthedocs repository per the prompt after launching github desktop. Ensure the path is somewhere intuitive to you (so you can find the path later)
 Github Desktop will display the repository, along with any changes you make to the source files for the repository. You can minimize github desktop for now.
 
-Navigate to the repository file path, in this case:
-C:\Users\...
+Navigate to the repository file path, in this case the foliepath might look like:
 
-In the source folder you’ll find all of the files making up your readthedocs webpage. The most important file in this folder is index.rst 
+"C:\Users\..."
 
-Open index.rst in the editor of your choice (in this example I’ll use notepad++). Index.rst is the file that manages the readthedocs file explorer. 
+In the source folder you’ll find all of the files making up your readthedocs webpage. The most important file in this folder is index.rst. Open index.rst in the editor of your choice (in this example I’ll use notepad++). Index.rst is the file that manages the readthedocs file explorer. 
+
 .. figure:: ../_static/images/GITHUBDESKTOP1.PNG
     :figwidth: 800px
     :target: ../_static/images/ GITHUBDESKTOP1.PNG
@@ -22,6 +24,7 @@ Open index.rst in the editor of your choice (in this example I’ll use notepad+
     :target: ../_static/images/ GITHUBDESKTOP2.PNG
 
 If you’re planning to add a new subsection, navigate to the rst file and add the title of the new section. The title must be nested. We’ll add “Test”. 
+
 .. figure:: ../_static/images/GITHUBDESKTOP3.PNG
     :figwidth: 800px
     :target: ../_static/images/ GITHUBDESKTOP3.PNG
