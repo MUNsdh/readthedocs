@@ -6,7 +6,7 @@ Start by downloading and installing Github desktop
 
 https://desktop.github.com/
 
-Launch GitHub desktop and login. This workflow assumes that you are already contributor on the readthedocs repository. Create a local clone the readthedocs repository per the prompt after launching github desktop. Ensure the path is somewhere intuitive to you (so you can find the path later)
+Launch GitHub desktop and login. This workflow assumes that you are already contributor on the readthedocs repository. Create a local clone the readthedocs repository per the prompt after launching github desktop. Ensure the path is somewhere intuitive to you (so you can find the path later).
 Github Desktop will display the repository, along with any changes you make to the source files for the repository. You can minimize github desktop for now.
 
 Navigate to the repository file path, in this case the foliepath might look like:
@@ -57,7 +57,7 @@ Now that you’ve created the architecture, you can push the files. Through this
     :figwidth: 700px
     :target: ../_static/images/ GITHUBDESKTOP8.PNG
 
-Now that you’ve added files, you can commit them to the readthedocs. Open github desktop. ON the top left hand side of the screen you’ll see the changes you’re trying to implement. The Green Plus marks indicated that you’re adding new pages, while the yellow dot indicates you’re changing an existing file.
+Now that you’ve added files, you can commit them to the readthedocs. Open github desktop. On the top left hand side of the screen you’ll see the changes you’re trying to implement. The "Green Plus" indicates that you’re adding new pages, while the "Yellow Dot" indicates you’re changing an existing file.
 
 Before making any commits, its best practice to press “Fetch Origin” at the top of the screen. This will ensure that your repository is up to date before you push any changes. 
 
@@ -65,7 +65,7 @@ Before making any commits, its best practice to press “Fetch Origin” at the 
     :figwidth: 700px
     :target: ../_static/images/ GITHUBDESKTOP9.PNG
 
-Next at the bottom left hand side of the screen you’ll see the “Commit” button and a text box. This text box is used to provide context for the changes you’re making and why you’re making them. IF you share a repository with other, this helps people to understand when a change was made and why in case the change produces conflicts or bugs. When you’ve written a good description of your changes, select “Commit to Main”
+Next at the bottom left hand side of the screen you’ll see the “Commit” button and a text box. This text box is used to provide context for the changes you’re making and why you’re making them. If you share a repository with others, this helps people to understand when a change was made and why in case the change produces conflicts. When you’ve written a good description of your changes, select “Commit to Main”.
 
 .. figure:: ../_static/images/GITHUBDESKTOP10.PNG
     :figwidth: 700px
