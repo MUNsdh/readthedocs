@@ -31,7 +31,7 @@ If you’re planning to add a new subsection, navigate to the rst file and add t
 
 Now that we’ve added “Test” it will appear in the menu on the left hand side of the screen. Readthedocs will try to reference an rst file titled “Test” to know what to do next. So, we should create Test.rst. To create test.rst open any other secondary index file. Think of the secondary index file as the next file explorer for your page. For example, the file titled “Laser Cutting” is the index file for the laser cutting tutorial content. Open “Laser Cutting” and save it as “Test”. 
 
-Now that you have your “Test” index file, you can change the content of the file. Edit the fiel to have a unique header and remove any reference to other existing content at the bottom of the file. Our new file will have the title “Test Check” and it will look to reference file “Hello Patrick”.
+Now that you have your “Test” index file, you can change the content of the file. Edit the file to have a unique header and remove any reference to other existing content at the bottom of the file. Our new file will have the title “Test Check” and it will look to reference file “Hello Patrick”.
 
 .. figure:: ../_static/images/GITHUBDESKTOP4.PNG
     :figwidth: 700px
