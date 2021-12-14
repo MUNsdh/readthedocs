@@ -17,17 +17,14 @@ In the source folder you’ll find all of the files making up your readthedocs w
 
 .. figure:: ../_static/images/GITHUBDESKTOP1.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP1.PNG
 
 .. figure:: ../_static/images/GITHUBDESKTOP2.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP2.PNG
 
 If you’re planning to add a new subsection, navigate to the rst file and add the title of the new section. The title must be nested. We’ll add “Test”. 
 
 .. figure:: ../_static/images/GITHUBDESKTOP3.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP3.PNG
 
 Now that we’ve added “Test” it will appear in the menu on the left hand side of the screen. Readthedocs will try to reference an rst file titled “Test” to know what to do next. So, we should create Test.rst. To create test.rst open any other secondary index file. Think of the secondary index file as the next file explorer for your page. For example, the file titled “Laser Cutting” is the index file for the laser cutting tutorial content. Open “Laser Cutting” and save it as “Test”. 
 
@@ -35,27 +32,22 @@ Now that you have your “Test” index file, you can change the content of the 
 
 .. figure:: ../_static/images/GITHUBDESKTOP4.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP4.PNG
  
 .. figure:: ../_static/images/GITHUBDESKTOP5.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP5.PNG
 
 You’ll notice that the file populates with Title “How are you today” instead of “Hello Patrick”. The file name is Hello Patrick.rst but the title within the file is “How are you today?”. This allows us to open the “How are you today?” tutorial page to see the included message. 
 
 .. figure:: ../_static/images/GITHUBDESKTOP6.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP6.PNG
 
 .. figure:: ../_static/images/GITHUBDESKTOP7.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP7.PNG
 
 Now that you’ve created the architecture, you can push the files. Through this process you’ve created two .rst files. The first is “Test.rst” and the second is “Hello Patrick.rst”. Copy these files into the source folder of the repository. 
 
 .. figure:: ../_static/images/GITHUBDESKTOP8.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP8.PNG
 
 Now that you’ve added files, you can commit them to the readthedocs. Open github desktop. On the top left hand side of the screen you’ll see the changes you’re trying to implement. The "Green Plus" indicates that you’re adding new pages, while the "Yellow Dot" indicates you’re changing an existing file.
 
@@ -63,17 +55,14 @@ Before making any commits, its best practice to press “Fetch Origin” at the 
 
 .. figure:: ../_static/images/GITHUBDESKTOP9.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP9.PNG
 
 Next at the bottom left hand side of the screen you’ll see the “Commit” button and a text box. This text box is used to provide context for the changes you’re making and why you’re making them. If you share a repository with others, this helps people to understand when a change was made and why in case the change produces conflicts. When you’ve written a good description of your changes, select “Commit to Main”.
 
 .. figure:: ../_static/images/GITHUBDESKTOP10.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP10.PNG
 
 Now press “Push Origin” to push the updates! Everything you’ve changed will be pushed to the repository and should be reflected on the Readthedocs in the next ten minutes. 
 
 .. figure:: ../_static/images/GITHUBDESKTOP11.PNG
     :figwidth: 700px
-    :target: ../_static/images/ GITHUBDESKTOP11.PNG
 
