@@ -810,7 +810,6 @@ Bed adhesion is the ability of the first layer of a 3D print to stick to the hea
 .. figure:: ../_static/images/warping.png
     :figwidth: 700px
     :target: ../_static/images/warping.png
-Warping
 
 3D printer heat beds are made of different materials that affect what type of filament can stick to it. This particular printer, Eryone, uses a glass heatbed. As such, there are a few things that can be done to improve adhesion:
 
@@ -821,9 +820,9 @@ Warping
 .. figure:: ../_static/images/raft.png
     :figwidth: 600px
     :target: ../_static/images/raft.png
-A Raft
 
-4. **Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick or hairspray will help improve bed adhesion.
+4. **Coat the bed with glue / hairspray:** If all else fails, coating the area of the heatbed where the print is to be printed on with a glue stick (preferred) or hairspray will help improve bed adhesion. Another popular choice is to use 
+blue painters tape to improve bed adhesion. A guide for applying blue painters tape can be found here: https://tapemanblue.com/blogs/tips-tricks/blue-tape-for-3d-printing 
 
 No Large Flat Surface to Start Print From
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1197,8 +1196,8 @@ back, moving to start point to the back of the print will move any surface issue
 you will need to enter an x and y coordinate. The measurements go off of the area of the print bed, from one edge to the other. The
 Eryone’s bed is 250mm in the x-direction, which means if your part is perfectly centered, and you want the seem to be at the back
 then you want to use 125mm as the x coordinate. The y coordinate then depends on how big your part is. Remember
-the setting says “closet to specific location” which means you don’t have to find the exact number of where you want the l
-ayers to begin, just a number that is closest to where you want it to go.
+the setting says “closet to specific location” which means you don’t have to find the exact number of where you want the layers 
+to begin, just a number that is closest to where you want it to go.
 
 .. figure:: ../_static/images/troubleshooting3.PNG
     :figwidth: 400px
