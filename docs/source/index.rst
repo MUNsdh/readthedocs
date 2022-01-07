@@ -12,10 +12,11 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
     :target: ../_static/images/ENG.png
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 9
    :hidden:
 
    3D Printing
+   Data Acquisition
    Laser Cutting
    PCB Design
    PCB Assembly and Testing
