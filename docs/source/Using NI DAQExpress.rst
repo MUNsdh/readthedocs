@@ -1,5 +1,6 @@
-Using NI DAQExpress
+Using NI DAQ Express
 ===================
+
 With the functionality of the DAQ established and the load cell now properly wired to the terminal, we can begin to start 
 recording data. To start, when NI DAQExpress records data in the program it is recorded in real time. Having already plugged 
 in the DAQ to the computer, a program called “NI Device monitor” should automatically pop up. Before the program opens, you 
@@ -43,7 +44,7 @@ properly installed to the DAQ.
     :target: ../_static/images/UsingNIDAQExpress5.png  
 
 To create a measurement panel, a window can be created by accessing the File function in the top left toolbar 
-(File > New > Analog Input).
+**(File > New > Analog Input)**.
 
 .. figure:: ../_static/images/UsingNIDAQExpress6.png
     :figwidth: 600px
@@ -146,8 +147,6 @@ our sensor sensitivity (3.0 mV/V) divided by load cell’s maximum load value (1
 .. figure:: ../_static/images/UsingNIDAQExpress18.png
     :figwidth: 600px
     :target: ../_static/images/UsingNIDAQExpress18.png  
-
-
 
 Finally, there is also initial voltage to consider. The initial voltage acts as an offset to ensure that all voltage values 
 supplied to DAQExpress from the DAQ read entirely as positive values. We will opt in to including the offset, and therefore 
