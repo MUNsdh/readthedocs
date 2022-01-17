@@ -373,8 +373,55 @@ Press Carve and watch the machine cut!
 Importing G-Code to Easel
 ---------------------------------
 
-Before 
+Before starting this tutorial, please ensure that the Easel post processor is installed in Fusion 360. 
 
-.. figure:: ../_static/images/X.PNG
+1)	Now that the Easel post processor is installed you can export G-Code from Fusion 360 to Easel. Launch Fusion 360 and navigate to you part under the “manufacture” menu. 
+Note: this tutorial assumes you’ve already created a machining toolpath in Fusion 360 to export. To create a toolpath for your part, please see the Fusion360 tutorial.
+
+.. figure:: ../_static/images/X51.PNG
     :figwidth: 450px
-    :target: ../_static/images/X.PNG
+    :target: ../_static/images/X51.PNG
+
+2)	 You will now have access to the “Actions” menu at the top of your screen. Select Actions  Post Process 
+
+.. figure:: ../_static/images/X52.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X52.PNG
+
+3)	Under the Post Process Menu you’ll see the following window. If you’ve installed the post processor correctly you should be able to select the option “Easel by Inventibles / easel” option from the drop down. 
+
+.. figure:: ../_static/images/X53.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X53.PNG 
+
+4)	After you select the Easel post processor update the Program Name to reflect the operation you’re going to complete. Also you can update the output file path for the .nc file. 
+
+.. figure:: ../_static/images/X54.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X54.PNG
+
+IMPORTANT NOTE: Easel can only handle one operation at a time! You will need to export each CNC cutting operation as a separate file.
+
+5)	Now that you have your .nc file, Launch Easel in your browser. Navigate to File and Select “import G-Code”. Press choose file and navigate to the G-Code you generate in Fusion360. 
+
+.. figure:: ../_static/images/X55.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X55.PNG
+
+.. figure:: ../_static/images/X56.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X56.PNG
+
+6)	This will now launch the G-Code in Easel. Easel will then run a simulation of the cut you’re completing on the stock that you specified in your Fusion 360 Set-up. It will import the bit dimensions that you specified as well
+   
+.. figure:: ../_static/images/X57.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X57.PNG
+
+.. figure:: ../_static/images/X58.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X58.PNG
+
+7)	Now that you’ve got your toolpath imported into Easel, it’s time to get carving! Proceed to the next tutorial for details on setting up the machine and starting your cut. 
+
+NOTE: Remember! Your exported G-Code assumes that the diameter of the bit you’re using in Fusion 360 matches the bit you’re going to use on the router. Using a different sized bit will result in a failed cut (dimensionally). 
