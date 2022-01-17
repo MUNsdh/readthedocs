@@ -1,4 +1,4 @@
-Evo-Ove Importing G-Code to Cre-Move & Making a Cut
+Evo-One Importing G-Code to Cre-Move & Making a Cut
 ===================================================
 
 picture 1
