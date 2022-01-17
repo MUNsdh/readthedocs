@@ -266,24 +266,109 @@ Use a piece of paper when determining your Z zero. Slowly lower the resolution o
 Now you’re ready to start carving!
 
 
-Bit and Router Parameters
+Router Details
 -------------------------------
 
-Before 
-
-.. figure:: ../_static/images/X.PNG
+.. figure:: ../_static/images/35.PNG
     :figwidth: 450px
-    :target: ../_static/images/X.PNG
+    :target: ../_static/images/35.PNG
 
 
 Using Easel for Simple Cuts
 -------------------------------
 
-Before 
+This section of the tutorial will cover doing basic cuts with Easel. This requires no machining toolpaths, so basic shapes can be cut out of material stock with minimal programming. 
+Start by defining your material in Easel. Define the width, length, and thickness of the stock. 
 
-.. figure:: ../_static/images/X.PNG
+.. figure:: ../_static/images/X36.PNG
     :figwidth: 450px
-    :target: ../_static/images/X.PNG
+    :target: ../_static/images/X36.PNG
+ 
+Draw your simple shape on the bed. Below you can see a simple rectangle. 
+
+.. figure:: ../_static/images/X37.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X37.PNG
+ 
+Define the profile size and position. You can do this by defining the exact size of the material. Then using the position section you can position the part on the bed relative to the bottom left corner of the bed (on your screen). 
+
+.. figure:: ../_static/images/X38.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X38.PNG
+
+On the Cut Tab, define the depth of the cut you’d like to perform. This can be adjusted to a precise value, or use the depth slider. The depth slider is helpful as it gives you an indication how deep the cuts will be from 0 to full depth. 
+You can also specify the cut behavior here. It’s important to consider the diameter of the bit being used. If you cut on the line expect the center point of the bit to travel on the line, this will lose some material from the inside and outside. To ensure the dimensional accuracy of your part, it’s best to cut on the outside of the line. 
+
+.. figure:: ../_static/images/X39.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X39.PNG
+
+Tabs are a helpful addition to any cut as they ensure that the part being removed stays stationary relative to the stock. They can be removed manually after the cut is complete. You can define the size of the tabs (as well as the number). 
+
+.. figure:: ../_static/images/X40.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X40.PNG
+
+Your pattern is now ready to be cut! Follow the steps below to start your cut. 
+Confirm the thickness of your part. This can be done using a set of calipers (or a measuring tape for thicker stock). 
+
+.. figure:: ../_static/images/X41.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X41.PNG
+
+Confirm material is secured to the table. You shouldn’t be able to move the stock in the x or y axis. All edges should be secure so the material can’t move in the Z-axis while being cut. In the case shown below, the part is adequately secured in the X-Y plane. However, if the router moves to close to the corners further from the clamps there’s a risk the material will rise as it’s being cut (throwing off cut quality and dimensional accuracy). Securing this thin piece could be improved through using double sided tape (or by screwing it to the spoil board). 
+
+.. figure:: ../_static/images/X42.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X42.PNG
+
+To ensure the spindle doesn’t collide with the clamps, we measured their distance from the origin (the bottom left corner). We have enough clearance with this cut, so we won’t hit the clamps. 
+
+.. figure:: ../_static/images/X43.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X43.PNG
+
+.. figure:: ../_static/images/X44.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X44.PNG
+
+Another consideration is that the spindle won’t collide with the clamps (or other securing devices). This is an important consideration while doing your zeroing. Think about how the material is secured, often the clamps and other devices can be applied without being in the cut path. 
+Confirm the bit to be used. Standard X-Carve bits are available from the drop down menu. 
+
+.. figure:: ../_static/images/X45.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X45.PNG
+
+Before starting this cut you need to define the zero position for the machine. The X-Carve remembers the last specified origin for the machine. To determine your zero location jog the spindle to an “appropriate” starting location for your cut. The X-Carve will always behave relative to the bottom left corner on the bed shown in Easel. 
+
+.. figure:: ../_static/images/X46.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X46.PNG
+
+.. figure:: ../_static/images/X47.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X47.PNG    
+
+When defining the zero position for your z-axis, a good tip is to use a piece of paper. Place the paper between the bit and the material and gently move the paper back and forth. Lower the spindle until you start to feel friction between the bit and the paper. When the paper catches you’ve reached the top of the stock. 
+
+.. figure:: ../_static/images/X48.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X48.PNG
+
+Raise the bit by clicking the on screen prompt. This will give some clearance from the z-axis for the spindle to move into position. However, it doesn’t move up enough to clear a clamp, you need to make sure the clamps are not in the path of the spindle to the cutting location on the stock. The x-carve will lose its position if it collides with something (or hangs up). Which may result in a failed cut. 
+
+.. figure:: ../_static/images/X49.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X49.PNG
+
+Next turn on the spindle by pressing the power button on the machine. You’ll also be able to adjust the machine speed here. The dial can be adjusted from 1 (slow) to 6 (high). A chart dictating the RPM for each value can be found at (link to Bit guide). 
+
+.. figure:: ../_static/images/X50.PNG
+    :figwidth: 450px
+    :target: ../_static/images/X50.PNG
+
+Press Carve and watch the machine cut!
+
 
 Importing G-Code to Easel
 ---------------------------------
