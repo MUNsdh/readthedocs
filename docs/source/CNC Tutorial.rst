@@ -6,4 +6,4 @@ CNC Tutorial
 
    CNC Mill
    Computer-Aided Manufacturing
-   Evo-Ove Importing G-Code to Cre-Move & Make a Cut
+   Evo-One Importing G-Code to Cre-Move & Make a Cut
