@@ -6,7 +6,6 @@ Computer-Aided Manufacturing Using Fusion360
 Now that your part is ready, you can start generating tool paths! To start setting up your tool paths navigate to the manufacturing tool space. Then Select Set-Up
 
 .. figure:: ../_static/images/Fusion_1.PNG
-    :figwidth: 450px
     :target: ../_static/images/Fusion_1.PNG
 
 2. Selecting new setup will generate a smaller menu. Near the top you’ll see “Machine”. Click this option to open the machines menu. 
