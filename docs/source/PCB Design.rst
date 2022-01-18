@@ -1,4 +1,4 @@
-PCB Tutorial
+PCB Design in KiCAD
 ==========
 
 .. toctree::
