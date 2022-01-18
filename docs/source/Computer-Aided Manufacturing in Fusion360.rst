@@ -5,8 +5,9 @@ Computer-Aided Manufacturing Using Fusion360
 1. This tutorial assumes that you already have created a part that you would like to machine. Remember, you need to design your parts around the machining tools you have available. 
 Now that your part is ready, you can start generating tool paths! To start setting up your tool paths navigate to the manufacturing tool space. Then Select Set-Up
 
-.. figure:: ../_static/images/Fusion_1.PNG
-    :target: ../_static/images/Fusion_1.PNG
+.. figure:: ../_static/images/Fusion_1.png
+    :figwidth: 450px
+    :target: ../_static/images/Fusion_1.png
 
 2. Selecting new setup will generate a smaller menu. Near the top you’ll see “Machine”. Click this option to open the machines menu. 
  a. The X-Carve is a “Generic Three Axis Router”. 
