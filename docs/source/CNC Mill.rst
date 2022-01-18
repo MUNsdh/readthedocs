@@ -38,8 +38,8 @@ ii. Open clamp all the way to allow stock to be secured. The maximum width of th
 iii. Set the stock in the clamp. There are two ways to set the stock. On the raised edge, or on the base. In this case we’ll set it on the raised edge. 
 	
 .. figure:: ../_static/images/SettingUpEvo1_5.png
-:figwidth: 450px
-:target: ../_static/images/SettingUpEvo1_5.png
+    :figwidth: 450px
+    :target: ../_static/images/SettingUpEvo1_5.png
 
 iv. Move the inside clamp jaw in and tighten it in place. The stock will sit on the clamp but can be easily removed. Ensure the stock does not exceed the length of the bed. 
 	
