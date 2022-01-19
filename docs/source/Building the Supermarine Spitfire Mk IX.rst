@@ -138,7 +138,7 @@ was not a significant amount, the part was deemed usable. Using 0 restart distan
 whatever 3D LabPrint had recommended was the best way to print the parts for the fuselage.
 
 .. figure:: ../_static/images/Spitfire10.PNG
-    :figwidth: 400px
+    :figwidth: 450px
     :target: ../_static/images/Spitfire10.PNG
 
 On the left side of the picture the z-seam is visible, as mentioned above there are some small holes going up the side. This part 
