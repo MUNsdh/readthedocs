@@ -1,4 +1,4 @@
-How to Use Breadboards
+How to Use a Breadboard
 =======================
 .. image:: ../_static/images/BreadBoard.jpg
    :width: 400px
