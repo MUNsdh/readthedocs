@@ -1,4 +1,4 @@
-How to Use the Powered Breadboards in the Lab
+How to Use Powered Breadboards in the Lab
 =======================
 .. image:: ../_static/images/BreadBoard.jpg
    :width: 400px
