@@ -65,5 +65,56 @@ Example Circuit
 ---------------
 In this section, we will build a simple circuit involving a few wires, a 300 Ω resistor, a push button, and a Light-Emitting Diode (LED):
 
-.. image:: BreadboardTutorial/ConnectPowerWire.jpg
+.. image:: BreadboardTutorial/Components.jpg
    :width: 600px
+
+We will create a circuit that turns on the red LED whenever the button is pushed, and turns it off when the button is not pushed. The first step is to connect the power and ground knobs to one of the rails on the breadboard (the power switch on the breadboard should be in the "OFF" position until the circuit is complete):
+
+.. image:: BreadboardTutorial/step1.jpg
+   :width: 600px
+   
+Now a smaller red wire must be connected to one of the rows on the breadboard:
+
+.. image:: BreadboardTutorial/step2.jpg
+   :width: 600px
+   
+Next, the push button must have one end connected to the short red wire and the other end placed across the gap, as shown here:
+
+.. image:: BreadboardTutorial/step3.jpg
+   :width: 600px
+   
+The resistor is then connected to the lead of the push button, with its other lead being connected to a new row:
+
+.. image:: BreadboardTutorial/step4.jpg
+   :width: 600px
+   
+Next is the LED. **The LED is polar,** meaning placing it in the wrong direction will prevent the circuit from working. The longer lead on the LED is the positive (+) lead, while the shorter lead is negative (-). The (conventional) current must flow from the positive lead to the negative lead, so **the longest lead must be connected to the resistor:**
+
+.. image:: BreadboardTutorial/step5.jpg
+   :width: 1000px
+
+Now take a short black wire and connect the LED lead to the negative rail:
+
+.. image:: BreadboardTutorial/step6.jpg
+   :width: 600px
+   
+The circuit is now complete. Turn the power switch on and try pressing the button. You should find that the LED turns on when the button is pressed, and turns off when it is not.
+
+.. image:: BreadboardTutorial/ExampleCircuit.jpg
+   :width: 1000px
+   
+Example Circuit (Part 2)
+------------------------
+You can also try out the adjustable knobs on the breadboard by making a few small changes to the circuit. Turn the power off and remove the push button from the circuit entirely. Connect the shorter red wire directly to the resistor lead and connect the longer red wire to one of the other red knobs. Your circuit should now look like this:
+
+
+.. image:: BreadboardTutorial/extra.jpg
+   :width: 600px
+   
+Now turn the power back on and try adjusting the black knob below the red knob that you hooked the wire up to. You should find that the brightness of the LED corresponds to the rotation of the knob:
+
+
+.. image:: BreadboardTutorial/AdjustableLED.jpg
+   :width: 1000px
+   
+*End of tutorial.*
