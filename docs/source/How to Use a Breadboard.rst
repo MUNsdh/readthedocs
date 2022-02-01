@@ -43,7 +43,9 @@ The **black knob** labelled "COM" is the ground for the circuit.
 
 The **leftmost red knob** labelled "+5V/1.5A" supplies 5V when the power switch is turned on.
 
-The **middle/rightmost red knobs** labelled "+0~16V/500mA" supplies anywhere between 0V to 16V, which depends on the position of the black knobs below each of them. The output of the red knobs can be adjusted by simply turning these black knobs.
+The **middle red knob** labelled "0~+16V/500mA" supplies anywhere between 0V to +16V, which depends on the position of the black knobs below each of them. The output of this red knob can be adjusted by simply turning the black knob below it.
+
+The **rightmost red knob** labelled "0~-16V/500mA" supplies anywhere between 0V to -16V, which depends on the position of the black knobs below each of them. The output of this red knob can be adjusted by simply turning the black knob below it.
 
 The sides of the breadboard have red and blue lines labelled "+" and "-". These lines show that all the holes along that line are connected together, and are meant to receive power from one of the red knobs (or the ground for the "-" end). These long connected lines are called **rails.**
 
@@ -106,7 +108,7 @@ The circuit is now complete. Turn the power switch on and try pressing the butto
    
 Example Circuit (Part 2)
 ------------------------
-You can also try out the adjustable knobs on the breadboard by making a few small changes to the circuit. Turn the power off and remove the push button from the circuit entirely. Connect the shorter red wire directly to the resistor lead and connect the longer red wire to one of the other red knobs. Your circuit should now look like this:
+You can also try out the adjustable knobs on the breadboard by making a few small changes to the circuit. Turn the power off and remove the push button from the circuit entirely. Connect the shorter red wire directly to the resistor lead and connect the longer red wire to the middle red knob. Your circuit should now look like this:
 
 
 .. image:: ../_static/images/extra.jpg
