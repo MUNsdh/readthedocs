@@ -12,17 +12,16 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
     :target: ../_static/images/ENG.png
 
 .. toctree::
-   :maxdepth: 11
+   :maxdepth: 10
    :hidden:
 
    3D Printing
    Data Acquisition
    Laser Cutting
-   CNC Tutorial
+   CNC Machining
    Electronics Prototyping
    PCB Design
    PCB Assembly and Testing
    Python
-   Sleep Tracker
    SOLIDWORKS Simulation
    Other
