@@ -1,4 +1,4 @@
-Electronic Prototyping
+Electronics Prototyping
 ===========
 
 .. toctree::
