@@ -1,4 +1,4 @@
-SOLIDWORKS Simulation
+Finite Element Analysis
 =====================
 
 .. toctree::
