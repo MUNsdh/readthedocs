@@ -1,4 +1,4 @@
-CNC Tutorial
+CNC Machining
 =============
 
 .. toctree::
