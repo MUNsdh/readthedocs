@@ -43,16 +43,16 @@ The **black knob** labelled "COM" is the ground for the circuit.
 
 The **leftmost red knob** labelled "+5V/1.5A" supplies 5V when the power switch is turned on.
 
-The **middle red knob** labelled "0~+16V/500mA" supplies anywhere between 0V to +16V, which depends on the position of the black knobs below each of them. The output of this red knob can be adjusted by simply turning the black knob below it.
+The **middle red knob** labelled "0~+16V/500mA" supplies anywhere between 0V to +16V, which depends on the position of the black knobs below it. The output of this red knob can be adjusted by simply turning the black knob below it.
 
-The **rightmost red knob** labelled "0~-16V/500mA" supplies anywhere between 0V to -16V, which depends on the position of the black knobs below each of them. The output of this red knob can be adjusted by simply turning the black knob below it.
+The **rightmost red knob** labelled "0~-16V/500mA" supplies anywhere between 0V to -16V, which depends on the position of the black knobs below it. The output of this red knob can be adjusted by simply turning the black knob below it.
 
 The sides of the breadboard have red and blue lines labelled "+" and "-". These lines show that all the holes along that line are connected together, and are meant to receive power from one of the red knobs (or the ground for the "-" end). These long connected lines are called **rails.**
 
 .. image:: ../_static/images/BreadBoardRails.jpg
    :width: 1000px
    
-Simply turning on the power switch of the breadboard does not supply power to the power rails. I wire must run from one of the red knobs to the power rail. The ground rail must also be connected to the ground (COM) knob. The method for connecting a wire to one of these knobs is shown here:
+Simply turning on the power switch of the breadboard does not supply power to the power rails. A wire must run from one of the red knobs to the power rail. The ground rail must also be connected to the ground (COM) knob. The method for connecting a wire to one of these knobs is shown here:
 
 .. image:: ../_static/images/KnobTutorial.jpg
    :width: 1000px
