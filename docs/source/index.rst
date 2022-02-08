@@ -22,6 +22,7 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    Electronics Prototyping
    PCB Design
    PCB Assembly and Testing
+   Power Supply Tutorial
    Python
    Finite Element Analysis
    Other
