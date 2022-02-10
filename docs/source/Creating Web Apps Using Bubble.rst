@@ -44,3 +44,27 @@ Here is a brief explanation of each:
 | **HTML** - Allows you to embed HTML code into your web app.
 | **Map** - Allows you to add a map that can be navigated and referenced by other elements in your app.
 | **Built on Bubble** - Adds an optional Bubble watermark to your app.
+
+Within the UI builder there is also a dropdown called "Containers." It contains several features that are necessary for almost every kind of web app:
+
+(photo 6)
+
+Here is what each container does:
+
+| **Group** - Groups multiple elements together.
+| **Repeating Group** - Repeats groups of elements vertically/horizontally on the page. Useful for displaying lists of data (comments on a post, for example).
+| **Popup** - Shows a small "page" (really just a group) overlapping the original page when an event triggers it (a login popup, for example).
+| **Floating Group** - A group of elements that stays in the same position on the screen as the user scrolls through the site.
+| **Group Focus** - A group of elements that shows only when an event triggers it, and disappears once the user clicks outside of it.
+
+The UI builder also has a dropdown titled "Input forms." These elements allow the user to enter information into the web app:
+
+(photo 7)
+
+Here is what each input element does:
+
+| **Input** - Allows the user to enter a single-line input.
+| **Multiline Input** - Allows the user to enter a multiline input.
+| **Checkbox** - Adds a checkbox to the interface.
+| **Dropdown** - Allows the user to choose an input from multiple options (an example would be sorting posts in order of most popular, most recent, or least recent).
+| **Search Box** - 
