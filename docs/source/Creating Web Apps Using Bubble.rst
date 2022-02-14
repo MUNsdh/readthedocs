@@ -100,7 +100,44 @@ As you use Bubble, you will start to see references to database terminology:
 There are several tabs within the data tab, each dedicated to dealing with different parts of your app's data. Each will be described below.
 
 | **The "Data types" Tab** - This tab deals with creating, viewing, editing, and deleting data types. It also lets you add/delete fields of each type (except for the default fields).
+
+(photo 10)
+
 | **The "Privacy" Tab** - This tab Lets you set privacy rules for each data type, such as what can be shared or searched by other users.
+
+(photo 11)
+
 | **The "App data" Tab** - This is where you can view, create, edit, or delete instances of different types (things). For instance, the information of someone who created an account with your app would be accessible in this tab.
-| **The "Option sets" Tab** - 
-| **The "File manager" Tab** - 
+
+(photo 12)
+
+| **The "Option sets" Tab** - Allows you to create, view, edit, and delete dynamic sets.
+
+(photo 13)
+
+| **The "File manager" Tab** - Allows you to upload, view, and delete files that users have uploaded to your app (can be of any file type).
+
+(photo 14)
+
+The Styles Tab
+--------------
+
+(photo 15)
+
+This tab opens automatically whenever you try to edit the style of one of the elements in the design tab. It allows you to change the appearance of the element by altering fonts, colors, shapes, etc.
+
+The Plugins Tab
+---------------
+
+(photo 16)
+
+Bubble has a vast library of plugins for integrating third-party services into your app. Some of the most popular plugins allow you to integrate Facebook, Google, Amazon, PayPal, etc. directly into your app. Pretty much any app that you could ever want to make will require a plugin.
+
+First Example: Social Media App
+===============================
+
+In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and reply to those comments. We will also implement a "map" feature, which will show where each post was created on a map.
+
+Creating the Header as a Reusable Element
+-----------------------------------------
+If you look at a web app today, most (if not all) of them use a header. This is simply a bar at the top of the screen showing the site's logo, the sign in/sign up button (or thre user's username and profile photo if they are signed in), and tabs for navigating the site.
