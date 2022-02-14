@@ -44,8 +44,8 @@ Here is a brief explanation of each:
 | **HTML** - Allows you to embed HTML code into your web app.
 | **Map** - Allows you to add a map that can be navigated and referenced by other elements in your app.
 | **Built on Bubble** - Adds an optional Bubble watermark to your app.
-
-Within the UI builder there is also a dropdown called "Containers." It contains several features that are necessary for almost every kind of web app:
+| 
+| Within the UI builder there is also a dropdown called "Containers." It contains several features that are necessary for almost every kind of web app:
 
 (photo 6)
 
@@ -56,8 +56,8 @@ Here is what each container does:
 | **Popup** - Shows a small "page" (really just a group) overlapping the original page when an event triggers it (a login popup, for example).
 | **Floating Group** - A group of elements that stays in the same position on the screen as the user scrolls through the site.
 | **Group Focus** - A group of elements that shows only when an event triggers it, and disappears once the user clicks outside of it.
-
-The UI builder also has a dropdown titled "Input forms." These elements allow the user to enter information into the web app:
+| 
+| The UI builder also has a dropdown titled "Input forms." These elements allow the user to enter information into the web app:
 
 (photo 7)
 
@@ -67,4 +67,40 @@ Here is what each input element does:
 | **Multiline Input** - Allows the user to enter a multiline input.
 | **Checkbox** - Adds a checkbox to the interface.
 | **Dropdown** - Allows the user to choose an input from multiple options (an example would be sorting posts in order of most popular, most recent, or least recent).
-| **Search Box** - 
+| **Search Box** - Searches a database for the user's input and provides search suggestions.
+| **Radio Buttons** - Allows the user to choice from a list of choices, but only one option is allowed at a time.
+| **Slider Input** - Lets the user choose a value from a range of values (or specify a range within these values).
+| **Date/Time Picker** - Lets the user input a date (and time, if needed).
+| **Picture Uploader** - Lets the user upload an image to the app.
+| **File Uploader** - Lets the user upload a file (of any type) to the app.
+| 
+| In each element dropdown, you may notice that there is an option to "Install more..." at the bottom. Clicking this option opens the plugins page, which will be discussed later. These are all the basic UI elements that you will need to build your apps.
+
+The Workflow Tab
+----------------
+
+(photo 8)
+
+The purpose of this tab is to add functionality to the elements you created in the design tab. For example, the event that occurs as a result of pressing a button would be specified here. The triggers/actions that can occur in a given workflow are too numerous to list in this tutorial, so it is best just to learn them as you need them. We will briefly talk about the basic interface.
+
+Clicking on the event block lets you specify which event will trigger the action. It could be a page loading, a button being clicked, a popup opening, etc. Once an event is picked, a action section will appear, allowing you to choose what happens when this event occurs.
+
+(photo 9)
+
+Actually using the options presented in the actions tab is mostly self-explanatory, but can quickly become complicated in the later stages of building your app. The best way to get comfortable using it is through examples, which are available in the later sections of this tutorial.
+
+The Data Tab
+-------------
+As you use Bubble, you will start to see references to database terminology:
+
+| **Types** - Data templates that have several fields. For example, "user" is one of the preloaded data types in Bubble. Its fields include the user's email, the date their account was created (Created Date), the date the user's account was modified (Modified Date), and the user's account's slug. The "User" type defines what data is associated with a user's account.
+| **Things** - Instances of a type. To use the "User" example again, this would refer to a specific user's account. When you create a new thing, you must specify what this thing's type is. If it is of type "User", then you are creating a new user account.
+| **Fields** - Attributes of a type. A thing of type "User" has an associated Email, Creation Date, Modified Date, and Slug. More fields can be added to a type as desired, but default fields cannot be deleted.
+| 
+There are several tabs within the data tab, each dedicated to dealing with different parts of your app's data. Each will be described below.
+
+| **The "Data types" Tab** - This tab deals with creating, viewing, editing, and deleting data types. It also lets you add/delete fields of each type (except for the default fields).
+| **The "Privacy" Tab** - This tab Lets you set privacy rules for each data type, such as what can be shared or searched by other users.
+| **The "App data" Tab** - This is where you can view, create, edit, or delete instances of different types (things). For instance, the information of someone who created an account with your app would be accessible in this tab.
+| **The "Option sets" Tab** - 
+| **The "File manager" Tab** - 
