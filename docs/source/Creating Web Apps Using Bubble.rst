@@ -20,6 +20,10 @@ Press the blue button to be taken to the Bubble editor. You will see a popup on 
 
 (photo 3)
 
+It is useful to keep in mind that you can always hover your cursor over anything in Bubble to get access to its reference page, where you can learn all about what it does.
+
+(photo 15)
+
 The Design Tab
 --------------
 
@@ -140,4 +144,52 @@ In this section, we will create an app that can do the same basic functions as m
 
 Creating the Header as a Reusable Element
 -----------------------------------------
-If you look at a web app today, most (if not all) of them use a header. This is simply a bar at the top of the screen showing the site's logo, the sign in/sign up button (or thre user's username and profile photo if they are signed in), and tabs for navigating the site.
+If you look at a web app today, most (if not all) of them use a header. A header is simply a bar at the top of the screen showing the site's logo, the sign in/sign up button (or the user's username and profile photo if they are signed in), and tabs for navigating the site.
+
+We will start by clicking the dropdown menu in the top-left corner of the screen to see all the pages that current exist in our web app. The reusable elements are also listed here. 
+
+(photo 17)
+
+From here, we will click "Add a new reusable element" to create our header. Give the header element a unique name and click CREATE.
+
+(photo 18)
+
+You will now be taken to a new page. The white block that you see in the center of the screen will become our reusable element. You can edit the properties of any element in Bubble by double-clicking on it. Double-click on the white box to change its width to be the same as the width of your index page (usually 1080px). Also adjust the height and color to your liking.
+
+(photo 19)
+
+Now we will add a logo to out header. Select the "Text" element from the visual elements dropdown on the left, then click and drag over the rectangle we just edited. This clicking and dragging is how all elements are added to your app. Double-click the textbox to change the font size, type, and color of the logo to be on-brand with your website. You may notice that the text does not show up in the editor, despite the text being visible when the app is running or when you use the element in another page. This is likely just a bug, and should not affect your app.
+
+Lets add a Login/Sign up button to the header. We want the button to open a new page where the user can login or sign up. Create a new page using the dropdown in the top-left corner and name it "sign in page" or something similar. Click the "Button" element and place it somewhere on the header. Now lets open the button's properties window and click the "Start/Edit workflow" option.
+
+Bubble will assume that the event that triggers the action is when the button is clicked. Click on the box below it to add an action and go to *Navigation > Go to page...* to make the button move the user to another page. A window will pop up requiring a "destination". Input the page you created for signing the user in.
+
+(photo 20)
+
+You can now test your button. Navigate to the "index" page and add the header to the top of the screen (find the "Reusable elements" dropdown on the left). Click "Preview" in the top right corner and you should be taken to a new tab where you can test your app. When you click a button, you should be taken to a blank page.
+
+(photo 21)
+
+As an exercise, you can also make your logo act as a button that takes you back to the "index" page. The process for doing this is almost identical to the process for the button. (hint: you can only edit elements within a reusable element by going back to that element's page using the page dropdown.)
+
+Account Functionality
+---------------------
+It is surprisingly simple to create a login/sign up system in Bubble. Navigate to your sign in page and Add input lines for the user's email, password, and password again (retyped for confirmation). For the email line, type "Email" as a placeholder and select Email from the dropdown menu for "Content format". For the passwords, type "Type a password" and "Retype password" respectively for the placeholders of each, and set their content formats to "Password".
+
+Now add a button below these input lines that says "Sign up". You can also add some text above the input lines that says "Sign Up". Your page should now look something like this:
+
+(photo 22)
+
+Now open up the properties for the sign up button and start a workflow. Add an action by navigating to *Account > Sign the user up*. A window will pop up with multiple options. 
+
+(photo 23)
+
+First, check the "Require a password confirmation" checkbox. This will mean the user must type the password in the second password input as well as the first to create an account. Now click the red box next to "Email" and click the options so that it says **Input Email's value**. Next, click the red box next to "Password" and click the options to say **Input Type a password's value**. Lastly, put **Input Retype password's value** next to "Confirmation". The window should now look like this:
+
+(photo 24)
+
+You can now test the sign up functionality using the "Preview" button. Nothing will actually change in the test app yet, but you can go to the "App data" section of the Data tab to see if a new entry has been created under "All Users":
+
+(photo 25)
+
+You may notice that the input fields do not become empty when you click the "Sign up" button. This does not affect the functioning of the app, but it does look messy. To fix this, we can add an extra step to the end of the "Sign up" button's workflow to clear all inputs. Open the button's properties window and click the button to edit its workflow. Add another action to happen after signing the user up under *Element Actions > Reset inputs*. This will reset all the inputs on the page to be their default value (which we have kept empty).
