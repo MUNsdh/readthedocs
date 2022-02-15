@@ -174,17 +174,17 @@ As an exercise, you can also make your logo act as a button that takes you back 
 
 Account Functionality
 ---------------------
-It is surprisingly simple to create a login/sign up system in Bubble. Navigate to your sign in page and Add input lines for the user's email, password, and password again (retyped for confirmation). For the email line, type "Email" as a placeholder and select Email from the dropdown menu for "Content format". For the passwords, type "Type a password" and "Retype password" respectively for the placeholders of each, and set their content formats to "Password".
+It is surprisingly simple to create a login/sign up system in Bubble. Navigate to your sign in page and Add input lines for the user's email, password, and password again (retyped for confirmation). For the email line, type "Enter an email" as a placeholder and select Email from the dropdown menu for "Content format". For the passwords, type "Type a password" and "Retype password" respectively for the placeholders of each, and set their content formats to "Password".
 
 Now add a button below these input lines that says "Sign up". You can also add some text above the input lines that says "Sign Up". Your page should now look something like this:
 
-(photo 22)
+(photo 26 cropped)
 
 Now open up the properties for the sign up button and start a workflow. Add an action by navigating to *Account > Sign the user up*. A window will pop up with multiple options. 
 
 (photo 23)
 
-First, check the "Require a password confirmation" checkbox. This will mean the user must type the password in the second password input as well as the first to create an account. Now click the red box next to "Email" and click the options so that it says **Input Email's value**. Next, click the red box next to "Password" and click the options to say **Input Type a password's value**. Lastly, put **Input Retype password's value** next to "Confirmation". The window should now look like this:
+First, check the "Require a password confirmation" checkbox. This will mean the user must type the password in the second password input as well as the first to create an account. Now click the red box next to "Email" and click the options so that it says **Input Enter an email's value**. Next, click the red box next to "Password" and click the options to say **Input Type a password's value**. Lastly, put **Input Retype password's value** next to "Confirmation". The window should now look like this:
 
 (photo 24)
 
@@ -193,3 +193,9 @@ You can now test the sign up functionality using the "Preview" button. Nothing w
 (photo 25)
 
 You may notice that the input fields do not become empty when you click the "Sign up" button. This does not affect the functioning of the app, but it does look messy. To fix this, we can add an extra step to the end of the "Sign up" button's workflow to clear all inputs. Open the button's properties window and click the button to edit its workflow. Add another action to happen after signing the user up under *Element Actions > Reset inputs*. This will reset all the inputs on the page to be their default value (which we have kept empty).
+
+Now lets add the inputs for logging in. The workflow for this is very similar to signing the user up, except the password is only needed once. Lets add another email and password input along with a "Login" button and a title. The result should look like this:
+
+(photo 26)
+
+Enter the login button's workflow and select *Account > Log the user in*. Enter **Input Email's value** next to Email and **Enter Password's value** next to password. Once again, start another action to reset the inputs. The log in/sign up functionality is now complete!
