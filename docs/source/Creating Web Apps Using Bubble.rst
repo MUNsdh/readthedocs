@@ -279,8 +279,8 @@ For users who sign in with their Google account, we must edit the workflow for w
 
 You should now see a profile photo when you run the app. Lets add a button for logging out that is only visible when the user is logged in. Go back to the header and add a button next to where the profile photo would beand type "Log out" for its label. Start a workflow for it and click *Account > Log the user out*. Go back to the design tab and set the button to only be visible when the user is logged in, and set "This element is visible on page load" to be unchecked. You should now be able to log the user in and out using the buttons that appear in the header.
 
-Creating a Simple Posting System
---------------------------------
+Creating Posts for other users
+------------------------------
 We are now going to turn our index page into a place where we can search and view posts from other users. To start off, we have to create a new type in the database called "post" and give it the following fields:
 
 | - "location" (Field type: geographic address)
