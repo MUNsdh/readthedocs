@@ -198,4 +198,77 @@ Now lets add the inputs for logging in. The workflow for this is very similar to
 
 (photo 26)
 
-Enter the login button's workflow and select *Account > Log the user in*. Enter **Input Email's value** next to Email and **Enter Password's value** next to password. Once again, start another action to reset the inputs. The log in/sign up functionality is now complete!
+Enter the login button's workflow and select *Account > Log the user in*. Enter **Input Email's value** next to Email and **Enter Password's value** next to password. Once again, start another action to reset the inputs.
+
+Signing in with Google
+----------------------
+We would like to give users the option to sign in with their Google account as well. To do this, we must first download the Google plugin. Navigate to the Plugins tab and click the blue "Add plugins" button in the top right corner. Search "google" in the searchbar and click "Install" on the plugin highlighted below:
+
+(photo 27)
+
+Once installed, click "Done". In order to actually use this plugin, we must acquire an App Secret and API Key from Google. Go to the `Google Cloud Platform <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjM36Le5oT2AhUAlIkEHS59AkMQFnoECAgQAQ&url=https%3A%2F%2Fconsole.developers.google.com%2F&usg=AOvVaw39ieEDI7pzBj4NtuzqS57M>`_. This is where you register your app so that Google knows to trust it when it asks for a user's Gmail account information.
+
+Here are the steps to create an API key for your app:
+| - Click on CREATE PROJECT.
+| - Give your project a name and set the location, if applicable.
+
+(photo 28)
+
+| - Click CREATE.
+| - Click "APIs & Services" and then "OAuth consent screen".
+
+(photo 29)
+
+| - Click CREATE CREDENTIALS > OAuth client ID.
+| - Select "External" and then CREATE.
+
+(photo 30)
+
+| - Fill out the app registration questions as completely as possible.
+| - Once all questions have been completed, go to "Credentials" on the left and click CREATE CREDENTIALS > OAuth client ID.
+| - Select "Web application" under "Application type".
+| - Give your app client a name.
+| - To finish filling out the OAuth client ID window, we must get the generic redirect URL from our Bubble app and copy it over. It can be found in the plugins tab under the Google plugin:
+
+(photo 31)
+
+| - Click "ADD URI" and add the generic redirect URL to it. 
+| - CLick "ADD URI" again and add your web app's URL to it while in preview mode.
+| - Click CREATE.
+| - You should now see a window providing the Client ID and the Client Secret. Copy them over to the plugin page in Bubble where it says "App Secret" and "App ID/API Key":
+
+(photo 32)
+
+Your app should now be all set up to allow users to sign in with their Google account. Now let us add a button to the sign in page for this purpose. Navigate to the sign in page in the design tab and add a button that says something like "Sign in with Google". It is usually a good idea to make this button a different color from the other buttons, so scroll down to the "Style" dropdown and click "Remove style". Now Bubble allows us to change the style of the button directly from the properties tab, and without changing the style of the other buttons. Change the background color to whatever you want.
+
+(photo 33)
+
+Now we need to configure the button's workflow to sign the user in using a Google account. In the button's workflow tab, add *Account > Signup/login with a social network* as an action. Under "OAuth provider", select Google. Now add another action to redirect the user back to the index page.
+
+The user should now be able to sign in to your app using Google. A similar process can be completed for any other apps as well, provided a plugin for it is available. Run the app and see if pressing the "Sign in with Google" button allows you to sign in with your Google account.
+
+Displaying User Data
+--------------------
+Let us now display a user's profile picture and username in the top right corner of the screen when the user is logged in. This also means that we only want the "Login/Sign up" button to display when the user is **not** logged in. To do this, open up the header page and click on the "login/Sign up" button to open its properties. Go into the "Conditional" tab and click "Define another condition". In the box that appears, make it say "When Current User is logged out" and select "This element is visible" in the dropdown below. Make sure the checkbox is checked. 
+
+(photo 34)
+
+Go back to the appearance tab and uncheck "This element is visible on page load". This will ensure that the element's visibility is only dependent on what we configured in the conditional tab.
+
+The Login button will now disappear once the user is logged into an account. Now we want to add the user's profile picture and username to display in place of the login button. To start, hide the login button by opening the elements tree dropdown on the left and clicking the eye to the right of the button. (Note: this only hides the button in the editor. It does not affect the button's visibility when the app is running.)
+
+(photo 35)
+
+Now add an image to the right side of the header. Make sure the image is square, not rectangular. This will be a **Dynamic image**, meaning it will change depending on what user is signed in and what image they use as their profile picture. Before we do this, we must add a "photo" field to the "User" type in our database. Go to the **Data** tab and select "Create a new field" under "User". Type "photo" under "Field name" and select "image" as the field type. The "User" type should now look like this:
+
+(photo 36)
+
+Back in the design tab, click on the image you added click on the input box next to "Dynamic image". Click on the blue bar that pops up labelled "Insert dynamic data" and put in "Current user's photo". For aesthetic purposes, lets also set Run-mode rendering to "Zoom". Now go to the conditional tab and do the same thing we did for the button, except set the condition to "When Current User is logged in" instead of "logged out". Make sure to disable "This element is visible on page load" here as well. "Most social media sites use circular frames for profile photos. We can do the same here by creating a new style called "circularframe" or something similar. Edit this style to have a roundness of 9999 (or some other really large number). The profile photo should now be circular. 
+
+If you run the app now and sign in, you would probably notice the login button disappear, but no profile photo appears in its place. This is because we did not set the User's "photo" field to be the user's profile picture when their account was created with Google. Also, a user who creates their account without Google has no way to set their profile picture, so it is just empty.
+
+Lets fix this issue by setting a default "anonymous" photo for users when they first create an account. Go to the **Data** tab and click on the "Upload" button next to the "photo" field we set up for the "User" type earlier. Choose a photo to display when a user has not yet set their own profile photo.
+
+(photo 37)
+
+**Important Note:** Accounts created before updating the field properties in the database will have to be manually deleted and recreated to see changes. This is because the account's data was set **before** the default settings were set.
