@@ -272,3 +272,23 @@ Lets fix this issue by setting a default "anonymous" photo for users when they f
 (photo 37)
 
 **Important Note:** Accounts created before updating the field properties in the database will have to be manually deleted and recreated to see changes. This is because the account's data was set **before** the default settings were set.
+
+For users who sign in with their Google account, we must edit the workflow for when the user clicks the Google sign in button. After the action that signs the user in using a social network, add *Data(Things) > Make changes to thing* as an action. Put "Current User" as the thing to change, and click the "Change another field" button. Select "photo" and make it say "photo = This User's Google's Profile picture". The workflow should now look like this:
+
+(photo 38)
+
+You should now see a profile photo when you run the app. Lets add a button for logging out that is only visible when the user is logged in. Go back to the header and add a button next to where the profile photo would beand type "Log out" for its label. Start a workflow for it and click *Account > Log the user out*. Go back to the design tab and set the button to only be visible when the user is logged in, and set "This element is visible on page load" to be unchecked. You should now be able to log the user in and out using the buttons that appear in the header.
+
+Creating a Simple Posting System
+--------------------------------
+We are now going to turn our index page into a place where we can search and view posts from other users. To start off, we have to create a new type in the database called "post" and give it the following fields:
+
+| - "location" (Field type: geographic address)
+| - "message" (Field type: text)
+| - "picture" (Field type: image)
+
+
+Now we must create a reusable element that will act as a template for our post. Open the page dropdown and create a new reusable element, calling it "post". We want our post to show the creator's profile picture, their user name, the creation date, where the user was when they created it, their message, and the photo (if they included one). Since this reusable element is going to dynamically display information from a specific thing, we need to click on the white rectangle and select "post" under "Type of content". Add all the elements to include this information so that it looks like this:
+
+(photo 39)
+
