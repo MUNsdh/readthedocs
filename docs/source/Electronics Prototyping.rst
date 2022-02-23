@@ -5,3 +5,4 @@ Electronics Prototyping
    :maxdepth: 3
 
    How to Use a Breadboard
+   Power Supply Tutorial
