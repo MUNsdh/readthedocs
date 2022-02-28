@@ -292,3 +292,6 @@ Now we must create a reusable element that will act as a template for our post. 
 
 (photo 39)
 
+Notice that each element is set to say "Parent group's post's email/Creation Date/message/image/etc." In this case, the "Parent group" is the reusable element. Setting each visual element dynamically like this is important because each post's email/Creation Date/message/image is going to be different, and we want the post's content to change accordingly.
+
+Navigate back to the index page and place a "Repeating Group" container into the page. We want each cell in this group to contain a post, so make sure each cell is tall enough to fit it. You may have to extend the page itself to achieve this. In the repeating group's "Type of content" prompt, put "post". This repeating group also requires a data source, as it needs to know which posts to display and in what order.
