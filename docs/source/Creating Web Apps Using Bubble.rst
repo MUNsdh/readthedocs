@@ -298,6 +298,17 @@ Navigate back to the index page and place a "Repeating Group" container into the
 
 (photo 40)
 
-Now drag and drop the reusable element called "post" that we made earlier into the first cell of the repeating group. Notice that the element gets repeated in each cell of the repeating group. This gives you a preview of how the page will look when it is displaying several posts at once. Inside the post element's Appearance tab, select Data source>Current cell's post. This tells the post element to display whatever data the repeating group found when it searched the database for posts.
+To put the page into endless scrolling mode (rather than having a scrollbar), select Layout style>Ext. vertical scrolling.
+
+Now drag and drop the reusable element called "post" that we made earlier into the first cell of the repeating group. Notice that the element gets repeated in each cell of the repeating group. This gives you a preview of how the page will look when it is displaying several posts at once. Center the element in the page by selecting Arrange>Center horizontally in the top right corner of the screen. Inside the post element's Appearance tab, select Data source>Current cell's post. This tells the post element to display whatever data the repeating group found when it searched the database for posts.
 
 (photo 41)
+
+If you preview the app now, all you will see is an empty page. This is because we have not posted anything yet. To fix this, lets start by adding a button that will allow the user to create a new post. Place a button somewhere on the web page and label it "New post".
+
+(photo 42)
+
+Now add a popup container to the page. Overlay a title that says "New Post", along with a Multiline Input and a Picture Uploader. Change the style of each of these elements to match the theme of your website. The popup should now look something like this:
+
+(photo 43)
+
