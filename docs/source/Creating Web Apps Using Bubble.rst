@@ -294,4 +294,10 @@ Now we must create a reusable element that will act as a template for our post. 
 
 Notice that each element is set to say "Parent group's post's email/Creation Date/message/image/etc." In this case, the "Parent group" is the reusable element. Setting each visual element dynamically like this is important because each post's email/Creation Date/message/image is going to be different, and we want the post's content to change accordingly.
 
-Navigate back to the index page and place a "Repeating Group" container into the page. We want each cell in this group to contain a post, so make sure each cell is tall enough to fit it. You may have to extend the page itself to achieve this. In the repeating group's "Type of content" prompt, put "post". This repeating group also requires a data source, as it needs to know which posts to display and in what order.
+Navigate back to the index page and place a "Repeating Group" container into the page. We want each cell in this group to contain a post, so make sure each cell is tall enough to fit it. You may have to extend the page itself to achieve this. In the repeating group's "Type of content" prompt, put "post". This repeating group also requires a data source, as it needs to know which posts to display and in what order. This means we want the repeating group to search our database for posts and organize them on the page according to a sorting rule that we will apply in a moment. Click on the input next to "Data source" and select "Do a search for". Select "post" in the "Type" dropdown and select Sort by>Created Date. This will make posts that were made most recently appear at the top. Lastly, select Descending>"yes". Your page should now look like this:
+
+(photo 40)
+
+Now drag and drop the reusable element called "post" that we made earlier into the first cell of the repeating group. Notice that the element gets repeated in each cell of the repeating group. This gives you a preview of how the page will look when it is displaying several posts at once. Inside the post element's Appearance tab, select Data source>Current cell's post. This tells the post element to display whatever data the repeating group found when it searched the database for posts.
+
+(photo 41)
