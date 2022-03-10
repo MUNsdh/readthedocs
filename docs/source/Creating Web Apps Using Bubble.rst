@@ -140,7 +140,7 @@ Bubble has a vast library of plugins for integrating third-party services into y
 First Example: Social Media App
 ===============================
 
-In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and reply to those comments. We will also implement a "map" feature, which will show where each post was created on a map.
+In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and reply to those comments.
 
 Creating the Header as a Reusable Element
 -----------------------------------------
@@ -281,7 +281,7 @@ For users who sign in with their Google account, we must edit the workflow for w
 
 You should now see a profile photo when you run the app. Lets add a button for logging out that is only visible when the user is logged in. Go back to the header and add a button next to where the profile photo would beand type "Log out" for its label. Start a workflow for it and click *Account > Log the user out*. Go back to the design tab and set the button to only be visible when the user is logged in, and set "This element is visible on page load" to be unchecked. You should now be able to log the user in and out using the buttons that appear in the header.
 
-Creating Posts for other users
+Creating Posts for Other Users
 ------------------------------
 We are now going to turn our index page into a place where we can search and view posts from other users. To start off, we have to create a new type in the database called "post" and give it the following fields:
 
@@ -293,6 +293,19 @@ We are now going to turn our index page into a place where we can search and vie
 Now we must create a reusable element that will act as a template for our post. Open the page dropdown and create a new reusable element, calling it "post". We want our post to show the creator's profile picture, their user name, the creation date, where the user was when they created it, their message, and the photo (if they included one). Since this reusable element is going to dynamically display information from a specific thing, we need to click on the white rectangle and select "post" under "Type of content". Add all the elements to include this information so that it looks like this:
 
 (photo 39)
+
+Now we are going to make sure the image element only extends the post's window if the user actually included a photo. Add a "Group" Container over the image. Make sure the image is nested inside it by dragging it in the group until the group's borders turn red. Click on the image and type in "Parent Group's image" under the "Dynamic image" input. Select the group again and set "Type of content" to image. Also set the "Data source" input to "Parent group's post's picture". Now set the following settings as shown here:
+
+| - This element is visible on page load -> Unchecked
+| - Make this element fixed-width -> Checked
+| - Collapse this element's height when hidden -> Checked
+
+
+Now go into the Conditional tab and define a new condition. In the input labelled "When", insert "Parent group's post's picture is not empty". Select "This element is visible", making sure that it is checked.
+
+(photo 48)
+
+When the posts functionality is complete, they will now collapse the photo section when a photo is not provided by the user.
 
 Notice that each element is set to say "Parent group's post's email/Creation Date/message/image/etc." In this case, the "Parent group" is the reusable element. Setting each visual element dynamically like this is important because each post's email/Creation Date/message/image is going to be different, and we want the post's content to change accordingly.
 
@@ -318,9 +331,22 @@ Start a workflow for the "Submit" button. Select Data(Things)>Create a new thing
 
 (photo 45)
 
-Create another action for reseting the inputs in the popup. When you open the action selection menu, you might see this action under a heading that says "Recommended next action". If that is the case, click that. If that does not appear for you, navigate to Element Actions>Reset inputs.
+Create another action for resetting the inputs in the popup. When you open the action selection menu, you might see this action under a heading that says "Recommended next action". If that is the case, click that. If that does not appear for you, navigate to Element Actions>Reset inputs.
 
 (photo 46)
 
 The last action we want is to hide the popup. Add a new action and navigate to Element Actions>Hide. When the action's window pops up, select the popup name in the "Element" dropdown.
+
+We now need to configure the "New post" button on our index page to show the popup when we click it. Select the button and start a workflow. Navigate to Element actions>Show and select the correct popup under "Element".
+
+You should now be able to create posts in your app. Try creating a new post with a photo and see how it looks. You may find it looks stretched and has poor formatting like this:
+
+(photo 47)
+
+If that is the case, go back into the editor and select the post element in the index page. Make sure "Make this element fixed width" is checked. Now go into the repeating group and make sure "This repeating group has a fixed width" as well. This will keep the post in the center of the page. When you run your app again, the formatting should be fixed.
+
+Try creating several accounts and posting several posts with those accounts. Also try Posting without being signed in. This will give you a better preview of what your app will look like when multiple users have started using it.
+
+Adding Upvote/Like Functionality
+================================
 
