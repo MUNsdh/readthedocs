@@ -288,8 +288,7 @@ We are now going to turn our index page into a place where we can search and vie
 | - "location" (Field type: geographic address)
 | - "message" (Field type: text)
 | - "picture" (Field type: image)
-
-
+| 
 Now we must create a reusable element that will act as a template for our post. Open the page dropdown and create a new reusable element, calling it "post". We want our post to show the creator's profile picture, their user name, the creation date, where the user was when they created it, their message, and the photo (if they included one). Since this reusable element is going to dynamically display information from a specific thing, we need to click on the white rectangle and select "post" under "Type of content". Add all the elements to include this information so that it looks like this:
 
 (photo 39)
@@ -299,8 +298,7 @@ Now we are going to make sure the image element only extends the post's window i
 | - This element is visible on page load -> Unchecked
 | - Make this element fixed-width -> Checked
 | - Collapse this element's height when hidden -> Checked
-
-
+| 
 Now go into the Conditional tab and define a new condition. In the input labelled "When", insert "Parent group's post's picture is not empty". Select "This element is visible", making sure that it is checked.
 
 (photo 48)
@@ -348,5 +346,5 @@ If that is the case, go back into the editor and select the post element in the 
 Try creating several accounts and posting several posts with those accounts. Also try Posting without being signed in. This will give you a better preview of what your app will look like when multiple users have started using it.
 
 Adding Upvote/Like Functionality
-================================
+--------------------------------
 
