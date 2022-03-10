@@ -160,6 +160,8 @@ You will now be taken to a new page. The white block that you see in the center 
 
 Now we will add a logo to out header. Select the "Text" element from the visual elements dropdown on the left, then click and drag over the rectangle we just edited. This clicking and dragging is how all elements are added to your app. Double-click the textbox to change the font size, type, and color of the logo to be on-brand with your website. You may notice that the text does not show up in the editor, despite the text being visible when the app is running or when you use the element in another page. This is likely just a bug, and should not affect your app.
 
+(photo 44)
+
 Lets add a Login/Sign up button to the header. We want the button to open a new page where the user can login or sign up. Create a new page using the dropdown in the top-left corner and name it "sign in page" or something similar. Click the "Button" element and place it somewhere on the header. Now lets open the button's properties window and click the "Start/Edit workflow" option.
 
 Bubble will assume that the event that triggers the action is when the button is clicked. Click on the box below it to add an action and go to *Navigation > Go to page...* to make the button move the user to another page. A window will pop up requiring a "destination". Input the page you created for signing the user in.
@@ -174,7 +176,7 @@ As an exercise, you can also make your logo act as a button that takes you back 
 
 Account Functionality
 ---------------------
-It is surprisingly simple to create a login/sign up system in Bubble. Navigate to your sign in page and Add input lines for the user's email, password, and password again (retyped for confirmation). For the email line, type "Enter an email" as a placeholder and select Email from the dropdown menu for "Content format". For the passwords, type "Type a password" and "Retype password" respectively for the placeholders of each, and set their content formats to "Password".
+It is very simple to create a login/sign up system in Bubble. Navigate to your sign in page and Add input lines for the user's email, password, and password again (retyped for confirmation). For the email line, type "Enter an email" as a placeholder and select Email from the dropdown menu for "Content format". For the passwords, type "Type a password" and "Retype password" respectively for the placeholders of each, and set their content formats to "Password".
 
 Now add a button below these input lines that says "Sign up". You can also add some text above the input lines that says "Sign Up". Your page should now look something like this:
 
@@ -308,7 +310,17 @@ If you preview the app now, all you will see is an empty page. This is because w
 
 (photo 42)
 
-Now add a popup container to the page. Overlay a title that says "New Post", along with a Multiline Input and a Picture Uploader. Change the style of each of these elements to match the theme of your website. The popup should now look something like this:
+Now add a popup container to the page. Overlay a title that says "New Post", along with a Multiline Input, a Picture Uploader and a button that says "Submit". Change the style of each of these elements to match the theme of your website. The popup should now look something like this:
 
 (photo 43)
+
+Start a workflow for the "Submit" button. Select Data(Things)>Create a new thing. Under "Type", select "post". We are goingto set this post's fields as shown here:
+
+(photo 45)
+
+Create another action for reseting the inputs in the popup. When you open the action selection menu, you might see this action under a heading that says "Recommended next action". If that is the case, click that. If that does not appear for you, navigate to Element Actions>Reset inputs.
+
+(photo 46)
+
+The last action we want is to hide the popup. Add a new action and navigate to Element Actions>Hide. When the action's window pops up, select the popup name in the "Element" dropdown.
 
