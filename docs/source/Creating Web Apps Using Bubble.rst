@@ -348,3 +348,47 @@ Try creating several accounts and posting several posts with those accounts. Als
 Adding Upvote/Like Functionality
 --------------------------------
 
+We are now going to give users the option to like each other's posts. To do this, we need to make it so that each user can only give each post a single upvote. We will also allow users to take back the upvote by clicking the Like button a second time. Our database will have to keep track of every user that has liked each post. However, we cannot use the user's username, email password, etc. because those things can all be changed by the user. Fortunately, every "thing" that is created in Bubble has a field called a **unique_id** that cannot be changed by the user. It is what will allow us to determine whether a user has already upvoted a post.
+
+The first thing we need to do is add an "upvote" field to the "Post" type in the database. Go to the "Data" tab  and create a new field under "Post". Name it "upvotes" or something similar and set its field type to "number". Set the default to 0.
+
+(photo 49)
+
+Since we made changes to the "Post" type's fields after posts have already been added to the database, you will have to delete all the sample posts you added and recreate them to see the latest changes. You could also leave the old posts and just create new ones, but that might become confusing.
+
+Now we are going to edit the reusable "post" element to include a like button. Go to its editor page and extend the window so it can fit a small icon and some text. Drag and drop an icon into the bottom corner of the window. Resize it until it fits and select an unfilled heart icon in the appearance tab. Uncheck "This element is visible on page load".
+
+Drag and drop a text element next to the heart icon. This will display the number of upvotes the post got. In the text editor input, insert "Parent group's post's upvotes" as dynamic data.
+
+(photo 50)
+
+You may need to update the size of the repeating group and reusable post element on the index page. Do this by clicking "Original element dimensions 000x000 (click to apply)" in the Appearance tab of the reusable element.
+
+Now we need to configure this icon to only add an upvote to the post when the current user is not already among a list of users who have liked. Here is how this will work: we will create a new data type called "UsersWhoLikedPost" or something similar. We will add two fields to it: ParentPost and users. Every time a user likes a post, a new thing of type "UsersWhoLikedPost" will be created. The ParentPost field of this object will tell us which post this like belongs to, and the "users" field will tell us the unique_id of the user who liked it. We can then search through the entries of the type "UsersWhoLikedPost" to determine whether the user has already liked the post or not. We can also delete these entries when a user unlikes a post.
+
+Lets start by creating the new data type. Go to the data tab and create the fields as shown here.
+
+(photo 51)
+
+Now go back to the reusable post element editor and start a workflow for the heart icon. Select Data (Things)>Create a new thing... and fill out the window as shown below.
+
+(photo 52)
+
+Add another action by navigating to Data (Things)>Make changes to thing... and fill out the window as shown here. You will have to type "1" manually and press Enter at the end.
+
+(photo 53)
+
+Go back to the design tab. With the heart icon still selected, go to the Conditional tab. Define a new condition starting with "Do a search for..." and fill out the input so that it looks the same as shown below. Select "This element is visible" as a property to change and make sure it is checked.
+
+(photo 54)
+
+The heart icon will now disappear when it is clicked by the user. Now we need to configure another icon to appear in its place. This icon will do the opposite of the first one when it is clicked. It will remove the current user's unique_id from the database and decrease the post's upvote count by 1. To start, drag and drop another icon to the post in the reusable post element editor. Make sure is in the exact same position and the same size as the first icon. Choose a filled heart this time, to represent the Like button already being clicked. Make sure "This element is visible on page load" is unchecked. 
+
+Start a workflow. The first action will be under Data (Things)>Delete a list of things... fill out the windows as shown below. Start the "List to delete" input with "Do a search for...". This will delete the user's unique_id from the list, allowing them to like the post again if they wish.
+
+(photo 55)
+
+Add another action under Data (Things)>Make changes to a thing... and configure the inputs in the window as shown below.
+
+(photo 56)
+
