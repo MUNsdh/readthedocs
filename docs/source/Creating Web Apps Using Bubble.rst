@@ -162,7 +162,7 @@ Now we will add a logo to out header. Select the "Text" element from the visual 
 
 (photo 44)
 
-Lets add a Login/Sign up button to the header. We want the button to open a new page where the user can login or sign up. Create a new page using the dropdown in the top-left corner and name it "sign in page" or something similar. Click the "Button" element and place it somewhere on the header. Now lets open the button's properties window and click the "Start/Edit workflow" option.
+Let's add a Login/Sign up button to the header. We want the button to open a new page where the user can login or sign up. Create a new page using the dropdown in the top-left corner and name it "sign in page" or something similar. Click the "Button" element and place it somewhere on the header. Now let's open the button's properties window and click the "Start/Edit workflow" option.
 
 Bubble will assume that the event that triggers the action is when the button is clicked. Click on the box below it to add an action and go to *Navigation > Go to page...* to make the button move the user to another page. A window will pop up requiring a "destination". Input the page you created for signing the user in.
 
@@ -196,7 +196,7 @@ You can now test the sign up functionality using the "Preview" button. Nothing w
 
 You may notice that the input fields do not become empty when you click the "Sign up" button. This does not affect the functioning of the app, but it does look messy. To fix this, we can add an extra step to the end of the "Sign up" button's workflow to clear all inputs. Open the button's properties window and click the button to edit its workflow. Add another action to happen after signing the user up under *Element Actions > Reset inputs*. This will reset all the inputs on the page to be their default value (which we have kept empty).
 
-Now lets add the inputs for logging in. The workflow for this is very similar to signing the user up, except the password is only needed once. Lets add another email and password input along with a "Login" button and a title. The result should look like this:
+Now let's add the inputs for logging in. The workflow for this is very similar to signing the user up, except the password is only needed once. Let's add another email and password input along with a "Login" button and a title. The result should look like this:
 
 (photo 26)
 
@@ -265,11 +265,11 @@ Now add an image to the right side of the header. Make sure the image is square,
 
 (photo 36)
 
-Back in the design tab, click on the image you added click on the input box next to "Dynamic image". Click on the blue bar that pops up labelled "Insert dynamic data" and put in "Current user's photo". For aesthetic purposes, lets also set Run-mode rendering to "Zoom". Now go to the conditional tab and do the same thing we did for the button, except set the condition to "When Current User is logged in" instead of "logged out". Make sure to disable "This element is visible on page load" here as well. "Most social media sites use circular frames for profile photos. We can do the same here by creating a new style called "circularframe" or something similar. Edit this style to have a roundness of 9999 (or some other really large number). The profile photo should now be circular. 
+Back in the design tab, click on the image you added click on the input box next to "Dynamic image". Click on the blue bar that pops up labelled "Insert dynamic data" and put in "Current user's photo". For aesthetic purposes, let's also set Run-mode rendering to "Zoom". Now go to the conditional tab and do the same thing we did for the button, except set the condition to "When Current User is logged in" instead of "logged out". Make sure to disable "This element is visible on page load" here as well. "Most social media sites use circular frames for profile photos. We can do the same here by creating a new style called "circularframe" or something similar. Edit this style to have a roundness of 9999 (or some other really large number). The profile photo should now be circular. 
 
 If you run the app now and sign in, you would probably notice the login button disappear, but no profile photo appears in its place. This is because we did not set the User's "photo" field to be the user's profile picture when their account was created with Google. Also, a user who creates their account without Google has no way to set their profile picture, so it is just empty.
 
-Lets fix this issue by setting a default "anonymous" photo for users when they first create an account. Go to the **Data** tab and click on the "Upload" button next to the "photo" field we set up for the "User" type earlier. Choose a photo to display when a user has not yet set their own profile photo.
+Let's fix this issue by setting a default "anonymous" photo for users when they first create an account. Go to the **Data** tab and click on the "Upload" button next to the "photo" field we set up for the "User" type earlier. Choose a photo to display when a user has not yet set their own profile photo.
 
 (photo 37)
 
@@ -279,7 +279,7 @@ For users who sign in with their Google account, we must edit the workflow for w
 
 (photo 38)
 
-You should now see a profile photo when you run the app. Lets add a button for logging out that is only visible when the user is logged in. Go back to the header and add a button next to where the profile photo would beand type "Log out" for its label. Start a workflow for it and click *Account > Log the user out*. Go back to the design tab and set the button to only be visible when the user is logged in, and set "This element is visible on page load" to be unchecked. You should now be able to log the user in and out using the buttons that appear in the header.
+You should now see a profile photo when you run the app. Let's add a button for logging out that is only visible when the user is logged in. Go back to the header and add a button next to where the profile photo would beand type "Log out" for its label. Start a workflow for it and click *Account > Log the user out*. Go back to the design tab and set the button to only be visible when the user is logged in, and set "This element is visible on page load" to be unchecked. You should now be able to log the user in and out using the buttons that appear in the header.
 
 Creating Posts for Other Users
 ------------------------------
@@ -317,7 +317,7 @@ Now drag and drop the reusable element called "post" that we made earlier into t
 
 (photo 41)
 
-If you preview the app now, all you will see is an empty page. This is because we have not posted anything yet. To fix this, lets start by adding a button that will allow the user to create a new post. Place a button somewhere on the web page and label it "New post".
+If you preview the app now, all you will see is an empty page. This is because we have not posted anything yet. To fix this, let's start by adding a button that will allow the user to create a new post. Place a button somewhere on the web page and label it "New post".
 
 (photo 42)
 
@@ -366,7 +366,7 @@ You may need to update the size of the repeating group and reusable post element
 
 Now we need to configure this icon to only add an upvote to the post when the current user is not already among a list of users who have liked. Here is how this will work: we will create a new data type called "UsersWhoLikedPost" or something similar. We will add two fields to it: ParentPost and users. Every time a user likes a post, a new thing of type "UsersWhoLikedPost" will be created. The ParentPost field of this object will tell us which post this like belongs to, and the "users" field will tell us the unique_id of the user who liked it. We can then search through the entries of the type "UsersWhoLikedPost" to determine whether the user has already liked the post or not. We can also delete these entries when a user unlikes a post.
 
-Lets start by creating the new data type. Go to the data tab and create the fields as shown here.
+Let's start by creating the new data type. Go to the data tab and create the fields as shown here.
 
 (photo 51)
 
@@ -401,7 +401,7 @@ In the Appearance tab, make sure "This element is visible on page load" is unche
 Configuring a Profile Settings Page
 -----------------------------------
 
-Lets create a page for the user to change their username, password, email, etc. Create a new page using the dropdown menu in the top left corner. Name it "profilesettings" or something similar. Before we actually design the page, we must go to the data tab and add the "Username" field to the User data type. It is of type "text". You can also set the default username to "Anonymous" so that even users who are not signed in will have a username.
+Let's create a page for the user to change their username, password, email, etc. Create a new page using the dropdown menu in the top left corner. Name it "profilesettings" or something similar. Before we actually design the page, we must go to the data tab and add the "Username" field to the User data type. It is of type "text". You can also set the default username to "Anonymous" so that even users who are not signed in will have a username.
 
 (photo 58)
 
@@ -454,4 +454,28 @@ Now we will create a section of the page for posts created by the user. Create a
 Now add a repeating group with the settings shown below. We are sorting this by Created Date, with Descending set to "Yes". This means that the newest posts will show first. We will also set the Layout style to Horizontal scrolling instead of vertical so the page is more compact. Also remember to add a reusable post element to the inside of the first column of the repeating group. Set the reusable post element's Data source to "Current cell's post".
 
 (photo 68)
+
+Now we are going to do a similar thing for the user's list of liked posts. Create another text header with the dynamic data shown here:
+
+(photo 69)
+
+Add the repeating group with the reusable post element as we just did, except the data source should look like this:
+
+(photo 70)
+
+The profile page should now be ready to use. However, trying to Preview the app from this page would look strange since it does not know which user information to display. Before we can see if our settings worked, we have to make a way to get to a user's page through the app. Let's do this by making the user's username clickable through the reusable post element. Move to this element's editor page and select the text that displays the user's email. While we are here, let's change this text to display the user's username instead. You can do this by simply changing the dynamic data to say "Parent group's post's Creator's username". Now start a workflow.
+
+Add Navigation>Go to page... and select profilepage. Since the content on this page is dependent on which user we have clicked on, we have to set the Data to send to "Parent group's post's Creator". The window should look as shown:
+
+(photo 71)
+
+Let's also view our own profile by clicking the profile photo in the header. Go to the reusable header element editor page and select the profile photo. Start a workflow.
+
+We are going to use the same action as before, except this time the Data to send will just be "Current User".
+
+(photo 72)
+
+The profile page setup is now complete. you should be able to click your own profile photo in the header to see your profile page, or click another user's username to see their page.
+
+(photo 73)
 
