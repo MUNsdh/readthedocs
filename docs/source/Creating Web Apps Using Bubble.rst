@@ -552,3 +552,7 @@ Close the popup and select the globe icon again. Start a workflow. Go to Element
 (photo 89)
 
 The app is now complete. You should be able to create posts, view other users' profiles, edit your profile settings, like other posts, make comments, and view where those posts were created on a map.
+
+Second Example: Buy & Sell App
+==============================
+
