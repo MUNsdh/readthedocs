@@ -392,3 +392,66 @@ Add another action under Data (Things)>Make changes to a thing... and configure 
 
 (photo 56)
 
+Now we need to make the filled heart icon only be visible when the user has already upvoted the post. Go back to the design tab, select the filled heart icon, and go into the Conditional tab. Fill out a new condition as shown below. The property to change is "This element is visible", which must be checked.
+
+(photo 57)
+
+In the Appearance tab, make sure "This element is visible on page load" is unchecked. If you run the app now, you should find that you are able to like and unlike posts that you have created.
+
+Configuring a Profile Settings Page
+-----------------------------------
+
+Lets create a page for the user to change their username, password, email, etc. Create a new page using the dropdown menu in the top left corner. Name it "profilesettings" or something similar. Before we actually design the page, we must go to the data tab and add the "Username" field to the User data type. It is of type "text". You can also set the default username to "Anonymous" so that even users who are not signed in will have a username.
+
+(photo 58)
+
+In the profile settings page, we will need a photo uploader for changing their profile photo, an input that takes in a username and a section for changing their password. This section should take an email input, an input for their old password, an input for their new password, and another input for their new password (ask them to retype it). Lastly, a "Save all changes" button that will change the user's info to the new values in the inputs. Do not forget to include text headers.
+
+The input for the passwords and email should be "Password" and "Email" respectively under the "Content format" field in the Appearance tab. This will hide the characters for the password inputs, and the email inputs will expect an @ symbol to be entered. Also make sure that the "Prevent 'Enter' key from submitting" option is checked in each input.
+
+For the profile picture, it might look best to show the current profile photo and put the image upload button beneath it. Putting all this together, your profile settings page should look something like this:
+
+(photo 59)
+
+The user is going to need a way of getting to this page. Open your reusable header element and add an icon underneath the user's profile photo. Change the icon to a gear (representing settings) and uncheck "This element is visible on page load". Go to the conditional tab and add the condition "When Current user is logged in", which turns on the icon's visibility. Use the image below for reference if anything is unclear.
+
+(photo 60)
+
+Now start a workflow for the icon. Add Navigation>Go to page... as an action for when the gear is clicked. Set the destination to the profile settings page.
+
+(photo 61)
+
+You should now be able to access the profile settings page by clicking the gear icon in the header. Now we have to configure the "Save all changes" button in the profile settings page to actually change the user's information when it is clicked. Start a workflow for this button and select Account>Make changes to current user. Add the fields as shown below. Make sure that these two fields have placeholder values (found in the Appearance tab of the inputs) so that the user does not have to insert their info into every field if they only want to change one thing.
+
+(photo 62)
+
+Add another action of the same kind for changing the photo. We are doing this separately because we only want this action to occur when the picture uploader has actually had a new photo uploaded to it. Here is what that looks like:
+
+(photo 63)
+
+Next add another action under Account>Update the user's credentials. Fill out the inputs as shown here. Note the extra long input at the bottom, which says that the app will not try to update the user's credentials if all the inputs for changing their password are empty.
+
+(photo 64)
+
+The profile page is complete. You should now be able to change the username, password, photo, and email associated with an account on your app through this page. It may be hard to tell that any changes have been made to your account, so you can also add a popup that says something like "Changes were successful" or something like that if you wish.
+
+Viewing Other Users' Profile Pages
+----------------------------------
+Almost every social media site allows users to view each other's profiles. These pages show the user's photo, username, their posts, and posts they have liked.
+
+We can start by create a new page called "profilepage". Since this page must display a specific user's information, we have to click on the whitespace and select "User" next to "Type of content". You can also change the page title if you wish. Make sure the page width matches the width of all the other pages.
+
+(photo 65)
+
+Include your header and change the style of the page to match the rest of your app. Add an image and text element for the user's username and profile photo. Since we want to display the name and photo of the user whose page we are viewing (rather than the info of the user who is viewing it), we will select "Current Page User" rather than "Current User".
+
+(photo 66)
+
+Now we will create a section of the page for posts created by the user. Create a text header using the dynamic data/text combination shown here:
+
+(photo 67)
+
+Now add a repeating group with the settings shown below. We are sorting this by Created Date, with Descending set to "Yes". This means that the newest posts will show first. We will also set the Layout style to Horizontal scrolling instead of vertical so the page is more compact. Also remember to add a reusable post element to the inside of the first column of the repeating group. Set the reusable post element's Data source to "Current cell's post".
+
+(photo 68)
+
