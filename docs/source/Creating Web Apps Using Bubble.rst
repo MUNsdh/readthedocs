@@ -140,7 +140,7 @@ Bubble has a vast library of plugins for integrating third-party services into y
 First Example: Social Media App
 ===============================
 
-In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and reply to those comments.
+In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and see those posts on a map.
 
 Creating the Header as a Reusable Element
 -----------------------------------------
@@ -479,3 +479,52 @@ The profile page setup is now complete. you should be able to click your own pro
 
 (photo 73)
 
+Adding Comments to Posts
+------------------------
+We will now add commenting functionality to the posts. To start, we are going to go to the Data tab and create a new data type called "comments". Its fields will be called "message" (type: text) and "ParentPost" (type: post).
+
+(photo 74)
+
+Next we have to go to the reusable post element's editor page and add a text element to access the comments. Drag and drop a text element to the bottom left corner of the post element labelled "Comments". Next we will add a popup element which will show us the comments posted by other users and allow us to add a comment ourselves. Inside this popup we will add a title ("Comments" would be fine), a repeating group for the comments, a multiline input for typing our own comment, and a "send" icon for creating a new comment. The popup should look something like this:
+
+(photo 75)
+
+The popup itself should have "post" under "Type of content" and "Parent group's post" as its Data source:
+
+(photo 76)
+
+The repeating group should have the settings shown here:
+
+(photo 77)
+
+Instead of creating a new reusable element on a separate page and adding it to the comments popup, let's create the reusable element directly from this page. Drag and drop the necessary elements into the first cell of the repeating group so that it looks the way you want the comments to look. Each comment should show the user's username, the message, the user's profile photo and the date that the comment was created.
+
+(photo 78)
+
+Now select all the elements inside the cell (but **not** the repeating group itself) and right click > Convert into a reusable element. Give the reusable element a name. You will then be taken to a new page where the elements you selected will be overlapping whitespace. Select the whitespace and set the Type of content to "comments". Adjust the sizing to your liking.
+
+(photo 79)
+
+Go back to the post element and reopen the popup (select it from the elements tree on the left). Remove all the elements you just placed in the cell and replace it with the reusable element you just created. Set the element's data source to "Current cell's comments".
+
+(photo 80)
+
+Now let's configure the "send" icon to create a new comment when clicked. Select the icon and start a workflow. Select Data (Things)>Create a new thing... and configure the properties as shown below.
+
+(photo 81)
+
+Add another action to reset the inputs when done. Now let's make it possible for the user to open the comments section. Go back to the reusable post element's editor and select the "Comments" text element that we created earlier. Start a workflow. Select Element Actions>Show and set it to show the comments section. Add another action from Element Actions called "Display data". Set the fields as shown below.
+
+(photo 82)
+
+The comment functionality should now be complete. If you find that the usernames and profile photos are not showing on the posts when you view them from a different account, you may have to fix the privacy settings for your app. Go to the data tab and click "Privacy" at the top. Select "User" on the left and make sure that "View all fields" is checked.
+
+(photo 83)
+
+Seeing Posts on a Map
+---------------------
+Now we are going to add a feature that allows us to see where a post was made on a map. Unfortunately, since we are only now going to add a field to record the location that a post is created, the sample posts that you created before this point will not be viewable on a map. To start, open the data tab and add a field called "location" with type "geographic address".
+
+(photo 84)
+
+You may get an error saying you need to obtain a Google Geocode API Key to process addresses. Watch the tutorial on `this page <https://manual.bubble.io/help-guides/working-with-data/working-with-location-data>`_ to learn how to do this.
