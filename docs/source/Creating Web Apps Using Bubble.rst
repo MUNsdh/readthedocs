@@ -527,4 +527,28 @@ Now we are going to add a feature that allows us to see where a post was made on
 
 (photo 84)
 
-You may get an error saying you need to obtain a Google Geocode API Key to process addresses. Watch the tutorial on `this page <https://manual.bubble.io/help-guides/working-with-data/working-with-location-data>`_ to learn how to do this.
+You may get an error saying you need to obtain a Google Geocode API Key to process addresses. Watch the video tutorial on `this webpage <https://manual.bubble.io/help-guides/working-with-data/working-with-location-data>`_ to learn how to do this.
+
+Go to the "New Post" popup in the index page and add a new input line for location. We want the default location to be the user's current location, so set the Initial content to "Current geographic position's formatted address" and the Content format to "Address", as shown below.
+
+(photo 85)
+
+Edit the workflow for the "Submit" button so that the first action (Create a new post) sets the "location" field to the input we just created.
+
+(photo 86)
+
+Now go back to the reusable post element's editor and add a new text element below the post's creation date. this element will display the post's location. Add an icon element next to this element and change its appearance to "globe".
+
+(photo 87)
+
+Let's configure this globe to only be visible when the post has a location associated with it. Select the globe icon and uncheck "This element is visible on page load". Now go into the Conditional tab and set a new condition to "When Parent group's post's location is not empty". Set the property to change to "This element is visible" and make sure it is checked.
+
+Now create a new popup, and make it big. Add a text element for the title and a "Map" element. Set the popup's Type of content to "post" and the Data source to "Parent group's post". Now select the map and set its marker address to "Parent group's post's location". Feel free to change the style of the map to whatever you wish.
+
+(photo 88)
+
+Close the popup and select the globe icon again. Start a workflow. Go to Element Actions>Show and select the map popup. Create another action in Element Actions>Display data.
+
+(photo 89)
+
+The app is now complete. You should be able to create posts, view other users' profiles, edit your profile settings, like other posts, make comments, and view where those posts were created on a map.
