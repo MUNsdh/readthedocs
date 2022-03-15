@@ -11,7 +11,7 @@ Creating a New App
 To start making apps with Bubble, you must first create an account. After that is done, navigating to the home screen will show a label that says "My apps" along with a blue button which says "New app":
 
 .. image:: ../_static/images/Bubble_1.png
-   :width: 600px
+   :width: 1000px
 
 After clicking the blue button, a popup will appear that will allow you to give your app a name, specify the type of app you want to build, etc. Please note that your app's name must be unique from all other app names create on Bubble (not just your own apps):
 
