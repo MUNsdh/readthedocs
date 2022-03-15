@@ -203,7 +203,7 @@ It is very simple to create a login/sign up system in Bubble. Navigate to your s
 
 Now add a button below these input lines that says "Sign up". You can also add some text above the input lines that says "Sign Up". Your page should now look something like this:
 
-.. image:: ../_static/images/Bubble_91.png
+.. image:: ../_static/images/Bubble_22.png
    :width: 1000px
 
 Now open up the properties for the sign up button and start a workflow. Add an action by navigating to *Account > Sign the user up*. A window will pop up with multiple options. 
