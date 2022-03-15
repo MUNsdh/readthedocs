@@ -141,7 +141,7 @@ There are several tabs within the data tab, each dedicated to dealing with diffe
 The Styles Tab
 --------------
 
-.. image:: ../_static/images/Bubble_15.png
+.. image:: ../_static/images/Bubble_92.png
    :width: 1000px
 
 This tab opens automatically whenever you try to edit the style of one of the elements in the design tab. It allows you to change the appearance of the element by altering fonts, colors, shapes, etc.
