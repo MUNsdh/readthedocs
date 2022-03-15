@@ -229,6 +229,9 @@ Now let's add the inputs for logging in. The workflow for this is very similar t
 
 Enter the login button's workflow and select *Account > Log the user in*. Enter **Input Email's value** next to Email and **Enter Password's value** next to password. Once again, start another action to reset the inputs.
 
+.. image:: ../_static/images/Bubble_90.jpg
+   :width: 600px
+
 Signing in with Google
 ----------------------
 We would like to give users the option to sign in with their Google account as well. To do this, we must first download the Google plugin. Navigate to the Plugins tab and click the blue "Add plugins" button in the top right corner. Search "google" in the searchbar and click "Install" on the plugin highlighted below:
