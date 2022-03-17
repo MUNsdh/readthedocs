@@ -101,7 +101,7 @@ Clicking on the event block lets you specify which event will trigger the action
 .. image:: ../_static/images/Bubble_9.png
    :width: 1000px
 
-Actually using the options presented in the actions tab is mostly self-explanatory, but can quickly become complicated in the later stages of building your app. The best way to get comfortable using it is through examples, which are available in the later sections of this tutorial.
+Using the options presented in the actions tab is mostly self-explanatory, but can quickly become complicated in the later stages of building your app. The best way to get comfortable using it is through examples, which are available in the later sections of this tutorial.
 
 The Data Tab
 -------------
