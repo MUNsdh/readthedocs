@@ -7,7 +7,7 @@ The Basics
 The following subsections will describe how to get started with Bubble and some of its most basic features that you will inevitably use while making your apps.
 
 Creating a New App
----------------
+------------------
 To start making apps with Bubble, you must first create an account. After that is done, navigating to the home screen will show a label that says "My apps" along with a blue button which says "New app":
 
 .. image:: ../_static/images/Bubble_1.png
@@ -19,7 +19,8 @@ After clicking the blue button, a popup will appear that will allow you to give 
    :width: 1000px
 
 Press the blue button to be taken to the Bubble editor. You will see a popup on the left side of the screen called "New application assistant." By clicking "Let's get started," you will be able to change the icon and title that displays in your app's tab when it is running, along with a few other features that will be discussed later on.
-
+..
+   Maybe you can improve this image by adding a red circle around the "let's get started. When you preview the image it's hard to read.
 .. image:: ../_static/images/Bubble_3.png
    :width: 1000px
 
@@ -32,12 +33,16 @@ The Design Tab
 --------------
 
 You should now see the Bubble editor's Design tab. This is where you will decide how your app will look to its users. You will be able to drag and drop elements into the white area on the right side of the screen. You will also be able to resize, rotate and reposition those elements to your liking. Right now there is probably a default webpage showing where this white space would normally be, but that can easily be cleared by drag-selecting everything and pressing the "delete" button on your keyboard.
-
+..
+   The design tab is on the navigation bar on the left side of the screen. Sometimes it helps to describe where to look if you're not going to put indicators on the image. Another suggestion is to scale the image to only show what's relevant.
+..
+   There "probably" is a default page on the right side of the screen? Best to be sure! 
 .. image:: ../_static/images/Bubble_4.png
    :width: 1000px
 
 The UI builder on the left allows you to add new elements to the page by dragging and dropping (or clicking and then dragging on the white space).You may notice several useful features under the "visual elements" dropdown:
-
+..
+   Same comment as above. Crop the image so that it only shows what you're talking about. Better to make it clear where your reader should look. Please make this change throughout. 
 .. image:: ../_static/images/Bubble_5.png
    :width: 1000px
 
@@ -87,6 +92,8 @@ Here is what each input element does:
 | **File Uploader** - Lets the user upload a file (of any type) to the app.
 | 
 | In each element dropdown, you may notice that there is an option to "Install more..." at the bottom. Clicking this option opens the plugins page, which will be discussed later. These are all the basic UI elements that you will need to build your apps.
+..
+   We should hyperlink things we "talk about later"
 
 The Workflow Tab
 ----------------
@@ -110,7 +117,9 @@ As you use Bubble, you will start to see references to database terminology:
 | **Types** - Data templates that have several fields. For example, "user" is one of the preloaded data types in Bubble. Its fields include the user's email, the date their account was created (Created Date), the date the user's account was modified (Modified Date), and the user's account's slug. The "User" type defines what data is associated with a user's account.
 | **Things** - Instances of a type. To use the "User" example again, this would refer to a specific user's account. When you create a new thing, you must specify what this thing's type is. If it is of type "User", then you are creating a new user account.
 | **Fields** - Attributes of a type. A thing of type "User" has an associated Email, Creation Date, Modified Date, and Slug. More fields can be added to a type as desired, but default fields cannot be deleted.
-| 
+..
+   There's a System message popping up here when you preview the page. Please resolve it. 
+
 There are several tabs within the data tab, each dedicated to dealing with different parts of your app's data. Each will be described below.
 
 | **The "Data types" Tab** - This tab deals with creating, viewing, editing, and deleting data types. It also lets you add/delete fields of each type (except for the default fields).
@@ -331,7 +340,8 @@ We are now going to turn our index page into a place where we can search and vie
 | - "location" (Field type: geographic address)
 | - "message" (Field type: text)
 | - "picture" (Field type: image)
-| 
+..
+   Another error here when you push the page 
 Now we must create a reusable element that will act as a template for our post. Open the page dropdown and create a new reusable element, calling it "post". We want our post to show the creator's profile picture, their user name, the creation date, where the user was when they created it, their message, and the photo (if they included one). Since this reusable element is going to dynamically display information from a specific thing, we need to click on the white rectangle and select "post" under "Type of content". Add all the elements to include this information so that it looks like this:
 
 .. image:: ../_static/images/Bubble_39.png
@@ -342,7 +352,8 @@ Now we are going to make sure the image element only extends the post's window i
 | - This element is visible on page load -> Unchecked
 | - Make this element fixed-width -> Checked
 | - Collapse this element's height when hidden -> Checked
-| 
+..
+   Another error here when you push the page 
 Now go into the Conditional tab and define a new condition. In the input labelled "When", insert "Parent group's post's picture is not empty". Select "This element is visible", making sure that it is checked.
 
 .. image:: ../_static/images/Bubble_48.png
@@ -648,4 +659,5 @@ The app is now complete. You should be able to create posts, view other users' p
 
 Second Example: Buy & Sell App
 ==============================
-
+..
+   Let's break this up a bit. Right now we have a lot in one rst file. Let's create a landing page for "No Code Apps" then add three seperate files. The first, "Intro to Bubble.io" the second "Creating your own solcial media website" and then the third "Buy and Sell App". If you look at our 3D Printing tutorial it's super long and a bit hard to navigate. We should try to keep each page digestable. 
