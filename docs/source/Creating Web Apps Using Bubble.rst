@@ -40,7 +40,7 @@ The UI builder on the left allows you to add new elements to the page by draggin
 ..
    Same comment as above. Crop the image so that it only shows what you're talking about. Better to make it clear where your reader should look. Please make this change throughout. 
 .. image:: ../_static/images/Bubble_5.png
-   :width: 500px
+   :width: 250px
 
 Here is a brief explanation of each:
 
