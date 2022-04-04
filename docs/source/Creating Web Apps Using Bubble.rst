@@ -40,7 +40,7 @@ The UI builder on the left allows you to add new elements to the page by draggin
 ..
    Same comment as above. Crop the image so that it only shows what you're talking about. Better to make it clear where your reader should look. Please make this change throughout. 
 .. image:: ../_static/images/Bubble_5.png
-   :width: 1000px
+   :width: 500px
 
 Here is a brief explanation of each:
 
@@ -59,7 +59,7 @@ Here is a brief explanation of each:
 | Within the UI builder there is also a dropdown called "Containers." It contains several features that are necessary for almost every kind of web app:
 
 .. image:: ../_static/images/Bubble_6.png
-   :width: 1000px
+   :width: 500px
 
 Here is what each container does:
 
