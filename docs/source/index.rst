@@ -12,7 +12,7 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
     :target: ../_static/images/ENG.png
 
 .. toctree::
-   :maxdepth: 10
+   :maxdepth: 11
    :hidden:
 
    3D Printing
@@ -23,5 +23,6 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    PCB Design
    PCB Assembly and Testing
    Python
+   No Code Apps
    Finite Element Analysis
    Other
