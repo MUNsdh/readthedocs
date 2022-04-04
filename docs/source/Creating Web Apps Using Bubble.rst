@@ -19,8 +19,7 @@ After clicking the blue button, a popup will appear that will allow you to give 
    :width: 1000px
 
 Press the blue button to be taken to the Bubble editor. You will see a popup on the left side of the screen called "New application assistant." By clicking "Let's get started," you will be able to change the icon and title that displays in your app's tab when it is running, along with a few other features that will be discussed later on.
-..
-   Maybe you can improve this image by adding a red circle around the "let's get started. When you preview the image it's hard to read.
+
 .. image:: ../_static/images/Bubble_3.png
    :width: 1000px
 
@@ -32,11 +31,8 @@ It is useful to keep in mind that you can always hover your cursor over anything
 The Design Tab
 --------------
 
-You should now see the Bubble editor's Design tab. This is where you will decide how your app will look to its users. You will be able to drag and drop elements into the white area on the right side of the screen. You will also be able to resize, rotate and reposition those elements to your liking. Right now there is probably a default webpage showing where this white space would normally be, but that can easily be cleared by drag-selecting everything and pressing the "delete" button on your keyboard.
-..
-   The design tab is on the navigation bar on the left side of the screen. Sometimes it helps to describe where to look if you're not going to put indicators on the image. Another suggestion is to scale the image to only show what's relevant.
-..
-   There "probably" is a default page on the right side of the screen? Best to be sure! 
+You should now see the Bubble editor's Design tab. You can access this tab anytime by clicking on the small box on the left side of the screen that says "Design" on it. This is where you will decide how your app will look to its users. You will be able to drag and drop elements into the viewing area on the right side of the screen. You will also be able to resize, rotate and reposition those elements to your liking. Right now there is a default webpage showing in this viewing space, but that can easily be cleared by drag-selecting everything and pressing the "delete" button on your keyboard.
+
 .. image:: ../_static/images/Bubble_4.png
    :width: 1000px
 
@@ -179,15 +175,15 @@ We will start by clicking the dropdown menu in the top-left corner of the screen
 
 From here, we will click "Add a new reusable element" to create our header. Give the header element a unique name and click CREATE.
 
-.. image:: ../_static/images/Bubble_18.png
+.. image:: ../_static/images/Bubble_93.png
    :width: 1000px
 
 You will now be taken to a new page. The white block that you see in the center of the screen will become our reusable element. You can edit the properties of any element in Bubble by double-clicking on it. Double-click on the white box to change its width to be the same as the width of your index page (usually 1080px). Also adjust the height and color to your liking.
 
-.. image:: ../_static/images/Bubble_19.png
+.. image:: ../_static/images/Bubble_18.png
    :width: 1000px
 
-Now we will add a logo to out header. Select the "Text" element from the visual elements dropdown on the left, then click and drag over the rectangle we just edited. This clicking and dragging is how all elements are added to your app. Double-click the textbox to change the font size, type, and color of the logo to be on-brand with your website. You may notice that the text does not show up in the editor, despite the text being visible when the app is running or when you use the element in another page. This is likely just a bug, and should not affect your app.
+Now we will add a logo to our header. Select the "Text" element from the visual elements dropdown on the left, then click and drag over the rectangle we just edited. This clicking and dragging is how all elements are added to your app. Double-click the textbox to change the font size, type, and color of the logo to be on-brand with your website. You may notice that the text does not show up in the editor, despite the text being visible when the app is running or when you use the element in another page. This is because the height of the text box is too small to display the text with the font size you have selected, so making the height bigger should fix the issue.
 
 .. image:: ../_static/images/Bubble_44.png
    :width: 1000px
@@ -239,7 +235,7 @@ Now let's add the inputs for logging in. The workflow for this is very similar t
 
 Enter the login button's workflow and select *Account > Log the user in*. Enter **Input Email's value** next to Email and **Enter Password's value** next to password. Once again, start another action to reset the inputs.
 
-.. image:: ../_static/images/Bubble_90.png
+.. image:: ../_static/images/Bubble_94.png
    :width: 1000px
 
 Signing in with Google
@@ -365,7 +361,7 @@ Notice that each element is set to say "Parent group's post's email/Creation Dat
 
 Navigate back to the index page and place a "Repeating Group" container into the page. We want each cell in this group to contain a post, so make sure each cell is tall enough to fit it. You may have to extend the page itself to achieve this. In the repeating group's "Type of content" prompt, put "post". This repeating group also requires a data source, as it needs to know which posts to display and in what order. This means we want the repeating group to search our database for posts and organize them on the page according to a sorting rule that we will apply in a moment. Click on the input next to "Data source" and select "Do a search for". Select "post" in the "Type" dropdown and select Sort by>Created Date. This will make posts that were made most recently appear at the top. Lastly, select Descending>"yes". Your page should now look like this:
 
-.. image:: ../_static/images/Bubble_40.png
+.. image:: ../_static/images/Bubble_95.png
    :width: 1000px
 
 To put the page into endless scrolling mode (rather than having a scrollbar), select Layout style>Ext. vertical scrolling.
@@ -385,7 +381,7 @@ Now add a popup container to the page. Overlay a title that says "New Post", alo
 .. image:: ../_static/images/Bubble_43.png
    :width: 1000px
 
-Start a workflow for the "Submit" button. Select Data(Things)>Create a new thing. Under "Type", select "post". We are goingto set this post's fields as shown here:
+Start a workflow for the "Submit" button. Select Data(Things)>Create a new thing. Under "Type", select "post". We are going to set this post's fields as shown here:
 
 .. image:: ../_static/images/Bubble_45.png
    :width: 1000px
@@ -518,7 +514,7 @@ Viewing Other Users' Profile Pages
 ----------------------------------
 Almost every social media site allows users to view each other's profiles. These pages show the user's photo, username, their posts, and posts they have liked.
 
-We can start by create a new page called "profilepage". Since this page must display a specific user's information, we have to click on the whitespace and select "User" next to "Type of content". You can also change the page title if you wish. Make sure the page width matches the width of all the other pages.
+We can start by creating a new page called "profilepage". Since this page must display a specific user's information, we have to click on the whitespace and select "User" next to "Type of content". You can also change the page title if you wish. Make sure the page width matches the width of all the other pages.
 
 .. image:: ../_static/images/Bubble_65.png
    :width: 1000px
@@ -645,6 +641,9 @@ Now go back to the reusable post element's editor and add a new text element bel
 
 Let's configure this globe to only be visible when the post has a location associated with it. Select the globe icon and uncheck "This element is visible on page load". Now go into the Conditional tab and set a new condition to "When Parent group's post's location is not empty". Set the property to change to "This element is visible" and make sure it is checked.
 
+.. image:: ../_static/images/Bubble_96.png
+   :width: 1000px
+
 Now create a new popup, and make it big. Add a text element for the title and a "Map" element. Set the popup's Type of content to "post" and the Data source to "Parent group's post". Now select the map and set its marker address to "Parent group's post's location". Feel free to change the style of the map to whatever you wish.
 
 .. image:: ../_static/images/Bubble_88.png
@@ -660,4 +659,4 @@ The app is now complete. You should be able to create posts, view other users' p
 Second Example: Buy & Sell App
 ==============================
 ..
-   Let's break this up a bit. Right now we have a lot in one rst file. Let's create a landing page for "No Code Apps" then add three seperate files. The first, "Intro to Bubble.io" the second "Creating your own solcial media website" and then the third "Buy and Sell App". If you look at our 3D Printing tutorial it's super long and a bit hard to navigate. We should try to keep each page digestable. 
+   Let's break this up a bit. Right now we have a lot in one rst file. Let's create a landing page for "No Code Apps" then add three seperate files. The first, "Intro to Bubble.io" the second "Creating your own social media website" and then the third "Buy and Sell App". If you look at our 3D Printing tutorial it's super long and a bit hard to navigate. We should try to keep each page digestable. 
