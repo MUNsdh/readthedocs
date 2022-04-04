@@ -59,7 +59,7 @@ Here is a brief explanation of each:
 | Within the UI builder there is also a dropdown called "Containers." It contains several features that are necessary for almost every kind of web app:
 
 .. image:: ../_static/images/Bubble_6.png
-   :width: 500px
+   :width: 250px
 
 Here is what each container does:
 
@@ -72,7 +72,7 @@ Here is what each container does:
 | The UI builder also has a dropdown titled "Input forms." These elements allow the user to enter information into the web app:
 
 .. image:: ../_static/images/Bubble_7.png
-   :width: 1000px
+   :width: 250px
 
 Here is what each input element does:
 
@@ -176,7 +176,7 @@ We will start by clicking the dropdown menu in the top-left corner of the screen
 From here, we will click "Add a new reusable element" to create our header. Give the header element a unique name and click CREATE.
 
 .. image:: ../_static/images/Bubble_93.png
-   :width: 1000px
+   :width: 500px
 
 You will now be taken to a new page. The white block that you see in the center of the screen will become our reusable element. You can edit the properties of any element in Bubble by double-clicking on it. Double-click on the white box to change its width to be the same as the width of your index page (usually 1080px). Also adjust the height and color to your liking.
 
@@ -219,7 +219,7 @@ Now open up the properties for the sign up button and start a workflow. Add an a
 First, check the "Require a password confirmation" checkbox. This will mean the user must type the password in the second password input as well as the first to create an account. Now click the red box next to "Email" and click the options so that it says **Input Enter an email's value**. Next, click the red box next to "Password" and click the options to say **Input Type a password's value**. Lastly, put **Input Retype password's value** next to "Confirmation". The window should now look like this:
 
 .. image:: ../_static/images/Bubble_24.png
-   :width: 1000px
+   :width: 500px
 
 You can now test the sign up functionality using the "Preview" button. Nothing will actually change in the test app yet, but you can go to the "App data" section of the Data tab to see if a new entry has been created under "All Users":
 
@@ -341,7 +341,7 @@ We are now going to turn our index page into a place where we can search and vie
 Now we must create a reusable element that will act as a template for our post. Open the page dropdown and create a new reusable element, calling it "post". We want our post to show the creator's profile picture, their user name, the creation date, where the user was when they created it, their message, and the photo (if they included one). Since this reusable element is going to dynamically display information from a specific thing, we need to click on the white rectangle and select "post" under "Type of content". Add all the elements to include this information so that it looks like this:
 
 .. image:: ../_static/images/Bubble_39.png
-   :width: 1000px
+   :width: 500px
 
 Now we are going to make sure the image element only extends the post's window if the user actually included a photo. Add a "Group" Container over the image. Make sure the image is nested inside it by dragging it in the group until the group's borders turn red. Click on the image and type in "Parent Group's image" under the "Dynamic image" input. Select the group again and set "Type of content" to image. Also set the "Data source" input to "Parent group's post's picture". Now set the following settings as shown here:
 
@@ -384,7 +384,7 @@ Now add a popup container to the page. Overlay a title that says "New Post", alo
 Start a workflow for the "Submit" button. Select Data(Things)>Create a new thing. Under "Type", select "post". We are going to set this post's fields as shown here:
 
 .. image:: ../_static/images/Bubble_45.png
-   :width: 1000px
+   :width: 500px
 
 Create another action for resetting the inputs in the popup. When you open the action selection menu, you might see this action under a heading that says "Recommended next action". If that is the case, click that. If that does not appear for you, navigate to Element Actions>Reset inputs.
 
@@ -435,7 +435,7 @@ Let's start by creating the new data type. Go to the data tab and create the fie
 Now go back to the reusable post element editor and start a workflow for the heart icon. Select Data (Things)>Create a new thing... and fill out the window as shown below.
 
 .. image:: ../_static/images/Bubble_52.png
-   :width: 1000px
+   :width: 500px
 
 Add another action by navigating to Data (Things)>Make changes to thing... and fill out the window as shown here. You will have to type "1" manually and press Enter at the end.
 
@@ -457,7 +457,7 @@ Start a workflow. The first action will be under Data (Things)>Delete a list of 
 Add another action under Data (Things)>Make changes to a thing... and configure the inputs in the window as shown below.
 
 .. image:: ../_static/images/Bubble_56.png
-   :width: 1000px
+   :width: 500px
 
 Now we need to make the filled heart icon only be visible when the user has already upvoted the post. Go back to the design tab, select the filled heart icon, and go into the Conditional tab. Fill out a new condition as shown below. The property to change is "This element is visible", which must be checked.
 
@@ -496,17 +496,17 @@ Now start a workflow for the icon. Add Navigation>Go to page... as an action for
 You should now be able to access the profile settings page by clicking the gear icon in the header. Now we have to configure the "Save all changes" button in the profile settings page to actually change the user's information when it is clicked. Start a workflow for this button and select Account>Make changes to current user. Add the fields as shown below. Make sure that these two fields have placeholder values (found in the Appearance tab of the inputs) so that the user does not have to insert their info into every field if they only want to change one thing.
 
 .. image:: ../_static/images/Bubble_62.png
-   :width: 1000px
+   :width: 500px
 
 Add another action of the same kind for changing the photo. We are doing this separately because we only want this action to occur when the picture uploader has actually had a new photo uploaded to it. Here is what that looks like:
 
 .. image:: ../_static/images/Bubble_63.png
-   :width: 1000px
+   :width: 500px
 
 Next add another action under Account>Update the user's credentials. Fill out the inputs as shown here. Note the extra long input at the bottom, which says that the app will not try to update the user's credentials if all the inputs for changing their password are empty.
 
 .. image:: ../_static/images/Bubble_64.png
-   :width: 1000px
+   :width: 500px
 
 The profile page is complete. You should now be able to change the username, password, photo, and email associated with an account on your app through this page. It may be hard to tell that any changes have been made to your account, so you can also add a popup that says something like "Changes were successful" or something like that if you wish.
 
@@ -549,14 +549,14 @@ The profile page should now be ready to use. However, trying to Preview the app 
 Add Navigation>Go to page... and select profilepage. Since the content on this page is dependent on which user we have clicked on, we have to set the Data to send to "Parent group's post's Creator". The window should look as shown:
 
 .. image:: ../_static/images/Bubble_71.png
-   :width: 1000px
+   :width: 500px
 
 Let's also view our own profile by clicking the profile photo in the header. Go to the reusable header element editor page and select the profile photo. Start a workflow.
 
 We are going to use the same action as before, except this time the Data to send will just be "Current User".
 
 .. image:: ../_static/images/Bubble_72.png
-   :width: 1000px
+   :width: 500px
 
 The profile page setup is now complete. you should be able to click your own profile photo in the header to see your profile page, or click another user's username to see their page.
 
@@ -603,7 +603,7 @@ Go back to the post element and reopen the popup (select it from the elements tr
 Now let's configure the "send" icon to create a new comment when clicked. Select the icon and start a workflow. Select Data (Things)>Create a new thing... and configure the properties as shown below.
 
 .. image:: ../_static/images/Bubble_81.png
-   :width: 1000px
+   :width: 500px
 
 Add another action to reset the inputs when done. Now let's make it possible for the user to open the comments section. Go back to the reusable post element's editor and select the "Comments" text element that we created earlier. Start a workflow. Select Element Actions>Show and set it to show the comments section. Add another action from Element Actions called "Display data". Set the fields as shown below.
 
@@ -632,7 +632,7 @@ Go to the "New Post" popup in the index page and add a new input line for locati
 Edit the workflow for the "Submit" button so that the first action (Create a new post) sets the "location" field to the input we just created.
 
 .. image:: ../_static/images/Bubble_86.png
-   :width: 1000px
+   :width: 500px
 
 Now go back to the reusable post element's editor and add a new text element below the post's creation date. this element will display the post's location. Add an icon element next to this element and change its appearance to "globe".
 
@@ -642,7 +642,7 @@ Now go back to the reusable post element's editor and add a new text element bel
 Let's configure this globe to only be visible when the post has a location associated with it. Select the globe icon and uncheck "This element is visible on page load". Now go into the Conditional tab and set a new condition to "When Parent group's post's location is not empty". Set the property to change to "This element is visible" and make sure it is checked.
 
 .. image:: ../_static/images/Bubble_96.png
-   :width: 1000px
+   :width: 500px
 
 Now create a new popup, and make it big. Add a text element for the title and a "Map" element. Set the popup's Type of content to "post" and the Data source to "Parent group's post". Now select the map and set its marker address to "Parent group's post's location". Feel free to change the style of the map to whatever you wish.
 
@@ -652,7 +652,7 @@ Now create a new popup, and make it big. Add a text element for the title and a 
 Close the popup and select the globe icon again. Start a workflow. Go to Element Actions>Show and select the map popup. Create another action in Element Actions>Display data.
 
 .. image:: ../_static/images/Bubble_89.png
-   :width: 1000px
+   :width: 500px
 
 The app is now complete. You should be able to create posts, view other users' profiles, edit your profile settings, like other posts, make comments, and view where those posts were created on a map.
 
