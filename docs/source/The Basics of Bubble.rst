@@ -1,9 +1,7 @@
-Introduction
-============
-Bubble.io is a code-free online web tool that is used to make many kinds of web applications. It is very versatile and can be used for anything ranging from social media sites, online marketplaces, landing pages, etc. This tutorial will explain the basics of using the interface and also show how to make a few simple web apps.
-
 The Basics of Bubble
 ====================
+Bubble.io is a code-free online web tool that is used to make many kinds of web applications. It is very versatile and can be used for anything ranging from social media sites, online marketplaces, landing pages, etc. This tutorial will explain the basics of using the interface and also show how to make a few simple web apps.
+
 The following subsections will describe how to get started with Bubble and some of its most basic features that you will inevitably use while making your apps.
 
 Creating a New App
