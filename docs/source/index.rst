@@ -13,7 +13,7 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
 
 .. toctree::
    :maxdepth: 11
-   :hidden:
+   :includehidden:
 
    3D Printing
    Data Acquisition
