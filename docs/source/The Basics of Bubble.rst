@@ -35,8 +35,7 @@ You should now see the Bubble editor's Design tab. You can access this tab anyti
    :width: 1000px
 
 The UI builder on the left allows you to add new elements to the page by dragging and dropping (or clicking and then dragging on the white space).You may notice several useful features under the "visual elements" dropdown:
-..
-   Same comment as above. Crop the image so that it only shows what you're talking about. Better to make it clear where your reader should look. Please make this change throughout. 
+
 .. image:: ../_static/images/Bubble_5.png
    :width: 250px
 
