@@ -1,5 +1,6 @@
 .. toctree::
    :maxdepth: 3
+   :hidden:
 
    The Basics of Bubble
    Example 1: Creating a Social Media App
