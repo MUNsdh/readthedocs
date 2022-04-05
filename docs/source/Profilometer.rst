@@ -6,6 +6,4 @@ Installing and Using the Program for Controlling the Motor
 ----------------------------------------------------------
 The ZIP file containing the program executable for controlling the profilometer can be downloaded from this link: 
 
-.. only:: builder_html or readthedocs
-
-   See :download:`program <../Profilometer Controller.zip>`.
+See :download:`program <../Profilometer Controller.zip>`.
