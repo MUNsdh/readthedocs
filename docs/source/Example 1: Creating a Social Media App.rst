@@ -1,5 +1,5 @@
-First Example: Social Media App
-===============================
+Example 1: Creating a Social Media App
+======================================
 
 In this section, we will create an app that can do the same basic functions as most social media apps. The user will be able to create posts (with pictures, if they want), like other people's posts, comment on those posts, and see those posts on a map.
 
