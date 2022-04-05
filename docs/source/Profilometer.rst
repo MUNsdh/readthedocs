@@ -8,4 +8,4 @@ The ZIP file containing the program executable for controlling the profilometer 
 
 .. only:: builder_html or readthedocs
 
-See :download:`zip <../Profilometer Controller.zip>`.
+  See :download:`zip <../Profilometer Controller.zip>`.
