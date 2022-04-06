@@ -16,7 +16,7 @@ After clicking the blue button, a popup will appear that will allow you to give 
 .. image:: ../_static/images/Bubble_2.png
    :width: 1000px
 
-Press the blue button to be taken to the Bubble editor. You will see a popup on the left side of the screen called "New application assistant." By clicking "Let's get started," you will be able to change the icon and title that displays in your app's tab when it is running, along with a few other features that will be discussed later on.
+Press the blue button to be taken to the Bubble editor. You will see a popup on the left side of the screen called "New application assistant." By clicking "Let's get started," you will be able to change the icon and title that displays in your app's tab when it is running, along with a few other features.
 
 .. image:: ../_static/images/Bubble_3.png
    :width: 1000px
@@ -42,7 +42,7 @@ The UI builder on the left allows you to add new elements to the page by draggin
 Here is a brief explanation of each:
 
 | **Text** - Allows you to add text to the screen. Its font type and size can be changed.
-| **Button** - Allows you to add a button to the screen. Making the button do something requires starting a *workflow*, which will be discussed later.
+| **Button** - Allows you to add a button to the screen. Making the button do something requires starting a *workflow*, which will be :ref:`discussed later<The Workflow Tab>`.
 | **Icon** - Adds a common icon of your choosing to the screen (a "like" button, for example).
 | **Link** - Adds hyperlinked text to the screen.
 | **Image** - Adds an image to the screen.
