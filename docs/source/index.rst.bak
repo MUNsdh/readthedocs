@@ -13,15 +13,15 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
 
 .. toctree::
    :maxdepth: 10
-   :includehidden:
+   :hidden:
 
    3D Printing
    Laser Cutting
    Electronics Prototyping
+   No Code Apps
    PCB Design
    PCB Assembly and Testing
    Python
-   No Code Apps
    Sleep Tracker
    SOLIDWORKS Simulation
    Other
