@@ -23,7 +23,6 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    No Code Apps
    PCB Design
    PCB Assembly and Testing
-   Profilometer
    Python
    Finite Element Analysis
    Other
