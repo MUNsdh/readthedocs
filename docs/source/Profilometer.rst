@@ -9,7 +9,9 @@ The Student Design Hub lab has a device called a "profilometer". It develops a 3
 Installing and Using the Program for Controlling the Motor
 ----------------------------------------------------------
 The ZIP file containing the program executable for controlling the profilometer can be downloaded from this link: 
-See :download:`zip <../Profilometer Controller.zip>`.
+See 
+
+:download:`pdf <uPrint Confirmation Form.pdf>`.
 
 After downloading and extracting the ZIP file, open the folders until you see this:
 (Picture of directory containing program executable)
@@ -25,3 +27,4 @@ The first step to producing a scan is to place an object under the scanner. To e
 .. image:: ../_static/images/Profilometer_2.png
    :width: 1000px
    
+It is recommended that you place the object ~1 ft ahead of the laser line so that you have time to trigger the sensor.
