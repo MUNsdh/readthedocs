@@ -20,9 +20,10 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    Laser Cutting
    CNC Machining
    Electronics Prototyping
+   No Code Apps
    PCB Design
    PCB Assembly and Testing
+   Profilometer
    Python
-   No Code Apps
    Finite Element Analysis
    Other
