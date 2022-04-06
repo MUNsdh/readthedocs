@@ -9,9 +9,8 @@ The Student Design Hub lab has a device called a "profilometer". It develops a 3
 Installing and Using the Program for Controlling the Motor
 ----------------------------------------------------------
 The ZIP file containing the program executable for controlling the profilometer can be downloaded from this link: 
-See 
 
-:download:`pdf <uPrint Confirmation Form.pdf>`.
+:download:`Download ZIP File <Profilometer Controller.zip>`.
 
 After downloading and extracting the ZIP file, open the folders until you see this:
 (Picture of directory containing program executable)
