@@ -84,9 +84,7 @@ Here is what each input element does:
 | **Picture Uploader** - Lets the user upload an image to the app.
 | **File Uploader** - Lets the user upload a file (of any type) to the app.
 | 
-| In each element dropdown, you may notice that there is an option to "Install more..." at the bottom. Clicking this option opens the plugins page, which will be discussed later. These are all the basic UI elements that you will need to build your apps.
-..
-   We should hyperlink things we "talk about later"
+| In each element dropdown, you may notice that there is an option to "Install more..." at the bottom. Clicking this option opens the plugins page, which will be :ref:`discussed later<The Plugins Tab>`. These are all the basic UI elements that you will need to build your apps.
 
 The Workflow Tab
 ----------------
