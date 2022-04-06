@@ -58,7 +58,7 @@ Now, either press the "Open SOPAS" button in the profilometer controller app or 
    
 The sensor has settings burned into its memory which should produce a decent image. The settings under "Motion" should not be touched, as they are configured specifically for the incremental encoder used by the profilometer apparatus. However, the settings for every section below that can be changed to make the profile as detailed and accurate as possible. More details on adjusting the settings in SOPAS are described :ref:`in the next section. <Adjusting the Scan Settings in SOPAS>`
 
-
+To get a scan, make sure the sensor is in the "home" position by pressing the "calibrate" button in the profilometer controller app. When you are ready to start the scan, press the "scan" button and wait for the laser to get within an inch or so of the object you are trying to scan. When it gets to this point, click the "Force Trigger" button in SOPAS (highlighted in the image below). After a few moments, you should see the object appear in the "Live 3D" view in SOPAS. If you do not, you may have to adjust some of the scan settings, which will be explained in the section below.
 
 Adjusting the Scan Settings in SOPAS
 ------------------------------------
