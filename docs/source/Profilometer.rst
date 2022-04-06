@@ -62,3 +62,13 @@ To get a scan, make sure the sensor is in the "home" position by pressing the "c
 
 Adjusting the Scan Settings in SOPAS
 ------------------------------------
+The Live 3D window gives a live view of your profile. The green area shows the entire area that is visible to the sensor, while the blue area is the area you have selected to scan. **It is important to make sure that this blue area is as small as possible to keep the rendering time down.**
+
+.. image:: ../_static/images/Profilometer_7.png
+   :width: 1000px
+   
+To change the size and position of the blue region, left click on it and click-and-drag on the white boxes that appear on each of the blue region's sides. Each side is divided into nine regions:
+(diagram of one of blue region's sides)
+.. image:: ../_static/images/Profilometer_8.png
+   :width: 1000px
+
