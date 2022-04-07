@@ -1,5 +1,5 @@
-Profilometer
-============
+Using the Profilometer in the Lab
+=================================
 
 .. image:: ../_static/images/Profilometer_0.jpg
    :width: 1000px
