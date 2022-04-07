@@ -79,7 +79,7 @@ Getting a Profile
 -----------------
 The first step to producing a scan is to place an object under the scanner. To ensure the most detailed scan possible, place the item such that there is minimal overhang. The sensor can only see features of the object from above, so overhangs will not be included in the profile.
 
-.. image:: ../_static/images/Profilometer_4.png
+.. image:: ../_static/images/Profilometer_4.jpg
    :width: 1000px
    
 It is recommended that you place the object ~1 ft ahead of the laser line so that you have time to trigger the sensor. You will be able to perform a scan as soon as you have SOPAS configured and the profilometer controller program downloaded onto your computer.
@@ -117,7 +117,7 @@ Here is a list of common issues you may encounter while trying to use the **prof
 | - Make sure the blue ethernet cable is connected to the back of the router.
 | - Make sure the pin plug is plugged into the motor (shown below).
 
-.. image:: ../_static/images/Profilometer_15.png
+.. image:: ../_static/images/Profilometer_15.jpg
    :width: 1000px
    
 | - Check all connections. Nothing should be unplugged.
