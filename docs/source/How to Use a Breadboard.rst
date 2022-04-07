@@ -43,9 +43,9 @@ The **black knob** labelled "COM" is the ground for the circuit.
 
 The **leftmost red knob** labelled "+5V/1.5A" supplies 5V when the power switch is turned on.
 
-The **middle red knob** labelled "0~+16V/500mA" supplies anywhere between 0V to +16V, which depends on the position of the black knobs below it. The output of this red knob can be adjusted by simply turning the black knob below it.
+The **middle red knob** labelled "0~+16V/500mA" supplies anywhere between 0V to +16V, which depends on the position of the black knob below it. The output of this red knob can be adjusted by simply turning the black knob.
 
-The **rightmost red knob** labelled "0~-16V/500mA" supplies anywhere between 0V to -16V, which depends on the position of the black knobs below it. The output of this red knob can be adjusted by simply turning the black knob below it.
+The **rightmost red knob** labelled "0~-16V/500mA" supplies anywhere between 0V to -16V, which depends on the position of the black knob below it. The output of this red knob can be adjusted by simply turning the black knob.
 
 The sides of the breadboard have red and blue lines labelled "+" and "-". These lines show that all the holes along that line are connected together, and are meant to receive power from one of the red knobs (or the ground for the "-" end). These long connected lines are called **rails.**
 
