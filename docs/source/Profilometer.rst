@@ -1,6 +1,6 @@
 Profilometer
 ============
-(picture of profilometer)
+
 .. image:: ../_static/images/Profilometer_0.jpg
    :width: 1000px
 
@@ -29,7 +29,7 @@ The ZIP file containing the program executable for controlling the profilometer 
 :download:`Download ZIP File <Profilometer Controller.zip>`.
 
 After downloading and extracting the ZIP file, open the folders until you see this:
-(Picture of directory containing program executable)
+
 .. image:: ../_static/images/Profilometer_3.png
    :width: 1000px
    
