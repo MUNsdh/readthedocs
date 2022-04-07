@@ -37,8 +37,46 @@ This is file contains an executable file called "Profilometer.exe". This is the 
 
 **Note:** This program was made for Windows computers, so some (or all) the features may not work on other operating systems.
 
-The Scanning Process
---------------------
+Adjusting the Scan Settings in SOPAS
+------------------------------------
+The Live 3D window gives a live view of your profile. The green area shows the entire area that is visible to the sensor, while the blue area is the area you have selected to scan. The blue area must reside within the green area, otherwise the scan will not work properly. **It is important to make sure that this blue area is as small as possible to keep the rendering time down.**
+
+.. image:: ../_static/images/Profilometer_7.png
+   :width: 1000px
+   
+To change the size and position of the blue region, left click on it and click-and-drag on the white boxes that appear on each of the blue region's sides. Each side is divided into nine regions:
+
+.. image:: ../_static/images/Profilometer_8.png
+   :width: 1000px
+
+Clicking and dragging any of the rectangles highlighted in diagram 1 will scale the blue region in that direction. For example, clicking and dragging the top rectangle will scale the blue region vertically. Dragging the rectangle highlighted in diagram 2 will move the blue region along the plane defined by that side. Dragging the corners (as highlighted in diagram 3) will scale the blue region in both directions at once.
+
+The size that you should adjust the blue region will depend on the size of your model. It is important to make sure that the sensor will be able to see your entire model at all times. To ensure that this is the case, move the model under the laser, as shown below. If the model's width varies, move the laser to be at the widest part.
+
+.. image:: ../_static/images/Profilometer_10.jpg
+   :width: 1000px
+
+In SOPAS, click on the button labelled "Sensor" next to the "Live 3D" and "Force Trigger" buttons. The view will change to show you what the sensor sees.
+
+.. image:: ../_static/images/Profilometer_11.png
+   :width: 1000px
+   
+Somewhere in that view, you should see the basic shape of your object. You will also see lines next to the object from the floor. Ideally, you want the lines from the object to be the brightest, while everything else is completely black. 
+
+.. image:: ../_static/images/Profilometer_13.png
+   :width: 1000px
+   
+Changing the blue region's position and dimensions will change the sensor's field of view. Sometimes reflections from the floor interfere with the sensor, resulting in inaccurate profiles (see below). To fix this, try decreasing the Exposure Time and the Gain settings. If this still does not work, place a black mat underneath your object. This decreases the amount of light that the sensor picks up from the ground.
+
+.. image:: ../_static/images/Profilometer_14.png
+   :width: 1000px
+   
+In the photo above, the red arrows are pointing to positions where the floor tile lines and the object are visible. Trying to scan with these settings would result in a poor profile. Besides the white lines from the laser, everything should be completely black.
+
+The "Laser threshold" setting controls how intense the reflected light has to be for it to show up in the profile. If it is too low, all reflected light will show up in the profile. If it is too high, there will be no profile. Adjust the settings after each scan to find the best value.
+
+Getting a Profile
+-----------------
 The first step to producing a scan is to place an object under the scanner. To ensure the most detailed scan possible, place the item such that there is minimal overhang. The sensor can only see features of the object from above, so overhangs will not be included in the profile.
 
 .. image:: ../_static/images/Profilometer_4.png
@@ -56,25 +94,38 @@ Now, either press the "Open SOPAS" button in the profilometer controller app or 
 .. image:: ../_static/images/Profilometer_6.png
    :width: 1000px
    
-The sensor has settings burned into its memory which should produce a decent image. The settings under "Motion" should not be touched, as they are configured specifically for the incremental encoder used by the profilometer apparatus. However, the settings for every section below that can be changed to make the profile as detailed and accurate as possible. More details on adjusting the settings in SOPAS are described :ref:`in the next section. <Adjusting the Scan Settings in SOPAS>`
+The sensor has settings burned into its memory which should produce a decent image. The settings under "Motion" should not be touched, as they are configured specifically for the incremental encoder used by the profilometer apparatus. However, the settings for every section below that can be changed to make the profile as detailed and accurate as possible. In case the settings have been permanently changed since the time this was written, an image has been provided showing all the default settings. More details on adjusting the settings in SOPAS are described :ref:`in the next section. <Adjusting the Scan Settings in SOPAS>`
 
-To get a scan, make sure the sensor is in the "home" position by pressing the "calibrate" button in the profilometer controller app. When you are ready to start the scan, press the "scan" button and wait for the laser to get within an inch or so of the object you are trying to scan. When it gets to this point, click the "Force Trigger" button in SOPAS (highlighted in the image below). After a few moments, you should see the object appear in the "Live 3D" view in SOPAS. If you do not, you may have to adjust some of the scan settings, which will be explained in the section below.
+.. image:: ../_static/images/Profilometer_12.png
+   :width: 1000px
+
+To get a scan, make sure the sensor is in the "home" position by pressing the "calibrate" button in the profilometer controller app. When you are ready to start the scan, press the "scan" button and wait for the laser to get within an inch or so of the object you are trying to scan. When it gets to this point, click the "Force Trigger" button in SOPAS (highlighted in the image below). After a few moments, you should see the object appear in the "Live 3D" view in SOPAS. If you do not, you may have to :ref:`adjust some of the scan settings<Adjusting the Scan Settings in SOPAS>`.
 
 .. image:: ../_static/images/Profilometer_9.png
    :width: 1000px
+   
+Troubleshooting Profilometer Controller
+---------------------------------------
+Here is a list of common issues you may encounter while trying to use the **profilometer controller**, along with some suggestions for fixing them:
 
-Adjusting the Scan Settings in SOPAS
-------------------------------------
-The Live 3D window gives a live view of your profile. The green area shows the entire area that is visible to the sensor, while the blue area is the area you have selected to scan. The blue area must reside within the green area, otherwise the scan will not work properly. **It is important to make sure that this blue area is as small as possible to keep the rendering time down.**
+**"Error: not connected to profilometer. Are you connected to the correct WiFi?"** -> The connection to the profilometer is timing out.
+| - Make sure you are connected to the profilometer router's WiFi.
+| - Make sure the profilometer and the router are plugged in.
+| - Make sure the blue and white ethernet cables are connected to the back of the router.
 
-.. image:: ../_static/images/Profilometer_7.png
+**The profilometer never responds to the buttons, but no error appears in the terminal.** -> The profilometer is receiving the signal, but the motor is not moving.
+| - Make sure the blue ethernet cable is connected to the back of the router.
+| - Make sure the pin plug is plugged into the motor (shown below).
+
+.. image:: ../_static/images/Profilometer_15.png
    :width: 1000px
    
-To change the size and position of the blue region, left click on it and click-and-drag on the white boxes that appear on each of the blue region's sides. Each side is divided into nine regions:
+| - Check all connections. Nothing should be unplugged.
 
-.. image:: ../_static/images/Profilometer_8.png
-   :width: 1000px
+**The program keeps crashing/not responding.** -> The program is in the middle of fulfilling a request.
+| - This is expected when scanning (or calibrating while the sensor is far away from the homing position). The program should start responding again as soon as the program is complete. If it never completes, force the program to close and open it again. Test the connection by click the left or right arrow.
 
-Clicking and dragging any of the rectangles highlighted in diagram 1 will scale the blue region in that direction. For example, clicking and dragging the top rectangle will scale the blue region vertically. Dragging the rectangle highlighted in diagram 2 will move the blue region along the plane defined by that side. Dragging the corners (as highlighted in diagram 3) will scale the blue region in both directions at once.
-
-The size that you should adjust the blue region will depend on the size of your model.
+**"This computer does not have SOPAS downloaded, or it does not exist in the following directory: C:/Program Files (x86)/SOPAS ET/SopasET.exe"** -> The program cannot find the SOPAS executable.
+| - Make sure that your computer has SOPAS downloaded. If not, you can download it from `here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`
+| - Make sure the SOPAS software exists in the directory shown in the error message. This is where the program looks to run it.
+| - If your computer does not use the Windows operating system, this button will not work for you.
