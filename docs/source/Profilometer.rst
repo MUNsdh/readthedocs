@@ -68,7 +68,8 @@ The Live 3D window gives a live view of your profile. The green area shows the e
    :width: 1000px
    
 To change the size and position of the blue region, left click on it and click-and-drag on the white boxes that appear on each of the blue region's sides. Each side is divided into nine regions:
-(diagram of one of blue region's sides)
+
 .. image:: ../_static/images/Profilometer_8.png
    :width: 1000px
 
+Clicking and dragging any of the rectangles highlighted in diagram 1 will scale the blue region in that direction. For example, clicking and dragging the top rectangle will scale the blue region vertically. Dragging the rectangle highlighted in diagram 2 will move the blue region along the plane defined by that side. Dragging the corners (as highlighted in diagram 3) will scale the blue region in both directions at once.
