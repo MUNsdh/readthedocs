@@ -1,7 +1,7 @@
 Profilometer
 ============
 (picture of profilometer)
-.. image:: ../_static/images/Profilometer_0.png
+.. image:: ../_static/images/Profilometer_0.jpg
    :width: 1000px
 
 The Student Design Hub lab has a device called a "profilometer". It develops a 3D image by running a laser across an object and recording the height of the laser beam at each increment. The profilometer uses a Trispector 1060 sensor to record data and an Arduino Uno to control the motor on the apparatus. These are both connected to a router, allowing any computer that is connected to that router to communicate with the sensor and the Arduino wirelessly. A program was created to make it easier for a computer to control the motor on the apparatus without having to be plugged into the Arduino. The steps for downloading and using this program are detailed below. The software required to communicate with the sensor is called SOPAS Engineering Tool, which can be installed from `here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`_
@@ -40,7 +40,7 @@ This is file contains an executable file called "Profilometer.exe". This is the 
 The Scanning Process
 --------------------
 The first step to producing a scan is to place an object under the scanner. To ensure the most detailed scan possible, place the item such that there is minimal overhang. The sensor can only see features of the object from above, so overhangs will not be included in the profile.
-(diagram of overhang vs. no overhang)
+
 .. image:: ../_static/images/Profilometer_4.png
    :width: 1000px
    
@@ -60,9 +60,12 @@ The sensor has settings burned into its memory which should produce a decent ima
 
 To get a scan, make sure the sensor is in the "home" position by pressing the "calibrate" button in the profilometer controller app. When you are ready to start the scan, press the "scan" button and wait for the laser to get within an inch or so of the object you are trying to scan. When it gets to this point, click the "Force Trigger" button in SOPAS (highlighted in the image below). After a few moments, you should see the object appear in the "Live 3D" view in SOPAS. If you do not, you may have to adjust some of the scan settings, which will be explained in the section below.
 
+.. image:: ../_static/images/Profilometer_9.png
+   :width: 1000px
+
 Adjusting the Scan Settings in SOPAS
 ------------------------------------
-The Live 3D window gives a live view of your profile. The green area shows the entire area that is visible to the sensor, while the blue area is the area you have selected to scan. **It is important to make sure that this blue area is as small as possible to keep the rendering time down.**
+The Live 3D window gives a live view of your profile. The green area shows the entire area that is visible to the sensor, while the blue area is the area you have selected to scan. The blue area must reside within the green area, otherwise the scan will not work properly. **It is important to make sure that this blue area is as small as possible to keep the rendering time down.**
 
 .. image:: ../_static/images/Profilometer_7.png
    :width: 1000px
@@ -73,3 +76,5 @@ To change the size and position of the blue region, left click on it and click-a
    :width: 1000px
 
 Clicking and dragging any of the rectangles highlighted in diagram 1 will scale the blue region in that direction. For example, clicking and dragging the top rectangle will scale the blue region vertically. Dragging the rectangle highlighted in diagram 2 will move the blue region along the plane defined by that side. Dragging the corners (as highlighted in diagram 3) will scale the blue region in both directions at once.
+
+The size that you should adjust the blue region will depend on the size of your model.
