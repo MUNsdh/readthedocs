@@ -143,7 +143,7 @@ Lastly, select Measure > Distance and set Feature A to the ground plane (Plane 0
 .. image:: ../_static/images/Profilometer_21.png
    :width: 1000px
    
-The result is also display in this image at the bottom, highlighted in red. The distance between these two planes is 37.08 mm.
+The result is also displayed in this image at the bottom, highlighted in red. The distance between these two planes is 37.08 mm.
 
 Troubleshooting Profilometer Controller
 ---------------------------------------
