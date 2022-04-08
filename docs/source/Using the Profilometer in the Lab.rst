@@ -103,7 +103,48 @@ To get a scan, make sure the sensor is in the "home" position by pressing the "c
 
 .. image:: ../_static/images/Profilometer_9.png
    :width: 1000px
+
+Analyzing a Profile
+-------------------
+After you have obtained a successful scan, you may want to measure parts of the profile. You can do this using SOPAS. As an example, we will find the height of this box:
+
+
+.. image:: ../_static/images/Profilometer_18.png
+   :width: 1000px
+
+First click the TASK button at the top of the screen:
+
+.. image:: ../_static/images/Profilometer_16.png
+   :width: 1000px
    
+From there, click "Save Job Image":
+
+
+.. image:: ../_static/images/Profilometer_17.png
+   :width: 1000px
+   
+You will now have access to all the tools needed to take measurements of this profile. We need to use the "find" section to establish characteristics of our profile before we can measure anything. In this case, we want to find the normal distance between two planes: the ground plane and the top surface of the box's lid.
+
+We must first add Find > Plane to find the ground plane. This will add a yellow box to the view, which you can resize the same way you would resize the blue box while preparing to scan. The plane that you want SOPAS to find must be inside this box. The purpose of resizing it is to make sure other planes that may exist in the profile are not detected instead. Once SOPAS has found the ground plane, you will see a blue grid appear that is coplanar with the ground plane, as shown below. In this case, resizing the yellow box was not necessary:
+
+
+.. image:: ../_static/images/Profilometer_19.png
+   :width: 1000px
+
+Now we will add another plane for the lid of the box. The yellow box for this plane had to be resized so that it only enclosed the box lid plane, and not the ground plane again:
+
+
+.. image:: ../_static/images/Profilometer_20.png
+   :width: 1000px
+
+Lastly, select Measure > Distance and set Feature A to the ground plane (Plane 0) and Feature B to the lid plane (Plane 1) as shown below.
+
+
+.. image:: ../_static/images/Profilometer_21.png
+   :width: 1000px
+   
+The result is also display in this image at the bottom, highlighted in red. The distance between these two planes is 37.08 mm.
+
 Troubleshooting Profilometer Controller
 ---------------------------------------
 Here is a list of common issues you may encounter while trying to use the **profilometer controller**, along with some suggestions for fixing them:
