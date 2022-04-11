@@ -33,7 +33,7 @@ After downloading and extracting the ZIP file, open the folders until you see th
 .. image:: ../_static/images/Profilometer_3.png
    :width: 1000px
    
-This is file contains an executable file called "Profilometer.exe". This is the program. **Do not move the executable outside of this folder**. If you wish to make this file quickly accessible, you will have to create a shortcut for it.
+This file contains an executable file called "Profilometer.exe". This is the program. **Do not move the executable outside of this folder**. If you wish to make this file quickly accessible, you will have to create a shortcut for it.
 
 **Note:** This program was made for Windows computers, so some (or all) the features may not work on other operating systems.
 
@@ -94,7 +94,7 @@ Now, either press the "Open SOPAS" button in the profilometer controller app or 
 .. image:: ../_static/images/Profilometer_6.png
    :width: 1000px
    
-The sensor has settings burned into its memory which should produce a decent image. The settings under "Motion" should not be touched, as they are configured specifically for the incremental encoder used by the profilometer apparatus. However, the settings for every section below that can be changed to make the profile as detailed and accurate as possible. In case the settings have been permanently changed since the time this was written, an image has been provided showing all the default settings. More details on adjusting the settings in SOPAS are described :ref:`in the next section. <Adjusting the Scan Settings in SOPAS>`
+The sensor has settings burned into its memory which should produce a decent image. The settings under "Motion" should not be touched, as they are configured specifically for the incremental encoder used by the profilometer apparatus. However, the settings for every section below that can be changed to make the profile as detailed and accurate as possible. In case the settings have been permanently changed since the time this was written, an image has been provided showing all the default settings. More details on adjusting the settings in SOPAS are described :ref:`in the previous section. <Adjusting the Scan Settings in SOPAS>`
 
 .. image:: ../_static/images/Profilometer_12.png
    :width: 500px
@@ -150,23 +150,27 @@ Troubleshooting Profilometer Controller
 Here is a list of common issues you may encounter while trying to use the **profilometer controller**, along with some suggestions for fixing them:
 
 **"Error: not connected to profilometer. Are you connected to the correct WiFi?"** -> The connection to the profilometer is timing out.
-| - Make sure you are connected to the profilometer router's WiFi.
-| - Make sure the profilometer and the router are plugged in.
-| - Make sure the blue and white ethernet cables are connected to the back of the router.
+
+ - Make sure you are connected to the profilometer router's WiFi.
+ - Make sure the profilometer and the router are plugged in.
+ - Make sure the blue and white ethernet cables are connected to the back of the router.
 
 **The profilometer never responds to the buttons, but no error appears in the terminal.** -> The profilometer is receiving the signal, but the motor is not moving.
-| - Make sure the blue ethernet cable is connected to the back of the router.
-| - Make sure the pin plug is plugged into the motor (shown below).
+
+ - Make sure the blue ethernet cable is connected to the back of the router.
+ - Make sure the pin plug is plugged into the motor (shown below).
 
 .. image:: ../_static/images/Profilometer_15.jpg
    :width: 500px
    
-| - Check all connections. Nothing should be unplugged.
+ - Check all connections. Nothing should be unplugged.
 
 **The program keeps crashing/not responding.** -> The program is in the middle of fulfilling a request.
-| - This is expected when scanning (or calibrating while the sensor is far away from the homing position). The program should start responding again as soon as the program is complete. If it never completes, force the program to close and open it again. Test the connection by click the left or right arrow.
+
+ - This is expected when scanning (or calibrating while the sensor is far away from the homing position). The program should start responding again as soon as the program is complete. If it never completes, force the program to close and open it again. Test the connection by click the left or right arrow.
 
 **"This computer does not have SOPAS downloaded, or it does not exist in the following directory: C:/Program Files (x86)/SOPAS ET/SopasET.exe"** -> The program cannot find the SOPAS executable.
-| - Make sure that your computer has SOPAS downloaded. If not, you can download it from `here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`
-| - Make sure the SOPAS software exists in the directory shown in the error message. This is where the program looks to run it.
-| - If your computer does not use the Windows operating system, this button will not work for you.
+
+ - Make sure that your computer has SOPAS downloaded. If not, you can download it from `here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`
+ - Make sure the SOPAS software exists in the directory shown in the error message. This is where the program looks to run it.
+ - If your computer does not use the Windows operating system, this button will not work for you.
