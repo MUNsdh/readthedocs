@@ -168,7 +168,7 @@ This sets the color of each point on the profile to be proportional to its Z-pos
 .. image:: ../_static/images/Profilometer_32.png
    :width: 1000px
    
-This will make the height map images easier to edit later. Now click the button right next to the color palette and set the color range such that the highest part of your profile is completely white, and the **ground plane** (**not** necessarily the lowest layer of your profile) is completely black. This will ensure that anything above the ground plane is registered by the height-map converter to be at the right height above the ground. The dropdown for accessing the color range selector is shown below.
+This will make the height map images easier to edit later. Now click the button right next to the color palette and set the color range such that the highest part of your profile is completely white, and the **ground plane** (the lowest layer of your profile) is completely black. This will ensure that anything above the ground plane is registered by the height-map converter to be at the right height above the ground. The dropdown for accessing the color range selector is shown below.
 
 .. image:: ../_static/images/Profilometer_31.png
    :width: 1000px
