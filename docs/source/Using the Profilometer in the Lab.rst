@@ -150,7 +150,7 @@ Converting Profiles to STL
 In this section, we are going to use height mapping to convert our profile to a 3D model. We are going to use two scans, with the second scan being from the object facing the opposite direction. This will give us a way to fill in extra details when we edit our height-map images later. The object we are going to use for this example is shown below:
 
 
-.. image:: ../_static/images/Profilometer_30.png
+.. image:: ../_static/images/Profilometer_30.jpg
    :width: 1000px
    
 The first thing we need to do is scan the object. Read through :ref:`this section<Getting a Profile>` if you need a reminder on how to do this. Here is our scan:
@@ -196,6 +196,13 @@ Now create a new file in whatever image editor you are most comfortable with (MS
 To convert this image to an STL file, search for an "image to STL" converter online. (`Here is a good one <https://imagetostl.com/>`_). Upload the height map image and start configuring the settings.
 
 .. image:: ../_static/images/Profilometer_28.png
+   :width: 1000px
+   
+The Width, Height, and Depth properties are very important. To get an accurate model, each dimension must correspond to the actual dimension of the object you scanned. The height corresponds to the height of the image, **not** the z-axis of the profile, which is the depth here. 
+
+Once all the settings are configured, click the "Convert" button and wait for the conversion to complete. Once finished, you should be able to download the STL file and view it.
+
+.. image:: ../_static/images/Profilometer_29.png
    :width: 1000px
 
 Troubleshooting Profilometer Controller
