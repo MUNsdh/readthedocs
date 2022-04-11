@@ -147,7 +147,7 @@ The result is also displayed in this image at the bottom, highlighted in red. Th
 
 Converting Profiles to STL
 --------------------------
-In this section, we are going to use height mapping to convert our profile to a 3D model. We are going to use two scans, with the second scan being from the object facing the opposite direction. This will give us a way to fill in extra details when we edit our height-map images later. The object we are going to use for this example is shown below:
+In this section, we are going to use height mapping to convert our profile to a 3D model. We are going to use two scans, with the second scan being from the object facing the opposite direction. This will give us a way to fill in extra details when we edit our height-map images later. This process will also be much easier if you make sure that the straight edges of the object are parallel to the laser line while scanning. The object we are going to use for this example is shown below:
 
 
 .. image:: ../_static/images/Profilometer_30.jpg
@@ -181,17 +181,17 @@ Once the right color range has been set, click the "Top" side of the cube in the
 Take a screenshot of the profile and crop it so that it fills the entire image. You may notice that this profile had several holes in it. That is fine, as we will be fixing this later.
 
 .. image:: ../_static/images/Profilometer_25.png
-   :width: 1000px
+   :width: 250px
 
 Repeat the process again after rotating the object 180 degrees and completing another scan. This second profile looks like this:
 
 .. image:: ../_static/images/Profilometer_26.png
-   :width: 1000px
+   :width: 250px
    
 Now create a new file in whatever image editor you are most comfortable with (MS Paint was used here) and fill in the holes by coloring over them with the surrounding colors. You can also use the second profile image to fill in parts of the height map that are too detailed to be colored in by hand. The final height map image looks like this:
 
 .. image:: ../_static/images/Profilometer_27.png
-   :width: 1000px
+   :width: 250px
    
 To convert this image to an STL file, search for an "image to STL" converter online. (`Here is a good one <https://imagetostl.com/>`_). Upload the height map image and start configuring the settings.
 
@@ -203,7 +203,7 @@ The Width, Height, and Depth properties are very important. To get an accurate m
 Once all the settings are configured, click the "Convert" button and wait for the conversion to complete. Once finished, you should be able to download the STL file and view it.
 
 .. image:: ../_static/images/Profilometer_29.png
-   :width: 1000px
+   :width: 500px
 
 Troubleshooting Profilometer Controller
 ---------------------------------------
