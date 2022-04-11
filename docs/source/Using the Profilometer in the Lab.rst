@@ -176,7 +176,7 @@ This will make the height map images easier to edit later. Now click the button 
 Once the right color range has been set, click the "Top" side of the cube in the bottom left corner of the 3D View window. You will have to click the center square on the top side of the cube twice so that the edges of grid below the profile align with the edges of the window. 
 
 .. image:: ../_static/images/Profilometer_24.png
-   :width: 1000px
+   :width: 250px
    
 Take a screenshot of the profile and crop it so that it fills the entire image. You may notice that this profile had several holes in it. That is fine, as we will be fixing this later.
 
