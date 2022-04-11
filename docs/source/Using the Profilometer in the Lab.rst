@@ -145,6 +145,59 @@ Lastly, select Measure > Distance and set Feature A to the ground plane (Plane 0
    
 The result is also displayed in this image at the bottom, highlighted in red. The distance between these two planes is 37.08 mm.
 
+Converting Profiles to STL
+--------------------------
+In this section, we are going to use height mapping to convert our profile to a 3D model. We are going to use two scans, with the second scan being from the object facing the opposite direction. This will give us a way to fill in extra details when we edit our height-map images later. The object we are going to use for this example is shown below:
+
+
+.. image:: ../_static/images/Profilometer_30.png
+   :width: 1000px
+   
+The first thing we need to do is scan the object. Read through :ref:`this section<Getting a Profile>` if you need a reminder on how to do this. Here is our scan:
+
+.. image:: ../_static/images/Profilometer_22.png
+   :width: 1000px
+   
+Once we have our scan, click the dropdown at the top of the 3D View window and select "Z", as shown below.
+
+.. image:: ../_static/images/Profilometer_23.png
+   :width: 1000px
+
+This sets the color of each point on the profile to be proportional to its Z-position (i.e. its height). You will have to set the color palette to be black and white by clicking the button shown below as well, to ensure that the height map uses shades rather than colors:
+
+.. image:: ../_static/images/Profilometer_32.png
+   :width: 1000px
+   
+This will make the height map images easier to edit later. Now click the button right next to the color palette and set the color range such that the highest part of your profile is completely white, and the **ground plane** (**not** necessarily the lowest layer of your profile) is completely black. This will ensure that anything above the ground plane is registered by the height-map converter to be at the right height above the ground. The dropdown for accessing the color range selector is shown below.
+
+.. image:: ../_static/images/Profilometer_31.png
+   :width: 1000px
+
+Once the right color range has been set, click the "Top" side of the cube in the bottom left corner of the 3D View window. You will have to click the center square on the top side of the cube twice so that the edges of grid below the profile align with the edges of the window. 
+
+.. image:: ../_static/images/Profilometer_24.png
+   :width: 1000px
+   
+Take a screenshot of the profile and crop it so that it fills the entire image. You may notice that this profile had several holes in it. That is fine, as we will be fixing this later.
+
+.. image:: ../_static/images/Profilometer_25.png
+   :width: 1000px
+
+Repeat the process again after rotating the object 180 degrees and completing another scan. This second profile looks like this:
+
+.. image:: ../_static/images/Profilometer_26.png
+   :width: 1000px
+   
+Now create a new file in whatever image editor you are most comfortable with (MS Paint was used here) and fill in the holes by coloring over them with the surrounding colors. You can also use the second profile image to fill in parts of the height map that are too detailed to be colored in by hand. The final height map image looks like this:
+
+.. image:: ../_static/images/Profilometer_27.png
+   :width: 1000px
+   
+To convert this image to an STL file, search for an "image to STL" converter online. (`Here is a good one <https://imagetostl.com/>`_). Upload the height map image and start configuring the settings.
+
+.. image:: ../_static/images/Profilometer_28.png
+   :width: 1000px
+
 Troubleshooting Profilometer Controller
 ---------------------------------------
 Here is a list of common issues you may encounter while trying to use the **profilometer controller**, along with some suggestions for fixing them:
