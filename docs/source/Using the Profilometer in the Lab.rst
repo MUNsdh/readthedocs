@@ -231,6 +231,9 @@ Here is a list of common issues you may encounter while trying to use the **prof
 
 **"This computer does not have SOPAS downloaded, or it does not exist in the following directory: C:/Program Files (x86)/SOPAS ET/SopasET.exe"** -> The program cannot find the SOPAS executable.
 
- - Make sure that your computer has SOPAS downloaded. If not, you can download it from `here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`_
+ - Make sure that your computer has SOPAS downloaded. If not, you can download it from this link:
+ 
+ `Download SOPAS here. <https://www.sick.com/ca/en/sopas-engineering-tool/p/p367244>`_
+ 
  - Make sure the SOPAS software exists in the directory shown in the error message. This is where the program looks to run it.
  - If your computer does not use the Windows operating system, this button will not work for you.
