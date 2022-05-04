@@ -1,4 +1,4 @@
-Using the Profilometer in the Lab
+Profilometer / 3D Scanning
 =================================
 
 .. image:: ../_static/images/Profilometer_0.jpg
