@@ -1,4 +1,4 @@
-Sleep Tracker (IoT)
+Sleep Tracker IoT Project using Pi
 ===================
 
 .. toctree::

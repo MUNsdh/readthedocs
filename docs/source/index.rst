@@ -25,5 +25,6 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    PCB Assembly and Testing
    Using the Profilometer in the Lab
    Python
+   Sleep Tracker
    Finite Element Analysis
    Other
