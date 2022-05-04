@@ -7,5 +7,5 @@ Sleep Tracker IoT Project using Pi
    Project overview
    Installation and Setup
    Hardware
-   software
+   Software
    Uploading and Testing
