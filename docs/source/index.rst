@@ -27,4 +27,5 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    Python
    Sleep Tracker
    Finite Element Analysis
+   Cerakote Ceramic Coating
    Other
