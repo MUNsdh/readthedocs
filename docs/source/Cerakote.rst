@@ -13,11 +13,11 @@ production can have many benefits including:
 *Improved Durability
 *Smoother Surfaces
 
-.. figure:: ../_static/images/ceramic1.jpeg
-    :figwidth: 700px
+.. figure:: ../_static/images/ceramic1.jpg
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic2.jpeg
-    :figwidth: 700px
+    :figwidth: 500px
 
 Mostly all consumer materials today undergo some version of finishing. Some examples of this would be the
 matte look of a car’s exterior or the smooth top on a desk. The finishing method explained in this
@@ -27,13 +27,13 @@ By the end of this tutorial you should be able to post process a part and apply 
 
 Before:
 
-.. figure:: ../_static/images/ceramic30.jpeg
-    :figwidth: 700px
+.. figure:: ../_static/images/ceramic30.png
+    :figwidth: 500px
 
 After:
 
-.. figure:: ../_static/images/ceramic31.jpeg
-    :figwidth: 700px
+.. figure:: ../_static/images/ceramic31.png
+    :figwidth: 500px
 
 Preparation
 -----------
@@ -56,10 +56,6 @@ Before starting this tutorial, the following will be needed:
 *Masks
 
 The first step to ceramic coating a part, is to clean the part of all dirt and grime using a lint-free wipe.
-
-.. figure:: ../_static/images/ceramic3.png
-    :figwidth: 700px
-
 Next, soak the part in acetone for 30 min. Be sure to wear nitrile gloves when dealing with this chemical. By 
 soaking the part in acetone, the chemical is evaporating any oils that are absorbed by the material and enables 
 the ceramic coating to stick to the surface evenly when applied. Each chemical has an associated Material Safety 
@@ -75,23 +71,23 @@ is to sand the surface of the area where you’d like to apply the coating. This
 located in the upstairs portion of EN 1035 - Fluids and Hydraulics Room above the large wave generator. 
 
 .. figure:: ../_static/images/ceramic4.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
-.. figure:: ../_static/images/ceramic5.jpeg
-    :figwidth: 700px
+.. figure:: ../_static/images/ceramic5.jpg
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic6.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic7.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 
 Sand-blasting is the action of shooting a grain textured material at high speeds to further smoothen a surface. Using a
 system powered by compressed air, millions of pebbles shoot out of a hand-held nozzle in an enclosed chamber.
 
 .. figure:: ../_static/images/ceramic8.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 It's important to remember that choosing what product will shoot millions of pebbles. This is  because the decision will 
 have a direct impact on the smoothness of the finish. Aluminum Oxide and sand are most common choices, but be aware of the 
@@ -108,10 +104,10 @@ The grains in the base of the enclosure can be accessed using a Phillips screwdr
 unscrew the grates. Then a plug underneath the machine can be pulled and the substance can be drained into a container.
 
 .. figure:: ../_static/images/ceramic9.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic10.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 The next step is to pour the product into one of the back two cylinders attached to the sandblaster, again, checking to 
 ensure cross-contamination is minimal. For this example, the right-hand nozzle was to be used, so only the right cylinder was 
@@ -119,34 +115,34 @@ filled.  In order to ensure the air pressure flows to the correct nozzle, turn t
 point towards what cylinder is being used. 
 
 .. figure:: ../_static/images/ceramic11.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic12.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 .. figure:: ../_static/images/ceramic13.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 Once the grain is in the desired cylinder, turn on the machine, and turn the green lever found in the left corner of the room so 
 that the lever is parallel with the pipe to which it is attached.
 
 
 .. figure:: ../_static/images/ceramic14.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
  Place the part being finished in the enclosure and seal the lid. Then, use the two arm holes to access the enclosure. Using the 
 two pedals on the floor it is easy to control the power. The black pedal is a button that turns on and off the filtration system 
 while the silver foot pedal switches the air pressure to the nozzle on and off.
 
 .. figure:: ../_static/images/ceramic15.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 It is recommended to use a PSI of 80-100 for metals and a PSI of 30-40 for non-metals like plastics and carbon fiber. This can be 
 done by adjusting the knob by the green lever pulled earlier. First, pull up on the knob and then twist it clockwise or counter-clockwise 
 to increase or decrease the PSI. Then, snap the knob back down into the original position. 
 
 .. figure:: ../_static/images/ceramic16.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 Continue to sand-blast the material until satisfied or, the sand in the back cylinder runs out. In this case simply re-empty the sand in the 
 base of the enclosure or in the bucket found at the bottom of the cone filter and pour the substance back into the back cylinders. When 
@@ -160,7 +156,7 @@ oven is preheated, bake the part for 60 minutes. This process evaporates any sol
 or the acetone soak.
 
 .. figure:: ../_static/images/ceramic17.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 Mixing
 ------
@@ -170,36 +166,36 @@ While awaiting the 60 minutes for the part to bake, gather the following:
 *Air compressor: found in the bottom right corner of the Student Design Hub (EN 1040)
 
 .. figure:: ../_static/images/ceramic18.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 *Long Extension Cord
 *Plumbers Tape
 *Masks
 
 .. figure:: ../_static/images/ceramic19.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 *The preferred ceramic coating mix. In this tutorial H-146 Graphite Black by CeraKote was used. To buy this product or other Cerakote products: 
 https://www.cerakote.com/shop/cerakote-coating/H-146/graphite-black
 
 .. figure:: ../_static/images/ceramic20.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 *A Catalyst to add to the coating mix. This tutorial used Cerakote H-100 Part B Catalyst. Click this link to purchase the same:
 https://www.cerakote.com/shop/cerakote-equipment/H-100/part-b-catalyst
 
 .. figure:: ../_static/images/ceramic21.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 *Graduated Cylinder or an alternative to measure volume. Note: Do not mix catalyst and Cerakote coatings in any plastics besides: polypropylene 
 (PP), high-density polyethylene(HDPE), or low-density polyethylene (LDPE).
 
 .. figure:: ../_static/images/ceramic22.jpg
-    :figwidth: 700px
+    :figwidth: 500px
 
 *Cerakote spray nozzle. Inquire to Engineer In Residence for its location. Oftentimes will be around or attached to the air compressor.
 
 .. figure:: ../_static/images/ceramic23.jpg
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 Once these pieces have been gathered, the spraying process can begin. Start by finding a safe place to spray the ceramic coating. If outside 
 is a feasible option, it’s often the safest. During this tutorial, spraying was done behind the Engineering Building near the large garage 
@@ -208,7 +204,7 @@ compressor with plumbers tape. Plumber tape is applied by wrapping the material 
 tape serves to seal any gaps in the threaded connection and prevents air leakage. Use a wrench to tighten.
 
 .. figure:: ../_static/images/ceramic24.jpg
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 Next, shake the coating mix aggressively and let it sit for 5-10 minutes. Take the graduated cylinder and begin mixing the desired amount of 
 cerakote ceramic coating with the catalyst. The ratio of this mixture is as follows:
@@ -223,14 +219,12 @@ result in two slightly different finishes.
 In order to mix the products stretch a nitrile glove tightly over the top of the graduated cylinder and shake for 30-60 seconds.
 
 .. figure:: ../_static/images/ceramic25.jpg
-    :figwidth: 700px 
+    :figwidth: 500px 
 
-
-The last step before spraying, is to strain the mixture. This is done by resting the provided paper filter on top of the spray gun canister
- and pouring in the mixture so that it seeps through the filter and into the canister.
+The last step before spraying, is to strain the mixture. This is done by resting the provided paper filter on top of the spray gun canister and pouring in the mixture so that it seeps through the filter and into the canister.
 
 .. figure:: ../_static/images/ceramic29.png
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 The strain mesh required will be specified on the bottle. For Cerakote products, the normal mesh ratings are 100, 150, or 325 in-cup strainers. 
 
@@ -244,10 +238,10 @@ that is being finished in a clear and easily accessible place and start spraying
 
 
 .. figure:: ../_static/images/ceramic26.jpg
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 .. figure:: ../_static/images/ceramic27.png
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 Spraying Tips:
 
@@ -274,7 +268,7 @@ H-series cerakote as used in this tutorial, the curing process calls for a tempe
 below for what to expect as a final product. 
 
 .. figure:: ../_static/images/ceramic28.jpg
-    :figwidth: 700px 
+    :figwidth: 500px 
 
 Clean-Up
 --------
