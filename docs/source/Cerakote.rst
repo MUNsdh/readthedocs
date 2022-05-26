@@ -8,10 +8,10 @@ Ceramic coating is the process of applying a surface finish to a  part will resu
 improved surface protection while also providing a refined look. Finishing the materials used during 
 production can have many benefits including:
 
-*Better Aesthetic
-*Heat Protection
-*Improved Durability
-*Smoother Surfaces
+* Better Aesthetic
+* Heat Protection
+* Improved Durability
+* Smoother Surfaces
 
 .. figure:: ../_static/images/ceramic1.jpg
     :figwidth: 500px
@@ -40,20 +40,20 @@ Preparation
 
 Before starting this tutorial, the following will be needed:
 
-*Long extension cord
-*Air compressor
-*Spray gun nozzle
-*Plumbers Tape
-*Lint-free wipes
-*Nitrile Gloves or medical gloves
-*Acetone
-*Sand-blaster
-*Sand-blasting grain
-*Oven able to heat to 300 degrees fahrenheit and fit your part
-*Cerakote coating mix
-*Cerakote catalyst
-*Graduated cylinder or method or volume measuring device
-*Masks
+* Long extension cord
+* Air compressor
+* Spray gun nozzle
+* Plumbers Tape
+* Lint-free wipes
+* Nitrile Gloves or medical gloves
+* Acetone
+* Sand-blaster
+* Sand-blasting grain
+* Oven able to heat to 300 degrees fahrenheit and fit your part
+* Cerakote coating mix
+* Cerakote catalyst
+* Graduated cylinder or method or volume measuring device
+* Masks
 
 The first step to ceramic coating a part, is to clean the part of all dirt and grime using a lint-free wipe.
 Next, soak the part in acetone for 30 min. Be sure to wear nitrile gloves when dealing with this chemical. By 
@@ -130,7 +130,7 @@ that the lever is parallel with the pipe to which it is attached.
 .. figure:: ../_static/images/ceramic14.jpg
     :figwidth: 500px
 
- Place the part being finished in the enclosure and seal the lid. Then, use the two arm holes to access the enclosure. Using the 
+Place the part being finished in the enclosure and seal the lid. Then, use the two arm holes to access the enclosure. Using the 
 two pedals on the floor it is easy to control the power. The black pedal is a button that turns on and off the filtration system 
 while the silver foot pedal switches the air pressure to the nozzle on and off.
 
