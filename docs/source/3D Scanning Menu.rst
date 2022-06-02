@@ -4,5 +4,5 @@ Site Management
 .. toctree::
    :maxdepth: 3
 
-   RTD
-   Pushing to readthedocs with Github Desktop
+   Using the Profilometer in the Lab
+   3D Scanner
