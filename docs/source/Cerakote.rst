@@ -4,9 +4,8 @@ Cerakote Ceramic Coating
 Introduction
 ------------
 
-Ceramic coating is the process of applying a surface finish to a  part will result in the part having
-improved surface protection while also providing a refined look. Finishing the materials used during 
-production can have many benefits including:
+Ceramic coating is the process of applying a finish to a part which will provide improved surface protection (and a refined look). 
+Applying a finish to a production part can have many benefits including:
 
 * Better Aesthetic
 * Heat Protection
