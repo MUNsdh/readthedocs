@@ -1,5 +1,5 @@
-Profilometer / 3D Scanning
-=================================
+Profilometery / 3D Scanning in EN1040
+=====================================
 
 .. image:: ../_static/images/Profilometer_0.jpg
    :width: 1000px

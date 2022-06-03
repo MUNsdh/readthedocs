@@ -1,7 +1,7 @@
-How to Use the Peel 1 3D Scanner
-================================
+How to Use the Handheld Peel 1 3D Scanner
+=========================================
 
-On this page, you will find some ressources that will help with the operation of the Peel3D Peel 1. This scanner can be used to scan nearly object
+On this page, you will find some ressources that will help with the operation of the Peel3D Peel 1 (that can be checked out from MUNMED3D). This scanner can be used to scan nearly object
 that has a size of about 0.3 - 3.0 meters. Some important things to note before beginning with the scanner are:
 
 * Make sure the object does not have a glossy surface. Glossy surfaces are harder to pick up by the scanner.

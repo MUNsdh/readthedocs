@@ -23,7 +23,7 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    No Code Apps
    PCB Design
    PCB Assembly and Testing
-   Using the Profilometer in the Lab
+   3D Scanning Menu
    Python
    Sleep Tracker
    Finite Element Analysis
