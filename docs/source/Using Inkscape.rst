@@ -4,14 +4,14 @@ Using Inkscape
 Setting Up Your File
 --------------------
 
-This part of the tutorial assumes you have a photo already in mind to use and will not be using inkscape as a way to design your cut. If you plan to use InkScape to make a design, refer to other tutorials on the web then skip to the “Trotec Launch” heading.
+This part of the tutorial assumes you have a photo already in mind to use and will not be using inkscape as a way to design your cut. If you plan to use InkScape to make a design, refer to other tutorials on the web then skip to :ref:`Printer Settings`
 
 It’s important to start by saying that Inkscape is the longest and most challenging part of laser cutting but, with some practice and experimenting it becomes a lot easier. InkScape uses image files to generate your cuts and the easier your image is for the computer to understand, the smoother your experience laser cutting will be. Most likely you already have in mind the image you want to laser cut but there are some things to keep in mind that will make your life easier:
 
 * Have a clear background:
 	* Having a solid color background or a very distinct background to foreground image will improve the quality of the laser cut
 
-.. figure:: ../_static/images/g.jpg
+.. figure:: ../_static/images/laserd/g.jpg
 *BAD*
 
 .. figure:: ../_static/images/laserd/R.jfif
@@ -40,7 +40,7 @@ It’s important to start by saying that Inkscape is the longest and most challe
 .. figure:: ../_static/images/laserd/ddb.jpg
 *BAD*
 
-.. figure:: ../_static/images/laserd/ddg.jpg
+.. figure:: ../_static/images/laserd/ddg.jfif
 *GOOD*
 
 * Inkscape only accepts the following file types:
@@ -56,18 +56,18 @@ Once the image you want to laser cut has been decided upon, save it to a usb and
 
 Before we start, we need to turn on the laser cutter. There’s a switch on the back left of the machine, as shown below:
 
-.. figure:: ../_static/images/trotec_back.jpg
+.. figure:: ../_static/images/trotec_back.png
 
 Next, login to the computer with:
 username: \trotec and 
 password: Passw0rd 
 Open up the inkscape software in the top right corner of the monitor. 
 
-.. figure:: ../_static/images/lasercut/ink.jpg
+.. figure:: ../_static/images/lasercut/ink.png
 
 Inkscape will open a default template but you need to change the template to the size you want to cut. If you don't have specific dimensions in mind, just use a measuring tape to get the width and height of your material. The max size that will fit in the laser cutter is 74cm wide and 44cm tall.
 
-Tip: Refer to the :ref:`Material Preset` section before choosing a template size. If the material you are working with does not have preset settings consider doing a small test print first to make sure the settings are correct. More on this in :ref:`Print Settings`.
+Tip: Refer to the :ref:`Material Cut Paramters` section before choosing a template size. If the material you are working with does not have preset settings consider doing a small test print first to make sure the settings are correct. More on this in :ref:`Printer Settings`.
 
 In order to open a template to a specific size go to file > new from template > generic canvas
 
@@ -75,7 +75,7 @@ In order to open a template to a specific size go to file > new from template > 
 
 Next import the image from your usb drive onto the template. Do this by going file > import > click on your image > open. The image we will use in this tutorial is shown below.
 
-.. figure:: ../_static/images/lasercut/1898037.png
+.. figure:: ../_static/images/lasercut/1898037.jpg
 
 The very first thing to do is to lock the dimensions to avoid stretching the image.
 
@@ -95,7 +95,7 @@ The first thing you want to click in the trace bitmap window is “Live Preview�
 
 Once Live Preview is selected, a preview of a newly generated image will appear on the right of the window. 
 
-.. figure:: ../_static/images/lasercut/hlb.jpg
+.. figure:: ../_static/images/lasercut/hlp.jpg
 
 Trace bitmap is the way Inkscape can convert your image so that the laser cutter can understand what to etch and cut. It is an automated system that uses different methods to transform your image that is made of pixels to an image in something called vector form.
 

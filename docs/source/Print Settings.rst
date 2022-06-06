@@ -12,14 +12,14 @@ Next, hit preferences. ​​Now, you’ll be in the laser settings menu. The fi
 .. figure:: ../_static/images/inkscape_print_size.png
   :align: center
 
-Next, under Material Settings, you’ll have a variety of material options with preset settings for the Trotec laser cutter. The idea here is that you can select the material you are using and sometimes the thickness. If the material you are using is not listed, skip to the :ref:`New Material' section.
+Next, under Material Settings, you’ll have a variety of material options with preset settings for the Trotec laser cutter. The idea here is that you can select the material you are using and sometimes the thickness. If the material you are using is not listed, skip to the :ref:`New Material` section.
 
-Before moving on to the next step, you must double check that the presets have not been tinkered with. In order to do this refer to the :ref:'Material Parameters' section in this tutorial. Then, in InkScape hit the flash button to the left of where the material is listed. 
+Before moving on to the next step, you must double check that the presets have not been tinkered with. In order to do this refer to the :ref:`Material Cut Parameters` section in this tutorial. Then, in InkScape hit the flash button to the left of where the material is listed. 
 
 .. figure:: ../_static/images/lasercut/flash.jpg
   :align: center
 
-This menu is where you can manually override the presets and set them to different values. Compare the presets in the table in this tutorial and the presets in this menu and make sure they match. If true, select ok. If false, or you want to manually override these setting skip to :ref:'New Material'
+This menu is where you can manually override the presets and set them to different values. Compare the presets in the table in this tutorial and the presets in this menu and make sure they match. If true, select ok. If false, or you want to manually override these setting skip to :ref:`New Material`
 
 Finally, unless specified otherwise, the bottom section of the preferences menu should look like this:
 
@@ -50,7 +50,7 @@ Once those settings are jotted down, select the Category box as if you were to t
 
 Fill in the category and name of your material and begin filling in the same parameters you jotted down a second ago. Then, begin experimenting by changing some of the parameters that you think will work best for the material you have chosen and run some tests (ie: If your material is harder than the sample material then increasing the power and decreasing the speed value will be necessary).
 
-Tip: The trotec has a dual laser. All hard materials like aluminum need to use the fiber (FLP) laser and all other materials like foam, wood, or plastic need the CO2 laser. Please refer to :ref:'Approved Materials for Laser Cutter'. 
+Tip: The trotec has a dual laser. All hard materials like aluminum need to use the fiber (FLP) laser and all other materials like foam, wood, or plastic need the CO2 laser. Please refer to :ref:`Approved Materials for Laser Cutter`. 
 
 Once satisfied with the settings, select “save” then “ok”. 
 
