@@ -8,8 +8,8 @@ Eryone ER-20
     :figwidth: 350px
     :target: ../_static/images/Eryone1.PNG
 
-How to Use the Eryone ER-20 Printer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**How to Use the Eryone ER-20 Printer**
+
 
 There are a few steps involved before printing with the Eryone ER-20 printer. The first is to
 make sure your 3D model has been saved in STL format. Please review :ref:`STL Format` to learn how.
@@ -106,8 +106,7 @@ any of the following features, then you may want to consider the :ref:`Advanced 
 See here an example sheet.
 :download:`pdf <Advanced Guide pdf.pdf>`
 
-Simple Parts Workflow
-^^^^^^^^^^^^^^^^^^^^^
+**Simple Parts Workflow**
 
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
@@ -215,8 +214,8 @@ Toolpaths to Disk” and transfer the SD card to the printer (Via Left side hole
 
 To prepare your printer and begin printing click :ref:`Preparing Printer`
 
-Eryone Quick Start Material Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Eryone Quick Start Material Settings**
+
 .. list-table:: 3D Printing Quick Start Settings
    :widths: 10 10 10 10 10 10 10 10 
    :header-rows: 1
