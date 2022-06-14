@@ -1,28 +1,22 @@
-3D Printing in the Student Design Hub
-=====================================
+The Basics
+==========
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
     :target: ../_static/images/3DPDG1.PNG
 
-Welcome
--------
-
 Welcome to Memorial University's Student Design Hub! Here you have access to multiple 3D printers where can
 bring your digital designs to life!
 
-
-Introduction
-------------
-
 3D printing or additive manufacturing is a process in which solid objects are made from a digital file. The
-most widely used technique is Fused Deposition Modeling (FDM) in which material is layered to create
-polymer-based parts, ranging from basic to complex geometrical shapes. These can be standalone parts
-and/or components of a bigger structure. The relative speed of creating these parts (a couple of hours
-depending on size, design, and infill) allows for proof of concepts to be developed rapidly, moving past 3D
-modeling, a very powerful tool tied to 3D printing. The end results used to be used exclusively for
-prototyping, however, due to the advancements of 3D printing technology and materials, 3D prints are
-being used more frequently as end products and parts.
+most widely used technique is Fused Deposition Modeling (FDM).FDM is the process of feeding a polymer-based 
+material through a nozzle in which the material melts and gets extruded in a distnict pattern onto a flat 
+surface where it will harden again. 3D printers repeat this process with many distinct and thin layers to 
+mold the material into the desired design. The relative speed of creating these parts (a couple of 
+hoursdepending on size, design, and infill) allows for proof of concepts to be developed rapidly, moving
+past 3Dmodeling, a very powerful tool tied to 3D printing. The end results used to be used exclusively for
+prototyping, however, due to the advancements of 3D printing technology and materials, 3D prints are being 
+used more frequently as end products and parts.
 
 For more detailed information please visit the sources used under Reference List
 
@@ -57,11 +51,12 @@ One of the advantages of 3D printing is that very complex models can be achieved
 crafting your 3D model in a computer-aided design (CAD) software, such as SolidWorks, some design
 considerations can help ensure better results.
 
-**Resoultion:** Similar to image resolution, a 3D printer has a minimum feature analogous to a pixel in
-picture, this is the smallest “dot” it can print, and it is dependent on the nozzle size.
-Resolution is divided into XY-resolution, dependent on the nozzle diameter and the smallest movement the
-stepper motor on the printer can achieve and the Z-resolution is dependent on the layer height.
-Each printer can have a different minimum layer height.
+**Resoultion:** Similar to image resolution, a 3D printer has a minimum feature, analogous to a pixel in a
+picture, this is the smallest “dot” a 3D printer can extrude accurately and consistently. 
+This is called the printers resolution. Resolution is divided into XY-resolution, and is influenced by factors 
+such as nozzle diameter and the smallest movement capable of the stepper motor on the printer. Because of this, 
+each printer can have a different minimum layer height, but a general rule of thumb is a minimum layer height of 0.2mm.
+Anyhting less than 0.2mm may arise consistency and accuracy issues
 
 
 .. figure:: ../_static/images/3DPDG3.PNG
@@ -74,10 +69,11 @@ Each printer can have a different minimum layer height.
 
 **Orientation:** Printing orientation of the 3D model can greatly
 improve the surface quality of the print. The figure displays the same
-3D model printed horizontally and vertically. The horizontally print
-would display a “staircase” pattern, while the on vertically print this
-patter would be greatly reduced achieving a smoother print.
-Conversely, when printing parts that would undergo a mechanical
+3D model printed horizontally and vertically. The horizontal print on the left 
+displays a “staircase” pattern finish, while the vertically prited part on the 
+right has a much smoother finish due to it's logical orientation. 
+A logically oriented part accounts for minimal overhang areas and lofts the scale vertically.
+When printing parts that would undergo a mechanical
 load, the former would support more force applied to it at the peak of
 the semi-dome than the latter.
 
@@ -85,16 +81,18 @@ the semi-dome than the latter.
     :figwidth: 600px
     :target: ../_static/images/3DPDG5.PNG
 
-**Size:** If you are making a display model, then this is less critical as you can scale your
-design before printing to be within the boundaries of the printing volume. This is determined
-by the building platform’s area and the height of the printing chamber. Each printer has its
-own unique printing volume.
+**Size:** Each printer has maximum length, width and height in which it can print. When considering the size
+of your design consider the size of the print bed and the orientation of your part. If the design cannot be 
+scaled down and is simply too big for the printer, making the prototype is seperate prints the combining 
+with post-processing may be a viable option.
 
 **Wall Thickness:** A minimum wall thickness is required for the
 model to be able to print and be structurally sound. This dimension
 would be affected if the model needs to support any force, but as a
 rule of thumb for ABS it is recommended to use a minimum wall
 thickness of 1.2mm. Different materials and printers have their own configurations.
+If thin wall prints are required see :ref:`Thin Wall Printing` in :ref:`Building the 
+Supermarine Spitfire Mk IX Plane` Case Study. 
 
 **Shrinkage and Assembly:** When printing parts that are design to
 be connected to each other, keep in mind the shrinkage that the
@@ -118,14 +116,19 @@ tolerances than embossing details.
     :target: ../_static/images/3DPDG7.PNG
 
 **Support Material:** To be able to achieve intricate designs most 3D printers employ support
-material. The most popular ones being soluble and breakaway ones. Both types of supports have their
-cons and pros, soluble support materials are easy to remove, since it dissolves on a solution,
-leaving behind a clean print, however some soluble support material such as PVA take up to 24hrs
-to fully dissolve. By contrast, breakaway support materials can be removed from the print as soon
-as the model is completed, but in certain complex geometries they tend to leave residue behind
-and/or are difficult to completely remove without damaging the print if the design possess
-deep channels or crevices in the inside faces of the model, especially if no exit hole is
-built into the design. This is very important to keep in mind when modeling your 3D design.
+materials. The most popular support method is breakaway supports. Breakaway support materials 
+are temporary beams that are printed around your model to support overhangs or ares where the 
+melted plastic cannot support itself until hardened. These can be broken away as soon as the print has
+been finished, but in certain complex geometries they tend to leave residue behind
+and/or are difficult to completely remove without damaging the print. This is caused if the design possess
+deep channels/crevices in the inside faces of the model, where no exit hole is accounted for. With that
+being said the difference is minimal and breakaways are the best option for the majority of prints you will complete.
+This is very important to keep in mind when modeling your 3D design. Every printer in the Student Design Hub uses this
+method of support for 3D printing. Another method to create supports is through soluable supports.
+Soluble support materials work the same as breakaways but instead they leave a smoother finish and are
+easier to remove because they are able to be dissolved in water instead of having to be broken away.
+However this method of support material is only available through one printer located in the Digital Design and
+Prototyping Lab and is a quite longer process.
 
 .. figure:: ../_static/images/3DPDG8.PNG
     :figwidth: 600px
@@ -163,12 +166,14 @@ this surface as small adjacent triangles.
     :figwidth: 700px
     :target: ../_static/images/3DPDG12.PNG
 
+Once you have a STL file saved of your design you are ready for the next section of this tutorial.
+,
 Printing
 ^^^^^^^^
 
 The .STL file will be imported into a slicer, a software that produces a path for the 3D printer to
-follow to be able to print the model. This set of commands or language is known as G-code, and it
-tells the printer what movements to make from begging to end of the print.
+follow to be able to print the model. This set path is known as G-code, and it
+tells the printer what movements to make from the begging to the end of the print.
 
 .. figure:: ../_static/images/3DPDG13.PNG
     :figwidth: 700px
@@ -213,7 +218,7 @@ More information on each filament can be found `here <https://3dinsider.com/pros
 
 Once you have chosen a material, the next step is to upload your STL to a Slicer. In this case we will be using Simplify3D.
 
-There are two guides to using Simplify3D: A quick guide for very easy and simple PLA parts such as a chess piece and a detailed
+There are two guides to using Simplify3D: A quick guide for very easy and simple parts such as a chess piece and a detailed
 guide for more complex parts and different materials.
 
 Open up Simplify3D by double clicking the icon.
@@ -276,7 +281,6 @@ This is the command center of Simplify3D, everything happens in here. In this qu
 the settings but instead checking a few things to make sure everything is right before you print. If your model consists of
 any of the following features, then you may want to consider the :ref:`Advanced Workflow`.
 
-* Non-PLA Material
 * Large Overhang (Support structures needed)
 * Thin Walls
 * Fine Details
@@ -294,7 +298,7 @@ Simple Parts Workflow
 
 If your part is simple and does not fall under any of the above categories, then please follow the instructions below.
 
-Once you select edit process settings this page should appear. Make sure everything is in the green boxes matches your
+Once you select edit process settings this page should appear. Make sure everything in the green boxes match your
 screen. “Coast at End” and “Wipe Nozzle” should not be checked.
 
 .. figure:: ../_static/images/Eryone9.PNG
@@ -323,7 +327,8 @@ buttons to navigate the boxes.
 Nothing should be selected in the support tab.
 
 For the Temperatures tab, each filament has it's own preferred settings. You will have to change the temperature of the extruder
-and bed based on what brand of PLA you are using. You can change the temperature by double clicking the number or by using the add and
+and bed based on what brand of material you are using. these temperature settings are often found printed directly on the filament spool or can be searched up on google,
+You can change the temperature by double clicking the number or by using the add and
 remove button.
 
 .. figure:: ../_static/images/Eryone49.PNG
@@ -335,7 +340,7 @@ remove button.
     :figwidth: 700px
     :target: ../_static/images/Eryone50.PNG
 
-For list of PLA temperatures please view sheet :download:`pdf <PLA Temp.pdf>`
+For list of common PLA temperatures please view sheet :download:`pdf <PLA Temp.pdf>`
 
 Nothing should ever be touched in the G-Code tab, but just to be sure, check these settings:
 
@@ -381,7 +386,7 @@ These should all be the default settings under the “Eryone ER-20” profile ho
     :target: ../_static/images/Eryone19.PNG
 
 Select the “OK” button, the window should close. Now click “Prepare to Print!”. You should be brought to this screen where
-you can how the model will be printed layer by layer.
+you can see how the model will be printed layer by layer.
 
 .. figure:: ../_static/images/Eryone20.GIF
     :figwidth: 700px
@@ -439,22 +444,10 @@ Eryone Quick Start Material Settings
 Prusa i3 MK3S+
 --------------
 
-Printing in Multiple Colors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The `Multi Material Upgrade 2S (MMU2S) <https://www.prusa3d.com/original-prusa-i3-multi-material-2-0>`_ is an add-on unit that allows the Prusa MK3S to print models with up to five different colors in the same print using only one extruder. The MMU2S sits between the extruder and the filament tube. It works by continuously unloading and loading filaments throughout the printing process whenever the model requires a color switch.
-
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/E1ZxTCApLrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 PrusaSlicer Setup
 ^^^^^^^^^^^^^^^^^
 
-Printing using the MMU2S requires an updated version of PrusaSlicer, which is available for download on the `official Prusa website <https://www.prusa3d.com/prusaslicer>`_.
-
-The first step is to run the installer and follow the instructions mentioned. If you already have the PrusaSlicer installed, you can skip this step.
+The first step is to run the installer and follow the instructions mentioned. If you already have the PrusaSlicer installed, you can skip this step, just ensure the slicer does not need any updates.
 
 After finishing the installation process, PrusaSlicer needs to be configured to use the Prusa i3 MK3S with the MMU2S unit:
 
@@ -475,19 +468,6 @@ After finishing the installation process, PrusaSlicer needs to be configured to 
 - Click “Finish.”
 
 - Make sure to select “Original Prusa i3 MK3S & MK3S+ MMU2S” from the “Printer” drop-down on the side menu.
-
-Using the MMU2S requires multiple filament loading and unloading actions throughout a single print. Because of this, the filament ends can develop strings which may potentially clog the filament tube and cause the print to stop. To avoid that, certain settings need to be adjusted for unloading the filaments. This mainly has to do with:
-
-- **Number of cooling moves:** how many times the filament is moved through the cooling tube to cool down.
-
-- **Ramming parameters:** a speed curve setting that determines the nature of the moves and time taken to pull the filament tip out of the nozzle.
-
-- **Unloading speed at the start:** the speed at which filament is drawn out right after ramming.
-
-
-All these variables control the shape of the filament tip after it is unloaded. After multiple tests and experiments, the optimum values were recorded for the type of filament we use at the SDH. These settings are available as a configuration file to facilitate setting up PrusaSlicer. To use our settings:
-
-- Download the configuration file from :download:`here <../_static/config.ini>`.
 
 - From the File menu, select Import → Import Config...
 
@@ -1071,14 +1051,15 @@ what it is being heated to. The top should say 0 and the bottom should say less 
     :figwidth: 400px
     :target: ../_static/images/PreP1.PNG
 
-The first step is to unscrew the clamps from the bed. Be careful not to lose these as they are very small but very important.
+If you are using the Eryone ER-20, the first step is to unscrew the clamps from the bed. Be careful not to lose these as they are very small but very important. Once the clamps are off, carefully take the glass bed off and lay it on the desk.
 
 .. figure:: ../_static/images/PreP2.PNG
     :figwidth: 400px
     :target: ../_static/images/PreP2.PNG
 
-Once the clamps are off and laid to the side take the glass plate off on the printer and lay it on the table. Be gentle and
-extra careful as the plate is glass and can break. Next, grab your cleaning supplies; you will need Windex, Isopropyl Alcohol, Two
+If your are using the Prusa, simply take of the magnetic bed and lay it on the desk.
+
+Next, grab your cleaning supplies; you will need Windex, Isopropyl Alcohol, Two
 Microfiber Cloths, and your printer’s scraper.
 
 .. figure:: ../_static/images/cleaning.jpg
@@ -1108,8 +1089,8 @@ Once your bed is cleaned and your adhesion is applied it is time to start your p
 power switch on the back. As well, make sure sufficient filament is inserted into the hot end. To learn how to insert
 filament click visit :ref:`Changing and Inserting Material`.
 
-When the printer is on you should be on the home page. Click the wheel and scroll to the bottom where it
-says, “Print from media”. Select the file you saved to the SD card and select print.
+When a 3D printer is on you should be on the home pageas called on the Eryone ER-20 or info page as called on the Prusa. Click the wheel and scroll to the where it
+says, “Print from media” ot "Print from SD Card". Select the file you saved to the SD card and select print.
 
 .. figure:: ../_static/images/Eryone27.GIF
     :figwidth: 300px
