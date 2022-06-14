@@ -2,7 +2,7 @@
 ===========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 5
 
    The Basics of 3D Printing
    Generating the G-Code
@@ -10,4 +10,3 @@
    Advanced Workflow
    Case Studies
 
-   
