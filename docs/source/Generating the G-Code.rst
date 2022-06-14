@@ -293,12 +293,12 @@ Once your design is in the system the first thing you want to select is the fila
 Do this by hitting the "Filament" box on the right hand side of the screen. Here you will see the presets of common filaments. If the filament you wish to use is not listed,
 you can simply hit the "Filament settings" tab in the top left corner and maually set the nozzle and bed temperature as listed on your filament spool.
 
-Navigate back to the Plater. If your design has any overhanging parts you will need the slicer to automatically generate supports for you. This is because melted plastic cannot float in thin air. Refer to the ref:`Modelling` section if you are unsure if supports are needed.
+Navigate back to the Plater. If your design has any overhanging parts you will need the slicer to automatically generate supports for you. This is because melted plastic cannot float in thin air. Refer to the :ref:`The Basics of 3D Printing` section if you are unsure if supports are needed.
 To enable automatically generated supports, select the "Supports" drop down box and hit "Everywhere".
 
-Then, select the next box on the plater named "Infill". An objects infill is the density of the part. Regular 3D prints have 15% of their inner shaped filled with filament. Making 85% hollow. But, if you desire a more sturdy and strong print, increase the infill. For more information on infill see section: ref:`Infill Percentage`
+Then, select the next box on the plater named "Infill". An objects infill is the density of the part. Regular 3D prints have 15% of their inner shaped filled with filament. Making 85% hollow. But, if you desire a more sturdy and strong print, increase the infill. For more information on infill see section :ref:`Advanced Workflow`
 
-The rest of the settings in Prusa Slicer are advanced settings that rarely need to be adjusted. But, if following this guide leaves you with unsatisfactory results refer to the ref:`Advanced Workflow` section or ask a DDPL employee in EN 1017.
+The rest of the settings in Prusa Slicer are advanced settings that rarely need to be adjusted. But, if following this guide leaves you with unsatisfactory results refer to the :ref:`Advanced Workflow` section or ask a DDPL employee in EN 1017.
 
 Now you are ready to slice the .STL file. To do this press the slice now buttom in the bottom right corner. 
 

@@ -178,7 +178,7 @@ Printing
 
 Once you have the .STL file, it will be imported into a slicer, a software that produces a path for the 3D printer to
 follow to be able to print the model. This set path is known as G-code, and it
-tells the printer what movements to make from the begging to the end of the print. More on this in ref:`Getting_Gcode`
+tells the printer what movements to make from the begging to the end of the print. More on this in :ref:`Generating the G-Code`
 
 .. figure:: ../_static/images/3DPDG13.PNG
     :figwidth: 700px
