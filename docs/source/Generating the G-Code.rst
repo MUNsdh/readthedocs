@@ -256,7 +256,7 @@ Eryone Quick Start Material Settings
 
 
 Prusa i3 MK3S+
-^^^^^^^^^^^^^^
+---------------
 
 There are a few steps involved before printing with the Eryone ER-20 printer. The first is to
 make sure your 3D model has been saved in STL format. Please review :ref:`STL Format` to learn how.

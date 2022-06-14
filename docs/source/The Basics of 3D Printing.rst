@@ -28,7 +28,7 @@ used more frequently as end products and parts.
 For more detailed information please visit the sources used under Reference List
 
 Materials
-^^^^^^^^^
+---------
 
 The most common materials for 3D printing are **Poly Lactic Acid (PLA)** and **Acrylonitrile Butadiene
 Styrene (ABS)**. PLA filament is a biodegradable material that is easy to print due to its low heating
@@ -52,7 +52,7 @@ printer you use. Some materials are:
 * Etc.
 
 Modelling
-^^^^^^^^^
+----------
 
 One of the advantages of 3D printing is that very complex models can be achieved. However, when
 crafting your 3D model in a computer-aided design (CAD) software, such as SolidWorks, some design
@@ -154,7 +154,7 @@ is advised, the greater the space that can be afford, the better chance the mode
     :target: ../_static/images/3DPDG10.PNG
 
 STL Format
-^^^^^^^^^^
+----------
 
 After you have finished your design, save the SolidWorks model in the native format SolidWorks Part File
 (SLDPRT) as well as the Standard Triangle/Tessellation Language file format (STL) [1]. To save your
@@ -174,7 +174,7 @@ this surface as small adjacent triangles.
     :target: ../_static/images/3DPDG12.PNG
 
 Printing
-^^^^^^^^
+--------
 
 Once you have the .STL file, it will be imported into a slicer, a software that produces a path for the 3D printer to
 follow to be able to print the model. This set path is known as G-code, and it

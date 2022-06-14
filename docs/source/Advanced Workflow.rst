@@ -448,8 +448,7 @@ command box.
 Multi-Colour/Material Prints with the Prusa
 --------------------------------------------
 
-PrusaSlicer Setup
-^^^^^^^^^^^^^^^^^
+**PrusaSlicer Setup**
 
 The first step is to run the installer and follow the instructions mentioned. If you already have the PrusaSlicer installed, you can skip this step, just ensure the slicer does not need any updates.
 
@@ -491,8 +490,8 @@ The last step is to set the filament type and colors to better visualize your mo
 
 Now the PrusaSlicer is ready for printing.
 
-Generating Gcode
-^^^^^^^^^^^^^^^^
+**Generating G-Code**
+
 
 When exporting a multi-color CAD design to STL for printing, parts with different colors will be exported to separate STL files. These files should be imported together to PrusaSlicer for the print to align correctly. For example, the multi-color penguin model below consists of three STL files with different colors. To import that:
 
@@ -523,8 +522,8 @@ After assigning colors for all parts, click “Slice now” to generate the Gcod
 
 You will notice that there is a non-removable rectangular block next to your model. This is called the “Wipe Tower.” Whenever the Prusa needs to switch from one filament to another, it extrudes some of the filament to the wipe tower to remove any remains of the last filament after loading a new color. This helps prime the filament before printing and cleans the nozzle to prevent colors from mixing.
 
-Loading the filament
-^^^^^^^^^^^^^^^^^^^^
+**Loading the filament**
+
 
 Before you begin printing, you need to load all the filament colors you need for the print. When a filament is loaded, it is not inserted all the way to the nozzle. “Loading” the filament means having it ready for the MMU2S to pull whenever it is needed. To load a filament:
 
@@ -554,8 +553,7 @@ After all filaments are loaded, go back to the main menu, select “Print from S
 
 **Now, you can start printing!**
 
-Troubleshooting
-^^^^^^^^^^^^^^^
+**Troubleshooting**
 
 The MMU2S sometimes has issues with loading/unloading filament. Fortunately, the LEDs on the MMU2S help diagnose and solve most problems. Whenever there is an issue, the LEDs will blink, and a message will show on the Prusa’s LCD screen. Below is a table of the most common issues we faced and how to solve them. Check `this link <https://help.prusa3d.com/en/article/mmu-needs-user-attention_2139>`_ for a more detailed description of each problem.
 
@@ -586,8 +584,8 @@ The MMU2S sometimes has issues with loading/unloading filament. Fortunately, the
 Raise3D E2
 ----------
 
-Switching Extruders Mid Print with Raise3D E2 and Simplify3D
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Switching Extruders Mid Print with Raise3D E2 and Simplify3D**
+
 
 Ideamaker is the Raise3D E2’s preferred slicer however with the limited time we had to work with, Simplify3D was chosen.
 
