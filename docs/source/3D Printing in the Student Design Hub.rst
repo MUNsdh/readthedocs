@@ -174,15 +174,6 @@ tells the printer what movements to make from begging to end of the print.
     :figwidth: 700px
     :target: ../_static/images/3DPDG13.PNG
 
-uPrint SE
----------
-
-.. figure:: ../_static/images/3DPDG2.PNG
-    :figwidth: 700px
-    :target: ../_static/images/3DPDG2.PNG
-
-To have parts printed with the uPrint SE 3D Printer, please visit  :ref:`Requesting Parts From the Digital Design and Prototyping Lab`.
-
 Eryone ER-20
 ------------
 
