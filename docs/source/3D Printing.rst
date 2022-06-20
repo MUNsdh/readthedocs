@@ -9,6 +9,6 @@
    Preparing Printer
    Advanced Workflow
    Case Studies
-   Resin/SLA Printing
+   Resin
    
 
