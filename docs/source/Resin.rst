@@ -155,7 +155,7 @@ Resin cartridges should also be stored away from direct sunlight. Any additional
 resin can be found in the cabinet below the Form 2 in the DDPL. 
 
 .. figure:: ../_static/images/RESIN8.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN8.jpg  
 
 Use as much resin as you need. Although completely filling the resin tank will ensure there is enough resin for your print;  
@@ -179,13 +179,13 @@ The version can be found on the resin cartridge. The layer thickness should be s
 the highest amount of detail.
 
 .. figure:: ../_static/images/RESIN9.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN9.jpg
 
 Import the STL file by using the import function in the file settings or by dragging and dropping the file into the slicer window. 
 
 .. figure:: ../_static/images/RESIN10.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN10.jpg
 
 
@@ -198,11 +198,11 @@ well as automatically support it. The orientation may not be optimal, so try it 
 worse results than manual orientation and support.
 
 .. figure:: ../_static/images/RESIN11.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN11.jpg
 
 .. figure:: ../_static/images/RESIN12.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN12.jpg
 
 
@@ -222,11 +222,11 @@ on the printer and hit print, it may ask you to go through a couple of checks in
 platform as well as opening the small tab on top of the resin cartridge.
 
 .. figure:: ../_static/images/RESIN14.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN14.jpg
 
 .. figure:: ../_static/images/RESIN14.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN14.1.jpg
 
 Once the print has started the Form 2 will heat the resin up to the proper printing temperature and mix it with the wiper.
@@ -242,11 +242,11 @@ In contrast to FDM prints, resin will always require post processing. Once the p
 sit for a few minutes to allow excess resin to drip down into the resin vat. 
 
 .. figure:: ../_static/images/RESIN15.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN15.jpg
 
 .. figure:: ../_static/images/RESIN15.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN15.1.jpg
 
 After the part has sat for an appropriate amount of time it is time for post processing!
@@ -264,19 +264,19 @@ After the part is washed the plastic tub containing the alcohol must be removed 
 DO **NOT** leave the part submerged in alcohol for an extended time. The part will lose integrity and become mushy. 
 
 .. figure:: ../_static/images/RESIN16.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN16.jpg
 
 .. figure:: ../_static/images/RESIN16.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN16.1.jpg
 
 .. figure:: ../_static/images/RESIN17.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN17.jpg
 
 .. figure:: ../_static/images/RESIN17.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN17.1.jpg
 
 
@@ -290,11 +290,11 @@ to the surface as possible to minimize surface imperfections. If the supports ca
 removing them with gloves will work; this however is not best practice. 
 
 .. figure:: ../_static/images/RESIN18.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN18.jpg
 
 .. figure:: ../_static/images/RESIN18.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN18.1.jpg
 Submerging the part in hot water (60-70C) before curing the part and after washing will allow the supports to be removed
 with little or no damage to the part. There is an electric kettle below the Form 2 where the resin cartridges are stored. 
@@ -316,11 +316,11 @@ can introduce warping and alter the color. Curing the part will harden the surfa
 the touch then it is not done curing.  
 
 .. figure:: ../_static/images/RESIN19.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN19.jpg
 
 .. figure:: ../_static/images/RESIN19.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN19.1.jpg
 
 
@@ -360,6 +360,7 @@ Individual touchpoints can be modified, added or removed in the support settings
 .. figure:: ../_static/images/RESINL.jpg
     :figwidth: 500px
     :target: ../_static/images/RESINL.jpg
+
 Parts cannot print in mid-air, it is impossible! Thus, we must use supports to help print complex parts. The Preform slicer 
 has a built in setting for finding unsupported minima (low points) and islands (pieces of the part printing in air. 
 Click the < button and find the job info box. Enable the show minima setting from there.
@@ -390,12 +391,13 @@ Print Angle
 In practice this means tilting surfaces 10 to 20 degrees and avoiding printing directly on the bed. If a part has a
  slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
  resin tank and ruining the print
+
 .. figure:: ../_static/images/RESIN23.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN23.jpg
 
 .. figure:: ../_static/images/RESIN23.1.jpg
-    :figwidth: 500px
+    :figwidth: 400px
     :target: ../_static/images/RESIN23.1.jpg
 
 
@@ -433,7 +435,7 @@ it is best to have the intersecting features face down towards the build plate. 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
 .. figure:: ../_static/images/RESIN26.jpg
-    :figwidth: 800px
+    :figwidth: 500px
     :target: ../_static/images/RESIN26.jpg
 
 
@@ -446,7 +448,7 @@ suction during printing. The hollow can also be filled. This must be done in ano
 Preform does not have the capabilities to do so. 
 
 .. figure:: ../_static/images/RESIN27.jpg
-    :figwidth: 800px
+    :figwidth: 500px
     :target: ../_static/images/RESIN27.jpg
 
 The drainage hole is placed correctly on the left model. The right drainage hole will not allow air to 
@@ -493,11 +495,11 @@ do not adhere to the build plate correctly. Make sure the build plate and printe
 temperature for printing.
 
 .. figure:: ../_static/images/RESIN30.jpg
-   :figwidth: 500px
+   :figwidth: 400px
    :target: ../_static/images/RESIN30.jpg
 
 .. figure:: ../_static/images/RESIN30.1.jpg
-   :figwidth: 500px
+   :figwidth: 400px
    :target: ../_static/images/RESIN30.1.jpg
 
 
