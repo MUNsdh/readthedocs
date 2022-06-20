@@ -12,7 +12,7 @@ Resin Printing
    Resin Troubleshooting
 
 Introduction to Resin Printing
-==============================
+------------------------------
 **Form Labs Form 2 Resin Printer**
 .. figure:: ../_static/images/RESINA.jpg
     :figwidth: 700px
@@ -88,7 +88,7 @@ Required Tools and Equipment
 * Snippers/cutters to remove support materialECHO is on.
 
 Setting Up the Form 2
-=====================
+---------------------
 
 Set up
 ^^^^^^
@@ -177,7 +177,7 @@ The bed should be removed and cleaned with isopropyl alcohol and paper towel aft
 and protects the resin tank from damage.
 
 Preform Slicer
-==============
+--------------
 
 Preform is the slicer that must be used with the Formlabs 2, any other slicer will not communicate with the printer. 
 Very little work must be done to slice the model. On start up the slicer will ask for the printer model and type of resin 
@@ -238,7 +238,7 @@ platform as well as opening the small tab on top of the resin cartridge.
 Once the print has started the Form 2 will heat the resin up to the proper printing temperature and mix it with the wiper.
 
 Post Processing
-===============
+---------------
 
 In contrast to FDM prints, resin will always require post processing. Once the print has completed it is best to let it 
 sit for a few minutes to allow excess resin to drip down into the resin vat. 
@@ -306,7 +306,8 @@ but DO NOT allow the water and resin solution to flow down the drain.  This meth
 using cutters and sanding tools is not viable.
 
 
-^^Curing^^
+Curing
+^^^^^^
 The turntable is then attached to the station and it must be switched to cure mode. If the turntable is not next to the 
 Form 2 or  the wash and cure station, check below where the resin cartridges are stored. Place the part on the 
 turntable and let it cure. The wash process should take about 5 minutes while the curing time can vary between 5-20 minutes 
@@ -323,7 +324,8 @@ the touch then it is not done curing.
     :target: ../_static/images/RESIN19.1.jpg
 
 
-^^Sanding^^
+Sanding
+^^^^^^^^^
 Sanding is not always necessary. The supports can come off cleanly in some instances but the majority of the time will 
 require a small amount of sanding to get a perfect finish. The parts are typically small and can be sanded by hand or even a rotary tool. 
 Resin is fragile and prone to surface mark; try using a higher grit first to test. It is important to be in a well ventilated area 
@@ -337,7 +339,7 @@ or wear a respirator due to the resin particles.
 The benchy has small surface imperfections on the back where supports were placed.
 
 Advanced Resin Workflow
-=======================
+-----------------------
 
 Supporting Your Part
 ^^^^^^^^^^^^^^^^^^^^
@@ -444,8 +446,8 @@ Preform does not have the capabilities to do so.
 The drainage hole is placed correctly on the left model. The right drainage hole will not allow air to 
 move freely during printing.
 
-Troubleshooting 
-===============
+Resin Troubleshooting 
+---------------------
 
 
 Residue in the Resin
