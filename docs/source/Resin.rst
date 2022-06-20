@@ -420,7 +420,7 @@ Lowest Point
  Ideally there should be one minima that is well supported. If there are multiple, try to reduce the amount and 
  make sure they are stable. 
 
- .. figure:: ../_static/images/RESIN25.jpg
+.. figure:: ../_static/images/RESIN25.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN25.jpg
 
@@ -432,7 +432,7 @@ Parts with complex geometry are often printed on resin printers. To ensure integ
 it is best to have the intersecting features face down towards the build plate. This will ensure that the layers 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
- .. figure:: ../_static/images/RESIN26.jpg
+.. figure:: ../_static/images/RESIN26.jpg
     :figwidth: 800px
     :target: ../_static/images/RESIN26.jpg
 
@@ -445,7 +445,7 @@ minimize the suction force while printing. The hole must not be on the top of th
 suction during printing. The hollow can also be filled. This must be done in another 3D design package as 
 Preform does not have the capabilities to do so. 
 
- .. figure:: ../_static/images/RESIN27.jpg
+.. figure:: ../_static/images/RESIN27.jpg
     :figwidth: 800px
     :target: ../_static/images/RESIN27.jpg
 
@@ -466,7 +466,7 @@ Run the wiper gently through the resin tank, lifting it slightly off the bottom 
 the tank must be emptied and refilled. The resin must be filtered when emptied to remove residue. There are coffee
 filters in the cabinet below the Form 2 in the DDPL.
 
- .. figure:: ../_static/images/RESIN28.jpg
+.. figure:: ../_static/images/RESIN28.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN28.jpg
 
@@ -479,7 +479,7 @@ make prints stick to the resin tank or even fall loose in the resin. The suction
 build platform to overcome, so the print fails. Printing less models at a rotated angle means less surface area 
 per layer which will be easier to print.
 
- .. figure:: ../_static/images/RESIN29.jpg
+.. figure:: ../_static/images/RESIN29.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN29.jpg
 
@@ -492,13 +492,13 @@ The layer lines of the print will not be 90° and the print will fail. This will
 do not adhere to the build plate correctly. Make sure the build plate and printer are level and the resin is at the right 
 temperature for printing.
 
- .. figure:: ../_static/images/RESIN30.jpg
-    :figwidth: 500px
-    :target: ../_static/images/RESIN30.jpg
+.. figure:: ../_static/images/RESIN30.jpg
+   :figwidth: 500px
+   :target: ../_static/images/RESIN30.jpg
 
- .. figure:: ../_static/images/RESIN30.1.jpg
-    :figwidth: 500px
-    :target: ../_static/images/RESIN30.1.jpg
+.. figure:: ../_static/images/RESIN30.1.jpg
+   :figwidth: 500px
+   :target: ../_static/images/RESIN30.1.jpg
 
 
 
@@ -508,7 +508,7 @@ When a section of a part is thin, lacking detail or missing completely it could 
 To prevent this, always inspect the printing process using the slider on the right side of the Preform slicer window. 
 Add supports to the failed section or reorientate the model to improve printability.
 
- .. figure:: ../_static/images/RESIN31.jpg
+.. figure:: ../_static/images/RESIN31.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN31.jpg
 
@@ -520,7 +520,7 @@ Be careful when hollowing the part as it is possible for a section to become too
 thin if the walls are less than 2mm thick. In general, walls should be at least 3-5mm thick for best results. 
 It is always important to add drainage holes on models that are hollowed to reduce the suction force.
 
- .. figure:: ../_static/images/RESIN32.jpg
+.. figure:: ../_static/images/RESIN32.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN32.jpg
 
