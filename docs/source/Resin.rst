@@ -113,6 +113,7 @@ this must be locked in as shown below. The wiper keeps the resin from sitting to
     :figwidth: 400px
     :target: ../_static/images/RESIN5.jpg
     
+
 .. figure:: ../_static/images/RESIN5.1.jpg
     :figwidth: 400px
     :target: ../_static/images/RESIN5.1.jpg
@@ -123,9 +124,10 @@ Make sure the build platform is secure. The platform or bed slides onto a metal 
     :figwidth: 400px
     :target: ../_static/images/RESIN6.jpg
     
+
 .. figure:: ../_static/images/RESIN6.1.jpg
-    :figwidth: 400px
-    :target: ../_static/images/RESIN6.1.jpg
+   :figwidth: 400px
+   :target: ../_static/images/RESIN6.1.jpg
 
 
 
@@ -139,6 +141,7 @@ The Form 2 takes specialised resin cartridges that fit into the back of the prin
     :figwidth: 400px
     :target: ../_static/images/RESIN7.jpg
     
+
 .. figure:: ../_static/images/RESIN7.1.jpg
     :figwidth: 400px
     :target: ../_static/images/RESIN7.1.jpg
@@ -296,6 +299,7 @@ removing them with gloves will work; this however is not best practice.
 .. figure:: ../_static/images/RESIN18.1.jpg
     :figwidth: 400px
     :target: ../_static/images/RESIN18.1.jpg
+
 Submerging the part in hot water (60-70C) before curing the part and after washing will allow the supports to be removed
 with little or no damage to the part. There is an electric kettle below the Form 2 where the resin cartridges are stored. 
 Be careful not to leave the part submerged for too long or have the water temperature too high; 
@@ -389,16 +393,16 @@ the cumulative time it takes for your part to print.
 Print Angle
 ^^^^^^^^^^^
 In practice this means tilting surfaces 10 to 20 degrees and avoiding printing directly on the bed. If a part has a
- slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
- resin tank and ruining the print
+slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
+resin tank and ruining the print.
 
-.. figure:: ../_static/images/RESIN23.jpg
+.. figure:: ../_static/images/RESIN23.png
     :figwidth: 400px
-    :target: ../_static/images/RESIN23.jpg
+    :target: ../_static/images/RESIN23.png
 
-.. figure:: ../_static/images/RESIN23.1.jpg
+.. figure:: ../_static/images/RESIN23.1.png
     :figwidth: 400px
-    :target: ../_static/images/RESIN23.1.jpg
+    :target: ../_static/images/RESIN23.1.png
 
 
 
@@ -410,9 +414,9 @@ but it is possible to orientate the part to prevent the overhang in the first pl
 when possible by properly orienting the part. In the event the islands cannot be prevented, make sure to 
 provide adequate support from the bottom of the island. Low points on the model will be indicated in red.
 
-.. figure:: ../_static/images/RESIN24.jpg
+.. figure:: ../_static/images/RESIN24.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN24.jpg
+    :target: ../_static/images/RESIN24.png
 
 
 
@@ -422,9 +426,9 @@ Lowest Point
  Ideally there should be one minima that is well supported. If there are multiple, try to reduce the amount and 
  make sure they are stable. 
 
-.. figure:: ../_static/images/RESIN25.jpg
+.. figure:: ../_static/images/RESIN25.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN25.jpg
+    :target: ../_static/images/RESIN25.png
 
 
 
@@ -434,9 +438,9 @@ Parts with complex geometry are often printed on resin printers. To ensure integ
 it is best to have the intersecting features face down towards the build plate. This will ensure that the layers 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
-.. figure:: ../_static/images/RESIN26.jpg
+.. figure:: ../_static/images/RESIN26.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN26.jpg
+    :target: ../_static/images/RESIN26.png
 
 
 
@@ -481,9 +485,9 @@ make prints stick to the resin tank or even fall loose in the resin. The suction
 build platform to overcome, so the print fails. Printing less models at a rotated angle means less surface area 
 per layer which will be easier to print.
 
-.. figure:: ../_static/images/RESIN29.jpg
+.. figure:: ../_static/images/RESIN29.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN29.jpg
+    :target: ../_static/images/RESIN29.png
 
 
 
@@ -494,9 +498,9 @@ The layer lines of the print will not be 90° and the print will fail. This will
 do not adhere to the build plate correctly. Make sure the build plate and printer are level and the resin is at the right 
 temperature for printing.
 
-.. figure:: ../_static/images/RESIN30.jpg
+.. figure:: ../_static/images/RESIN30.png
    :figwidth: 400px
-   :target: ../_static/images/RESIN30.jpg
+   :target: ../_static/images/RESIN30.png
 
 .. figure:: ../_static/images/RESIN30.1.jpg
    :figwidth: 400px
@@ -522,13 +526,15 @@ Be careful when hollowing the part as it is possible for a section to become too
 thin if the walls are less than 2mm thick. In general, walls should be at least 3-5mm thick for best results. 
 It is always important to add drainage holes on models that are hollowed to reduce the suction force.
 
-.. figure:: ../_static/images/RESIN32.jpg
+.. figure:: ../_static/images/RESIN32.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN32.jpg
+    :target: ../_static/images/RESIN32.png
 
 
 
 Hardware Maintenance
 ^^^^^^^^^^^^^^^^^^^^
 The Formlabs website has a great troubleshooting and maintenance guide for hardware problems. 
-It can be found here https://support.formlabs.com/s/article/Troubleshooting-and-maintenance-guides-Form-2?language=en_US
+It can be found here:
+
+ https://support.formlabs.com/s/article/Troubleshooting-and-maintenance-guides-Form-2?language=en_US
