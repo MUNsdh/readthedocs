@@ -16,7 +16,6 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    :hidden:
 
    3D Printing
-   Resin
    Data Acquisition
    Laser Cutting
    CNC Machining

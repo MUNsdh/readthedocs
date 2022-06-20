@@ -18,7 +18,9 @@ Import the STL file by using the import function in the file settings or by drag
     :target: ../_static/images/RESIN10.jpg
 
 
-**One Click Print**
+One Click Print
+^^^^^^^^^^^^^^^
+
 The Preform slicer has a unique feature, the one click print. After importing the model click the magic wand icon in the tabs
 in the top left corner of the program. This feature will automatically select an orientation for the part as 
 well as automatically support it. The orientation may not be optimal, so try it a few times! One click printing will give 

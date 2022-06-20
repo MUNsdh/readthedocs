@@ -15,7 +15,8 @@ sit for a few minutes to allow excess resin to drip down into the resin vat.
 After the part has sat for an appropriate amount of time it is time for post processing!
 
 
-**Washing** 
+Washing
+^^^^^^^
 The part must first be washed with isopropyl alcohol to remove excess surface resin. The ANYCUBIC wash and cure station 
 makes post processing significantly easier. The alcohol must be poured into the station and there is a small holder 
 for the part to sit. Pour the alcohol until the 1000 or 1500 line, or however much you need for the part to sit submerged. 
@@ -41,7 +42,8 @@ DO NOT leave the part submerged in alcohol for an extended time. The part will l
     :target: ../_static/images/RESIN17.1.jpg
 
 
-**Support Removal** 
+Support Removal
+^^^^^^^^^^^^^^^
 Dry the part with a paper towel. Supports can be removed before or after the curing process but it is advisable to do it before curing. 
 The resin before curing is softer and easier to remove. Supports must be removed with caution; a support can take a piece of the 
 part with it when removed. Use a flush cutter or snipper when removing supports; take time to ensure they are removed as close 
@@ -65,7 +67,7 @@ but DO NOT allow the water and resin solution to flow down the drain.  This meth
 using cutters and sanding tools is not viable.
 
 
-**Curing**
+^^Curing^^
 The turntable is then attached to the station and it must be switched to cure mode. If the turntable is not next to the 
 Form 2 or  the wash and cure station, check below where the resin cartridges are stored. Place the part on the 
 turntable and let it cure. The wash process should take about 5 minutes while the curing time can vary between 5-20 minutes 
@@ -82,7 +84,7 @@ the touch then it is not done curing.
     :target: ../_static/images/RESIN19.1.jpg
 
 
-**Sanding**
+^^Sanding^^
 Sanding is not always necessary. The supports can come off cleanly in some instances but the majority of the time will 
 require a small amount of sanding to get a perfect finish. The parts are typically small and can be sanded by hand or even a rotary tool. 
 Resin is fragile and prone to surface mark; try using a higher grit first to test. It is important to be in a well ventilated area 

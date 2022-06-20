@@ -2,7 +2,7 @@ Resin Printing
 ==============
 
 .. toctree::
-   :maxdepth: 12
+   :maxdepth: 6
    
    Resin Introduction 
    Setting Up the Form 2 

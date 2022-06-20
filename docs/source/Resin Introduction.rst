@@ -1,6 +1,7 @@
-Form Labs Form 2 Resin Printer
-==============================
+**Form Labs Form 2 Resin Printer**
 
+Introduction to Resin Printing
+==============================
 .. figure:: ../_static/images/RESINA.jpg
     :figwidth: 700px
     :target: ../_static/images/RESINA.jpg
@@ -9,7 +10,7 @@ Form Labs Form 2 Resin Printer
 
 
 Overview
-========
+^^^^^^^^
 
 .. figure:: ../_static/images/RESINF.jpg
     :figwidth: 700px
@@ -35,7 +36,7 @@ Spills can and will happen, so it is best to be cautious and slow down when oper
 
 
 Hazard
-======
+^^^^^^
 
 The resin itself can irritate the skin even in brief contact. Fumes from the resin can also be hazardous to your lungs. 
 Great care should be taken to ensure the space is well ventilated, and gloves MUST be worn. 
@@ -54,7 +55,7 @@ Great care should be taken to ensure the space is well ventilated, and gloves MU
 
 
 Disposal
-========
+^^^^^^^^
 
 Resin and the solution created from the rubbing alcohol and resin cannot be disposed of normally. The solution must be exposed 
 to UV light until the resin cures and floats from the bottom. Once this cured resin is retrieved the alcohol 
@@ -63,7 +64,7 @@ disposing of it as normal waste is a hazard to public health and the environment
 
 
 Required Tools and Equipment
-============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Gloves
 * Respirator (if in enclosed space)

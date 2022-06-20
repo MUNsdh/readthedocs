@@ -1,6 +1,8 @@
-<<<<<<< HEAD
+Advanced Resin Workflow
+=======================
+
 Supporting Your Part
-====================
+^^^^^^^^^^^^^^^^^^^^
 
 Preform has a built in auto-support setting that will give reliable results. Rafting works the same way it does on FDM printing 
 but is used more frequently in resin printing. The support structures holding up your part all start from the raft. A thinner raft 
@@ -28,10 +30,8 @@ part can be viewed individually and inspected for unsupported pieces.
     :target: ../_static/images/RESIN21.jpg
 
 
-Part Orientation Advanced 
-=========================
-
-**Form 2 Wiper**
+Form 2 Wiper
+^^^^^^^^^^^^
 Orienting a model at an angle creates supports of varying lengths. If you are printing on a Form 2, you can place the 
 longer supports closer to the wiper side. This decreases the distance the wiper travels during the final layers—reducing 
 the cumulative time it takes for your part to print.
@@ -41,7 +41,8 @@ the cumulative time it takes for your part to print.
     :target: ../_static/images/RESIN22.jpg
 
 
-**Print Angle** 
+Print Angle
+^^^^^^^^^^^
 In practice this means tilting surfaces 10 to 20 degrees and avoiding printing directly on the bed. If a part has a
  slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
  resin tank and ruining the print
@@ -56,7 +57,8 @@ In practice this means tilting surfaces 10 to 20 degrees and avoiding printing d
     :target: ../_static/images/RESIN23.1.jpg
 
 
-**Overhangs and Islands**
+Overhangs and Islands
+^^^^^^^^^^^^^^^^^^^^^
 An island is a section of the print that is printing without any support. An overhang is also a kind of island, 
 but is generally above another piece of the part. It is impossible for a layer to print in mid-air
 but it is possible to orientate the part to prevent the overhang in the first place. Overhangs should be avoided 
@@ -68,7 +70,8 @@ provide adequate support from the bottom of the island. Low points on the model 
     :target: ../_static/images/RESIN24.jpg
 
 
-**Lowest Point** 
+Lowest Point
+^^^^^^^^^^^^
  The lowest point of the part is considered to be the minima. All other layers of the part will be built on top of minima. 
  Ideally there should be one minima that is well supported. If there are multiple, try to reduce the amount and 
  make sure they are stable. 
@@ -78,7 +81,8 @@ provide adequate support from the bottom of the island. Low points on the model 
     :target: ../_static/images/RESIN25.jpg
 
 
-**Intersection Integrity**
+Intersection Integrity
+^^^^^^^^^^^^^^^^^^^^^^
 Parts with complex geometry are often printed on resin printers. To ensure integrity at joints and intersections 
 it is best to have the intersecting features face down towards the build plate. This will ensure that the layers 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
@@ -88,7 +92,8 @@ will separate into individual paths at the joint, instead of layers coming toget
     :target: ../_static/images/RESIN26.jpg
 
 
-**Suction** 
+Suction
+^^^^^^^
 If your part has an internal or enclosed hollow it is important that drainage holes are added to the part to 
 minimize the suction force while printing. The hole must not be on the top of the print as this will not reduce 
 suction during printing. The hollow can also be filled. This must be done in another 3D design package as 
