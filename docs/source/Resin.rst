@@ -1,19 +1,7 @@
-Resin Printing
-==============
-
-.. toctree::
-   :maxdepth: 6
-   
-   Introduction to Resin Printing
-   Setting Up the Form 2 
-   Preform Slicer
-   Post Processing
-   Advanced Resin Workflow
-   Resin Troubleshooting
-
+Resin
+=====
 Introduction to Resin Printing
 ------------------------------
-**Form Labs Form 2 Resin Printer**
 .. figure:: ../_static/images/RESINA.jpg
     :figwidth: 700px
     :target: ../_static/images/RESINA.jpg
@@ -23,12 +11,9 @@ Introduction to Resin Printing
 
 Overview
 ^^^^^^^^
-
 .. figure:: ../_static/images/RESINF.jpg
     :figwidth: 700px
     :target: ../_static/images/RESINF.jpg
-
-
 Resin printing or stereolithographic 3D printing (SLA) is an additive manufacturing process similar to traditional 
 3D printing. While traditional printers work by melting and extruding filament, a resin printer works by curing light-sensitive resin. A 
 projector or laser fires a UV light to turn the liquid resin into a hardened plastic. 
@@ -36,7 +21,6 @@ projector or laser fires a UV light to turn the liquid resin into a hardened pla
 .. figure:: ../_static/images/RESIN1.jpg
     :figwidth: 700px
     :target: ../_static/images/RESIN1.jpg
-
 In FDM printing, there are various materials with different properties that must be adjusted for. 
 A standard resin with constant settings will be used in the Form 2 but resins that print for speed or durability exist in industry. 
 
@@ -49,7 +33,6 @@ Spills can and will happen, so it is best to be cautious and slow down when oper
 
 Hazard
 ^^^^^^
-
 The resin itself can irritate the skin even in brief contact. Fumes from the resin can also be hazardous to your lungs. 
 Great care should be taken to ensure the space is well ventilated, and gloves MUST be worn. 
 
@@ -60,7 +43,6 @@ Great care should be taken to ensure the space is well ventilated, and gloves MU
     .. figure:: ../_static/images/RESIN2.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN2.1.jpg
-
     Resin parts should be handled with gloves until the part has been cured. If any resin makes contact with bareskin, 
     wipe away any excess with a paper towel and then wash the affected area with dish soap. 
     Do NOT use isopropyl alcohol to clean the resin as it can be absorbed by the body.
@@ -107,7 +89,6 @@ used to raise or lower each foot.
 .. figure:: ../_static/images/RESIN3.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN3.jpg
-
 If not level, the printer will show what foot must be adjusted on the touchscreen.
 .. figure:: ../_static/images/RESIN4.jpg
     :figwidth: 500px
@@ -131,7 +112,6 @@ this must be locked in as shown below. The wiper keeps the resin from sitting to
     .. figure:: ../_static/images/RESIN5.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN5.1.jpg
-
 Make sure the build platform is secure. The platform or bed slides onto a metal rod and is secured by a small cam mechanism.
 .. figure:: ../_static/images/RESIN6.jpg
     :figwidth: 500px
@@ -140,8 +120,6 @@ Make sure the build platform is secure. The platform or bed slides onto a metal 
     .. figure:: ../_static/images/RESIN6.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN6.1.jpg
-
-
 Inserting Resin
 ^^^^^^^^^^^^^^^
 Now the resin can be inserted into the printer. This can be done by pouring the resin into the tray and then inserting the 
@@ -155,7 +133,6 @@ The Form 2 takes specialised resin cartridges that fit into the back of the prin
     .. figure:: ../_static/images/RESIN7.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN7.1.jpg
-
 This allows the Form 2 to know the amount of resin left and dispense into the resin tank when necessary. Before starting a print, 
 the Resin cap must be opened for ventilation. The Form 2 will request that this is done prior to printing. 
 
@@ -168,7 +145,6 @@ resin can be found in the cabinet below the Form 2 in the DDPL.
 .. figure:: ../_static/images/RESIN8.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN8.jpg  
-
 Use as much resin as you need. Although completely filling the resin tank will ensure there is enough resin for your print;  
 resin can be lost transferring it back into the cartridge.
 
@@ -188,17 +164,13 @@ the highest amount of detail.
 .. figure:: ../_static/images/RESIN9.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN9.jpg
-
 Import the STL file by using the import function in the file settings or by dragging and dropping the file into the slicer window. 
 
 .. figure:: ../_static/images/RESIN10.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN10.jpg
-
-
 One Click Print
 ^^^^^^^^^^^^^^^
-
 The Preform slicer has a unique feature, the one click print. After importing the model click the magic wand icon in the tabs
 in the top left corner of the program. This feature will automatically select an orientation for the part as 
 well as automatically support it. The orientation may not be optimal, so try it a few times! One click printing will give 
@@ -211,8 +183,6 @@ worse results than manual orientation and support.
 .. figure:: ../_static/images/RESIN12.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN12.jpg
-
-
 Case Against One Click Printing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The one-click print is a very quick and easy method to get decent resin prints. However to get the best quality possible 
@@ -222,7 +192,6 @@ placement guides below. Make sure to check every layer for unsupported islands t
 
 Uploading and Starting Your Part
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Once the slicer has finished the part can be uploaded to the printer using WIFI or Ethernet. Then select the job (print) 
 on the printer and hit print, it may ask you to go through a couple of checks including inspection of the build 
 platform as well as opening the small tab on top of the resin cartridge.
@@ -234,12 +203,10 @@ platform as well as opening the small tab on top of the resin cartridge.
 .. figure:: ../_static/images/RESIN14.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN14.1.jpg
-
 Once the print has started the Form 2 will heat the resin up to the proper printing temperature and mix it with the wiper.
 
 Post Processing
 ---------------
-
 In contrast to FDM prints, resin will always require post processing. Once the print has completed it is best to let it 
 sit for a few minutes to allow excess resin to drip down into the resin vat. 
 
@@ -250,7 +217,6 @@ sit for a few minutes to allow excess resin to drip down into the resin vat.
 .. figure:: ../_static/images/RESIN15.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN15.1.jpg
-
 After the part has sat for an appropriate amount of time it is time for post processing!
 
 
@@ -279,8 +245,6 @@ DO NOT leave the part submerged in alcohol for an extended time. The part will l
 .. figure:: ../_static/images/RESIN17.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN17.1.jpg
-
-
 Support Removal
 ^^^^^^^^^^^^^^^
 Dry the part with a paper towel. Supports can be removed before or after the curing process but it is advisable to do it before curing. 
@@ -296,7 +260,6 @@ removing them with gloves will work; this however is not best practice.
 .. figure:: ../_static/images/RESIN18.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN18.1.jpg
-
 Submerging the part in hot water (60-70C) before curing the part and after washing will allow the supports to be removed
 with little or no damage to the part. There is an electric kettle below the Form 2 where the resin cartridges are stored. 
 Be careful not to leave the part submerged for too long or have the water temperature too high; 
@@ -334,8 +297,6 @@ or wear a respirator due to the resin particles.
 .. figure:: ../_static/images/RESIN20.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN20.jpg
-
-
 The benchy has small surface imperfections on the back where supports were placed.
 
 Advanced Resin Workflow
@@ -343,7 +304,6 @@ Advanced Resin Workflow
 
 Supporting Your Part
 ^^^^^^^^^^^^^^^^^^^^
-
 Preform has a built in auto-support setting that will give reliable results. Rafting works the same way it does on FDM printing 
 but is used more frequently in resin printing. The support structures holding up your part all start from the raft. A thinner raft 
 will provide less support while a thicker raft will increase the amount of force needed to remove the part from the build bed.
@@ -357,7 +317,6 @@ Individual touchpoints can be modified, added or removed in the support settings
 .. figure:: ../_static/images/RESINL.jpg
     :figwidth: 500px
     :target: ../_static/images/RESINL.jpg
-
 Parts cannot print in mid-air, it is impossible! Thus, we must use supports to help print complex parts. The Preform slicer 
 has a built in setting for finding unsupported minima (low points) and islands (pieces of the part printing in air. 
 Click the < button and find the job info box. Enable the show minima setting from there.
@@ -368,8 +327,6 @@ part can be viewed individually and inspected for unsupported pieces.
 .. figure:: ../_static/images/RESIN21.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN21.jpg
-
-
 Form 2 Wiper
 ^^^^^^^^^^^^
 Orienting a model at an angle creates supports of varying lengths. If you are printing on a Form 2, you can place the 
@@ -379,15 +336,11 @@ the cumulative time it takes for your part to print.
 .. figure:: ../_static/images/RESIN22.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN22.jpg
-
-
 Print Angle
 ^^^^^^^^^^^
 In practice this means tilting surfaces 10 to 20 degrees and avoiding printing directly on the bed. If a part has a
  slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
  resin tank and ruining the print
-
-
 .. figure:: ../_static/images/RESIN23.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN23.jpg
@@ -395,8 +348,6 @@ In practice this means tilting surfaces 10 to 20 degrees and avoiding printing d
 .. figure:: ../_static/images/RESIN23.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN23.1.jpg
-
-
 Overhangs and Islands
 ^^^^^^^^^^^^^^^^^^^^^
 An island is a section of the print that is printing without any support. An overhang is also a kind of island, 
@@ -408,8 +359,6 @@ provide adequate support from the bottom of the island. Low points on the model 
 .. figure:: ../_static/images/RESIN24.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN24.jpg
-
-
 Lowest Point
 ^^^^^^^^^^^^
  The lowest point of the part is considered to be the minima. All other layers of the part will be built on top of minima. 
@@ -419,8 +368,6 @@ Lowest Point
  .. figure:: ../_static/images/RESIN25.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN25.jpg
-
-
 Intersection Integrity
 ^^^^^^^^^^^^^^^^^^^^^^
 Parts with complex geometry are often printed on resin printers. To ensure integrity at joints and intersections 
@@ -430,8 +377,6 @@ will separate into individual paths at the joint, instead of layers coming toget
  .. figure:: ../_static/images/RESIN26.jpg
     :figwidth: 800px
     :target: ../_static/images/RESIN26.jpg
-
-
 Suction
 ^^^^^^^
 If your part has an internal or enclosed hollow it is important that drainage holes are added to the part to 
@@ -442,7 +387,6 @@ Preform does not have the capabilities to do so.
  .. figure:: ../_static/images/RESIN27.jpg
     :figwidth: 800px
     :target: ../_static/images/RESIN27.jpg
-
 The drainage hole is placed correctly on the left model. The right drainage hole will not allow air to 
 move freely during printing.
 
@@ -460,8 +404,6 @@ filters in the cabinet below the Form 2 in the DDPL.
  .. figure:: ../_static/images/RESIN28.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN28.jpg
-
-
 Overfilling the Build Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 It is important to tilt larger models and not overfill the build platform with parts. An overfilled platform can 
@@ -472,7 +414,6 @@ per layer which will be easier to print.
  .. figure:: ../_static/images/RESIN29.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN29.jpg
-
 Printer is Not Level
 ^^^^^^^^^^^^^^^^^^^^
 The Form 2 must be levelled prior to printing, however it is possible the printer was moved during the printing process. 
@@ -487,8 +428,6 @@ temperature for printing.
  .. figure:: ../_static/images/RESIN30.1.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN30.1.jpg
-
-
 Unsupported Minima or Islands
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 When a section of a part is thin, lacking detail or missing completely it could be due to a lack of support material. 
@@ -509,8 +448,6 @@ It is always important to add drainage holes on models that are hollowed to redu
  .. figure:: ../_static/images/RESIN32.jpg
     :figwidth: 500px
     :target: ../_static/images/RESIN32.jpg
-
-
 Hardware Maintenance
 ^^^^^^^^^^^^^^^^^^^^
 The Formlabs website has a great troubleshooting and maintenance guide for hardware problems. 
