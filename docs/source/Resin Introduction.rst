@@ -1,7 +1,6 @@
-**Form Labs Form 2 Resin Printer**
-
 Introduction to Resin Printing
 ==============================
+**Form Labs Form 2 Resin Printer**
 .. figure:: ../_static/images/RESINA.jpg
     :figwidth: 700px
     :target: ../_static/images/RESINA.jpg

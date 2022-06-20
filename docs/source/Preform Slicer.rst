@@ -35,14 +35,15 @@ worse results than manual orientation and support.
     :target: ../_static/images/RESIN12.jpg
 
 
-**Case Against One Click Printing**
+Case Against One Click Printing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The one-click print is a very quick and easy method to get decent resin prints. However to get the best quality possible 
 the part must be orientated and supported manually. This can be done by following the part orientation and support 
 placement guides below. Make sure to check every layer for unsupported islands to ensure the print will succeed. 
 
 
 Uploading and Starting Your Part
-================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once the slicer has finished the part can be uploaded to the printer using WIFI or Ethernet. Then select the job (print) 
 on the printer and hit print, it may ask you to go through a couple of checks including inspection of the build 
