@@ -40,7 +40,7 @@ Great care should be taken to ensure the space is well ventilated, and gloves MU
 
 Resin parts should be handled with gloves until the part has been cured. If any resin makes contact with bareskin, 
 wipe away any excess with a paper towel and then wash the affected area with dish soap. 
-Do NOT use isopropyl alcohol to clean the resin as it can be absorbed by the body.
+Do **NOT** use isopropyl alcohol to clean the resin as it can be absorbed by the body.
 
 
 
@@ -67,12 +67,10 @@ Required Tools and Equipment
 
 
 
+
+
 Setting Up the Form 2
 ---------------------
-
-
-Set up
-^^^^^^
 The Form 2 requires minimal set-up and is designed for ease of use; following the steps given by the printer 
 should help guide anyone attempting resin printing.
 
@@ -168,6 +166,8 @@ and protects the resin tank from damage.
 
 
 
+
+
 Preform Slicer
 --------------
 
@@ -230,6 +230,8 @@ platform as well as opening the small tab on top of the resin cartridge.
     :target: ../_static/images/RESIN14.1.jpg
 
 Once the print has started the Form 2 will heat the resin up to the proper printing temperature and mix it with the wiper.
+
+
 
 
 
@@ -340,6 +342,8 @@ The benchy has small surface imperfections on the back where supports were place
 
 
 
+
+
 Advanced Resin Workflow
 -----------------------
 
@@ -392,13 +396,13 @@ In practice this means tilting surfaces 10 to 20 degrees and avoiding printing d
  slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
  resin tank and ruining the print
 
-.. figure:: ../_static/images/RESIN23.jpg
+.. figure:: ../_static/images/RESIN23.png
     :figwidth: 400px
-    :target: ../_static/images/RESIN23.jpg
+    :target: ../_static/images/RESIN23.png
 
-.. figure:: ../_static/images/RESIN23.1.jpg
+.. figure:: ../_static/images/RESIN23.1.png
     :figwidth: 400px
-    :target: ../_static/images/RESIN23.1.jpg
+    :target: ../_static/images/RESIN23.1.png
 
 
 
@@ -410,9 +414,9 @@ but it is possible to orientate the part to prevent the overhang in the first pl
 when possible by properly orienting the part. In the event the islands cannot be prevented, make sure to 
 provide adequate support from the bottom of the island. Low points on the model will be indicated in red.
 
-.. figure:: ../_static/images/RESIN24.jpg
+.. figure:: ../_static/images/RESIN24.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN24.jpg
+    :target: ../_static/images/RESIN24.png
 
 
 
@@ -422,9 +426,9 @@ Lowest Point
  Ideally there should be one minima that is well supported. If there are multiple, try to reduce the amount and 
  make sure they are stable. 
 
-.. figure:: ../_static/images/RESIN25.jpg
+.. figure:: ../_static/images/RESIN25.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN25.jpg
+    :target: ../_static/images/RESIN25.png
 
 
 
@@ -434,9 +438,9 @@ Parts with complex geometry are often printed on resin printers. To ensure integ
 it is best to have the intersecting features face down towards the build plate. This will ensure that the layers 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
-.. figure:: ../_static/images/RESIN26.jpg
+.. figure:: ../_static/images/RESIN26.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN26.jpg
+    :target: ../_static/images/RESIN26.png
 
 
 
@@ -453,6 +457,8 @@ Preform does not have the capabilities to do so.
 
 The drainage hole is placed correctly on the left model. The right drainage hole will not allow air to 
 move freely during printing.
+
+
 
 
 
@@ -481,9 +487,9 @@ make prints stick to the resin tank or even fall loose in the resin. The suction
 build platform to overcome, so the print fails. Printing less models at a rotated angle means less surface area 
 per layer which will be easier to print.
 
-.. figure:: ../_static/images/RESIN29.jpg
+.. figure:: ../_static/images/RESIN29.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN29.jpg
+    :target: ../_static/images/RESIN29.png
 
 
 
@@ -522,9 +528,9 @@ Be careful when hollowing the part as it is possible for a section to become too
 thin if the walls are less than 2mm thick. In general, walls should be at least 3-5mm thick for best results. 
 It is always important to add drainage holes on models that are hollowed to reduce the suction force.
 
-.. figure:: ../_static/images/RESIN32.jpg
+.. figure:: ../_static/images/RESIN32.png
     :figwidth: 500px
-    :target: ../_static/images/RESIN32.jpg
+    :target: ../_static/images/RESIN32.png
 
 
 
