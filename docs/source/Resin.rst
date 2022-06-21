@@ -292,11 +292,11 @@ to the surface as possible to minimize surface imperfections. If the supports ca
 removing them with gloves will work; this however is not best practice. 
 
 .. figure:: ../_static/images/RESIN18.jpg
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN18.jpg
 
 .. figure:: ../_static/images/RESIN18.1.jpg
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN18.1.jpg
 Submerging the part in hot water (60-70C) before curing the part and after washing will allow the supports to be removed
 with little or no damage to the part. There is an electric kettle below the Form 2 where the resin cartridges are stored. 
@@ -397,11 +397,11 @@ In practice this means tilting surfaces 10 to 20 degrees and avoiding printing d
  resin tank and ruining the print
 
 .. figure:: ../_static/images/RESIN23.png
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN23.png
 
 .. figure:: ../_static/images/RESIN23.1.png
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN23.1.png
 
 
@@ -415,7 +415,7 @@ when possible by properly orienting the part. In the event the islands cannot be
 provide adequate support from the bottom of the island. Low points on the model will be indicated in red.
 
 .. figure:: ../_static/images/RESIN24.png
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/RESIN24.png
 
 
@@ -427,7 +427,7 @@ Lowest Point
  make sure they are stable. 
 
 .. figure:: ../_static/images/RESIN25.png
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/RESIN25.png
 
 
@@ -439,7 +439,7 @@ it is best to have the intersecting features face down towards the build plate. 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
 .. figure:: ../_static/images/RESIN26.png
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/RESIN26.png
 
 
@@ -488,7 +488,7 @@ build platform to overcome, so the print fails. Printing less models at a rotate
 per layer which will be easier to print.
 
 .. figure:: ../_static/images/RESIN29.png
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/RESIN29.png
 
 
@@ -500,12 +500,12 @@ The layer lines of the print will not be 90° and the print will fail. This will
 do not adhere to the build plate correctly. Make sure the build plate and printer are level and the resin is at the right 
 temperature for printing.
 
-.. figure:: ../_static/images/RESIN30.jpg
-   :figwidth: 400px
-   :target: ../_static/images/RESIN30.jpg
+.. figure:: ../_static/images/RESIN30.png
+   :figwidth: 700px
+   :target: ../_static/images/RESIN30.png
 
 .. figure:: ../_static/images/RESIN30.1.jpg
-   :figwidth: 400px
+   :figwidth: 700px
    :target: ../_static/images/RESIN30.1.jpg
 
 
@@ -529,7 +529,7 @@ thin if the walls are less than 2mm thick. In general, walls should be at least 
 It is always important to add drainage holes on models that are hollowed to reduce the suction force.
 
 .. figure:: ../_static/images/RESIN32.png
-    :figwidth: 500px
+    :figwidth: 700px
     :target: ../_static/images/RESIN32.png
 
 
