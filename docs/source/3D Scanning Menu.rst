@@ -1,5 +1,5 @@
-Site Management
-===============
+3D Scanning
+===========
 
 .. toctree::
    :maxdepth: 3
