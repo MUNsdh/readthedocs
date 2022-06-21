@@ -393,17 +393,16 @@ the cumulative time it takes for your part to print.
 Print Angle
 ^^^^^^^^^^^
 In practice this means tilting surfaces 10 to 20 degrees and avoiding printing directly on the bed. If a part has a
- slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
- resin tank and ruining the print
+slight angle then there is less surface area per layer giving a lower chance of the part sticking to the 
+resin tank and ruining the print
 
 .. figure:: ../_static/images/RESIN23.png
-    :figwidth: 700px
+    :figwidth: 800px
     :target: ../_static/images/RESIN23.png
 
 .. figure:: ../_static/images/RESIN23.1.png
-    :figwidth: 700px
+    :figwidth: 800px
     :target: ../_static/images/RESIN23.1.png
-
 
 
 Overhangs and Islands
@@ -415,7 +414,7 @@ when possible by properly orienting the part. In the event the islands cannot be
 provide adequate support from the bottom of the island. Low points on the model will be indicated in red.
 
 .. figure:: ../_static/images/RESIN24.png
-    :figwidth: 700px
+    :figwidth: 800px
     :target: ../_static/images/RESIN24.png
 
 
@@ -426,8 +425,9 @@ Lowest Point
  Ideally there should be one minima that is well supported. If there are multiple, try to reduce the amount and 
  make sure they are stable. 
 
+
 .. figure:: ../_static/images/RESIN25.png
-    :figwidth: 700px
+    :figwidth: 500px
     :target: ../_static/images/RESIN25.png
 
 
@@ -439,7 +439,7 @@ it is best to have the intersecting features face down towards the build plate. 
 will separate into individual paths at the joint, instead of layers coming together at the joint. 
 
 .. figure:: ../_static/images/RESIN26.png
-    :figwidth: 700px
+    :figwidth: 1500px
     :target: ../_static/images/RESIN26.png
 
 
@@ -488,7 +488,7 @@ build platform to overcome, so the print fails. Printing less models at a rotate
 per layer which will be easier to print.
 
 .. figure:: ../_static/images/RESIN29.png
-    :figwidth: 700px
+    :figwidth: 800px
     :target: ../_static/images/RESIN29.png
 
 
@@ -529,7 +529,7 @@ thin if the walls are less than 2mm thick. In general, walls should be at least 
 It is always important to add drainage holes on models that are hollowed to reduce the suction force.
 
 .. figure:: ../_static/images/RESIN32.png
-    :figwidth: 700px
+    :figwidth: 800px
     :target: ../_static/images/RESIN32.png
 
 
