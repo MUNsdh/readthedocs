@@ -17,5 +17,5 @@ The easy release agent is used to prevent the material from sticking to the bed.
 the material can be easily damaged when removed.
 
 .. figure:: ../_static/images/Carbon (1).jpg
-    :figwidth: 700px
+    :figwidth: 4000px
     :target: ../_static/images/Carbon (1).jpg
