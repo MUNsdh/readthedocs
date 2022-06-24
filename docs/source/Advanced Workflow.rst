@@ -356,6 +356,16 @@ since its on the outside will more be for aesthetic purposes.
 Please visit `<https://www.e-ci.com/3d-scoop/2020/6/18/infill-settings-in-simplify3d>`_ for more information on Simplify3D’s
 infill settings.
 
+Thin Wall Printing Settings
+---------------------------
+
+The following data was taken from :ref:`Case Studies` and outlines important settings to adjust in your preferred slicer before thin-walled printing. For a complete guide read the thin wall printing section under the Building the Supermarine Spitfire Mk IX Plane.
+
+* Retraction Distance: 0.5 mm
+* Coasting Distance: 0.2 mm
+* Printing Speed: 3400 mm/min
+* Extra Restart Distance: 0
+
 Multi-Colour/Material Prints with the Eryone ER-20
 ---------------------------------------------------
 
