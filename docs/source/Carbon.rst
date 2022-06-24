@@ -71,7 +71,7 @@ can cure in about 2 hours. The 24 hours takes much more time but the work is not
     :target: ../_static/images/Carbon26.jpg
 
 
-Plate Making Preperation
+Plate Making Preparation
 ------------------------
 To begin the process the top and bottom layer must be cut out of the carbon fibre material. Cut whatever size that 
 is needed for the core material.
@@ -154,7 +154,9 @@ strands of carbon fibre in place.
     :figwidth: 900px
     :target: ../_static/images/Carbon28.jpg
 
-***************EMBED VIDEO**********************
+.. figure:: ../_static/images/CarbonVid1.MOV
+    :figwidth: 900px
+    :target: ../_static/images/CarbonVid1.MOV
 
 Vacuum sealing
 --------------
@@ -212,7 +214,9 @@ make sure there is no air leak in between the two.
 
 Connect the vacuum and turn it on to drain all the air. Check for any leaks and seal them in necessary. 
 
-********************************VIDEO***********************************************
+.. figure:: ../_static/images/CarbonVid2.MOV
+    :figwidth: 900px
+    :target: ../_static/images/CarbonVid2.MOV
 
 Finishing
 ---------
