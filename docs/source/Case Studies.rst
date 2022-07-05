@@ -60,6 +60,8 @@ sticks were used as well.
 Thin Wall Printing
 ------------------
 
+For summarized quick settings, visit :ref:`Thin Wall Printer Settings`
+
 When the package is bought from 3D LabPrint, there are a few things included. 3D LabPrint offers already prepared G-codes or base 
 STL’s that can be sliced with most programs. The prepared G-codes are made for the Prusa I3 or other compatible printers. STL’s with 
 prepared settings come for Simplify3D, Cura, and MatterControl Slicers. However, as the user guide says these are just base settings 
@@ -202,5 +204,13 @@ filed down so they could fit in their proper space for the Spitfire.
     :figwidth: 700px
     :target: ../_static/images/SpitfireB.PNG
 
-*Construction of Spitfire not Complete*
+*Case Study of the Spitfire was cut short but the Construction of Spitfire was later completed*
+
+.. figure:: ../_static/images/planedone1.jpg
+    :figwidth: 400px
+    :target: ../_static/images/planedone1.jpg
+
+.. figure:: ../_static/images/planedone2.jpg
+    :figwidth: 400px
+    :target: ../_static/images/planedone2.jpg
 
