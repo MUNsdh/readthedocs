@@ -154,9 +154,6 @@ strands of carbon fibre in place.
     :figwidth: 900px
     :target: ../_static/images/Carbon28.jpg
 
-.. figure:: ../_static/images/CarbonVid1.MOV
-    :figwidth: 900px
-    :target: ../_static/images/CarbonVid1.MOV
 
 Vacuum sealing
 --------------
@@ -214,9 +211,6 @@ make sure there is no air leak in between the two.
 
 Connect the vacuum and turn it on to drain all the air. Check for any leaks and seal them in necessary. 
 
-.. figure:: ../_static/images/CarbonVid2.MOV
-    :figwidth: 900px
-    :target: ../_static/images/CarbonVid2.MOV
 
 Finishing
 ---------
