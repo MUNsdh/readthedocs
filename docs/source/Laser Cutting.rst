@@ -7,6 +7,6 @@ Laser Cutting
    Introduction
    Using Inkscape
    Print Settings
-   Material Cut Parameters
+   Material Parameters
    Approved Materials
    Materials you should not process with a laser
