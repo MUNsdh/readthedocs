@@ -40,7 +40,7 @@ Great care should be taken to ensure the space is well ventilated, and gloves MU
 
 Resin parts should be handled with gloves until the part has been cured. If any resin makes contact with bareskin, 
 wipe away any excess with a paper towel and then wash the affected area with dish soap. 
-Do NOT use isopropyl alcohol to clean the resin as it can be absorbed by the body.
+Do **NOT** use isopropyl alcohol to clean the resin as it can be absorbed by the body.
 
 
 
@@ -67,12 +67,10 @@ Required Tools and Equipment
 
 
 
+
+
 Setting Up the Form 2
 ---------------------
-
-
-Set up
-^^^^^^
 The Form 2 requires minimal set-up and is designed for ease of use; following the steps given by the printer 
 should help guide anyone attempting resin printing.
 
@@ -171,6 +169,8 @@ and protects the resin tank from damage.
 
 
 
+
+
 Preform Slicer
 --------------
 
@@ -237,6 +237,8 @@ Once the print has started the Form 2 will heat the resin up to the proper print
 
 
 
+
+
 Post Processing
 ---------------
 
@@ -293,11 +295,11 @@ to the surface as possible to minimize surface imperfections. If the supports ca
 removing them with gloves will work; this however is not best practice. 
 
 .. figure:: ../_static/images/RESIN18.jpg
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN18.jpg
 
 .. figure:: ../_static/images/RESIN18.1.jpg
-    :figwidth: 400px
+    :figwidth: 700px
     :target: ../_static/images/RESIN18.1.jpg
 
 Submerging the part in hot water (60-70C) before curing the part and after washing will allow the supports to be removed
@@ -340,6 +342,8 @@ or wear a respirator due to the resin particles.
     :figwidth: 500px
     :target: ../_static/images/RESIN20.jpg
 The benchy has small surface imperfections on the back where supports were placed.
+
+
 
 
 
@@ -404,6 +408,9 @@ resin tank and ruining the print.
     :figwidth: 400px
     :target: ../_static/images/RESIN23.1.png
 
+.. figure:: ../_static/images/RESIN23.1.png
+    :figwidth: 800px
+    :target: ../_static/images/RESIN23.1.png
 
 
 Overhangs and Islands
@@ -461,6 +468,8 @@ move freely during printing.
 
 
 
+
+
 Resin Troubleshooting 
 ---------------------
 
@@ -503,7 +512,7 @@ temperature for printing.
    :target: ../_static/images/RESIN30.png
 
 .. figure:: ../_static/images/RESIN30.1.jpg
-   :figwidth: 400px
+   :figwidth: 700px
    :target: ../_static/images/RESIN30.1.jpg
 
 
