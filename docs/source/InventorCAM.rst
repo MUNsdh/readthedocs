@@ -25,7 +25,7 @@ Start by heading over to the CAM section and clicking the Set up option.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/A-LIbgqnzbY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/A-LIbgqnzbY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 Tool Set Up
@@ -36,7 +36,7 @@ it also contains predefined tools
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/xruJwmf5PYw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/xruJwmf5PYw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 Drill
@@ -47,7 +47,7 @@ and create operations for these processes.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 2D Mill
@@ -57,7 +57,7 @@ This is a milling process used in clearing stock on a 2D plane. There is therefo
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 3D Mill
@@ -68,13 +68,13 @@ This process on the other hand is a milling process that clears stock on a 3D pl
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/61CfQTriqr8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/61CfQTriqr8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/lNEDOysaFzA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/lNEDOysaFzA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 Adaptive
@@ -96,7 +96,7 @@ and proceeding into the shallower layers.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/e9dpszUOZmc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/e9dpszUOZmc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 Simulate
@@ -108,7 +108,7 @@ the rapid moves, lead moves, and cutting moves.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/3In9iN-6zxs" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/3In9iN-6zxs" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 Post Process
@@ -119,7 +119,7 @@ tool into independent G-code that is specific to the machine that is selected.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/embed/4ym6yfcRceI" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtube.com/embed/4ym6yfcRceI" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
 
 
