@@ -28,7 +28,7 @@ Spills can and will happen, so it is best to be cautious and slow down when oper
 Hazard
 ^^^^^^
 The resin itself can irritate the skin even in brief contact. Fumes from the resin can also be hazardous to your lungs. 
-Great care should be taken to ensure the space is well ventilated, and gloves MUST be worn. 
+Great care should be taken to ensure the space is well ventilated, and gloves **MUST** be worn. 
 
 .. figure:: ../_static/images/RESIN2.1.jpg
     :figwidth: 400px
@@ -62,7 +62,7 @@ Required Tools and Equipment
 * UV light for curing 
 * Funnel (transfer resin from different containers) 
 * Paper towels for cleaning small spills and resting resin soaked objects on
-* Snippers/cutters to remove support materialECHO is on.
+* Snippers/cutters to remove support material
 
 
 
