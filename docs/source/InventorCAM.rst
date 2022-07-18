@@ -27,3 +27,99 @@ Start by heading over to the CAM section and clicking the Set up option.
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://youtu.be/embed/A-LIbgqnzbY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div margin-bottom: 2em> 
+
+Tool Set Up
+-----------
+Setting up the tools used for manufacturing the part is also very important. The tool library is where you can manage tools for your individual operations, 
+it also contains predefined tools
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/xruJwmf5PYw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+Drill
+------
+This section provides a wide range of drilling, tapping and hole making machine operations. Here you can select the holes that need to be machined
+and create operations for these processes.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+2D Mill
+-------
+This is a milling process used in clearing stock on a 2D plane. There is therefore no stepdown as it only works on one plane
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/VzPNHVd-NU8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+3D Mill
+-------
+This process on the other hand is a milling process that clears stock on a 3D plane. It starts from the top of the stock and steps down
+ to a certain depth (depending on user input) to clear another plane of the stock
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/61CfQTriqr8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/lNEDOysaFzA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+Adaptive
+--------
+This is a strategy us to clear a large proportion of the stock material effectively. It guarnatees a maximum tool load at all 
+stages of the machining cycle and makes it possible to cut deep with the flank of the tool without the risk of breakage. 
+It combines multiple milling processes into one continuous step and effectively cuts most of the stock in one process. 
+The process clears stock by making a series of constant Z-layer movements and steps down, then clearing the immediate layers 
+and proceeding into the shallower layers.
+
+.. figure:: ../_static/images/INVENTORCAM2.png
+    :figwidth: 600px
+    :target: ../_static/images/INVENTORCAM2.png
+
+.. figure:: ../_static/images/INVENTORCAM3.png
+    :figwidth: 600px
+    :target: ../_static/images/INVENTORCAM3.png
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/e9dpszUOZmc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+Simulate
+--------
+This helps to preview and simulate the various milling process toolpaths and stock material removal. It possesses various 
+controls like the simulation speed and direction, visibility of tool, shaft and tool holder, as well as the coloring of 
+the rapid moves, lead moves, and cutting moves.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/3In9iN-6zxs" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+Post Process
+------------
+This converts the machine-independent cutter location data into machine-specific NC code. It turns the movement of the 
+tool into independent G-code that is specific to the machine that is selected.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/embed/4ym6yfcRceI" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
+
