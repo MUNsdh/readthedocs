@@ -7,13 +7,6 @@ Inventor, like AUTOCAD is a computer aided design software application that supp
 This software enables users to construct accurate 3D models to aid in simulation and visualization before building products. 
 Inventor operates on both Windows and Mac systems and comes in different file types like IAM, DW, IPN, IPTs.
 
-This tutorial will discuss the computer-Aided Manufacturing steps using Inventor. For this tutorial, it is assumed that you have already created a part 
-to be machined. With Inventor CAM you can generate and simulate toolpaths to create machine ready parts. 
-
-.. figure:: ../_static/images/INVENTORCAM1.png
-    :figwidth: 1600px
-    :target: ../_static/images/INVENTORCAM1.png
-
 Set Up
 ------
 One of the most important parts of InventorCAM is the Set up. When setting up make sure to take into consideration the part that you intend to 
