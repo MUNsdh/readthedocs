@@ -11,7 +11,7 @@ This tutorial will discuss the computer-Aided Manufacturing steps using Inventor
 to be machined. With Inventor CAM you can generate and simulate toolpaths to create machine ready parts. 
 
 .. figure:: ../_static/images/INVENTORCAM1.png
-    :figwidth: 1500px
+    :figwidth: 1600px
     :target: ../_static/images/INVENTORCAM1.png
 
 Set Up
