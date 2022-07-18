@@ -11,7 +11,7 @@ This tutorial will discuss the computer-Aided Manufacturing steps using Inventor
 to be machined. With Inventor CAM you can generate and simulate toolpaths to create machine ready parts. 
 
 .. figure:: ../_static/images/INVENTORCAM1.png
-    :figwidth: 600px
+    :figwidth: 1500px
     :target: ../_static/images/INVENTORCAM1.png
 
 Set Up
@@ -86,11 +86,11 @@ The process clears stock by making a series of constant Z-layer movements and st
 and proceeding into the shallower layers.
 
 .. figure:: ../_static/images/INVENTORCAM2.png
-    :figwidth: 600px
+    :figwidth: 800px
     :target: ../_static/images/INVENTORCAM2.png
 
 .. figure:: ../_static/images/INVENTORCAM3.png
-    :figwidth: 600px
+    :figwidth: 800px
     :target: ../_static/images/INVENTORCAM3.png
 
 .. raw:: html
