@@ -8,4 +8,5 @@ Laser Cutting
    Using Inkscape
    Print Settings
    Approved Materials
+   Material Cut Parameters
    Materials you should not process with a laser
