@@ -23,22 +23,16 @@ Travel Guidance
 
 Project Management
 ------------------
-:download:`Budget & Fundraising Outline <.pdf>`  
+:download:`Budget & Purchasing Template <../_static/guides/Budget & Purchasing Template.xlsx>`  
 
-:download:`Sample Milestone Calendar <.pdf>` 
-
-:download:`Code of Conduct for Student Teams <.pdf>`
-
-:download:`End of Compeititon Year Handover Checklist <.pdf>` 
+:download:`Team Handover Checklist <../_static/guides/Team Handover Checklist.pdf>` 
 
 
 Fundraising and Grant Applications
 ----------------------------------
-:download:`Angus Breuneau Student LIFE Fund Application Template <.pdf>`
+:download:`Angus Breuneau Student LIFE Fund Application Template <../_static/guides/Angus Bruneau Student LIFE Award Application Template.pdf>`
 
-:download:`Outline for Sponsorship Packages <.pdf>` 
-
-:download:`Guidance on the SDH Special Award and Membership Grants <.pdf>` - coming soon
+:download:`Sponsorship Package Outline <../_static/guides/Sponsorship Package Outline.pdf>` 
 
 
 
