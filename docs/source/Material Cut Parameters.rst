@@ -3,62 +3,62 @@ Material Cut Parameters
 As students complete laser cutting projects with differnt materials, example photos and parameters will be added to this page! If you've used the laser cutter and would like to share your project and settings, please reach out to the Engineer in Residence!
 
 .. list-table:: Material Cut Parameters
-   :widths: 25 25 25
+   :widths: 10 10 10 10 10 10 10
    :header-rows: 1
 
-   * - Category
-     - Name
-     - Laser
+   * - Material
+     - Thickness
+     - Laser Operation and Type
      - Power/Current
      - Speed
      - PPI/HZ
-     - Passes
+     - # of Passes
    * - Balsa
-     - 1/8th
+     - 1/8"
      - Engrave CO2
      - 30
      - 38
      - 1000
      - 1
    * - Balsa
-     - 1/8th
+     - 1/8"
      - Cut CO2
      - 26
      - 0.7
      - 6000
      - 2
-   * - Foamboard
-     - Polyethylene
+   * - Polyethylene Foam
+     - 25.4mm
      - Engrave CO2
      - 2.1
      - 0.6
      - 1000
      - 1
-   * - Foamboard
-     - Polyethylene
+   * - Polyethylene Foam
+     - 25.4mm
      - Cut CO2
      - 60
      - 1.9
      - 1000
      - 1
-   * - Foamboard
-     - Dollarama
+   * - Dollarama Foamboard
+     - 3/16"
      - Cut CO2
      - 7.0
      - 0.5
      - 20,000 
      - 5
-   * - Plastics
-     - Polycarbonate
+   * - Polycarbonate
+     - 1/8"
      - Engrave CO2
      - 10.0
      - 4.0
-     - 1000 PPI
+     - 1000 
      - 1
-   * - Plastics
-     - Polycarbonate
+   * - Polycarbonate
+     - 1/8"
      - Cut CO2
      - 30
      - 0.4
-     - 1000 Hz
+     - 1000 
      - 2 
