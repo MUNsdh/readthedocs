@@ -611,7 +611,7 @@ The first step is to open up Simplify3D and import your model. Next, you want to
 E2 printer.
 
 .. figure:: ../_static/images/Raise1.PNG
-    :figwidth: 500px
+    :figwidth: 600px
     :target: ../_static/images/Raise1.PNG
 
 Open up the first process and select “Left Extruder Only”, this will choose the left extruder (and left spool) as the first
