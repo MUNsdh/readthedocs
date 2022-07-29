@@ -599,7 +599,7 @@ Raise3D E2
 Occasionally the Raise3D E2 will give a board error when attempting to start a print. This is due to a setting called "Virtual Extruder Offset" in Ideamaker being changed. To find this setting navigate to the printer settings in the toolbar at the top of the window. Make sure the extruder count is set to 2. Select the right extruder tab and change the value of the "Virtual Extruder Offset" to 25.00.
 
 .. figure:: ../_static/images/RaiseBoardErrorFix.PNG
-    :figwidth: 1000px
+    :figwidth: 1200px
     :target: ../_static/images/Raise1.PNG
 
 **Switching Extruders Mid Print with Raise3D E2 and Simplify3D**
