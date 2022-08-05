@@ -75,9 +75,11 @@ As students complete laser cutting projects with different materials, starting p
      - 30
      - 0.4
      - 1000 
+     - 1
    * - ABS (Plastics)
      - 1/8"
      - Engrave CO2
      - 20
      - 6.0
      - 1000 
+     - 1
