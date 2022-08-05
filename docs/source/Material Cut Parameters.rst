@@ -44,21 +44,40 @@ As students complete laser cutting projects with different materials, starting p
    * - Dollarama Foamboard
      - 3/16"
      - Cut CO2
-     - 7.0
-     - 0.5
-     - 20,000 
-     - 5
-   * - Polycarbonate
+     - 40.0
+     - 1.9
+     - 1000 
+     - 2
+   * - Dollarama Foamboard
+     - 3/16"
+     - Engrave CO2
+     - 50.0
+     - 1.9
+     - 1000 
+     - 1
+   * - Polycarbonate (Plastics)
      - 1/8"
      - Engrave CO2
      - 10.0
      - 4.0
      - 1000 
      - 1
-   * - Polycarbonate
+   * - Polycarbonate (Plastics)
      - 1/8"
      - Cut CO2
      - 30
      - 0.4
      - 1000 
      - 2 
+   * - ABS (Plastics)
+     - 1/8"
+     - Cut CO2
+     - 30
+     - 0.4
+     - 1000 
+   * - ABS (Plastics)
+     - 1/8"
+     - Engrave CO2
+     - 20
+     - 6.0
+     - 1000 

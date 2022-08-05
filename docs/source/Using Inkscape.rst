@@ -1,8 +1,15 @@
 Using Inkscape
 ==============
 
-Setting Up Your File
---------------------
+Setting up A SolidWorks File
+-----------------------------
+
+For an easy follow along tutorial click this link: https://www.youtube.com/watch?v=ptxyHT09A2M
+
+Once your dxf file is in inkscape and arranged hwo you want it go to :ref:`Printer Settings`
+
+Setting Up A Image File
+---------------------------
 
 This part of the tutorial assumes you have a photo already in mind to use and will not be using inkscape as a way to design your cut. If you plan to use InkScape to make a design, refer to other tutorials on the web then skip to :ref:`Printer Settings`
 

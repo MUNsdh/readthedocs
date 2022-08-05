@@ -2,7 +2,7 @@ Printer Settings
 ======================
 
 
-In order to move your image to the laser cutter from inkscape go to file > print > and hit “TrotecEngraver v9.4.2”
+In order to move your file to the laser cutter from inkscape go to file > print > and hit “TrotecEngraver v9.4.2”
 
 .. figure:: ../_static/images/inkscape_print.png
   :align: center
