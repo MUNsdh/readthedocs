@@ -1,6 +1,6 @@
 Material Cut Parameters
 =======================
-As students complete laser cutting projects with different materials, starting parameters will be added to this page! If you've used the laser cutter and would like to share your project and settings, please reach out to the Engineer in Residence so your settings can be uploaded here.
+CRAZY COOL As students complete laser cutting projects with different materials, starting parameters will be added to this page! If you've used the laser cutter and would like to share your project and settings, please reach out to the Engineer in Residence so your settings can be uploaded here.
 
 .. list-table:: Material Cut Parameters
    :widths: 10 10 10 10 10 10 10
