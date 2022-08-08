@@ -8,4 +8,3 @@ PCB Assembly and Testing
    Soldering SMD Components
    Desoldering SMD Components
    Soldering THT Components
-   Testing Circuit Boards
