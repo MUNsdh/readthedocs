@@ -9,53 +9,57 @@ Carbon fiber processing and cutting results in dust particles that are harmful t
 Part List
 ---------
 
+All parts needed for this tutorial can be found in a labelled drawer in the toolbox in the Student Design Hub.
+
+In this drawer you should find: 
+
 * Mill Bath
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image1.jpg
+    :target: ../_static/images/mill/image1.jpg
 
 * Spacer, plastic
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image3.jpg
+    :target: ../_static/images/mill/image3.jpg
 
 * Washer M6
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image2.jpg
+    :target: ../_static/images/mill/image2.jpg
 
 * Nut M6
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image5.jpg
+    :target: ../_static/images/mill/image5.jpg
 
 * Support Magnet
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image4.jpg
+    :target: ../_static/images/mill/image4.jpg
 
 * Tube
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image7.jpg
+    :target: ../_static/images/mill/image7.jpg
 
 * Stop valve
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image6.jpg
+    :target: ../_static/images/mill/image6.jpg
 
 * Tube Connection
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image9.jpg
+    :target: ../_static/images/mill/image9.jpg
 
 .. raw:: html
 
@@ -93,51 +97,51 @@ Cutting Setup
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image8.jpg
+    :target: ../_static/images/mill/image8.jpg
 
 * Use the provided support magnets to clamp smaller workpieces
 or to provide additional support during the machining.
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image12.jpg
+    :target: ../_static/images/mill/image12.jpg
 
 * Place the workpiece onto the plastic spacers 
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image10.jpg
+    :target: ../_static/images/mill/image10.jpg
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image11.jpg
+    :target: ../_static/images/mill/image11.jpg
 
-* Clamp it using the washer and the M6 nuts.
-
-.. figure:: ../_static/images/3DPDG1.PNG
-    :figwidth: 700px
-    :target: ../_static/images/mill bath images/image13.jpg
+* Clamp the carbon fiber using the washer and the M6 nuts.
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image14.jpg
+    :target: ../_static/images/mill/image13.jpg
+
+.. figure:: ../_static/images/3DPDG1.PNG
+    :figwidth: 700px
+    :target: ../_static/images/mill/image14.jpg
 
 * Connect the tube to the tube connection and the stop valve and make sure the stop valve is closed
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image15.jpg
+    :target: ../_static/images/mill/image15.jpg
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image16.jpg
+    :target: ../_static/images/mill/image16.jpg
 
 *  Then fill the mill bath up with water until the water level is about 10mm above the carbon fiber part.
 
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image17.jpg
+    :target: ../_static/images/mill/image17.jpg
 
 .. raw:: html
 
@@ -160,9 +164,12 @@ or to provide additional support during the machining.
 Processing
 -----------
 
+Processing the carbon fiber requires knowledge using the X-Carve CNC machine. Review the :ref:`CNC Machining` tutorial to familiarize yourself with the machine.
+Each process will look different depending on the design but here are some best practices and general knowledge tips to keep in mind: 
+
 * Bit Size: The bit size depends on the post process requirements, The X-Carve can take a 1/4 and 1/8 inch bit.
 
-* The X-Carve DeWalt 661 spindle has speed options from 1 to 6 which translate to 16,000 RPM to 27,000 RPM. Option 1 is the most suitable spindle speed required to cut the carbon fiber, the other options are considered too fast. 
+* The X-Carve DeWalt 661 spindle has speed options from 1 to 6 which translate to 16,000 RPM to 27,000 RPM, respectively. Option 1 is the most suitable spindle speed required to cut the carbon fiber, the other options are considered too fast. 
 
 * When zeroing the machine make sure to take into consideration the point in which the cutting starts from as that is where you will place the router
 
@@ -182,11 +189,11 @@ Additional Suggestion
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image18.jpg
+    :target: ../_static/images/mill/image18.jpg
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image19.jpg
+    :target: ../_static/images/mill/image19.jpg
 
 * Use of gloves are recommended as handling processed carbon fibre can lead to cuts and injuries.
 
@@ -194,7 +201,7 @@ Additional Suggestion
 
 .. figure:: ../_static/images/3DPDG1.PNG
     :figwidth: 700px
-    :target: ../_static/images/mill bath images/image20.jpg
+    :target: ../_static/images/mill/image20.jpg
 
 
 

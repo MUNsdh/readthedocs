@@ -27,6 +27,7 @@ Welcome to the Memorial University's Student Design Hub's Readthedocs. Here you 
    Python
    Sleep Tracker
    Finite Element Analysis
+   Mill Bath for Carbon Fiber Processing
    Cerakote
    Carbon
    Guides and Resources for Student Design Teams
