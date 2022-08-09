@@ -39,27 +39,27 @@ In this drawer you should find:
 
 * Support Magnet
 
-.. figure:: ../_static/images/mill/image4.jpg
+.. figure:: ../_static/images/mill/image4.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image4.jpg
+    :target: ../_static/images/mill/image4.png
 
 * Tube
 
-.. figure:: ../_static/images/mill/image7.jpg
+.. figure:: ../_static/images/mill/image7.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image7.jpg
+    :target: ../_static/images/mill/image7.png
 
 * Stop valve
 
-.. figure:: ../_static/images/mill/image6.jpg
+.. figure:: ../_static/images/mill/image6.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image6.jpg
+    :target: ../_static/images/mill/image6.png
 
 * Tube Connection
 
-.. figure:: ../_static/images/mill/image9.jpg
+.. figure:: ../_static/images/mill/image9.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image9.jpg
+    :target: ../_static/images/mill/image9.png
 
 .. raw:: html
 
@@ -187,13 +187,13 @@ Additional Suggestion
 
 * When taping the bottom of the mill bath and the bed, try layering one portion of the take of the previously laid tape. It makes removing the tapes at the end easier.
 
-.. figure:: ../_static/images/mill/image18.jpg
+.. figure:: ../_static/images/mill/image18.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image18.jpg
+    :target: ../_static/images/mill/image18.png
 
-.. figure:: ../_static/images/mill/image19.jpg
+.. figure:: ../_static/images/mill/image19.png
     :figwidth: 700px
-    :target: ../_static/images/mill/image19.jpg
+    :target: ../_static/images/mill/image19.png
 
 * Use of gloves are recommended as handling processed carbon fibre can lead to cuts and injuries.
 
