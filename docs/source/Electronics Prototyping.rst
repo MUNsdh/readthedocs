@@ -1,8 +1,9 @@
-Electronics Prototyping
-===========
+Electronics Prototyping and Tools
+=======================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 8
 
    How to Use a Breadboard
    Power Supply Tutorial
+   Testing Circuit Boards
