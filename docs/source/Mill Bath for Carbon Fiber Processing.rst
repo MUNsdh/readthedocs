@@ -15,49 +15,49 @@ In this drawer you should find:
 
 * Mill Bath
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image1.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image1.jpg
 
 * Spacer, plastic
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image3.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image3.jpg
 
 * Washer M6
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image2.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image2.jpg
 
 * Nut M6
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image5.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image5.jpg
 
 * Support Magnet
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image4.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image4.jpg
 
 * Tube
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image7.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image7.jpg
 
 * Stop valve
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image6.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image6.jpg
 
 * Tube Connection
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image9.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image9.jpg
 
@@ -95,51 +95,51 @@ Cutting Setup
 
 * Screw the plastic spacers onto the threaded bolts located in the Milling Bath
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image8.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image8.jpg
 
 * Use the provided support magnets to clamp smaller workpieces
 or to provide additional support during the machining.
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image12.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image12.jpg
 
 * Place the workpiece onto the plastic spacers 
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image10.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image10.jpg
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image11.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image11.jpg
 
 * Clamp the carbon fiber using the washer and the M6 nuts.
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image13.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image13.jpg
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image14.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image14.jpg
 
 * Connect the tube to the tube connection and the stop valve and make sure the stop valve is closed
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image15.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image15.jpg
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image16.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image16.jpg
 
 *  Then fill the mill bath up with water until the water level is about 10mm above the carbon fiber part.
 
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image17.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image17.jpg
 
@@ -187,11 +187,11 @@ Additional Suggestion
 
 * When taping the bottom of the mill bath and the bed, try layering one portion of the take of the previously laid tape. It makes removing the tapes at the end easier.
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image18.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image18.jpg
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image19.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image19.jpg
 
@@ -199,7 +199,7 @@ Additional Suggestion
 
 * Make tabs in the 3D Model to avoid it falling of the carbon fiber sheet and into the water while it is cutting.
 
-.. figure:: ../_static/images/3DPDG1.PNG
+.. figure:: ../_static/images/mill/image20.jpg
     :figwidth: 700px
     :target: ../_static/images/mill/image20.jpg
 
