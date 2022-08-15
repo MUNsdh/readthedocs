@@ -50,11 +50,29 @@ Next grab the wire cutters and clean up the extruded filament by pulling the fil
 
 Congratulations! Your filament is all set up.
 
+If you have a dual extruder head attachment on the Eryone ER-20s the technique is a little different. First push your filament into the hole as seen below untiol it hits some resistance.
+
+
+.. figure:: ../_static/images/eryup2.jpg
+    :figwidth: 500px
+    :target: ../_static/images/eryup2.jpg
+
+Then, on the LED screen go to filament change, wait for the nozzle to heat up completely and start extruding so that the gear moves. The gears should push the filament through to the boden tube by itself but you can always check by taking off the tube where it meets the gear box. Once the filament has been pushed through the gear box to can pull out the tab
+on the left of the gear box to loosen up the filament and push it all the way to the hot end.
+
+
+.. figure:: ../_static/images/eryup.jpg
+    :figwidth: 500px
+    :target: ../_static/images/eryup.jpg
+
+Once you hit resistance again, purge more filament and you are ready to go. 
+
 If the printer already has filament in it, changing/ replacing is even easier. The Eryone ER-20 has built in instructions, so all
 you need to do is get your new filament, cut the end at 45° and hold onto it. Then go to the printer, click the scroll wheel,
 and navigate to Change Filament. If you are changing PLA, click preheat PLA, if you are changing PETG or TPU, click preheat
 custom and set the temperature to 245 and 215, respectively.  Then follow the instructions on the Eryone’s screen. If you have
 trouble inserting the new filament go back and check the figures above.
+
 
 Large Overhang/ Support Material
 --------------------------------

@@ -23,9 +23,9 @@ CRAZY COOL As students complete laser cutting projects with different materials,
    * - Balsa
      - 1/8"
      - Cut CO2
-     - 26
-     - 0.7
-     - 6000
+     - 30
+     - 0.4
+     - 1000
      - 2
    * - Polyethylene Foam
      - 25.4mm
