@@ -2,8 +2,9 @@ Laser Cutting
 =============
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 7
 
+   Read before Operating - Laser Cutter_KD
    Introduction
    Using Inkscape
    Print Settings

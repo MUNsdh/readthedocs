@@ -2,10 +2,12 @@
 ===========
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 9
    
-   Read before Operating - Eryone ER-20 Quick Start Guide
-   Read before Operating - Prusa Quick Start Guide
+   
+   Read before Operating - Eryone ER-20_KD
+   Read before Operating - Prusa_KD
+   Read before Operating - Raise 3D E2_KD
    The Basics of 3D Printing
    Generating the G-Code
    Preparing Printer

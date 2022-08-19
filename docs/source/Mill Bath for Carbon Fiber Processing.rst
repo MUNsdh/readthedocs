@@ -33,7 +33,7 @@ In this drawer you should find:
 
 * Nut M6
 
-.. figure:: ../_static/images/mill/image5.jpg
+.. figure:: ../_static/images/mill/image5.png
     :figwidth: 700px
     :target: ../_static/images/mill/image5.jpg
 
@@ -57,9 +57,9 @@ In this drawer you should find:
 
 * Tube Connection
 
-.. figure:: ../_static/images/mill/image9.png
+.. figure:: ../_static/images/mill/image9.jpg
     :figwidth: 700px
-    :target: ../_static/images/mill/image9.png
+    :target: ../_static/images/mill/image9.jpg
 
 .. raw:: html
 

@@ -8,3 +8,4 @@ PCB Assembly and Testing
    Soldering SMD Components
    Desoldering SMD Components
    Soldering THT Components
+   Read before operating - Soldering Stations_KD

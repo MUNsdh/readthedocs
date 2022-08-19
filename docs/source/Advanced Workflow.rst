@@ -1,79 +1,6 @@
 Advanced Workflow
 =================
 
-Changing and Inserting Material
--------------------------------
-
-Changing the material with the Eryone printer is a very simple process. The first thing you want to do is find your selected
-material and bring it to the printer.
-
-Now, you want to grab the wire cutters and the end of the filament, being very careful not to let go of the filament so it does
-not flick back to the spool and get tangled up. Cut the end of the filament at a 45° angle and keep hold of the end or place
-it back in the side spool hole.
-
-.. figure:: ../_static/images/Eryone37.PNG
-    :figwidth: 500px
-    :target: ../_static/images/Eryone37.PNG
-
-*Please read all instructions as you will need to do this even when replacing or changing filament that is already in the printer.*
-
-If there is no filament in the printer already, place the spool onto the spool holder. Grab the end of the filament that you
-have cut and insert it into the orange tube. Keep pushing the filament in until it reaches the golden wheel. Now you want to pinch
-the back of the orange clamp that encases the golden wheel and push the filament through, so that it goes past the wheel and into
-the next hole. If the filament goes into the next hole, continue to pinch the clamps, and push the filament all the way until it
-stops (hitting the start of the extruder).
-
-.. figure:: ../_static/images/Filamentchange2.PNG
-    :figwidth: 500px
-    :target: ../_static/images/Filamentchange2.PNG
-
-If the filament is not going into the next hole and is instead going upwards toward the top of the clamp, there is a simple
-fix. Pull the filament back so that it is before the hole. Grab a friend or some assistance and a thin tool, such as a
-knife (BE CAREFUL). You will want to pinch the orange clamp and push the filament down with the knife. At this time have your
-friend push the filament while you push the filament down so that it goes through the hole.
-
-.. figure:: ../_static/images/Filamentchange3.PNG
-    :figwidth: 500px
-    :target: ../_static/images/Filamentchange3.PNG
-
-*If you are changing the filament you can skip this next step because the printer should do this by itself when changing filament.*
-
-Once you have the filament pushed all the way until it hits the start of the hot end, you are going to want to heat up the hot end.
-Make sure the printer is turned on (via power switch on back), then click the scroll wheel. Navigate to Temperature-> Nozzle -> and
-then scroll up to 215 for PLA (245 for PETG and 215 for TPU) and click the wheel. Go back to the Info Screen and wait for the nozzle
-to reach the desired temperature. Once the nozzle is heated, click the scroll wheel again and navigate to Motion->
-Move Axis-> Extruder-> Move 10 mm. Then scroll the wheel to 10 mm and watch filament exit through the hot end. If no filament
-comes out, then scroll another 10 mm until it does.
-
-Next grab the wire cutters and clean up the extruded filament by pulling the filament away. Be careful the nozzle is over
-200° right now. Once you have cleaned the nozzle, go back to the temperature setting and turn the nozzle back to 0.
-
-Congratulations! Your filament is all set up.
-
-If you have a dual extruder head attachment on the Eryone ER-20s the technique is a little different. First push your filament into the hole as seen below untiol it hits some resistance.
-
-
-.. figure:: ../_static/images/eryup2.jpg
-    :figwidth: 500px
-    :target: ../_static/images/eryup2.jpg
-
-Then, on the LED screen go to filament change, wait for the nozzle to heat up completely and start extruding so that the gear moves. The gears should push the filament through to the boden tube by itself but you can always check by taking off the tube where it meets the gear box. Once the filament has been pushed through the gear box to can pull out the tab
-on the left of the gear box to loosen up the filament and push it all the way to the hot end.
-
-
-.. figure:: ../_static/images/eryup.jpg
-    :figwidth: 500px
-    :target: ../_static/images/eryup.jpg
-
-Once you hit resistance again, purge more filament and you are ready to go. 
-
-If the printer already has filament in it, changing/ replacing is even easier. The Eryone ER-20 has built in instructions, so all
-you need to do is get your new filament, cut the end at 45° and hold onto it. Then go to the printer, click the scroll wheel,
-and navigate to Change Filament. If you are changing PLA, click preheat PLA, if you are changing PETG or TPU, click preheat
-custom and set the temperature to 245 and 215, respectively.  Then follow the instructions on the Eryone’s screen. If you have
-trouble inserting the new filament go back and check the figures above.
-
-
 Large Overhang/ Support Material
 --------------------------------
 
@@ -728,3 +655,64 @@ Now that all of your settings are complete, exit out of the process and click pr
 
 Congratulations, your extruders will now switch at that height. Theoretically, you can do this as many times as you want as long as
 you keep creating processes and switching the extruders.
+
+Eryone ER-20 Calibration
+-------------------------
+
+If you are mad that the Eryone's are not printing correctly you have come to the right place. 
+
+1. The first thing you going yo do is check if the X-bar is level as demonstrated in the :ref:`Read before Operating - Eryone ER-20 Quick Start Guide`
+
+2. Next, plug the 3D printer into your computer. The Eryone's have a usb-b input. A USB to USB-B cable can be found in the red "SDH PRINTER REPAIR" toolbox. Once plugged in launch one of the two a G-code terminals.
+* Simplify 3D > Gear symbol on the bottom right
+* Pronterface
+
+3. Select the correct port to which you plugged in the 3D printer and press connect.
+
+4. In the prompt to write G-code, type ** G28 ** and press send. This will autohome the nozzle.
+
+.. figure:: ../_static/images/ercali/image7.png
+    :figwidth: 400px
+    :target: ../_static/images/ercali/image7.png
+
+5. Next, send ** M303 E0 S210 U ** to PID calibrate nozzle ( approx 3 minutes )
+
+.. figure:: ../_static/images/ercali/image6.png
+    :figwidth: 400px
+    :target: ../_static/images/ercali/image6.png
+
+(Don't need to plug anything into Configuration.h. Don't disconnect 3D printer until saving data with M500)
+
+6. Then, we need to PID calibrate the bed (approx 6 minutes). Send ** M303 E-1 S60 U **
+
+.. figure:: ../_static/images/ercali/image4.png
+    :figwidth: 400px
+    :target: ../_static/images/ercali/image4.png
+
+(Don't need to plug anything into Configuration.h. Don't disconnect 3D printer until saving data with M500)
+
+7. Send ** M500 ** to save your data.
+
+8. Send ** G28 ** to autohome again
+
+9. Send ** G29 ** to start a 9 point bed calibration
+* After this calibration a 3 by 3 grid will print back onto the terminal. These numbers represent the deviation of each probe point from the home point (front left).
+
+.. figure:: ../_static/images/ercali/image1.png
+    :figwidth: 400px
+    :target: ../_static/images/ercali/image1.png
+
+* No point should be have more deviation then +- 0.0. To adjust these numbers take off the glass bed and twist the five screws on the bed. ** Turning CCW brings that point of the bed up, while CW brings that point of the bed down. **
+
+10. Disconnect your printer and run a z calibration through the Eryone interface by going calibration > calibrate z and follow the prompts
+
+11. Happy printing!
+
+
+
+
+
+
+
+
+
