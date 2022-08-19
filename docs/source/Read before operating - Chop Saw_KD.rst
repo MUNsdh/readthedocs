@@ -17,13 +17,13 @@ INSERT PIC OF SPECIFIC SAW
 
 7. When cutting keep a firm grip on the handle and use the button on the handle to power the saw.
 
-8. ** A chop saw is a dangerous power tool. Do not at any time place a part of your body between the moving saw and the work piece **
+8. **A chop saw is a dangerous power tool. Do not at any time place a part of your body between the moving saw and the work piece**
 
 9. After cutting  wait for the saw to stop spinning before lifting it back up and reaching for your part. You may want to put on gloves before touching the cut metal as it will be very hot.
 
 10. Unplug the saw after each session of use. 
 
-11. It is agaisnt Memorial Univeristy health and saefty policy to leave extension cords running through a space. After you are done using the saw, ensure the cord is unplugged and stored properly until teh tool is needed again. 
+11. It is agaisnt Memorial Univeristy health and saefty policy to leave extension cords running through a space. After you are done using the saw, ensure the cord is unplugged and stored properly until the tool is needed again. 
 
 For a safety video on the chop saw follow this link: https://www.youtube.com/watch?v=rlHcLtkaci4
 
