@@ -23,6 +23,7 @@ Read before Operating - Eryone ER-20 Quick Start Guide
 
 3. Navigate the Eryone Menu and complete a "bed leveling" under calibration. Leveling the bed is important to ensure that the print head can adjust automatically to lay down even layers of filament. 
 
+
 4. Open **PrusaSlicer** and import your stl file by going file>import>stl. 
 
 5. **Import the SDH pre-set configuration file by going file>import>config. Then navigate to the MicroSD card file and select Er20 Config.ini**
