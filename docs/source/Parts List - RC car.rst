@@ -4,7 +4,7 @@ Parts List
 In order to build a remote-controlled (RC) car similar to the one in this tutorial you will need the following materials:
 
 *  A microcontroller
-*    Ex: Arduino Uno
+---    Ex: Arduino Uno
 *  A motor driver with a H-bridge circuit
 *    Ex: L298N
 *  A battery supply
