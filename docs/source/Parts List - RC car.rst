@@ -1,7 +1,7 @@
 Parts List
 ==========
 
-In order to build a remote-controlled (RC) car similar to the one in this tutorial you will need the following materials:
+ In order to build a remote-controlled (RC) car similar to the one in this tutorial you will need the following materials:
 
 *  A microcontroller
 

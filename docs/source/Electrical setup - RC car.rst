@@ -1,7 +1,7 @@
 Electrical Setup
 ================
 
-The first step to configuring the electrical components of a RC car is to understand how to use a breadboard. If you are unfamiliar with how to use a breadboard see :ref: `How to Use a Breadboard`
+The first step to configuring the electrical components of a RC car is to understand how to use a breadboard. If you are unfamiliar with how to use a breadboard see :ref:`How to Use a Breadboard`
 
 To gain the best understanding of this section of the report, the circuit starts as simple as possible. Once the circuit works as intended, another component is added and explained until the circuit is complete.
 
@@ -13,7 +13,7 @@ The first circuit is as follows:
 .. figure:: ../_static/images/RCcar/IMG_0150.jpg
   :align: center
 
-This circuit is essentially just supplying power directly to the DC motor with the amount of voltage specified on the powered breadboard. This setup is almost identical to the example “LED circuit” in the :ref: `How to Use a Breadboard` tutorial. This motor will eventually be connected to the wheels and will drive our car around.
+This circuit is essentially just supplying power directly to the DC motor with the amount of voltage specified on the powered breadboard. This setup is almost identical to the example “LED circuit” in the :ref:`How to Use a Breadboard` tutorial. This motor will eventually be connected to the wheels and will drive our car around.
 
 Test this circuit by turning on the breadboard and seeing if the motor turns.
 
