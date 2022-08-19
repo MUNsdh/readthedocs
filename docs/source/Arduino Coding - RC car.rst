@@ -3,7 +3,7 @@ Arduino Coding
 
 The first thing you need to do before you start coding your Arduino is to download the Arduino Integrated Development Environment  (IDE). This can be downloaded directly from: https://www.arduino.cc/en/software
 
-.. figure:: ../_static/images/RC car/image20.png
+.. figure:: ../_static/images/RCcar/image20.png
   :align: center
 
 Next, you need to connect your Arduino to your computer. The output for the Arduino is a USB-B so a converter to USB-A or USB-C will be needed to plug into your windows or mac, respectively.
@@ -15,24 +15,25 @@ Declaring Variables
 
 The first thing we will do is define all our variables to correlate which pins on the Arduino are connected to which pins on the L298N motor driver.
 
-.. figure:: ../_static/images/RC car/image27.png
+.. figure:: ../_static/images/RCcar/image27.png
   :align: center
 
 Next, we need to declare that these pins will be giving output commands from the Arduino to the motor driver which will in turn, power the wheels. Every pin being used on the Arduino has to be declared as either an output or input pin. Output pins send messages while input pins receive data from things like transmitters, buttons, or dials.
 
-.. figure:: ../_static/images/RC car/image23.png
+.. figure:: ../_static/images/RCcar/image23.png
   :align: center
 
 Circuit testing
 ---------------
 
 Then, we can write our first test just to see if our motors can spin. In order to write a command to move the motor we need to address all 3 motor driver inputs as discussed previously:
-* The enabler pin, which will control the speed
-* The two input pins that will control the direction of spin
+
+*  The enabler pin, which will control the speed
+*  The two input pins that will control the direction of spin
 
 For example: 
 
-.. figure:: ../_static/images/RC car/image25.png
+.. figure:: ../_static/images/RCcar/image25.png
   :align: center
 
 In this code we call the function “demo1” in the void setup. The function “demo1” addresses the enabler pin first and sets the speed to 200. It's important to note the maximum output value for any digitalWrite  arduino pin has a value of 255 and a minimum of 0. The max output value for an Arduino pin is 255 because the processor is an 8-bit processor. Using the binary numbering system, a 8-bit number can have a max value of 255. For more information on the binary numbering system watch the following Khan Academy video: https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:digital-information/xcae6f4a7ff015e7d:binary-numbers/v/the-binary-number-system
@@ -51,7 +52,7 @@ Turning the motor will be followed with a delay function (written in millisecond
 
 The code looks as follows:
 
-.. figure:: ../_static/images/RC car/image8.png
+.. figure:: ../_static/images/RCcar/image8.png
   :align: center
 
 This code is important because it demonstrates that the DC motor is not just turning on when the power supply is turned on. By using this code we can be assured that the motor driver is taking commands from the IDE and using them to control the motor.
@@ -71,25 +72,27 @@ Next, you will want to connect your receiver to the Arduino Uno. We have to ensu
 
 The following diagram shows the basic layout of most of the main receivers on the market, so if your receiver isn’t like mine, the design should be similar.
 
-LAYOUT PIC
+.. figure:: ../_static/images/RCcar/lay.jpg
+  :align: center
 
 The wiring looks as follows:
 
-PIC
+.. figure:: ../_static/images/RCcar/xf.jpg.png
+  :align: center
 
 The transmitter is able to communicate with the receiver by sending signals using pulse-width modulation. This input information cant be converted into useful values automatically by the Arduino so we need to download a library of code that can decipher the information for us. A common library used across the platform is the ServoInput library by David Madison. It is possible to make a code that will convert the PWM signals into useful data but that is beyond the scope of this tutorial. To download this library in the IDE, go to: Tools> Manage Libraries> Search: “ServoInput”.
 
-.. figure:: ../_static/images/RC car/image17.png
+.. figure:: ../_static/images/RCcar/image17.png
   :align: center
 
 The first action to do with this library is to write a code that will print the values from the controller back onto the computer screen. We will also add a one second delay to avoid any computer crashes and for easier data analysis.
 
-.. figure:: ../_static/images/RC car/image19.png
+.. figure:: ../_static/images/RCcar/image19.png
   :align: center
 
 Before verifying and uploading this code it is a good idea to disconnect the power supply from the circuit. This is because we will leave the arduino plugged into the computer while running the code which will in turn act as the power supply. When you upload the code, you can see the data being returned to the monitor by going to the top of your screen and going: tools > serial monitor or ctrl + shift + M.
 
-.. figure:: ../_static/images/RC car/image26.png
+.. figure:: ../_static/images/RCcar/image26.png
   :align: center
 
 On your screen there should be numbers popping up at one second intervals that should change in relation to the position of the throttle. Recall that the Arduino outputs have a range of 0 - 255. Our end goal is to map the range of the throttle inputs onto a range from 0 to 255. To do this we will need to know three things.
@@ -122,7 +125,7 @@ If the data you collected looks differently than mine, do not worry the equation
 
 Once your data has been collected, it is time to start writing the main part of your code. The first step is to define all the variables that will be used including the ServoInput variables and declaring the pin modes.
 
-.. figure:: ../_static/images/RC car/image11.png
+.. figure:: ../_static/images/RCcar/image11.png
   :align: center  
 
 Note: It’s important to understand what this code means before moving on to the next steps. Unless seen otherwise, the remainder of the code shown in this tutorial will be written as part of the void loop() function.
@@ -130,12 +133,12 @@ Note: It’s important to understand what this code means before moving on to th
 Range Mapping
 -------------
 
-When our data is collected, you will need to perform some math to transform your range into a range of 0-255. This will in turn create a result where if you push the throttle; the value of the enabler pins will change in proportion with the throttle
- and therefore adjust your speed.
+
+When our data is collected, you will need to perform some math to transform your range into a range of 0-255. This will in turn create a result where if you push the throttle; the value of the enabler pins will change in proportion with the throttle and therefore adjust your speed.
 
 The math is as follows:
 
-.. figure:: ../_static/images/RC car/image7.png
+.. figure:: ../_static/images/RCcar/image7.png
   :align: center  
 
 In this application you might think it will look like this: 
@@ -143,10 +146,12 @@ In this application you might think it will look like this:
 Throttle_output = (throttle - 3.6 ) ((255 - 0) / (180 - 3.6))
 
 Where: 
-* 3.6 is my throttle minimum and, 
-* 180 is the maximum. 
 
-** That is incorrect **. We want to have forward and reverse, so our slowest speed will be in the middle. Therefore ** the  “a” value should be the middle value in the range. ** By doing this all forward outputs will be positive and reverse outputs will be negative
+*  3.6 is my throttle minimum and, 
+
+*  180 is the maximum. 
+
+**That is incorrect**. We want to have forward and reverse, so our slowest speed will be in the middle. Therefore **the  “a” value should be the middle value in the range.** By doing this all forward outputs will be positive and reverse outputs will be negative
 
 The correct formula is as follows:
 
@@ -197,7 +202,7 @@ Test the math manually by picking a steering and throttle output value in the ra
 
 All the math equations derived above should look like this in proper C++ coding:
 
-.. figure:: ../_static/images/RC car/image10.png
+.. figure:: ../_static/images/RCcar/image10.png
   :align: center  
 
 Structure and Conditions
@@ -206,9 +211,12 @@ Structure and Conditions
 The last coding concept to understand is the use of “if” statements and embedded “if” statements. These conditional statements will provide structure to the code and organize all the created variables, so that the correct commands are done under the correct conditions. When doing this part of the code, reflection of what this prototype is trying to accomplish is essential. 
 
 For a remote controlled toy car there needs to be: 
-* A deadzone,
-* Forward and backward deciding if statements 
-* Steering left, right or straight if statements. 
+
+*  A deadzone
+
+*  Forward and backward deciding if statements 
+
+*  Steering left, right or straight if statements. 
 
 When all conditions have been discussed it is recommended to start with the easiest condition and work up to the harder parts of the code. Be aware of which conditions will be embedded in others and what makes logical sense to the overall goal of the project.
 
@@ -216,45 +224,45 @@ The easiest code that we can make by utilizing this data is creating a deadzone 
 
 For my deadzone I felt a range of 5 over and 5 under my middle value was appropriate.
 
-.. figure:: ../_static/images/RC car/image22.png
+.. figure:: ../_static/images/RCcar/image22.png
   :align: center  
 
 In this condition, the “&&” represents that both separate conditions must be true for the entire statement to be true. This is great when determining when one number must be greater than one number and lower then another. 
 
 As said before, all forward outputs are positive and reverse outputs are negative. To indicate this; a simple if statement with the condition, if the output is above 0, will work!
 
-.. figure:: ../_static/images/RC car/image9.png
+.. figure:: ../_static/images/RCcar/image9.png
   :align: center  
 
 The same way we created a deadzone for the throttle, we will create a deadzone for steering. I used the same range as above 5 and below 5 and embedded this if statement inside the one used above.
 
-.. figure:: ../_static/images/RC car/image18.png
+.. figure:: ../_static/images/RCcar/image18.png
   :align: center
 
 Now that throttle and direction dead zones are defined we can tackle the steering part of the code. As seen in the equations table, there will be two separate turning equations for four separate turning scenarios. These scenarios can be separated using if statements. We can use the middle column in the table to dictate our if statements as they represent the positive and negative values. Since we have already separated forwards and reverse, we will embed the turning conditions into the existing if statement. We know that when turning right the steer_killing variable will be negative, this will be our condition. We must apply output2 on the right motor to slow that wheel down. 
 
 We also know that in order to turn right, our right wheel will need to slow down. When writing our analogWrite functions for turning right, enA should have the reduced speed, “output2” variable, while enB has the regular “throttle_ouput” variable. When wanting to turn left, vice versa.
 
-.. figure:: ../_static/images/RC car/for.png
+.. figure:: ../_static/images/RCcar/for.png
   :align: center
 
 Full code
 ----------
 
-.. figure:: ../_static/images/RC car/image11.png
+.. figure:: ../_static/images/RCcar/image11.png
   :align: center
 
-.. figure:: ../_static/images/RC car/for.png
+.. figure:: ../_static/images/RCcar/for.png
   :align: center
 
-.. figure:: ../_static/images/RC car/rev.png
+.. figure:: ../_static/images/RCcar/rev.png
   :align: center
 
 The last piece of code implemented was the reverse functions. Two things in this step that are important to note. All throttle and steering outputs will be negative, which was great for the structure of the code up to this point. Now all these outputs must be converted back to positive. Secondly, the HIGH and LOW digitalWrite lines must be switched so where in1 is HIGH in when accelerating forwards, it will be LOW in reverse.
 
 This code can be tested by uploading it to the arduino while it is powered by the breadboard. Be sure to connect your second DC motor to outputs 3 and 4 on the L298N by this time.
 
-.. figure:: ../_static/images/RC car/test0.jpg
+.. figure:: ../_static/images/RCcar/test0.jpg
   :align: center
 
 Use the remote controller to drive forwards and make sure the motors increase speed as more throttle is applied. Also ensure the left motor slows when the steering wheel is turned left and vice versa.
