@@ -14,11 +14,15 @@ Read before Operating - Prusa Quick Start Guide
 
 
 5. Slice and Print!
+
 *  SD cards should already be in the printers and SD card readers are available at the front of the room in a yellow basket. Be sure to return the reader after use!
 
 6. If your print fails:
+
 *  Stop the print
+
 *  Go to calibration > first layer cal. and select the filament that is loaded
+
 *  If the print still dosent work after this step notify a member of the SDH staff. 
 
 7. For more details on 3D Printing please see the SDH 3D Printing Tutorial Page: :ref:`3D Printing`
