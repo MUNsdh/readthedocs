@@ -5,9 +5,7 @@
    :maxdepth: 9
    
    
-   Read before Operating - Eryone ER-20_KD
-   Read before Operating - Prusa_KD
-   Read before Operating - Raise 3D E2_KD
+   Quick Start Resources
    The Basics of 3D Printing
    Generating the G-Code
    Preparing Printer

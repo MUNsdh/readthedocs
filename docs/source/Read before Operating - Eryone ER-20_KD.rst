@@ -27,9 +27,11 @@ Read before Operating - Eryone ER-20 Quick Start Guide
 4. Open **PrusaSlicer** and import your stl file by going file>import>stl. 
 
 5. **Import the SDH pre-set configuration file by going file>import>config. Then navigate to the MicroSD card file and select Er20 Config.ini**
+
 *  The file has set parameters for PLA filament. If using another filament simply adjust that under the filament section on the right of the plater. You can adjust the filament temperature under filament settings.
 
 6. Slice and Print!
+
 *  SD cards should already be in the printers and SD card readers are available at the front of the room in a yellow basket. Be sure to return the reader after use!
 
 Always watch the first few layers of your print and ensure that the filament is adhering to the bed. If your first layer is not sticking, try cleaning the bed with windex and applying a layer of elmers glue stick. If printing still fails see :ref:`Eryone Er-20 Calibration` 

@@ -72,12 +72,12 @@ Next, you will want to connect your receiver to the Arduino Uno. We have to ensu
 
 The following diagram shows the basic layout of most of the main receivers on the market, so if your receiver isn’t like mine, the design should be similar.
 
-.. figure:: ../_static/images/RCcar/lay.jpg
+.. figure:: ../_static/images/RCcar/image70.jpg
   :align: center
 
 The wiring looks as follows:
 
-.. figure:: ../_static/images/RCcar/xf.jpg.png
+.. figure:: ../_static/images/RCcar/xf.jpg
   :align: center
 
 The transmitter is able to communicate with the receiver by sending signals using pulse-width modulation. This input information cant be converted into useful values automatically by the Arduino so we need to download a library of code that can decipher the information for us. A common library used across the platform is the ServoInput library by David Madison. It is possible to make a code that will convert the PWM signals into useful data but that is beyond the scope of this tutorial. To download this library in the IDE, go to: Tools> Manage Libraries> Search: “ServoInput”.
@@ -96,9 +96,10 @@ Before verifying and uploading this code it is a good idea to disconnect the pow
   :align: center
 
 On your screen there should be numbers popping up at one second intervals that should change in relation to the position of the throttle. Recall that the Arduino outputs have a range of 0 - 255. Our end goal is to map the range of the throttle inputs onto a range from 0 to 255. To do this we will need to know three things.
-* The middle value
-* The furthest left value
-* The furthest right value
+
+*  The middle value
+*  The furthest left value
+*  The furthest right value
 
 Keep in mind that you will need the range of the throttle and the steering wheel. To switch to steering wheel values simply adjust the line “ServoInputPin<2> servo;” to “ServoInputPin<3> servo;” and repeat the same data collection.
 
@@ -252,11 +253,16 @@ Full code
 .. figure:: ../_static/images/RCcar/image11.png
   :align: center
 
+
+
 .. figure:: ../_static/images/RCcar/for.png
   :align: center
 
+
+
 .. figure:: ../_static/images/RCcar/rev.png
   :align: center
+
 
 The last piece of code implemented was the reverse functions. Two things in this step that are important to note. All throttle and steering outputs will be negative, which was great for the structure of the code up to this point. Now all these outputs must be converted back to positive. Secondly, the HIGH and LOW digitalWrite lines must be switched so where in1 is HIGH in when accelerating forwards, it will be LOW in reverse.
 
@@ -264,6 +270,7 @@ This code can be tested by uploading it to the arduino while it is powered by th
 
 .. figure:: ../_static/images/RCcar/test0.jpg
   :align: center
+
 
 Use the remote controller to drive forwards and make sure the motors increase speed as more throttle is applied. Also ensure the left motor slows when the steering wheel is turned left and vice versa.
 

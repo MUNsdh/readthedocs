@@ -1,3 +1,6 @@
+1. Must be on Memorial Wifi
+
+2. new users will take approx 5 minutes to login
 
 1. Ensure all DAQ connections are snug and sensors are being used for the correct purpose
 
