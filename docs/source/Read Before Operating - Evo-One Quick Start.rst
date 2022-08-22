@@ -2,7 +2,7 @@ Read Before Operating - Evo-One Mill Quick Start Guide
 ======================================================
 
 Safety & Operations Notes:
--------------------------
+
 
 * **DO NOT** handle any bits for this machine without **GLOVES**. The **BITS** are extremely **SHARP**.
 
@@ -24,7 +24,7 @@ Safety & Operations Notes:
 Mill Tutorial: https://munsdh.readthedocs.io/en/latest/CNC%20Mill.html
 
 Overview:
---------
+
 A mill is a computer numerically controlled machine that uses a rotating spindle to remove material. To make use of this mill one must download the Cre-Mov software from the makerdreams website. 
 
 .. figure:: ../_static/images/EVOMILL1.jpg

@@ -3,7 +3,7 @@ Read Before Operating - X- Carve Quick Start Guide
 
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  There is an emergency stop button on the X-Carve controller, this will cut power tot eh system immediately if there is an issue.
 
@@ -22,7 +22,7 @@ Safety & Operations Notes:
 X-Carve tutorial: https://munsdh.readthedocs.io/en/latest/X-Carve%20CNC%20Router.html 
 
 Overview:
---------
+
 The X-Carve is a CNC router located in the Student Design Hub. This machine is compatible with any Computer Aided Manufacturing Package. There is a workflow on the SDH tutorial page for using Inventor and Fusion360 with this unit. To get started please review X-Carve CNC 
 
 .. figure:: ../_static/images/XC1.jpg

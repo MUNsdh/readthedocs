@@ -2,7 +2,7 @@ Read Before Operating - Dremel Quick Start Guide
 ================================================
 
 Safety & Operations Notes:
--------------------------
+
 *  Always wear safety gloves and protective glasses when operating the dremel. The disks can be brittle causing them to break and fly off. Dremels can produce fine dust that is irritating to your skin and eyes.
 
 *  A dremel is like any other piece of rotating equipment. Hair should be tied up, jewelry removed, and other catch hazards mitigated before use.
@@ -12,7 +12,7 @@ Safety & Operations Notes:
 *  The speed selected should be appropriate for the material that is being worked on. There is no general guide for this as the different heads, materials and speeds provide limitless possibilities. As a rule of thumb, start with a lower RPM and work your way up. Softer materials like plastic and wood will use a lower RPM than harder materials.
 
 Overview:
---------
+
 A dremel is a handheld multipurpose rotary tool. There are various heads that can be swapped out to perform different tasks. There is a variable speed dial on the tool that allows the user to adjust the RPM.
 
 .. figure:: ../_static/images/DREMEL1.jpg

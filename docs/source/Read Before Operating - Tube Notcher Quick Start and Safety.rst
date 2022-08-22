@@ -2,7 +2,7 @@ Read Before Operating - Tube Notcher Quick Start Guide
 ======================================================
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  The tube notcher is like any other piece of rotating equipment. Hair should be tied up, jewelry removed, and other catch hazards mitigated before use. 
 
@@ -20,7 +20,7 @@ Safety & Operations Notes:
  
 
 Overview: 
---------
+
 The notcher motor is a low RPM high torque machine. Its stall torque is much more than your arm, so it is important to be mindful when operating the machine.
 
 .. figure:: ../_static/images/TUBENOTCH1.jpg

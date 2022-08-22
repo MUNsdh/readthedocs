@@ -2,7 +2,7 @@ Read Before Operating - Form 2 Quick Start Guide
 ================================================
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  Resin & Isopropyl Alcohol
 
@@ -15,7 +15,6 @@ Safety & Operations Notes:
 *  When handling resin in any capacity, **WEAR GLOVES.**
 
 Printer:
--------
 
 *  The build plate must be free of any residue like hardened resin or dirt.
 
@@ -28,13 +27,11 @@ Printer:
 *  Remove parts from the bed of the printer using a scraper. 
 
 Slicer: 
-------
 
 *  Using the “One Click Print” function in the Pre-Form Slicer you can get a very good quality print with no hassle. Download on the Formlabs site: https://formlabs.com/software/ 
 
 
 Wash and Cure Station:
----------------------
 
 *  Submerge removed parts in isopropyl alcohol - 5 minutes in the wash station is adequate. Leaving parts for too long will reduce their structural integrity.
 

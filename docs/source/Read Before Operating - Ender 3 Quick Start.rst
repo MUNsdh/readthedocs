@@ -2,7 +2,7 @@ Read Before Operating - Ender 3 Quick Start Guide
 =================================================
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  Ensure the bed is level by following the leveling procedure in this guide
 
@@ -18,7 +18,7 @@ Safety & Operations Notes:
 
 
 Overview: 
---------
+
 The Ender 3 V2 is located in the DDPL. 
 
 Do not touch the nozzle or bed during printing. Keep hands away from the machine while in use to avoid injury. 

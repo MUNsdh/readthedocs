@@ -2,7 +2,7 @@ Read Before Operating - Reciprocating Saw Quick Start Guide
 ===========================================================
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  Before making any cuts you must ensure your work piece is secure. If the material moves during a cut it can cause the blade to snap and result in injury.
 
@@ -17,7 +17,7 @@ Safety & Operations Notes:
 *  This saw is like any other piece of rotating equipment. Hair should be tied up, jewelry removed, and other catch hazards mitigated before use. 
 
 Overview: 
---------
+
 The saw has a blade that moves back and forth in a rapid, push-pull motion. The tool should be held with both hands as it can kick back during operation. This saw can be used for a range of materials, like woods and metals. 
 
 .. figure:: ../_static/images/RecSaw1.jpg

@@ -2,7 +2,7 @@ Read Before Operating - Belt Sander Quick Start Guide
 =====================================================
 
 Safety & Operations Notes: 
--------------------------
+
 
 *  A belt sander is like any other piece of rotating equipment. Hair should be tied up, jewelry removed, and other catch hazards mitigated before use.
 
@@ -15,7 +15,7 @@ Safety & Operations Notes:
 *  This belt sander is designed for wood and plastic. Metals can be processed but it may ruin the belts. If a belt is damaged please inform a member of the SDH staff. 
 
 Overview: 
---------
+
 Belt sanders are excellent tools for rapid removal of material. It can be used to remove rough surfaces, and sharp edges. The belt sander is located in the back of the SDH (EN1040). 
 
 .. figure:: ../_static/images/Belt1.jpg
