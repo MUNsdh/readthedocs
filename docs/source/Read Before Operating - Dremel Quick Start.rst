@@ -24,9 +24,9 @@ There are attachments for carving/engraving, grinding, sanding, cutting and poli
 
 To change the dremel tooling head. Press down on the lock button and loosen the collet (this may require a small wrench). To secure a new tool, slide the shaft into the collet at the end of the dremel. Tighten the collet by rotating it and tug on the bit to make sure it is secure.
 
-.. figure:: ../_static/images/DREMEL1.jpg
+.. figure:: ../_static/images/DREMEL2.jpg
     :figwidth: 700px
-    :target: ../_static/images/DREMEL1.jpg
+    :target: ../_static/images/DREMEL2.jpg
 
 
 Here is a video to help use a dremel: https://youtu.be/zenwKTMC1R0

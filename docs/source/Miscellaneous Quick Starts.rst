@@ -10,6 +10,6 @@ Miscellaneous Quick Starts
    Read Before Operating - Belt Sander Quick Start
    Read Before Operating - Dremel Quick Start
    Read Before Operating - Reciprocating Saw Quick Start
-   Read Before Operating - Tube Notcher Quick Start and Safety
+   Read Before Operating - Tube Notcher Quick Start
 
    

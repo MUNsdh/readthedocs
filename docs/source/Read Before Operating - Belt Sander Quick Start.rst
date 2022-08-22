@@ -28,9 +28,9 @@ The vice in front of the machine can be used as a guide for a material.
 
 Before using the belt sander, ensure the Shop VAC is connected to the back to pick up any residue from sanding. Turn on the vacuum as you sand your part to pick up any particles. 
 
-.. figure:: ../_static/images/Belt1.jpg
+.. figure:: ../_static/images/Belt2.jpg
     :figwidth: 700px
-    :target: ../_static/images/Belt1.jpg
+    :target: ../_static/images/Belt2.jpg
 
 
 If you are unsure about how to use the machine, try watching this guide https://www.youtube.com/watch?v=x1FehVIkq_k 
