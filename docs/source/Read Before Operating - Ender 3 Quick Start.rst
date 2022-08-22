@@ -37,7 +37,7 @@ To level the machine go to Prepare then auto home.
 
 .. figure:: ../_static/images/Ender32.jpg
     :figwidth: 700px
-    :target: ../_static/images/Ender32jpg.jpg
+    :target: ../_static/images/Ender32.jpg
 
 
  Wait for the nozzle to move to the front left of the bed. Adjust the platform height by turning the knob underneath. Use a piece of standard printer paper to assist with the adjustment. The nozzle must lightly scratch the paper, offering a small amount of resistance when moved.
