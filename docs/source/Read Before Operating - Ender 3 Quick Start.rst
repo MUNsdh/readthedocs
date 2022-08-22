@@ -29,13 +29,13 @@ Make sure the print bed is clean. This will ensure the first layer of your print
 
 To load filament, press and hold the extruder lever on the back. Then insert the 1.75mm filament through the small hole into the guiding plastic tube until filament comes out the other side. If it does not, there may be an issue with the extruder.
 
-.. figure:: ../_static/images/Ender31jpg
+.. figure:: ../_static/images/Ender31.jpg
     :figwidth: 700px
     :target: ../_static/images/Ender31.jpg
 
 To level the machine go to Prepare then auto home.
 
-.. figure:: ../_static/images/Ender32jpg
+.. figure:: ../_static/images/Ender32.jpg
     :figwidth: 700px
     :target: ../_static/images/Ender32jpg.jpg
 
@@ -46,7 +46,7 @@ To level the machine go to Prepare then auto home.
 
 Complete this adjustment on all 4 corners. Repeat this process 1-3 times for the most accurate 
 
-.. figure:: ../_static/images/Ender33jpg
+.. figure:: ../_static/images/Ender33.jpg
     :figwidth: 700px
     :target: ../_static/images/Ender33.jpg
 
