@@ -1,4 +1,4 @@
-Read before Operating - Ender 5 Quick Start Guide
+Read before Operating - Ender 5 Quick Start
 =================================================
 
 1. This printer has the largest print bed and will take a long time to heat to the appropriate temperature. Make sure the enclosure is over the printer before starting.
