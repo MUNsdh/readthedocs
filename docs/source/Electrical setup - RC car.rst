@@ -7,7 +7,7 @@ To gain the best understanding of this section of the report, the circuit starts
 
 The first circuit is as follows:
 
-.. figure:: ../_static/images/RCcar/image14.png
+.. figure:: ../_static/images/RCcar/image14.jpg
   :align: center
 
 .. figure:: ../_static/images/RCcar/IMG_0150.jpg
@@ -20,7 +20,7 @@ Test this circuit by turning on the breadboard and seeing if the motor turns.
 Next, the L298N motor driver is added.
 
 
-.. figure:: ../_static/images/RCcar/image1.png
+.. figure:: ../_static/images/RCcar/image1.jpg
   :align: center
 
 .. figure:: ../_static/images/RCcar/IMG_0149.jpg

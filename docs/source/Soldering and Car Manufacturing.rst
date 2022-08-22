@@ -6,10 +6,12 @@ When assembling your circuit for the car, you will need to solder some of the wi
 .. figure:: ../_static/images/RCcar/dc.jpg
   :align: center
 
+
 Next, you will need to solder your Vcc end from the Arduino and the Vcc end from the motor driver together. When connected they both should lead out to one wire which can be connected to the power source. It should create a three-way meet which will be a parallel circuit.
 
 .. figure:: ../_static/images/RCcar/3.jpg
   :align: center
+
 
 Repeat this process with the ground wires.
 
@@ -25,6 +27,7 @@ Many manufacturing techniques will be used to make your projects. Most of these 
 
 .. figure:: ../_static/images/RCcar/image2.png
   :align: center
+
 
 If you are unfamiliar with CAD modeling and want a basic design to mimic the car made in this tutorial you can use these STL files and follow the 3D printing tutorial linked above.
 
