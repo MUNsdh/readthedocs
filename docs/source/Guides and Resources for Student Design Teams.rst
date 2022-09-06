@@ -27,6 +27,8 @@ Project Management
 
 :download:`Team Handover Checklist <../_static/guides/Team Handover Checklist.pdf>` 
 
+:download: `Accessing Software Tools <../_static/guides/Accessing Software Tools.pdf>`
+
 
 Fundraising and Grant Applications
 ----------------------------------
