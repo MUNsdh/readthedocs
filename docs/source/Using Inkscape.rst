@@ -6,7 +6,13 @@ Setting up A SolidWorks File
 
 For an easy follow along tutorial click this link: https://www.youtube.com/watch?v=ptxyHT09A2M
 
-Once your dxf file is in inkscape and arranged hwo you want it go to :ref:`Printer Settings`
+At a high level, the process is as follows: 
+1 - Create your part in your CAD package of choice 
+2 - Create a 1:1 drawing and arrange the part profiles you would like to cut 
+3 - Export this drawing as an adobe illustrator file (as a .ai or .dxf file type)
+4 - Import this file to Inkscape
+
+Once your dxf file is in inkscape and arranged how you want go to :ref:`Printer Settings`
 
 Setting Up A Image File
 ---------------------------
