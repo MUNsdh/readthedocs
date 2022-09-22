@@ -2,11 +2,11 @@ CNC Machining
 =============
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 6
 
    CNC Mill
    Computer-Aided Manufacturing in Fusion360
    X-Carve CNC Router
    InventorCAM
    Foam Cutter CNC
-   Haas CNC Tutorial
+   Haas CNC
