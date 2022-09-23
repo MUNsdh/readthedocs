@@ -9,7 +9,7 @@ SDH Operational Resources
 
 :download:`Document Management <../_static/guides/Student File Management.pdf>`
 
-:download:`Points of Contact Cheat Sheet <../_static/guides/Student Team Point of Contact Cheat Sheet.pdf>` 
+:download:`Points of Contact Cheat Sheet <../_static/guides/Student Team Point of Contact Cheat Sheet_rev2.pdf>` 
 
 :download:`Purchasing Using Memorial Grants <../_static/guides/Student Purchasing with Memorial University_rev3.pdf>` 
 
