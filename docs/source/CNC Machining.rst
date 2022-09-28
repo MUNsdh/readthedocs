@@ -2,7 +2,7 @@ CNC Machining
 =============
 
 .. toctree::
-   :maxdepth: 7
+   :maxdepth: 8
 
    CNC Mill
    Computer-Aided Manufacturing in Fusion360
