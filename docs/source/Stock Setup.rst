@@ -1,8 +1,8 @@
 Stock Setup
 ===========
 
-**Work Holding**
-----------------
+Work Holding
+-------------
 
 The first step in stock preparation is decding how to hold your work
 piece in the vise. There are multiple ways that the vise can hold your
@@ -23,8 +23,8 @@ available in the stock room (ie. 1/4 or 1/2 inch).
 
 --------------
 
-**Preparing the Stock**
------------------------
+Preparing the Stock
+--------------------
 
 Once the work holding type is determined, you must prepare the stock.
 Using the setup sheet, under setup, look at the ‘stock’ measurements.
@@ -46,13 +46,12 @@ in the CAM software.
 
 **IF** you need to face the edges to straigten the piece: Using vertical
 mill, place the stock in the vise using the flattest edge, and use the
-face or end mill as needed. Deburr edges as needed **LINK to using
-mill**
+face or end mill as needed. Deburr edges as needed.
 
 --------------
 
-**Fixing Stock on Vise**
-------------------------
+Fixing Stock on Vise
+---------------------
 
 When your stock is ready to go, you can begin fixing it into the vise.
 To do this, begin by opening the CNC door and opening the vise.
