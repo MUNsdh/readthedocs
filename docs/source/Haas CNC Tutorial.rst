@@ -9,3 +9,4 @@ The Haas Super Mini CNC Machine is located in EN1019, otherwise known as the mac
    Stock Setup
    Tool Changes
    Tool Offsets
+   Other Resources

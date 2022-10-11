@@ -10,9 +10,9 @@ program. To begin tool offset:
 **NOTE:** The correct tools must be in place before doing the offset. To
 change any tools, see :ref:`Tool Changes`
 
-.. figure:: ../_static/images/ToolChange.JPEG 
+.. figure:: ../_static/images/ToolChange.JPG 
    :figwidth: 700px 
-   :target: ../_static/images/ToolChange.JPEG
+   :target: ../_static/images/ToolChange.JPG
 
 2. Place the offset gauge on your stock. *ADD PIC*
 
@@ -22,9 +22,9 @@ change any tools, see :ref:`Tool Changes`
    jog in the positive or negative direction until the tool is above the
    round center piece on the tool gauge.
 
-.. figure:: ../_static/images/HJ1.JPG 
+.. figure:: ../_static/images/HJ1.jpg
    :figwidth: 700px 
-   :target: ../_static/images/HJ1.JPG
+   :target: ../_static/images/HJ1.jpg
 
 .. figure:: ../_static/images/HJ2.JPG 
    :figwidth: 700px 
