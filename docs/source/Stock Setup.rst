@@ -32,7 +32,7 @@ These are the exact measurements of the stock piece you previously set
 in the CAM software.
 
 .. figure:: ../_static/images/SS1.jpg
-   :figwidth: 600px
+   :figwidth: 700px
    :target: ../_static/images/SS1.jpg
 
 1. Head to the stock room at the back of the machine shop with your
@@ -65,14 +65,14 @@ found in the metal case behind the machine. There are various sizes so
 make sure you choose a suitable size.
 
 .. figure:: ../_static/images/parallel.jpg
-   :figwidth: 600px
+   :figwidth: 700px
    :target: ../_static/images/parallel.jpg
 
 1. Place the top left corner of the stock in the top left corner of the
    vise. This is the machine’s set ‘zero’. Use parallels if necessary.
 
 .. figure:: ../_static/images/vise1.jpg
-   :figwidth: 600px
+   :figwidth: 700px
    :target: ../_static/images/vise1.jpg
 
 2. Begin tightening the vise. Ensure the parallels haven’t moved and
