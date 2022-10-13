@@ -31,6 +31,10 @@ Using the setup sheet, under setup, look at the ‘stock’ measurements.
 These are the exact measurements of the stock piece you previously set
 in the CAM software.
 
+.. figure:: ../_static/images/SS1.jpg
+   :figwidth: 600px
+   :target: ../_static/images/SS1.jpg
+
 1. Head to the stock room at the back of the machine shop with your
    setup sheet and caliper in hand.
 2. Begin by measuring the thickness of the pieces. This corresponds to
@@ -60,21 +64,35 @@ parallels - this is to ensure you don’t machine the vise. These can be
 found in the metal case behind the machine. There are various sizes so
 make sure you choose a suitable size.
 
+.. figure:: ../_static/images/parallel.jpg
+   :figwidth: 600px
+   :target: ../_static/images/parallel.jpg
+
 1. Place the top left corner of the stock in the top left corner of the
    vise. This is the machine’s set ‘zero’. Use parallels if necessary.
+
+.. figure:: ../_static/images/vise1.jpg
+   :figwidth: 600px
+   :target: ../_static/images/vise1.jpg
+
 2. Begin tightening the vise. Ensure the parallels haven’t moved and
    that the stock is laying flat on them. To keep everything in place,
    hold the stock in place with one hand and use the other to tighten
    the vise. \*\ **GIF**
 3. When the stock is tightened, slide your finger along the parallels to
    make sure they don’t move.
-4. If they don’t move, continue to :ref:‘Tool Changes’. If they move,
+4. If they don’t move, continue to :ref:`Tool Changes`. If they move,
    take the hammer from the top drawer of the toolbox and hit each end
    corner of the stock then, try to move them again.
+
+.. figure:: ../_static/images/hammer.jpg
+   :figwidth: 700px
+   :target: ../_static/images/hammer.jpg
+
 5. If they still move, tighten the vise again and repeat step 4. Repeat
    until they do not move.
 
-Now you have tour stock secured in the vise.
+Now you have your stock secured in the vise.
 
 **NOTE:** It is important that the stock is fixed to the top left corner
 as this is the machines’ set ‘zero’. If the stock is not positioned in
