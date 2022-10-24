@@ -12,7 +12,6 @@ Preparing Tools
    tools. Under each tool, you will need to focus on the following
    sections:
 
-
    a. The slot allocated for the tool (ie. T1) - This is the slot that this specific tool HAS to be in. You may have to change the tool (see below). 
 
    b. The type of tool (ie. flat end mill) - This is the type of tool. See *LINK* for tool types. 
@@ -66,9 +65,9 @@ If the correct tool is **not** in the slot:
 **NOTE: You may need to take apart another tool in order to get the
 correct holder, collet, bit, etc.**
 
-6. To insert the tool back into the collet:
+6. To insert the tool into the collet:
 
-   a. Hold the tool by the black part but this time, don’t let your hands go too high - make sure they aren’t wrapped around or near the notches.  The force behind the spindle is a lot and you do not want your fingers to get  caught.
+   a. Hold the tool by the black part but this time, don’t let your hands go too high - make sure they aren’t wrapped around or near the notches. There is a lot of force behind the spindle and you do not want your fingers to get caught.
 
 .. figure:: ../_static/images/InsertTool.JPEG
    :figwidth: 700px
