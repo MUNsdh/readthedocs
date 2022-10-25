@@ -3,7 +3,7 @@ Running the Program
     
 DO NOT run the program until the ENTIRE section has been read. 
 
-After you complete t=he stock setup and tool chsanges and offets, you are ready to run the program. 
+After you complete the stock setup, tool changes, and offsets, you are almost ready to run the program. 
 
 First, you will have to load the program onto the USB device located at the side of the control panel.
 
@@ -15,16 +15,16 @@ To load the program onto the USB:
 2. Once the USB is inserted into the computer, open your CAM setup and click ‘Post Process’ located under 'Toolpath'.
 
 .. figure:: ../_static/images/PP1.JPEG
-   :figwidth: 700px
+   :figwidth: 900px
    :target: ../_static/images/PP1.JPEG
 
-    a. Make sure to pick the correct machine configuration. This should be 'HAAS (pre-NGC)/haas'.
+a. Make sure to pick the correct machine configuration. This should be 'HAAS (pre-NGC)/haas'.
     
-    b. Make sure that under 'Program Settings', you select 'Preload tool' to be 'No'
+b. Make sure that under 'Program Settings', you select 'Preload tool' to be 'No'
     
-    c. Make sure the program is named as numbers (4 digits, ideally 1___).
+c. Make sure the program is named as numbers (4 digits, ideally 1___).
     
-    d. Save the program under the USB device.
+d. Save the program under the USB device.
 
 .. figure:: ../_static/images/PP2.JPEG
    :figwidth: 700px
@@ -33,9 +33,9 @@ To load the program onto the USB:
 3. Bring the USB back to the CNC.
 
 
-Bringing up the program on the control panel:
+Locating the program on the control panel:
 
-1. To bring the program up on the panel, press 'List Program’ > USB (using the cursor) > ‘enter’.
+1. To locate the program, press 'List Program’ > USB (using the cursor) > ‘enter’.
 
 2. Find the folder you put your program in using the cursor. When found, press ‘enter’. 
 
