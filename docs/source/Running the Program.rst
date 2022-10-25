@@ -1,7 +1,7 @@
 Running the Program
-===============
+====================
     
-*DO NOT run the program until the ENTIRE section has been read. 
+DO NOT run the program until the ENTIRE section has been read. 
 
 After you complete t=he stock setup and tool chsanges and offets, you are ready to run the program. 
 
