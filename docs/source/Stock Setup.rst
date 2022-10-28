@@ -21,6 +21,8 @@ to the bottom of the piece (in the z axis).
 amount so that the thickness corresponds to a thickness that is
 available in the stock room (ie. 1/4 or 1/2 inch).
 
+**NOTE:** If this is the first time the CNC has been used for the day, it's best to run a spindle warmup before you begin. For more information on how to prep the machine for the day, see :ref:`Machine Preparation`
+
 --------------
 
 Preparing the Stock

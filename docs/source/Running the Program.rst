@@ -67,5 +67,17 @@ Running the Program:
 * Make sure the automatic coolant nozzle is pointing at the tool. Each tool may require the nozzle to be moved. You can do this manually by pressing 'Feed hold' so you can see what you're doing and then 'Coolant up' or 'Coolant down' and move the nozzle into the correct orientaation. When you're done, press 'Cycle start' again. 
     You can also adjust the coolant nozzle before you run the program so that you do not need to touch it during the program. For more information on this, see __
 
-**EMERGENCY STOP button**
+**EMERGENCY STOP Button**
+
+In the event of the machine crashing and an emergency stop is needed, there is a large red button.
+To activate the emergency stop, simply press this button.
+
+** PICTURE OF STOP BUTTON **
+
+Once you press this button, alarms are activated and the machine will not work until these alarms have been cleared.
+To clear these alarms:
+1. Twist the emergency stop button in the direction the arrows are pointing. 
+2. Press the 'reset' button until all alarms have been cleared. 
+
+
 

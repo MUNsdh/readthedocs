@@ -5,8 +5,8 @@ Once the stock has been secured in the vice, the next step is to make
 sure you have all the tools needed. Make sure to read this whole section
 prior to beginning tool changes as there are important notes throughout.
 
-Preparing Tools
--------------------
+
+To begin preparing the tools for the CNC:
 
 1. Look at your setup sheet. Under ‘Tools’, there will be a list of
    tools. Under each tool, you will need to focus on the following
@@ -39,7 +39,7 @@ If the correct tool is **not** in the slot:
    :figwidth: 700px
    :target: ../_static/images/RetractTool.JPEG
 
-       b. Press the tool release button.
+       b. Press the tool release button. **GIF**
 
 5. Once you have removed the current tool, find the correct tool. First,
    check to see if the tool you’re looking for is already in a tool
