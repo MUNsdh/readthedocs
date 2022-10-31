@@ -13,7 +13,7 @@ To load the program onto the USB:
 1. Take the USB out of the CNC machine (located on the side of the control panel as seen below). 
 
 .. figure:: ../_static/images/CPS1.JPG
-   :figwidth: 700px
+   :figwidth: 400px
    :target: ../_static/images/CPA1.JPG
 
 2. Once the USB is inserted into the computer, open your CAM setup and click ‘Post Process’ located under 'Toolpath'.
@@ -68,19 +68,20 @@ Once you ensure that you have followed all the above steps and have done your to
 Running the Program: 
 
 1. Press 'Start cycle'
+
 * Keep your hand on the feed hold at all times! If something goes wrong, you must be able to hit that button asap!
 * Make sure the automatic coolant nozzle is pointing at the tool. Each tool may require the nozzle to be moved. You can do this manually by pressing 'Feed hold' so you can see what you're doing and then 'Coolant up' or 'Coolant down' and move the nozzle into the correct orientaation. When you're done, press 'Cycle start' again. 
 
-You can also adjust the coolant nozzle before you run the program so that you do not need to touch it during the program. For more information on this, see __
+You can also adjust the coolant nozzle before you run the program so that you do not need to touch it during the program.
 
 **EMERGENCY STOP Button**
 
 In the event of the machine crashing and an emergency stop is needed, there is a large red button.
 To activate the emergency stop, simply press this button.
 
-.. figure:: ../_static/images/PP1.JPEG
-   :figwidth: 900px
-   :target: ../_static/images/PP1.JPEG
+.. figure:: ../_static/images/ESTOP.JPG
+   :figwidth: 700px
+   :target: ../_static/images/ESTOP.JPG
    
 Once you press this button, alarms are activated and the machine will not work until these alarms have been cleared.
 

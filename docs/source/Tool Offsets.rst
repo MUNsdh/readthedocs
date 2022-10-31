@@ -1,8 +1,8 @@
 Tool Offsets
 ============
 
-This step is one of the most important steps in preparation to run the
-program. To begin tool offset:
+In order for the machine to determine where the "top" of the stock is, we must perform tool offsets for every tool we plan to use. 
+This step is one of the most important steps in preparation to run the progran and is done after we have changed all our tools to the ones we need. To begin tool offset:
 
 1. Bring the first tool on your setup sheet to the spindle by pressing
    MDI > T1 > ATC fwd, as shown below.
@@ -15,7 +15,6 @@ change any tools, see :ref:`Tool Changes`
    :target: ../_static/images/ToolChange.JPG
 
 2. Place the offset gauge on your stock. *ADD PIC*
-
 
 3. Using hand jog, line the x and y axis up with the offset gauge. To do
    this, press hand jog > .01 > Y or X axis and then, rotate the hand
@@ -30,9 +29,9 @@ change any tools, see :ref:`Tool Changes`
    :figwidth: 700px 
    :target: ../_static/images/HJ2.JPG
 
-::
-
-      **add gif of turning the hand jog
+.. figure:: ../_static/images/HandJOG.JPG 
+   :figwidth: 700px 
+   :target: ../_static/images/HandJOG.JPG
 
 4. Next, press hand jog > 0.01 > Z axis and SLOWLY begin to bring the
    tool down.
