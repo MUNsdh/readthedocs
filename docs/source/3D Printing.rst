@@ -2,7 +2,7 @@
 ===========
 
 .. toctree::
-   :maxdepth: 9
+   :maxdepth: 10
    
    
    Quick Start Resources
@@ -12,5 +12,6 @@
    Advanced Workflow
    Case Studies
    Resin
+   Prusa Slicer Printer Configurations
    
 
