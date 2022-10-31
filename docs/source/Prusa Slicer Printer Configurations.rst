@@ -15,5 +15,5 @@ To use the Ender 3 on Prusa Slicer:
 :download:`Download Creality Ender 3 Config File <Ender3 Config.ini>`
 
 To use the Eryone ER20 on Prusa Slicer:
-:download:`Download Eryone ER20 Config File <ER20 Config.ini>`
+:download:`Download Eryone ER20 Config File <Er20 Config.ini>`
 
