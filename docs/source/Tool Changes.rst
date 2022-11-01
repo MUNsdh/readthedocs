@@ -37,43 +37,43 @@ If the correct tool is **not** in the slot:
 
 4. Remove the current tool from the spindle. To do this:
 
-   a. Place one hand on the tool (Hold the black part. MAKE SURE YOUR FINGER IS NOT UNDER THE TOOL. The tool is heavy and will drop so you do not want your hand to get squat or cut.) 
+a. Place one hand on the tool (Hold the black part. MAKE SURE YOUR FINGER IS NOT UNDER THE TOOL. The tool is heavy and will drop so you do not want your hand to get squat or cut.) 
        
 .. figure:: ../_static/images/RetractTool.JPEG
    :figwidth: 700px
    :target: ../_static/images/RetractTool.JPEG
 
-       b. Press the tool release button. **GIF**
+b. Press the tool release button. **GIF**
 
 5. Once you have removed the current tool, find the correct tool. First,
    check to see if the tool you’re looking for is already in a tool
    holder at the front of the mill (as pictured) or in the tool changer.
 
-   a. If the correct tool is in front of the mill skip to step 6. 
+a. If the correct tool is in front of the mill skip to step 6. 
 
 .. figure:: ../_static/images/FrontToolHolder.jpg
    :figwidth: 700px
    :target: ../_static/images/FrontToolHolder.jpg
 
-   b. If it’s in the changer follow steps 2, 3, 4 and then 6. 
+b. If it’s in the changer follow steps 2, 3, 4 and then 6. 
 
-   c. If the correct tool is not there:
+c. If the correct tool is not there:
       
-      i. Find the correct tool bit and an empty tool holder.
+i. Find the correct tool bit and an empty tool holder.
       
-      ii. Head to the back of the CNC Machine and find an appropriate collet. The collet will vary depending on the type of tool you're using, for example a collet for an end mill can be seen below. A drill does not go in a collet like this.  
+ii. Head to the back of the CNC Machine and find an appropriate collet. The collet will vary depending on the type of tool you're using, for example a collet for an end mill can be seen below. A drill does not go in a collet like this.  
       
-      .. figure:: ../_static/images/CorrectCollet.jpg
-         :figwidth: 700px
-         :target: ../_static/images/CorrectCollet.jpg
+.. figure:: ../_static/images/CorrectCollet.jpg
+   :figwidth: 700px
+   :target: ../_static/images/CorrectCollet.jpg
 
-      iii. Once you have the appropriate collet, tool bit, and tool holder, begin by assembling and hand tightening. Make sure to put the collet in the black piece of the holder first and then screw it on. If not, it will get jammed in the holder.
+iii. Once you have the appropriate collet, tool bit, and tool holder, begin by assembling and hand tightening. Make sure to put the collet in the black piece of the holder first and then screw it on. If not, it will get jammed in the holder.
       
-      iv. After you’ve hand tightened, bring the tool to the back/side of the machine and place it in the tightener. Using the red-handled wrench, hook into the notches on the black piece and tighten. To losen, flip the tool around and do the same.
+iv. After you’ve hand tightened, bring the tool to the back/side of the machine and place it in the tightener. Using the red-handled wrench, hook into the notches on the black piece and tighten. To losen, flip the tool around and do the same.
 
-      .. figure:: ../_static/images/ToolBackOfCNC.jpg
-         :figwidth: 700px
-         :target: ../_static/images/ToolBackOfCNC.jpg
+.. figure:: ../_static/images/ToolBackOfCNC.jpg
+   :figwidth: 700px
+   :target: ../_static/images/ToolBackOfCNC.jpg
 
    For more information on collets, tools, holders, and more, visit
    here: **LINK**
@@ -83,15 +83,15 @@ correct holder, collet, bit, etc.**
 
 6. To insert the tool into the collet:
 
-   a. Hold the tool by the black part but this time, don’t let your hands go too high - make sure they aren’t wrapped around or near the notches. There is a lot of force behind the spindle and you do not want your fingers to get caught.
+a. Hold the tool by the black part but this time, don’t let your hands go too high - make sure they aren’t wrapped around or near the notches. There is a lot of force behind the spindle and you do not want your fingers to get caught.
 
 .. figure:: ../_static/images/InsertTool.JPEG
    :figwidth: 700px
    :target: ../_static/images/InsertTool.JPEG
 
-   b. Line up the two notches on the spindle with the two flushes on the tool holder.
+b. Line up the two notches on the spindle with the two flushes on the tool holder.
 
-   c. Press the tool release button. *gif*
+c. Press the tool release button. *gif*
 
 7. Once the correct tool is in the correct slot, repeat step 2 onward
    with every required tool until finished.
