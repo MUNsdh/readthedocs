@@ -8,7 +8,8 @@ After you complete the stock setup, tool changes, and offsets, you are almost re
 First, you will have to load the program onto the CNC's USB device.
 
 
-To load the program onto the USB:
+Load the Program onto the USB
+------------------------------
 
 1. Take the USB out of the CNC machine (located on the side of the control panel as seen below). 
 
@@ -37,7 +38,8 @@ d. Save the program under the USB device.
 3. Bring the USB back to the CNC.
 
 
-Navigating to the program:
+Navigating to the Program on the CNC
+-------------------------------------
 
 1. To locate the program, press 'List Program’ > USB (using the cursor) > ‘enter’.
 
@@ -70,7 +72,8 @@ There are a number of important things  that you should do before you run the pr
 Once you ensure that you have followed all the above steps and have done your tool offsets correctly, you can run the program.
 
 
-Running the Program: 
+Running the Program
+-------------------
 
 1. Press 'Start cycle'
 
@@ -81,13 +84,14 @@ Running the Program:
 You can also adjust the coolant nozzle before you run the program so that you do not need to touch it during the program.
 
 **EMERGENCY STOP Button**
+--------------------------
 
 In the event of the machine crashing and an emergency stop is needed, there is a large red button.
 To activate the emergency stop, simply press this button.
 
-.. figure:: ../_static/images/ESTOP.JPG
+.. figure:: ../_static/images/ESTOP.jpg
    :figwidth: 700px
-   :target: ../_static/images/ESTOP.JPG
+   :target: ../_static/images/ESTOP.jpg
    
 Once you press this button, alarms are activated and the machine will not work until these alarms have been cleared.
 
@@ -97,7 +101,12 @@ To clear these alarms:
 
 2. Press the 'reset' button until all alarms have been cleared. 
 
-*Video pressing reset to clear alarms
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://youtu.be/XUquIkJInNY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div margin-bottom: 2em> 
+
 
 
 

@@ -2,7 +2,7 @@ Tool Offsets
 ============
 
 In order for the machine to determine where the "top" of the stock is, we must perform tool offsets for every tool we plan to use. 
-This step is one of the most important steps in preparation to run the progran and is done after we have changed all our tools to the ones we need. To begin tool offset:
+This step is one of the most important steps in preparation to run the program and is done after we have changed all our tools to the ones we need. To begin tool offset:
 
 1. Bring the first tool on your setup sheet to the spindle by pressing
    MDI > T1 > ATC fwd, as shown below.
