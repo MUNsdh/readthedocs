@@ -51,14 +51,16 @@ change any tools, see :ref:`Tool Changes`
 6. Continue to slowly move the tool down until the gauge reads
    approximately 0.
 
-7. Next, press 0.0001 and lean in close to the guage. Move the gauge
+7. Next, press 0.0001 and lean in close to the gauge. Move the gauge
    until it reads exactly 0.
 
 .. figure:: ../_static/images/HJ5.JPG 
    :figwidth: 700px 
    :target: ../_static/images/HJ5.JPG
 
-\*pic of gauge reading 0
+.. figure:: ../_static/images/gauge.jpg
+   :figwidth: 700px 
+   :target: ../_static/images/gauge.jpg
 
 8. Next, head to the control panel and make sure you can see the ‘Tool
    Offset’ screen. From there hit the right arrow in the cursor until
