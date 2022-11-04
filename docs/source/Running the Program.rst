@@ -47,7 +47,11 @@ Navigating to the Program on the CNC
 
 3. Find the program using the cursor. When found, press ‘select program.’
 
-*Video doing this
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UqoNt2KK0Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div margin-bottom: 2em> 
 
 The above step should have opened your program in the 'MEMORY' tab. If it doesn't open 'Memory' automatically, you can manually do it by pressing the 'MEM' button. 
 

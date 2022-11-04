@@ -44,7 +44,13 @@ a. Place one hand on the tool (Hold the black part. MAKE SURE YOUR FINGER IS NOT
    :figwidth: 700px
    :target: ../_static/images/RetractTool.JPEG
 
-b. Press the tool release button. **GIF**
+b. Press the tool release button. 
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SaDwRuD7Alk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div margin-bottom: 2em> 
 
 5. Once you have removed the current tool, find the correct tool. First,
    check to see if the tool you’re looking for is already in a tool
@@ -92,7 +98,14 @@ a. Hold the tool by the black part but this time, don’t let your hands go too 
 
 b. Line up the two notches on the spindle with the two flushes on the tool holder.
 
-c. Press the tool release button. *gif*
+c. Press the tool release button.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kCTtrfm3xOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div margin-bottom: 2em> 
+
 
 7. Once the correct tool is in the correct slot, repeat step 2 onward
    with every required tool until finished.
