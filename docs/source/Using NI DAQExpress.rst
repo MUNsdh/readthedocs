@@ -1,6 +1,10 @@
 Using NI DAQ Express
 ===================
 
+If you are using the SDH DAQ cart, you can log into the machine as a local user. The login credentials are:
+username: student
+password: Passw0rd
+
 With the functionality of the DAQ established and the load cell now properly wired to the terminal, we can begin to start 
 recording data. To start, when NI DAQExpress records data in the program it is recorded in real time. Having already plugged 
 in the DAQ to the computer, a program called “NI Device monitor” should automatically pop up. Before the program opens, you 
