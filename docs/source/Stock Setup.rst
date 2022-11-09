@@ -5,13 +5,19 @@ Work Holding
 -------------
 
 The first step in stock preparation is decding how to hold your work
-piece in the vise. There are multiple ways that the vise can hold your
+piece in the vise. 
+
+There are multiple ways that the vise can hold your 
 stock piece however, depending on the cuts that will be made, one setup
 may be favoured over another. This step must be decided **before** you
 prepare your stock because different holdings will require different
-stock measurements. Additionally, adding additional material to your
+stock measurements. For example three common types are bottom hold, tabs, and fixturing.
+
+
+
+Additionally, adding additional material to your
 stock should be done in CAM so that when you print your setup sheet, the
-stock measurements will be exactly what you need.
+stock measurements will be exactly what you need. 
 
 For the part used in this specific tutorial, we will be using a bottom
 hold. For this holding setup, the additional stock will need to be added
@@ -43,11 +49,11 @@ in the CAM software.
    the z-measurement.
 3. Once you find the correct thickness, take the piece to the workbench.
 4. Using your caliper, measure the width and length of the stock and
-   mark the distance. Make the stock a little larger because the saw
+   mark the distance. Make the stock a little larger because the chop saw
    doesn’t cut straight.
-5. Head to the saw and cut the piece. **Do not** cut until the coolant
+5. Head to the chop saw and cut the piece. **Do not** cut until the coolant
    begins to flow.
-6. Once the stock has been cut, head to the sand belt and deburr all the
+6. Once the stock has been cut, head to the belt sander and deburr all the
    edges.
 
 **IF** you need to face the edges to straigten the piece: Using vertical
@@ -71,7 +77,7 @@ make sure you choose a suitable size.
    :target: ../_static/images/parallel.jpg
 
 1. Place the top left corner of the stock in the top left corner of the
-   vise. This is the machine’s set ‘zero’. Use parallels if necessary.
+   vise. (This is if you plan on using the vise. For more informations, see :ref:`Work Offsets`) Use parallels if necessary.
 
 .. figure:: ../_static/images/vise1.jpg
    :figwidth: 700px
@@ -83,22 +89,22 @@ make sure you choose a suitable size.
    the vise. \*\ **GIF**
 3. When the stock is tightened, slide your finger along the parallels to
    make sure they don’t move.
-4. If they don’t move, continue to :ref:`Tool Changes`. If they move,
-   take the hammer from the top drawer of the toolbox and hit each end
-   corner of the stock then, try to move them again.
+4. If the parallels don’t move, continue to :ref:`Tool Changes`. If the parallels move,
+   take the mallet from the top drawer of the toolbox and hit each
+   corner of the stock then, try to move the parallels again.
 
 .. figure:: ../_static/images/hammer.jpg
    :figwidth: 700px
    :target: ../_static/images/hammer.jpg
 
-5. If they still move, tighten the vise again and repeat step 4. Repeat
-   until they do not move.
+5. If the parallels still move, tighten the vise again and repeat step 4. Repeat
+   until the parallels do not move.
 
 Now you have your stock secured in the vise.
 
 **NOTE:** It is important that the stock is fixed to the top left corner
 as this is the machines’ set ‘zero’. If the stock is not positioned in
 this corner, the offset will be wrong and the part will be machined
-incorrectly.
+incorrectly. For more information on work offsets, please see :ref:`Work Offsets`.
 
 --------------
