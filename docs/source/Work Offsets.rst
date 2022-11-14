@@ -23,19 +23,19 @@ In this case, you will need to create a new offset.
 
 1. Begin by pressing the 'Offsets' button until the 'work zero offset' section on the screen turns white. 
 
-2. Navigate to a new G-Code (using the cursor) to select as the new offset code (ie. G154 P7). Remember G54 is for the top left corner of the vise so make sure to pick a different one. 
+2. Navigate to a new offset (using the cursor) to select as the new offset code (ie. G154 P7). Remember G54 is reserved for the top left corner of the vise so make sure to pick a different one. 
 
-3. Using the hand jog, navigate to the point that you want your orgin to be. 
+3. Using the hand jog, jog the spindle to the point that you want your orgin to be. 
 
 4. Using cursor, naviagte to x-axis and press 'Part Zero Set'. Move to y-axis and repeat. 
 
 Note: Since the tool offsets will be taken from the top of the work piece, the z-axis offset should always be 0.
 
-5. The new G-code that you have selected now has to be replaced on your program for **every** operation. To do this:
+5. The new offset that you have selected now has to be replaced on your program for **every** operation. To do this:
 
 a. When you click post process, your NC File will load onto your screen. 
 
-b. Under every operation, the following G-Code is listed on the third line. We want to change this. 
+b. Under every operation, the following offset is listed on the third line. We want to change this. 
 
 .. figure:: ../_static/images/G54.png 
    :figwidth: 700px 

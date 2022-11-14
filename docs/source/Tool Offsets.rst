@@ -1,11 +1,11 @@
 Tool Offsets
 ============
 
-In order for the machine to determine where the "top" of the stock is, we must perform tool offsets for every tool we plan to use. 
+In order for the machine to determine where the "top" of the stock is relative to the top of the tool, we must perform tool offsets for every tool we plan to use. 
 This step is one of the most important steps in preparation to run the program and is done after we have changed all our tools to the ones we need. To begin tool offset:
 
 1. Bring the first tool on your setup sheet to the spindle by pressing
-   MDI > T1 > ATC fwd, as shown below.
+   MDI (Manual data input) > T1 (Tool 1) > ATC fwd (Automatic tool changer forwards), as shown below.
 
 **NOTE:** The correct tools must be in place before doing the offset. To
 change any tools, see :ref:`Tool Changes`
@@ -14,7 +14,7 @@ change any tools, see :ref:`Tool Changes`
    :figwidth: 700px 
    :target: ../_static/images/ToolChange.JPG
 
-2. Place the offset gauge on your stock. *ADD PIC*
+2. Place the offset gauge on your stock.
 
 3. Using hand jog, line the x and y axis up with the offset gauge. To do
    this, press hand jog > .01 > Y or X axis and then, rotate the hand
@@ -65,20 +65,20 @@ change any tools, see :ref:`Tool Changes`
 8. Next, head to the control panel and make sure you can see the ‘Tool
    Offset’ screen. From there hit the right arrow in the cursor until
    you are under the ‘Geometry’ tab. Then, press tool offset measure and
-   a value will show up under the tab you are on.
+   a value will show up under the tab you are on. This value is the current spindle z coordinate in the machine coordinate frame. 
 
 .. figure:: ../_static/images/TO1.JPG 
    :figwidth: 700px 
    :target: ../_static/images/TO1.JPG
 
-9. **IMPORTANT:** Press -50.8 and click enter. A new value should
-   appear.
+9. **IMPORTANT:** Press -50.8 (metric) and click enter. A new value should
+   appear. This value is crucial as this is the distance from the gauge to stock top. It HAS to be entered every time. If machine is in imperial units, use -2.0 but if in metric units, use -50.8.
 
 .. figure:: ../_static/images/TO2.JPG 
    :figwidth: 700px 
    :target: ../_static/images/TO2.JPG
 
-**NOTE:** Repeat step 8 and 9 twice to ensure the value is correct and no typos were made. This -50.8 value is crucial as this is the guage offset. It HAS to be entered every time.
+**NOTE:** Repeat step 8 and 9 twice to ensure the value is correct and no typos were made. 
 
 10. To begin lifting the tool off the gauge, press hand job > z axis >
     0.001 and SLOWLY move the hand jog upwards. Make sure the z is

@@ -27,7 +27,7 @@ a. Make sure to pick the correct machine configuration. This should be 'HAAS (pr
     
 b. Make sure that under 'Program Settings', you select 'Preload tool' to be 'No'
     
-c. Make sure the program is named as numbers (4 digits, ideally 1___).
+c. Make sure the program is named as numbers (a unique 4 digits that does not already exist on the USB)
     
 d. Save the program under the USB device.
 
@@ -60,10 +60,10 @@ There are a number of important things  that you should do before you run the pr
 * Make sure it’s the right program: 
     * If you included a 'description' in your CAM setup, this should show up in the memory tab on the screen.
     * Every tool you set up should be listed at the beginning of the code.
-* Make sure the coolant is set to turn on. This is the M8 command at the beginning of the code.
-* Graph the program to make sure it's looking right. To do this, make sure you’re in memory. If not, press ‘MEM.’ Next, press ‘setting/graph’ TWICE and then ‘cycle start.’ Watch to make sure the program graphs the correct toolpath.
+* Make sure the coolant is set to turn on. This is the M8 command at the beginning of each operation.
+* Graph the program to make sure it's looking right. To do this, make sure you’re in memory. If not, press ‘MEM.’ Next, press ‘setting/graph’ TWICE and then ‘cycle start.’ Watch to make sure the program graphs the correct toolpath. To exit the graph, press 'MEM' again.
 * **IMPORTANT:** Make sure the 'Rapid' is set to 5%! This is to make sure that you’ll have time to stop if the tool is about to crash. 
-* Point the manual coolant nozzle towards the stock piece.
+* Point the manual coolant nozzle towards the tip of the tool.
 * Make sure everything is removed from the table inside the CNC machine, and the door is closed.
 * Press the RESET button 2 or 3 times just to make sure the program is reset to the beginning. 
 
