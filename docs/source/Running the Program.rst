@@ -52,10 +52,10 @@ Navigating to the Program on the CNC
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/UqoNt2KK0Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div margin-bottom: 2em> 
-
 The above step should have opened your program in the 'MEMORY' tab. If it doesn't open 'Memory' automatically, you can manually do it by pressing the 'MEM' button. 
 
-There are a number of important things  that you should do before you run the program...
+
+There are a number of important things that you should do before you run the program...
 
 * Make sure it’s the right program: 
     * If you included a 'description' in your CAM setup, this should show up in the memory tab on the screen.
@@ -81,7 +81,7 @@ Running the Program
 
 You can also adjust the coolant nozzle before you run the program so that you do not need to touch it during the program.
 
-**EMERGENCY STOP Button**
+**EMERGENCY STOP BUTTON**
 --------------------------
 
 In the event of the machine crashing and an emergency stop is needed, there is a large red button.

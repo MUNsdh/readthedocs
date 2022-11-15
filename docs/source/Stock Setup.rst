@@ -27,7 +27,7 @@ to the bottom of the piece (in the z axis).
 amount so that the thickness corresponds to a thickness that is
 available in the stock room (ie. 1/4 or 1/2 inch).
 
-**NOTE:** If this is the first time the CNC has been used for the day, it's best to run a spindle warmup before you begin. For more information on how to prep the machine for the day, see :ref:`Machine Preparation`
+**NOTE:** If this is the first time the CNC has been used for the day, it's best to run a spindle warmup before you begin. For more information on how to prep the machine for the day, visit https://www.instructables.com/Starting-Up-the-HAAS-Mill/.
 
 --------------
 
@@ -57,8 +57,8 @@ in the CAM software.
    edges.
 
 **IF** you need to face the edges to straigten the piece: Using vertical
-mill, place the stock in the vise using the flattest edge, and use the
-face or end mill as needed. Deburr edges as needed.
+mill, place the stock in the vise using the flattest edge, and use the face or end mill as needed. Deburr edges as needed. 
+For more information on squaring stock, see https://youtu.be/XdEM77NDejE.
 
 --------------
 
@@ -77,7 +77,7 @@ make sure you choose a suitable size.
    :target: ../_static/images/parallel.jpg
 
 1. Place the top left corner of the stock in the top left corner of the
-   vise. (This is if you plan on using the vise. For more informations, see :ref:`Work Offsets`) Use parallels if necessary.
+   vise. (This is if you plan on using the vise. For more information, see :ref:`Work Offsets`). Use parallels if necessary.
 
 .. figure:: ../_static/images/vise1.jpg
    :figwidth: 700px
@@ -86,7 +86,7 @@ make sure you choose a suitable size.
 2. Begin tightening the vise. Ensure the parallels haven’t moved and
    that the stock is laying flat on them. To keep everything in place,
    hold the stock in place with one hand and use the other to tighten
-   the vise. \*\ **GIF**
+   the vise.
 3. When the stock is tightened, slide your finger along the parallels to
    make sure they don’t move.
 4. If the parallels don’t move, continue to :ref:`Tool Changes`. If the parallels move,

@@ -3,7 +3,7 @@ Work Offsets
 
 When you create your part in CAD and continue on the the CAM portion, everything may go smoothly and your simulation may run without a hitch. But when you go to machine your part, the machine has no idea where the part begins. 
 
-This is where work offsets come into play. When we set our work offsets, we are telling the machine where the 'zero' is. The machine has a coordinate system where there are ______. The G-Code commands that you can manually set, tell the machine to use the ___ as the 'zero' instead. 
+This is where work offsets come into play. When we set our work offsets, we are telling the machine where the 'zero' is. The machine has a coordinate system where there are two orgins/offsets. By prompting a G-Code, which you can manually set, you can tell the machine to use this as the 'zero' instead. 
 
 If you're using the vise, you can line the corner of your part up with the top left corner of the vise. 
 
@@ -69,4 +69,4 @@ e. This should replace G54 with your new G-Code everywhere in the program. Doubl
 
 f. Make sure to save the new program NC File.
 
-To learn more about setting work offsets using edge finder, follow the follwoing link: https://youtu.be/AyMsFtwzrmI
+To learn more about setting work offsets using edge finder, please visit the following link: https://youtu.be/AyMsFtwzrmI.

@@ -1,5 +1,5 @@
-Tool Holders, Bits, and More
-============================
+Tool Holders and More
+=========================
 
 When trying to figure out the appropriate tool holder to use, it is important to understand the different types. 
 

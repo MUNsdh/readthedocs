@@ -14,9 +14,9 @@ To begin preparing the tools for the CNC:
 
    a. The slot allocated for the tool (ie. T1) - This is the slot that this specific tool HAS to be in. You may have to change the tool (see below). 
 
-   b. The type of tool (ie. flat end mill) - This is the type of tool. See *LINK* for tool types. 
+   b. The type of tool (ie. flat end mill) - This is the type of tool. 
 
-   c. Tool diameter (ie. 6.35mm) - This is the shaft diameter of the tool and is useful when looking for the specific tool size (especially for drill and chamfer tools)
+   c. Tool diameter (ie. 3.4 mm) - This is the diameter of the tool and is useful when looking for the specific tool size (especially for drills)
 
    d. The tool description (ie. ¼” Flat Endmill) - This includes the full tool description (size, type, etc.)
 
@@ -51,7 +51,6 @@ b. Press the tool release button.
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SaDwRuD7Alk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div margin-bottom: 2em> 
-
 5. Once you have removed the current tool, find the correct tool. First,
    check to see if the tool you’re looking for is already in a tool
    holder at the front of the mill (as pictured) or in the tool changer.
@@ -85,7 +84,7 @@ c. If the correct tool is not there:
    :target: ../_static/images/ToolBackOfCNC.jpg
 
 
-For more information, see :ref:`Tool Holders, Bits, and More`
+For more information, see :ref:`Tool Holders and More`
 
 **NOTE: You may need to take apart another tool in order to get the
 correct holder, collet, bit, etc.**
@@ -107,7 +106,6 @@ c. Press the tool release button.
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/kCTtrfm3xOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div margin-bottom: 2em> 
-
 
 7. Once the correct tool is in the correct slot, repeat step 2 onward
    with every required tool until finished.
