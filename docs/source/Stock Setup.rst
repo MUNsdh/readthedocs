@@ -4,7 +4,7 @@ Stock Setup
 Work Holding
 -------------
 
-The first step in stock preparation is decding how to hold your work
+The first step in stock preparation is deciding how to hold your work
 piece in the vise. 
 
 There are multiple ways that the vise can hold your 
