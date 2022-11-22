@@ -35,9 +35,9 @@ RIGOL DS1102Z-E
 
     e. The SCALE knob will scale the voltage of the waveform vertically. Rotating the knob clockwise will make the vertical scale larger, and turning it counterclockwise will make the scale smaller. The vertical scale is on the bottom left of the screen. Pressing down on this knob will switch the scale adjustments between coarse and fine. This is useful to show exactly one period of the waveform on the screen. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut5.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut5.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut5.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut5.png
 
 5. 
     a. The HORIZONTAL knob will translate the waveform horizontally. The time translated horizontally is shown on the top right in ms(microseconds) by default. Turning this knob clockwise will move it right, and turning it counter-clockwise will move it left. Pressing down on the knob will reset the position of the waveform back to the origin. 
@@ -46,13 +46,13 @@ RIGOL DS1102Z-E
 
     c. The SCALE knob is essentially a zoom feature. Turning this will change the time scale along the x-axis to show a shorter or longer period. Turning this knob clockwise will stretch it horizontally, and turning it counterclockwise will compress it horizontally. Pressing down on this knob will activate the zoom feature. A window appears showing the zoom. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut6.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut6.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut6.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut6.png
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut7.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut7.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut7.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut7.png
 
 6. 
     a. In the TRIGGER section on the faceplate, the MODE button will set the trigger mode of the oscilloscope to Auto, Normal or Signal. 
@@ -63,9 +63,9 @@ RIGOL DS1102Z-E
 
     d. The FORCE button will manually force the trigger to happen. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut8.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut8.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut8.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut8.png
 
 7. 
     a. The HELP button will show a menu on the screen with the option to choose different descriptions of each part of the oscilloscope. 
@@ -73,9 +73,9 @@ RIGOL DS1102Z-E
 
     b. The PRINT button will save the current display on a USB stick if inserted in the slot. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut9.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut9.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut9.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut9.png
 
 8. 
     a. Pressing the MEASURE button will open the measurement menu. The user can change which channel is being measured, enable the frequency counter, or enable the statistics button to show different frequencies, such as the current, average, or peak values. 
@@ -90,9 +90,9 @@ RIGOL DS1102Z-E
 
     f. The UTILITY button will show options such as IO setting, sound, language, pass/fail, waveform record, and system self-calibration. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut10.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut10.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut10.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut10.png
 
 9. 
     a. The clear button will CLEAR the current waveforms on the screen.
@@ -105,23 +105,23 @@ RIGOL DS1102Z-E
 
     e. Pressing the FORCE button will force the trigger to happen.
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut11.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut11.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut11.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut11.png
 
 10. The intensity knob will adjust the intensity of the signal from 0% to 100% on the screen. Pressing down on this button will reset it back to 60%. The intensity knob can navigate the menus if the MENU button is activated. Turning the knob clockwise will increase the intensity, and counterclockwise will decrease it. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut12.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut12.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut12.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut12.png
 
 11. The first and second sets of buttons to select different menu options. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut13.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut13.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut13.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut13.png
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut14.png
+.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut14.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut14.png
+    :target: ../_static/images/Oscilloscope_Tutorial/osctut14.png
 
