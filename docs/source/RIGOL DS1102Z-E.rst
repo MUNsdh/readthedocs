@@ -8,21 +8,21 @@ RIGOL DS1102Z-E
 
 1. The POWER button will turn the oscilloscope on or off. Next to the power button is a USB(Universal Serial Bus) port used for saving screenshots of waveforms. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut2.png
+.. figure:: ../_static/images/OscillscopeTutorial/osctut2.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut2.png
+    :target: ../_static/images/OscillscopeTutorial/osctut2.png
 
 2.  Screen showing UI display.
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut3.png
+.. figure:: ../_static/images/OscillscopeTutorial/osctut3.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut3.png
+    :target: ../_static/images/OscillscopeTutorial/osctut3.png
 
 3. The two analog inputs on the left are for measuring analog signals, and the third is an input for an external trigger. 
 
-.. figure:: ../_static/images/Oscillscope_Tutorial/osctut4.png
+.. figure:: ../_static/images/OscillscopeTutorial/osctut4.png
     :figwidth: 500px
-    :target: ../_static/images/Oscillscope_Tutorial/osctut4.png
+    :target: ../_static/images/OscillscopeTutorial/osctut4.png
 
 4.  
     a. When pressed, the two buttons on the left, CH1(Channel 1) and CH2(Channel 2), will enable or disable the channels on the oscilloscope. If either of these buttons is green, then the corresponding probe is on, and it will show up on the screen as a flat line by default. If the channel is off, the button will have no colour and will not show anything.
@@ -35,9 +35,9 @@ RIGOL DS1102Z-E
 
     e. The SCALE knob will scale the voltage of the waveform vertically. Rotating the knob clockwise will make the vertical scale larger, and turning it counterclockwise will make the scale smaller. The vertical scale is on the bottom left of the screen. Pressing down on this knob will switch the scale adjustments between coarse and fine. This is useful to show exactly one period of the waveform on the screen. 
 
-.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut5.png
+.. figure:: ../_static/images/OscilloscopeTutorial/osctut5.png
     :figwidth: 500px
-    :target: ../_static/images/Oscilloscope_Tutorial/osctut5.png
+    :target: ../_static/images/OscilloscopeTutorial/osctut5.png
 
 5. 
     a. The HORIZONTAL knob will translate the waveform horizontally. The time translated horizontally is shown on the top right in ms(microseconds) by default. Turning this knob clockwise will move it right, and turning it counter-clockwise will move it left. Pressing down on the knob will reset the position of the waveform back to the origin. 
@@ -48,11 +48,11 @@ RIGOL DS1102Z-E
 
 .. figure:: ../_static/images/Oscilloscope_Tutorial/osctut6.png
     :figwidth: 500px
-    :target: ../_static/images/Oscilloscope_Tutorial/osctut6.png
+    :target: ../_static/images/OscilloscopeTutorial/osctut6.png
 
 .. figure:: ../_static/images/Oscilloscope_Tutorial/osctut7.png
     :figwidth: 500px
-    :target: ../_static/images/Oscilloscope_Tutorial/osctut7.png
+    :target: ../_static/images/OscilloscopeTutorial/osctut7.png
 
 6. 
     a. In the TRIGGER section on the faceplate, the MODE button will set the trigger mode of the oscilloscope to Auto, Normal or Signal. 
