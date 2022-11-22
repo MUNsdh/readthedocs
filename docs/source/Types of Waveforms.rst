@@ -3,9 +3,9 @@ Types of Waveforms
 
 Square Wave
 
-.. figure:: ../_static/images/Oscilloscope_Tutorial/osctut29.png
+.. figure:: ../_static/images/Oscilloscope Tutorial/osctut29.png
     :figwidth: 500px
-    :target: ../_static/images/Oscilloscope_Tutorial/osctut29.png
+    :target: ../_static/images/Oscilloscope Tutorial/osctut29.png
 
 Sin/Cos wave or AC(Alternating Current) wave
 
