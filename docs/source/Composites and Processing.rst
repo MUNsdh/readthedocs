@@ -2,9 +2,9 @@ Composites and Processing
 =========================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    Mill Bath for Carbon Fiber Processing
    Carbon
    Cerakote
-
+   Carbon Fiber Manufacturing Using Plug and Mold
