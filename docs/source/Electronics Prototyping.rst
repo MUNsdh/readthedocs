@@ -7,3 +7,4 @@ Electronics Prototyping and Tools
    How to Use a Breadboard
    Power Supply Tutorial
    Testing Circuit Boards
+   Oscilloscope Tutorial

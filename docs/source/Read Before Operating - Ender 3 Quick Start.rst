@@ -19,7 +19,7 @@ Safety & Operations Notes:
 
 Overview: 
 
-The Ender 3 V2 is located in the DDPL. 
+The Ender 3 V2 is located in the SDH. 
 
 Do not touch the nozzle or bed during printing. Keep hands away from the machine while in use to avoid injury. 
 

@@ -26,8 +26,8 @@ Read before Operating - Eryone ER-20 Quick Start Guide
 
 4. Open **PrusaSlicer** and import your stl file by going file>import>stl. 
 
-5. **Import the SDH pre-set configuration file by going file>import>config. Then navigate to the MicroSD card file and select Er20 Config.ini**
-  :download:`Download EN20 Config File <Er20 Config.ini>`
+5. **Import the SDH pre-set configuration file by going file>import>config. Then navigate to where you downloaded the file and select Er20 Config.ini**
+  :download:`Download ERYONE ER20 Config File <Er20 Config.ini>`
 
 *  The file has set parameters for PLA filament. If using another filament simply adjust that under the filament section on the right of the plater. You can adjust the filament temperature under filament settings.
 
