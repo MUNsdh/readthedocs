@@ -59,7 +59,11 @@ While some of the common items found here can be found at your local hardware st
    :figwidth: 700px 
    :target: ../_static/images/BC.jpg
 
-Nomex Honeycomb (Aerospace)
+* Nomex Honeycomb (Aerospace)
+
+.. figure:: ../_static/images/nomex.jpg 
+   :figwidth: 700px 
+   :target: ../_static/images/nomex.jpg
 
 * EL2 Epoxy Laminating Resin and AT30 SLOW Epoxy Hardener
 
@@ -67,43 +71,43 @@ Nomex Honeycomb (Aerospace)
    :figwidth: 700px 
    :target: ../_static/images/EL2.jpg
 
-1”-2” Brushes
+* 1”-2” Brushes
 
 .. figure:: ../_static/images/brush.jpg 
    :figwidth: 700px 
    :target: ../_static/images/brush.jpg
 
-Calibrated Mixing Cup (1000L or more)
+* Calibrated Mixing Cup (1000L or more)
 
 .. figure:: ../_static/images/cup.jpg 
    :figwidth: 700px 
    :target: ../_static/images/cup.jpg
 
-Vacuum Bagging Gum Sealant Tape 
+* Vacuum Bagging Gum Sealant Tape 
 
 .. figure:: ../_static/images/gum.jpg 
    :figwidth: 700px 
    :target: ../_static/images/gum.jpg
 
-Vacuum Bagging Film
+* Vacuum Bagging Film
 
 .. figure:: ../_static/images/film.jpg 
    :figwidth: 700px 
    :target: ../_static/images/film.jpg
 
-PVC Vacuum Hose
+* PVC Vacuum Hose
 
 .. figure:: ../_static/images/pvc.jpg 
    :figwidth: 700px 
    :target: ../_static/images/pvc.jpg
 
-Vacuum Pump
+* Vacuum Pump
 
 .. figure:: ../_static/images/pump.jpg 
    :figwidth: 700px 
    :target: ../_static/images/pump.jpg
 
-Glycerine-Filled Vacuum Gauge
+* Glycerine-Filled Vacuum Gauge
 
 .. figure:: ../_static/images/vg.jpg 
    :figwidth: 700px 
