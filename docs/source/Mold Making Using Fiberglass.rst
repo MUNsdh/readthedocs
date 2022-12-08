@@ -48,9 +48,9 @@ After the plug has been prepared, you may move on to the first step in creating 
 2. Mix this well, scraping the sides and bottom so that everything is mixed up.
 3. Using a 1”-2” brush, apply this green gel coat to the entire surface, leaving it relatively thick. 
 
-.. figure:: ../_static/images/gelcoat.jpg
+.. figure:: ../_static/images/gelcoat.JPG
     :figwidth: 600px
-    :target: ../_static/images/gelcoat.jpg 
+    :target: ../_static/images/gelcoat.JPG
 
 4. When this is done, leave it for approximately 3 hours.
 
