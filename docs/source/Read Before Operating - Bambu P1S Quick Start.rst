@@ -27,6 +27,7 @@ You can download it `here <https://bambulab.com/en/download>`_. Install the corr
 Step 2: Configuring Bambu Studio
 ---------------------------------
 Start by clicking on ‘New Project’ as shown below.
+
 .. figure:: ../_static/images/ClippingViews&ViewPlots2.png
     :figwidth: 600px
     :target: ../_static/images/ClippingViews&ViewPlots2.png  
