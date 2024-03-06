@@ -11,4 +11,5 @@ Quick Start Resources
    Read Before Operating - Form 2 Quick Start
    Read Before Operating - Ender 3 Quick Start
    Read before Operating - Ender 5 Quick Start Guide'
+   Read Before Operating - Bambu P1S Quick Start
    Quick Start Material Settings   
