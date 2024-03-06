@@ -13,5 +13,6 @@
    Case Studies
    Resin
    Prusa Slicer Printer Configurations
+   Bambu
    
 
