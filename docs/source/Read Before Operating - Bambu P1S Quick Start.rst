@@ -11,9 +11,10 @@ Step 2: Configuring Bambu Studio
 ---------------------------------
 Start by clicking on ‘New Project’ as shown below.
 
-.. figure:: ../_static/images/ClippingViews&ViewPlots2.png
+.. figure:: ../_static/images/P1S-00 (3).jpg
     :figwidth: 600px
-    :target: ../_static/images/ClippingViews&ViewPlots2.png  
+    :name: P1S-00 (3).jpg
+    :target: ../_static/images/P1S-00 (3).jpg
 
 Next, select the correct printer type: Bambu Lab P1S 0.4 Nozzle
 .. figure:: ../_static/images/XC1.jpg
