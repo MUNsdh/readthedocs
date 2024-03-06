@@ -15,9 +15,10 @@ Start by clicking on ‘New Project’ as shown below.
     :figwidth: 600px
     :name: P1S_04.jpg
     :target: ../_static/images/P1S_04.jpg
-    :caption: This is the caption of the image.
+    :caption: This is the caption of the image
 
 Next, select the correct printer type: Bambu Lab P1S 0.4 Nozzle
+
 .. figure:: ../_static/images/XC1.jpg
     :figwidth: 600px
     :target: ../_static/images/XC1.jpg
