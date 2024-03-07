@@ -1,6 +1,9 @@
 Read Before Operating - Bambu P1S Quick Start Guide
 ==================================================
 
+.. contents:: Table of Contents
+   :depth: 2
+
 Step 1: Downloading Bambu Studio
 ---------------------------------
 First step to using Bambu P1S is to download the Bambu Studio as it is a proprietary software.
