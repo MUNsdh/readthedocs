@@ -153,7 +153,7 @@ Once your filament has been successfully loaded, click on the
 name and select print. DO NOT PUT GLUE ON THE PLATE. IT IS A TEXTURED
 PLATE AND DOES NOT REQUIRE GLUE.
 
-.. image:: vertopal_c7eab9f72a144cc8ad1f7b261756c178/media/image12.jpeg
+.. image:: ../_static/images/image12.jpeg
    :alt: A close up of a metal plate Description automatically generated
    :width: 4.68492in
    :height: 3.51369in
